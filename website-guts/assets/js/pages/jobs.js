@@ -30,16 +30,35 @@ $('#view-all-jobs').click(function() {
 window.optly.mrkt.jobsPage.testimonials();
 
 function getGreenhouseData(data) {
-      if(typeof data === 'object'){
+  var locations = ['All Locations'];
 
-        for(var i = 0; i < data.departments.length; i++){
-          if(data.departments[i].jobs.length === 0){
-            delete data.departments[i];
-          }
-        }
+  if(typeof data === 'object'){
 
-        $('#job-list-cont').append( jobList(data) );
+    $.each(data.departments, function(i, department) {
+      if(department.jobs.length === 0){
+        delete data.departments[i];
+      } else {
+        // iterate over jobs to get all locations
+        $.each(department.jobs, function(j, job) {
+          locations.push(job.location.name);
+        });
       }
+    });
+
+        //for(var i = 0; i < data.departments.length; i++){
+          //if(data.departments[i].jobs.length === 0){
+            //delete data.departments[i];
+          //} else {
+            //// iterate over jobs to get all locations
+            //for(var j = 0; j < data.departments[i].jobs.length; j++){
+            //}
+          //}
+        //}
+
+    $.unique(locations);
+    $('#js-locations').append(locations);
+    $('#job-list-cont').append( jobList(data) );
+  }
 }
 
 var deferred = $.getJSON('https://api.greenhouse.io/v1/boards/optimizely7/embed/departments?callback=?');
