@@ -116,7 +116,6 @@ function storeModalState(modalType, modalOpen) {
 }
 
 window.optly.mrkt.modal.open = function(modalArgs) {
-  debugger;
 
   var modalType = modalArgs.modalType,
     staticModal = modalArgs.staticModal,
