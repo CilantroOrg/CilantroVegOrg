@@ -44,20 +44,37 @@ function getGreenhouseData(data) {
         });
       }
     });
-
-        //for(var i = 0; i < data.departments.length; i++){
-          //if(data.departments[i].jobs.length === 0){
-            //delete data.departments[i];
-          //} else {
-            //// iterate over jobs to get all locations
-            //for(var j = 0; j < data.departments[i].jobs.length; j++){
-            //}
-          //}
-        //}
-
     $.unique(locations);
-    $('#js-locations').append(locations);
+
+    $.each(locations, function(index, location) {
+      $('#js-locations').append('<p class="js-location-filter">' + location + '</p>');
+    });
     $('#job-list-cont').append( jobList(data) );
+
+    $('.js-location-filter').on('click', function() {
+      var filterText = $(this).text();
+      var $departmentTitles = $('.department-title');
+      $('.job-location').each(function() {
+        var $jobLocation = $(this);
+        if (filterText !== $jobLocation.text()) {
+          if (filterText === 'All Locations') {
+            $(this).parent().parent().show();
+            $departmentTitles.show();
+          } else {
+            $(this).parent().parent().hide();
+            $departmentTitles.each(function() {
+              if ($(this).next().children().filter(function() { return this.style.display !== 'none'; }).length === 0) {
+                $(this).hide();
+                console.log($(this).text() + ' no jobs here');
+              }
+            });
+          }
+        } else {
+          $(this).parent().parent().show();
+          $(this).parent().parent().parent().prev().show();
+        }
+      });
+    });
   }
 }
 
