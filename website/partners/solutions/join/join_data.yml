@@ -8,23 +8,28 @@ why:
   TR_title: "Why Partner with Optimizely?"
   TR_reasons:
     -
-      TR_blurb: "Partner with the market leader in optimization"
+      TR_blurb: "Partner with the market leader in optimization."
       image: "partners-become/icon-trophy.svg"
     -
-      TR_blurb: "Work with a trusted partner that will never compete with you"
-      image: "partners-become/icon-magnifying.svg"
+      TR_blurb: "Access best in class enablement, training and support."
+      image: "partners-become/icon-chat.svg"
     -
-      TR_blurb: "Access best in class enablement, training and support"
-      image: "partners-become/icon-browsers.svg"
+      TR_blurb: "Open new revenue streams to grow your business."
+      image: "partners-become/icon-cash.svg"
     -
-      TR_blurb: "Open new revenue streams to grow your business"
-      image: "partners-become/icon-mouseclick.svg"
+      TR_blurb: "Work with a trusted partner that’s in the product business, not the services business."
+      image: "partners-become/icon-handshake.svg"
 benefits:
   TR_title: "Solutions Partner Program Benefits"
   TR_items:
     -
+      image: "partners-become/illustration3.svg"
+      TR_title: "Comprehensive Product Training & Enablement"
+      TR_blurb: "Training, certification, and early access to new product features to develop your Optimizely expertise."
+      class: "comarketing"
+    -
       image: "partners-become/illustration1.svg"
-      TR_title: "Co-Marketing Benefits"
+      TR_title: "Co-Marketing to Amplify Your Brand"
       TR_blurb: "Get access to a set of proven marketing resources to help you hit the ground running."
       class: "training"
     -
@@ -32,11 +37,6 @@ benefits:
       TR_title: "Collaborative Co-Selling Approach"
       TR_blurb: "Work directly with the Optimizely sales team to help you prospect, qualify and close more business."
       class: "coselling"
-    -
-      image: "partners-become/illustration3.svg"
-      TR_title: "Comprehensive Product Training & Enablement"
-      TR_blurb: "Training, certification, and early access to new product features to develop your Optimizely expertise."
-      class: "comarketing"
 hear:
   show: true
   TR_title: "Hear from our Partners"

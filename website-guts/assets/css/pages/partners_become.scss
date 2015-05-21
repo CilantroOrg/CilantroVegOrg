@@ -59,10 +59,11 @@
     h1 {
       font-weight: lighter;
       font-size: 54px;
-      margin-bottom: 60px;
+      margin-bottom: 5px;
     }
 
     h2 {
+      margin: 0;
       font-weight: bold;
       font-size: 22px;
     }
@@ -129,10 +130,15 @@
       background-repeat: no-repeat;
       margin: 0 auto 30px;
       background-color: $partners-become-gray;
-      background-position: center;
+      background-position: 42% 50%;
       border-radius: 50%;
-      background-size: 75%;
+      background-size: 67%;
       padding: 50px;
+
+      //individual icon adjusts
+      &[style*='trophy.svg'] {
+        background-position: 54% 50%;
+      }
     }
 
     .trophy {
@@ -303,6 +309,7 @@
 
         img {
           max-width: 100%;
+          margin-top: 30px;
         }
 
         &:nth-child(even) {
