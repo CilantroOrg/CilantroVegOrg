@@ -7,7 +7,7 @@ form_id: signin-sso-form
 wrapper_id: signin-sso-dialog
 form_method: POST
 form_action: /sp_initiated_signin
-TR_primary_button_text: Sign in with SSO
+TR_primary_button_text: Sign in
 TR_negative_button_text: Cancel
 api_domain: true
 ---
@@ -17,19 +17,11 @@ api_domain: true
                   <input type="email" id="signin-form-email" name="email" autofocus>
               </label>
 
-              <a href="#" data-modal-click="signin">
+              <a data-modal-click="signin">
                 {{tr 'Sign-in with Email & Password'}}
               </a>
 
-              <div class="terms">
-                  <label class="spaced">
-                      <input type="checkbox" name="persist" checked="checked">
-                      <p>{{tr 'Keep me signed in'}}</p>
-                  </label>
-              </div>
               <div class="options">
                   <p><a href="{{linkPath}}/privacy" target="_blank">{{tr 'Privacy Policy'}}</a></p>
-                  <p><a class="show-forgot-password" data-modal-click="reset-password">{{tr 'Forgot your password?'}}</a></p>
-                  <p>{{tr 'No account?'}} <a class="show-create-account" data-modal-click="signup">{{tr 'Register here'}}</a></p>
                   <p class="error-message error-hide">{{tr 'Incorrect email or password'}}</p>
               </div>
