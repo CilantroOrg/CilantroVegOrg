@@ -30,7 +30,7 @@
                 </li>
                 <li class="form-row">
                   <label id="website-label">
-                      <span>{{tr 'Company Website'}}:</span>
+                      <span>{{tr 'Company website'}}:</span>
                       <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
                       <input type="text" name="website" required>
                   </label>
@@ -125,15 +125,21 @@
 
 
                 <li class="form-row">
-                  <label id="description-label">
-                      <span>{{tr 'Company Type'}}:</span>
+                  <label id="company-type-label">
+                      <span>{{tr 'Company type'}}:</span>
                       <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="text" name="Tech_Partner_Company_Description__c" required>
                   </label>
-                  <select id="state" name="state" tabindex="1">
-                    <option value="Subsidiary">Subsidiary</option>
-                    <option value="Independent">Independent</option>
+                  <select id="company_type" name="company_type" tabindex="1">
+                    <option value="">{{tr 'Select an option...'}}</option>
+                    <option value="Subsidiary">{{tr 'Subsidiary'}}</option>
+                    <option value="Independent">{{tr 'Independent'}}</option>
                   </select>
+                </li>
+                <li class="form-row parent-company-row hidden">
+                  <label id="parent-company-label">
+                      <span>{{tr 'Name of parent company'}}:</span>
+                      <input type="text" name="parent_company">
+                  </label>
                 </li>
                 <li class="form-row">
                   <label id="reason-label">
@@ -143,177 +149,38 @@
                   </label>
                 </li>
                 <li class="form-row">
-                  <label id="address-label">
-                      <span>{{tr 'Address'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="text" name="address" required>
-                  </label>
-                </li>
-                <li class="form-row">
-                  <label id="city-label">
-                      <span>{{tr 'City'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="text" name="city" required>
-                  </label>
-                </li>
-                <li class="form-row">
-                  <label id="state-label">
-                      <span>{{tr 'State'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                  </label>
-                  <select id="state" name="state" tabindex="1">
-                    <option value="AK">AK</option>
-                    <option value="AL">AL</option>
-                    <option value="AR">AR</option>
-                    <option value="AZ">AZ</option>
-                    <option value="CA">CA</option>
-                    <option value="CO">CO</option>
-                    <option value="CT">CT</option>
-                    <option value="DC">DC</option>
-                    <option value="DE">DE</option>
-                    <option value="FL">FL</option>
-                    <option value="GA">GA</option>
-                    <option value="HI">HI</option>
-                    <option value="IA">IA</option>
-                    <option value="ID">ID</option>
-                    <option value="IL">IL</option>
-                    <option value="IN">IN</option>
-                    <option value="KS">KS</option>
-                    <option value="KY">KY</option>
-                    <option value="LA">LA</option>
-                    <option value="MA">MA</option>
-                    <option value="MD">MD</option>
-                    <option value="ME">ME</option>
-                    <option value="MI">MI</option>
-                    <option value="MN">MN</option>
-                    <option value="MO">MO</option>
-                    <option value="MS">MS</option>
-                    <option value="MT">MT</option>
-                    <option value="NC">NC</option>
-                    <option value="ND">ND</option>
-                    <option value="NE">NE</option>
-                    <option value="NH">NH</option>
-                    <option value="NJ">NJ</option>
-                    <option value="NM">NM</option>
-                    <option value="NV">NV</option>
-                    <option value="NY">NY</option>
-                    <option value="OH">OH</option>
-                    <option value="OK">OK</option>
-                    <option value="OR">OR</option>
-                    <option value="PA">PA</option>
-                    <option value="RI">RI</option>
-                    <option value="SC">SC</option>
-                    <option value="SD">SD</option>
-                    <option value="TN">TN</option>
-                    <option value="TX">TX</option>
-                    <option value="UT">UT</option>
-                    <option value="VA">VA</option>
-                    <option value="VT">VT</option>
-                    <option value="WA">WA</option>
-                    <option value="WI">WI</option>
-                    <option value="WV">WV</option>
-                    <option value="WY">WY</option>
-                  </select>
-                </li>
-                <li class="form-row">
-                  <label id="zip-label">
-                      <span>{{tr 'Zip code'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="text" name="zip" required>
-                  </label>
-                </li>
-                <li class="form-row">
-                  <label id="country-label">
-                      <span>{{tr 'Country'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="text" name="country" required>
-                  </label>
-                </li>                                                           <li class="form-row">
-                  <label id="customers-label">
-                      <span>{{tr 'How many customers do you have?'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                  </label>
-                  <select id="Tech_Partner_Number_of_Customers__c" name="Tech_Partner_Number_of_Customers__c" tabindex="1">
-                    <option value="">{{tr 'Select an option...'}}</option>
-                    <option value="Fewer than 100">{{tr 'Fewer than 100'}}</option>
-                    <option value="100-999">{{tr '100-999'}}</option>
-                    <option value="1,000-4,999">{{tr '1,000-4,999'}}</option>
-                    <option value="5,000-9,999">{{tr '5,000-9,999'}}</option>
-                    <option value="More than 10,000">{{tr 'More than 10,000'}}</option>
-                  </select>
-                </li>
-                <li class="form-row">
                   <label id="target-label">
-                      <span>{{tr 'What is your target number? (check all that apply)'}}:</span>
+                      <span>{{tr 'Do you have a client with an immediate need for Optimizely?'}}:</span>
                       <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
                   </label>
-                  <div class="checkboxes">
+                  <div class="radio_buttons">
                     <div>
-                      <span><input type="checkbox" name="Retail_ecommerce_target__c"> Retail / ecommerce</span>
-                    </div>
-                    <div>
-                      <span><input type="checkbox" name="Travel_target__c"> Travel</span>
-                    </div>
-                    <div>
-                      <span><input type="checkbox" name="Media_target__c"> Media</span>
-                    </div>
-                    <div>
-                      <span><input type="checkbox" name="B2B_Technology_target__c"> B2B / Technology</span>
-                    </div>
-                    <div>
-                      <span><input type="checkbox" name="Other_target__c"> Other _________</span>
-                    </div>
-                  </div><!--/.checkboxes-->
-                </li>
-                <li class="form-row">
-                  <label id="buyer-label">
-                      <span>{{tr 'What is the title of your primary buyer?'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                  </label>
-                  <select id="Tech_Partner_Primary_Buyer__c" name="Tech_Partner_Primary_Buyer__c" tabindex="1">
-                    <option value="Analytics">{{tr 'Analytics'}}</option>
-                    <option value="Engineering">{{tr 'Engineering'}}</option>
-                    <option value="Product">{{tr 'Product'}}</option>
-                    <option value="Marketing">{{tr 'Marketing'}}</option>
-                    <option value="IT">{{tr 'IT'}}</option>
-                    <option value="Operations">{{tr 'Operations'}}</option>
-                    <option value="Sales">{{tr 'Sales'}}</option>
-                    <option value="Other">{{tr 'Other'}}</option>
-                  </select>
+                      <span>
+                        <input name="has_immediate_project__c" type="radio" value="yes" />Yes
 
-                </li>
-                <li class="form-row">
-                  <label id="percentage-label">
-                      <span>{{tr 'What percentage of customers do you share with Optimizely?'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                  </label>
-                  <select id="Tech_Partner_Percent_Shared_Customers__c" name="Tech_Partner_Percent_Shared_Customers__c" tabindex="1">
-                    <option value="Less than 10%">{{tr 'Less than 10%'}}</option>
-                    <option value="10-24%">{{tr '10-24%'}}</option>
-                    <option value="25-49%">{{tr '25-49%'}}</option>
-                    <option value="50-74%">{{tr '50-74%'}}</option>
-                    <option value="More than 75%">{{tr 'More than 75%'}}</option>
-                  </select>
-                </li>
-                <li class="form-row">
-                  <label id="target-label">
-                      <span>{{tr 'Do you want to build an integration into Optimizely?'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                  </label>
-                  <div class="checkboxes">
-                    <div>
-                      <span><input type="checkbox" name="Tech_Partner_Want_to_Build_Integration">Yes</span>
+                      </span>
+                      <span>
+                        <input name="has_immediate_project__c" type="radio" value="no" />No
+                      </span>
                     </div>
-                  </div><!--/.checkboxes-->
+                  </div>
                 </li>
                 <li class="form-row">
-                  <label id="target-label">
-                      <span>{{tr 'What is your target number? (check all that apply)'}}:</span>
+                  <label id="existing-customers-label">
+                      <span>{{tr 'List any existing clients you have who are using Optimizely'}}:</span>
                       <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="number" name="target" required>
+                      <input type="text" name="Existing_customers_using_Optimizely__c" required>
                   </label>
                 </li>
 
+
+                <input type="hidden" name="Inbound Lead Form Type" value="Solutions Partner Request" >
+                <input type="hidden" name="Initial Form Source" value="Solutions Partner Request" >
+                <input type="hidden" name="Lead Source" value="Website">
+                <input type="hidden" name="Lead Source Category" value="Contact Request" >
+                <input type="hidden" name="Lead Source Subcategory" value="Partner request form">
+
+                
 
                 <input type="hidden" value="Apply Now" name="Inbound_Lead_Form_Type__c">
 
