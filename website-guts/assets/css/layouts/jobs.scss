@@ -194,6 +194,11 @@ body.jobs-layout {
         background-size: 40px 46px;
         background-image: url('https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/jobs/pingpong.svg');
     }
+  .dropdown-cont {
+    border-radius: 1px;
+    padding: 7px 25px;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and(min-width: $tablet-min-width) {
