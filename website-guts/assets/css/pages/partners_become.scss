@@ -339,6 +339,12 @@
         img {
           max-width: 100%;
           margin-top: 30px;
+
+          //specific graphic fixes
+          &[src*="illustration3.svg"] {
+             margin-top: -10px;
+          }
+
         }
 
         &:nth-child(odd) {
