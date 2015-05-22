@@ -81,7 +81,6 @@ layout_modals:
           <link rel="stylesheet" type="text/css" href="{{#hasAssetPath this}}{{../../assetsDir}}/{{/hasAssetPath}}{{this}}">
         {{/each}}
         {{/if}}
-        <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7838232/684744/css/fonts.css">
         <link rel="stylesheet" href="{{assetsDir}}/css/styles.css">
         {{#if this.head_script ~}}<script src="{{this.head_script}}"></script>{{/if}}
         {{#if environmentVariables.production}}
@@ -281,6 +280,7 @@ layout_modals:
           optly.mrkt = optly.mrkt || {};
           optly.mrkt.assetsDir = '{{assetsDir}}';
         </script>
+        <script src="{{assetsDir}}/js/commons.js" defer></script>
         <script src="{{assetsDir}}/js/bundle.js" defer></script>
         {{#if this.script_dependencies}}
         {{#each this.script_dependencies}}
