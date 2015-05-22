@@ -596,7 +596,7 @@ days:
             time: "11:25 - 12:10"
             location: "Bay Bridge"
             description: "Whether you're just getting started or are ready to take things to the next level, getting internal support and executive buy-in is instrumental in the success of any optimization program.  In this interactive session, speakers will share stories from the trenches and best practices for gaining executive support and internal engagement. You'll learn how to use data to turn any naysayer into an experimentation evangelist, and build a culture where employees are encouraged to learn together, fail forward and take risks safely."
-            companies: "Mode Analytics, American Medical Association, Elance-Odesk, Optimizely"
+            companies: "Mode Analytics, American Medical Association, Upwork, Optimizely"
             track: "culture"
             roles: "marketer productmanager executive"
             speakers:
@@ -611,7 +611,7 @@ days:
               -
                 name: "Jason Lin"
                 job_title: "Senior Director, Web Marketing"
-                company: "upWork"
+                company: "Upwork"
               -
                 name: "Rohan Karunakaran"
                 job_title: "Customer Success Manager"
