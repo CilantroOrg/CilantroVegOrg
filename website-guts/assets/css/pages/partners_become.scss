@@ -124,15 +124,15 @@
     }
 
     .image { //background image inside gray circle
-      width: 94px;
-      height: 62px;
+      width: 150px;
+      // height: 62px;
       background-repeat: no-repeat;
       margin: 0 auto 30px;
       background-color: $partners-become-gray;
       background-position: 42% 50%;
       border-radius: 50%;
       background-size: 67%;
-      padding: 50px;
+      padding: 70px;
 
       //individual icon adjusts
       &[style*='trophy.svg'] {
