@@ -30,7 +30,7 @@ $('#view-all-jobs').click(function() {
 window.optly.mrkt.jobsPage.testimonials();
 
 function getGreenhouseData(data) {
-  var locations = ['All Locations'];
+  var locations = [];
 
   if(typeof data === 'object'){
 
@@ -47,16 +47,17 @@ function getGreenhouseData(data) {
     $.unique(locations);
 
     $.each(locations, function(index, location) {
-      $('#js-locations').append('<p class="js-location-filter">' + location + '</p>');
+      $('#js-locations').append('<li class="filter-item js-location-filter">' + location + '</li>');
     });
     $('#job-list-cont').append( jobList(data) );
 
     $('.js-location-filter').on('click', function() {
       var filterText = $(this).text();
+      $('.js-filter-holder').text(filterText);
       var $departmentTitles = $('.department-title');
       $('.job-location').each(function() {
         var $jobLocation = $(this);
-        if (filterText !== $jobLocation.text()) {
+        if (!filterText.includes($jobLocation.text())) {
           if (filterText === 'All Locations') {
             $(this).parent().parent().show();
             $departmentTitles.show();
@@ -65,7 +66,6 @@ function getGreenhouseData(data) {
             $departmentTitles.each(function() {
               if ($(this).next().children().filter(function() { return this.style.display !== 'none'; }).length === 0) {
                 $(this).hide();
-                console.log($(this).text() + ' no jobs here');
               }
             });
           }
@@ -77,6 +77,16 @@ function getGreenhouseData(data) {
     });
   }
 }
+//Top filter dropdown
+var $dropdownElems = $('.js-dropdown');
+$dropdownElems.click(function() {
+  var $this = $(this);
+  $this.toggleClass('active');
+  $dropdownElems.not( $this ).removeClass( 'active' );
+  $this.one('mouseleave', function(){
+    $this.removeClass( 'active' );
+  });
+});
 
 var deferred = $.getJSON('https://api.greenhouse.io/v1/boards/optimizely7/embed/departments?callback=?');
 

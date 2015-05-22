@@ -59,15 +59,17 @@ external_stylesheets:
 <div class="jobs-list" id="jobs-list">
   <div class="container">
 
-    <!--<select id="js-location">-->
-      <!--<option value="All Locations" selected>All Locations</option>-->
-    <!--</select>-->
-    <div id="js-locations">
-    </div>
 
     <div class="row">
       <div class="" id="job-list-cont">
         <h2 class="a-center blue">{{page_data.job_openings_header}}</h2>
+        <div class="pill">{{! Filter Pill }}
+          <div class="dropdown-cont js-dropdown"><span class="js-filter-holder">All Locations</span> &#9662;
+            <ul id="js-locations">
+              <li class="filter-item js-location-filter" data-filter="">All Locations</li>
+            </ul>
+          </div>
+        </div>{{! /pill }}
       </div>
     </div>
   </div>
