@@ -29,9 +29,8 @@
     // maintain a button max-height 40px
     border-radius: 4px;
     background: $brand-blue;
-    border: 1px solid $super-dark-blue;
+    border: 1px solid $page-header-color;
     padding: 20px 60px;
-    font-family: $gotham-small-type;
     font-size: 18px;
     color: $white;
     line-height: 22px;
@@ -40,7 +39,7 @@
 
     &:hover {
       text-decoration: none;
-      background: $blue;
+      background: $brand-blue;
       color: $white;
     }
   }
@@ -48,7 +47,7 @@
   #landing-hero {
     position: relative;
     padding: 95px 0;
-    background-color: $super-dark-blue;
+    background-color: $page-header-color;
     color: $page-content-color;
 
     h1,
