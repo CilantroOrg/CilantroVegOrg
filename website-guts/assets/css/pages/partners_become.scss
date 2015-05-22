@@ -205,6 +205,36 @@
   }
 }
 
+
+.become-partner-fields {
+
+  #name-label {
+    input {
+      display: block;
+      float: left;
+      width: 48%;
+
+      &[name="first_name"]{
+        clear: both;
+      }
+
+      &:last-child {
+        margin-left: 4%;
+      }
+    }
+  }
+
+  #target-label+.radio_buttons {
+    input {
+      width: auto;
+    }
+    span:first-child {
+      margin-right: 10px;
+    }
+  }
+
+}
+
 .benefits {
 
   .panel-header {
