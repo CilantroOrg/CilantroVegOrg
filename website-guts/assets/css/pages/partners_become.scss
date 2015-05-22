@@ -168,7 +168,7 @@
 
       .detail-text {
         font-size: 16px;
-        text-align: left;
+        text-align: center;
       }
     }
   }
@@ -224,12 +224,27 @@
   }
 
   #target-label+.radio_buttons {
+    margin-top: 10px;
     input {
       width: auto;
+      margin: 0 10px;
+      &:first-child {
+        margin-left: 0;
+      }
     }
-    span:first-child {
+    span {
+      vertical-align: text-bottom;
       margin-right: 10px;
+      &::first-child {
+        margin-right: 10px;
+      }
     }
+
+  }
+
+
+  #target-label, #reason-label {
+    margin-top: 10px;
   }
 
 }
