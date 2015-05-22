@@ -31,12 +31,12 @@ benefits:
       TR_blurb: "Build an amazing integration with expert support from Optimizely’s technical team, a fully featured sandbox and access to Optimizely’s partner community."
       class: "support"
     -
-      image: "partners-become/illustration3.svg"
+      image: "partners-become/illustration2.svg"
       TR_title: "Co-Marketing to Amplify Your Brand"
       TR_blurb: "Participate in proven go-to-market activities, get access to co-marketing resources and benefit from contextual in-product promotions."
       class: "amplify"
     -
-      image: "partners-become/illustration2.svg"
+      image: "partners-become/illustration3.svg"
       TR_title: "Collaborative Co-Selling Approach"
       TR_blurb: "Get access to a dedicated partner manager, develop joint sales collateral and connect with Optimizely Account Executives."
       class: "grow"
