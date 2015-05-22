@@ -57,21 +57,26 @@ function getGreenhouseData(data) {
       var $departmentTitles = $('.department-title');
       $('.job-location').each(function() {
         var $jobLocation = $(this);
+        var $closestDepartmentTitle = $jobLocation.closest('li');
+
         if (!filterText.includes($jobLocation.text())) {
           if (filterText === 'All Locations') {
-            $(this).parent().parent().show();
+            $closestDepartmentTitle.show();
             $departmentTitles.show();
           } else {
-            $(this).parent().parent().hide();
+            $closestDepartmentTitle.hide();
             $departmentTitles.each(function() {
-              if ($(this).next().children().filter(function() { return this.style.display !== 'none'; }).length === 0) {
+              var hideTitle = $(this).next().children().filter(function() {
+                                return this.style.display !== 'none';
+                              }).length === 0;
+              if (hideTitle) {
                 $(this).hide();
               }
             });
           }
-        } else {
-          $(this).parent().parent().show();
-          $(this).parent().parent().parent().prev().show();
+        } else { // filter text matches target text
+          $closestDepartmentTitle.show();
+          $jobLocation.closest('ul').prev().show(); //Show the department title
         }
       });
     });
