@@ -11,8 +11,7 @@ module.exports = {
     noempty: true,
     nonbsp: true,
     undef: true,
-    quotmark: 'single',
-    node: true
+    quotmark: 'single'
   },
   test: {
     options: {
