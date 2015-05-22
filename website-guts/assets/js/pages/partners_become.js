@@ -11,6 +11,7 @@ $('.join-link.solutions-form').on('click', function(e){
 });
 
 
+//Reveal follow up field
 $('.become-partner-fields select#company_type').on('change', function(e, a){
   if (e.target.value === 'Subsidiary'){
     $('.parent-company-row').removeClass('hidden');
