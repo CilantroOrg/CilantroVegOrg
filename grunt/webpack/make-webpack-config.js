@@ -85,10 +85,9 @@ module.exports = function(opts) {
       output: {
         comments: false
       },
-      //compress: {
-        //conditionals: false,
-        //warnings: false,
-      //},
+      compress: {
+        warnings: false
+      },
       sourceMap: false
     }),
     new webpack.optimize.DedupePlugin(),
