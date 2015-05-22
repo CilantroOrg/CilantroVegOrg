@@ -214,7 +214,7 @@
       float: left;
       width: 48%;
 
-      &[name="first_name"]{
+      &[name="first_name"] {
         clear: both;
       }
 
@@ -342,7 +342,7 @@
           margin-top: 30px;
         }
 
-        &:nth-child(even) {
+        &:nth-child(odd) {
           >div:first-child {
             float: right;
             padding-right: 30px;
@@ -350,20 +350,20 @@
           }
           >div:last-child {
             float: left;
-            padding-left: 30px;
             padding-right: 30px;
+            padding-left: 30px;
           }
         }
 
         //in tablet and up, alternate the image and text
         &:nth-child(even) {
           >div:first-child {
-            float: right;
+            float: left;
             padding-left: 30px;
 
           }
           >div:last-child {
-            float: left;
+            float: right;
             padding-right: 30px;
           }
         }

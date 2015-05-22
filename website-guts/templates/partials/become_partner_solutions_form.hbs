@@ -1,15 +1,9 @@
               <ul class="become-partner-fields technology clearfix">
                 <li>
-                  <label id="first-name-label">
-                      <span>{{tr 'First name'}}:</span>
+                  <label id="name-label">
+                      <span>{{tr 'Name'}}:</span>
                       <span class="name-related error-hide error-right first_name-related">{{tr 'Required'}}</span>
                       <input type="text" name="first_name" autofocus required>
-                  </label>
-                </li>
-                <li>
-                  <label id="last-name-label">
-                      <span>{{tr 'Last name'}}:</span>
-                      <span class="last_name-related error-hide error-right">{{tr 'Required'}}</span>
                       <input type="text" name="last_name" required>
                   </label>
                 </li>
@@ -128,14 +122,18 @@
                       <input type="text" name="country" required>
                   </label>
                 </li>
-                
+
 
                 <li class="form-row">
                   <label id="description-label">
-                      <span>{{tr 'Company Description'}}:</span>
+                      <span>{{tr 'Company Type'}}:</span>
                       <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
                       <input type="text" name="Tech_Partner_Company_Description__c" required>
                   </label>
+                  <select id="state" name="state" tabindex="1">
+                    <option value="Subsidiary">Subsidiary</option>
+                    <option value="Independent">Independent</option>
+                  </select>
                 </li>
                 <li class="form-row">
                   <label id="reason-label">
@@ -317,25 +315,7 @@
                 </li>
 
 
-                <li>
-                  <label id="channels"><span>{{tr "Channels You'd Like to Test"}}:</span></label>
-                  <div class="checkboxes">
-                    <div>
-                      <span><input type="checkbox" name="Web_Interest__c"> Web</span>
-                    </div>
-                    <div>
-                      <span><input type="checkbox" name="Mobile_Web_Interest__c"> Mobile Web</span>
-                      </div>
-                    <div>
-                      <span><input type="checkbox" name="iOS_Interest__c"> iOS</span>
-                      </div>
-                    <div>
-                      <span><input type="checkbox" name="Android_Interest__c"> Android</span>
-                      </div>
-                  </div><!--/.checkboxes-->
-                </li>
-
-                <input type="hidden" value="Contact Sales" name="Inbound_Lead_Form_Type__c">
+                <input type="hidden" value="Apply Now" name="Inbound_Lead_Form_Type__c">
 
 
               </ul>
