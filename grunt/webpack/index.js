@@ -98,7 +98,6 @@ module.exports = function (grunt) {
         return done(false);
       }
 
-      console.log('HANDLER********************************');
       grunt.log.notverbose.writeln(stats.toString(_.merge({
         colors: true,
         hash: false,
