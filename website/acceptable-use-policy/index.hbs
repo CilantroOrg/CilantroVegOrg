@@ -5,10 +5,8 @@ TR_visible_title: Acceptable Use Policy
 ---
 <div class="row">
   <div class="columns ten offset-one">
-    {{#with page_data}}
-    {{#each terms}}
-    <p>{{paragraph}}</p>
+    {{#each page_data.terms}}
+    <p>{{this}}</p>
     {{/each}}
-    {{/with}}
   </div>
 </div>
