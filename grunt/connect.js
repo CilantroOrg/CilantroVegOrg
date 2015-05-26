@@ -42,6 +42,8 @@ module.exports = function(grunt, options) {
             function(req, res, next){
               var emailRegEx = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                 code;
+              var readPath;
+
               if(req.method === 'POST'){
 
                 if(req.url === '/pricing/change_plan'){
@@ -91,14 +93,25 @@ module.exports = function(grunt, options) {
                       res.end( grunt.file.read('website-guts/endpoint-mocks/accountExists.json') );
                     }
                 } else if(req.url === '/account/signin') {
-                  var readPath;
-
                   if(emailRegEx.test(req.body.email) && checkComplexPassword(req.body.password)) {
                     readPath = 'website-guts/endpoint-mocks/accountInfo.json';
                     code = 200;
                     res.cookie('optimizely_signed_in', '1', {httpOnly: false});
                   } else {
                     readPath = 'website-guts/endpoint-mocks/invalidSignin.json';
+                    code = 400;
+                  }
+                  res.writeHead(code, {'Content-Type': 'application/json'});
+                  setTimeout(function() {
+                    res.end(grunt.file.read(readPath));
+                  }, 2000);
+
+                } else if(req.url === '/sp_initiated_signin') {
+                  if(emailRegEx.test(req.body.email)) {
+                    readPath = 'website-guts/endpoint-mocks/ssoValid.json';
+                    code = 200;
+                  } else {
+                    readPath = 'website-guts/endpoint-mocks/ssoInvalid.json';
                     code = 400;
                   }
                   res.writeHead(code, {'Content-Type': 'application/json'});
