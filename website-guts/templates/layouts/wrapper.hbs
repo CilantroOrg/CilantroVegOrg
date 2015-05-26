@@ -82,6 +82,7 @@ layout_modals:
           <link rel="stylesheet" type="text/css" href="{{#hasAssetPath this}}{{../../assetsDir}}/{{/hasAssetPath}}{{this}}">
         {{/each}}
         {{/if}}
+        <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7838232/684744/css/fonts.css">
         <link rel="stylesheet" href="{{assetsDir}}/css/styles.css">
         {{#if this.head_script ~}}<script src="{{this.head_script}}"></script>{{/if}}
         {{#if environmentVariables.production}}
@@ -156,7 +157,7 @@ layout_modals:
                                           <li><a href="http://certification.optimizely.com">{{tr 'Certification'}}</a></li>
                                           <li><a href="{{linkPath}}/resources/sample-size-calculator/">{{tr 'Sample Size Calculator'}}</a></li>
                                           <li><a href="{{linkPath}}/resources/">{{tr 'Content Library'}}</a></li>
-                                          <li><a href="{{#isLang 'de_DE'}}https://blog.optimizely.de{{/isLang}}{{#isntLang 'de_DE'}}https://blog.optimizely.com{{/isntLang}}">{{tr 'Blog'}}</a></li>
+                                          <li id="SL-link-blog" class="SL_swap"><a href="https://blog.optimizely.com">{{tr 'Blog'}}</a></li>
                                         </ul>
                                     </li>
                                     <li class="last"><a href="{{linkPath}}/jobs/">{{tr 'Jobs'}}</a></li>
@@ -177,8 +178,8 @@ layout_modals:
                             <div class="left-nav">
                                 <p>&copy; {{moment format="YYYY"}}, {{{tr 'Optimizely. All Rights Reserved'}}}</p>
                                 <ul id="legalese" class="clearfix">
-                                    <li class="terms"><a href="{{linkPath}}/terms/" >{{tr 'Terms of Service'}}</a> &nbsp;<span class="separater">|</span></li>
-                                    <li><a href="{{linkPath}}/privacy/">{{tr 'Privacy Policy'}}</a> &nbsp;<span class="separater">|</span></li>
+                                    <li class="terms"><a href="{{linkPath}}/terms/" id="SL-link-terms" class="SL_swap">{{tr 'Terms of Service'}}</a> &nbsp;<span class="separater">|</span></li>
+                                    <li><a href="{{linkPath}}/privacy/" id="SL-link-privacy" class="SL_swap">{{tr 'Privacy Policy'}}</a> &nbsp;<span class="separater">|</span></li>
                                     <li class="security"><a href="{{linkPath}}/security/">{{tr 'Security'}}</a></li>
                                 </ul>
                                 <ul class="social-links" itemscope itemtype="http://schema.org/Organization">
@@ -231,7 +232,7 @@ layout_modals:
                                             <li><a href="http://developers.optimizely.com">{{tr 'Developer Documentation'}}</a></li>
                                             <li><a href="{{linkPath}}/resources/sample-size-calculator/">{{tr 'Sample Size Calculator'}}</a></li>
                                             <li><a href="{{linkPath}}/resources/">{{tr 'Content Library'}}</a></li>
-                                            <li><a href="{{#isLang 'de_DE'}}https://blog.optimizely.de{{/isLang}}{{#isntLang 'de_DE'}}https://blog.optimizely.com{{/isntLang}}">{{tr 'Blog'}}</a></li>
+                                            <li id="SL-link-blog" class="SL_swap"><a href="https://blog.optimizely.com">{{tr 'Blog'}}</a></li>
                                           </ul>
                                         </li>
                                         <li id="footer-nav-about" class="columns two">
@@ -284,7 +285,6 @@ layout_modals:
         {{#addLocaleDict}}
           <script src="{{../assetsDir}}/js/dict.{{this.dictKey}}.js"></script>
         {{/addLocaleDict}}
-        <script src="{{assetsDir}}/js/commons.js" defer></script>
         <script src="{{assetsDir}}/js/bundle.js" defer></script>
         {{#if this.script_dependencies}}
         {{#each this.script_dependencies}}
