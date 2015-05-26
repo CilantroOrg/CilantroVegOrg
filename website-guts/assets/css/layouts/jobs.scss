@@ -199,85 +199,74 @@ body.jobs-layout {
     padding: 7px 25px;
     margin-bottom: 20px;
   }
+  .pill { margin: 0 auto; }
 }
 
 @media only screen and(min-width: $tablet-min-width) {
-    body.jobs-layout {
+  body.jobs-layout {
+    header { background: transparent; }
+    h2 { text-align: center; }
 
-        header {
-            background: transparent;
-        }
+    #lead-image {
+      background: image-url("jobs/office-photo-shanann.jpg") no-repeat center top;
+      background-size: cover;
+      height: 660px;
+      position: relative;
+      top: -2px;
+    }
 
-        h2 {
-            text-align: center;
-        }
+    #jobs-intro {
+      position: absolute;
+      left: 50%;
+      bottom: -25px;
+      width: 600px;
+      transform: translateX(-50%);
+    }
 
-        #lead-image {
-            background: image-url("jobs/office-photo-shanann.jpg") no-repeat center top;
-            background-size: cover;
-            height: 660px;
-            position: relative;
-            top: -2px;
-        }
+    .testimonials {
+      background: #fff;
+      padding: 60px 0;
+      display: block;
 
-        #jobs-intro {
-            position: absolute;
-            left: 50%;
-            bottom: -25px;
-            width: 600px;
-            transform: translateX(-50%);
-        }
-
-        .testimonials {
-            background: #fff;
-            padding: 60px 0;
-            display: block;
-
-            li {
-                float: left;
-                width: 25%;
-                list-style: none;
-            }
-
-            .employee-icons {
-                margin-top: 60px;
-                li {
-                    &.opaque {
-                        opacity: 0.6;
-                    }
-                }
-                a {text-decoration: none;}
-            }
-        }
-
-        .benefits,
-        .communities {padding: 40px 10% 0 10%;}
-
-        .communities {
-          text-align: center;
-          margin: 0 auto;
-          width: 65%;
-
-          h6,
-          p {
-            text-align: center;
-          }
-        }
-
-        #job-list-cont {
-          width: 90%;
-          margin: 0 auto 60px auto;
-          a {
-            span:first-child {
-              float: left;
-            }
-            span:last-child {
-              float: right;
-            }
-          }
-        }
-
+      li {
+        float: left;
+        width: 25%;
+        list-style: none;
       }
+
+      .employee-icons {
+        margin-top: 60px;
+        li {
+          &.opaque {
+            opacity: 0.6;
+          }
+        }
+        a {text-decoration: none;}
+      }
+    }
+
+    .benefits,
+    .communities { padding: 40px 10% 0 10%; }
+
+    .communities {
+      text-align: center;
+      margin: 0 auto;
+      width: 65%;
+      h6,
+      p { text-align: center; }
+    }
+
+    #job-list-cont {
+      width: 90%;
+      margin: 0 auto 60px auto;
+      a {
+        span:first-child { float: left; }
+        span:last-child { float: right; }
+      }
+    }
+
+    .pill { margin: 0; }
+  }
 }
 
 @media only screen and(min-width: $desktop-min-width) {
