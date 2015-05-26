@@ -74,6 +74,10 @@ function registerJobsFilterClick() {
   });
 }
 
+function onlyUnique(value, index, self) {
+  return self.indexOf(value) === index;
+}
+
 function getGreenhouseData(data) {
   var locations = [];
 
@@ -89,7 +93,8 @@ function getGreenhouseData(data) {
         });
       }
     });
-    $.unique(locations);
+
+    locations = locations.filter(onlyUnique);
 
     // Add locations as dropdown options
     $.each(locations, function(index, location) {
