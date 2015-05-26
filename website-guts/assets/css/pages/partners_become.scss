@@ -36,9 +36,6 @@
     background: $brand-blue;
     border: 1px solid $page-header-color;
     padding: 20px 60px;
-    color: $white;
-
-
     font-family: $body-font-family;
     font-weight: 600;
     font-size: 22px;
@@ -324,6 +321,12 @@ p.description-text {
   color: $page-header-color;
   letter-spacing: 0.5px;
   line-height: 28px;
+}
+
+h3.description-title {
+  font-family: $body-font-family;
+  font-weight: 400;
+  color: $page-header-color;
 }
 
 #technology-hear {
