@@ -22,11 +22,11 @@ api_domain: true
                   <input type="password" name="password" required>
               </label>
 
-              <a href="#" data-modal-click="signin-sso">
-                {{tr 'Use single sign-on'}}
-              </a>
-
               <div class="terms">
+                  <a href="javascript:void(0)" class="right" data-modal-click="signin-sso">
+                    {{tr 'Use single sign-on'}}
+                  </a>
+
                   <label class="spaced">
                       <input type="checkbox" name="persist" checked="checked">
                       <p>{{tr 'Keep me signed in'}}</p>
