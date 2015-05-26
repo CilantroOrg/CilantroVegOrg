@@ -23,7 +23,9 @@ window.optly.mrkt.jobsPage.testimonials = function() {
 };
 
 $('#view-all-jobs').click(function() {
-  $('html, body').animate({scrollTop: $('#jobs-list').offset().top}, 700);
+  $('html, body').animate({
+    scrollTop: $('#jobs-list').offset().top
+  }, 700);
   return false;
 });
 
@@ -34,15 +36,15 @@ window.optly.mrkt.jobsPage.testimonials();
 * shown based on the filter criteria.
 */
 function showOrHideJobs(filterText, $jobLocation, $closestDepartmentTitle, $departmentTitles) {
-  if (!filterText.includes($jobLocation.text())) {
+  if (filterText.indexOf($jobLocation.text()) === -1) {
     if (filterText === 'All Locations') {
       $closestDepartmentTitle.show();
       $departmentTitles.show();
     } else {
       $closestDepartmentTitle.hide();
       $departmentTitles.each(function() {
-        var hideTitle = $(this).next().children().filter(function() {
-          return this.style.display !== 'none';
+        var hideTitle = $(this).next().children().filter(function(filterIndex, filterElement) {
+          return filterElement.style.display !== 'none';
         }).length === 0;
         if (hideTitle) {
           $(this).hide();
