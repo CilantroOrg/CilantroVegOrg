@@ -3,8 +3,6 @@ var ProgressPlugin = require('webpack/lib/ProgressPlugin');
 var path = require('path');
 var _ = require('lodash');
 var makeConfig = require('./make-webpack-config');
-var jshintConfig = require('../jshint');
-var serverJshintConfig = _.merge(jshintConfig.options, jshintConfig.server.options);
 
 module.exports = function (grunt) {
 
@@ -33,7 +31,7 @@ module.exports = function (grunt) {
      */
     var expandPath = function(basePath, dirs) {
       return grunt.file.expand({cwd: basePath}, dirs).reduce(function(map, filepath) {
-        map[filepath.replace('.js', '')] = ['./' + path.join(basePath, filepath)];
+        map[filepath.replace('.js', '')] = [ './' + path.join(basePath, filepath) ];
         return map;
       }, {});
     };
@@ -46,23 +44,27 @@ module.exports = function (grunt) {
     var pages = expandPath(config.pages.cwd, config.pages.src);
 
     var globalBundle = {
-      bundle: ['./' + config.globalBundle.cwd + config.globalBundle.src]
+      bundle: [ './' + config.globalBundle.cwd + config.globalBundle.src ]
     };
 
-    var entryBundle = _.merge({}, globalBundle, pages);
+    var vendor = {
+      vendor: options.commonVendorScripts
+    };
 
-    var jshintEnvConfig = env === 'dev' ? jshintConfig.clientDev.options : jshintConfig.clientProd.options;
+    var entryBundle = _.merge({}, vendor, globalBundle, pages);
 
-    var injectParams ='inject=' + encodeURIComponent('var targetName = __filename.replace("website-guts/assets/js/", "");\n\n') +
-        '&banner=' + encodeURIComponent(banner) +
-        '&footer=' + encodeURIComponent(footer);
+
+    var injectParams = [
+      'inject=' + encodeURIComponent('var targetName = __filename.replace("website-guts/assets/js/", "");\n\n'),
+      '&banner=' + encodeURIComponent(banner),
+      '&footer=' + encodeURIComponent(footer)
+    ].join('');
 
     var opts = {
       entry: entryBundle,
       env: env,
       outputPath: options.dest,
       publicPath: options.publicPath,
-      jshintConfig: _.merge({}, jshintEnvConfig, serverJshintConfig),
       injectFileNameParams: injectParams
     };
 

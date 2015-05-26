@@ -150,7 +150,7 @@ module.exports = function (grunt) {
     var loadAll = function loadAll(watchRunning) {
       //load the files for the resources collection
       if(watchRunning) {
-        loadGlobalData();
+        loadGlobalData(options);
         loadResources();
       }
 

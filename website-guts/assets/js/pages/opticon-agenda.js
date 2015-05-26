@@ -158,7 +158,6 @@ $filterListItem.on('click', function(event) {
 $('.js-reset').on('click', function() {
   filterList = [];
   $events.each(function(eIndex, eventItem) {
-    console.log(eIndex);
     $(eventItem).show(200, changeTalkVisibility);
   });
   $filterListItem.each(function() {

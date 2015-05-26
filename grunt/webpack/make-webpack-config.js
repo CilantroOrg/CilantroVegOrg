@@ -2,17 +2,28 @@ var path = require('path');
 var _ = require('lodash');
 var webpack = require('webpack');
 var trPlugin = require('l10n-tr-plugin');
-var injectFilenamePath = path.join(process.cwd(), 'grunt/webpack/inject-filename-loader');
 var clientHelpersPath = path.join(process.cwd(), 'website-guts/client-helpers');
-console.log('LOADER PATH => ', injectFilenamePath);
+var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 
 module.exports = function(opts) {
+  var jshintOpts = require('../jshint');
+  var jshintEnvConfig = opts.env === 'dev' ? jshintOpts.clientDev.options : jshintOpts.clientProd.options;
+
   var jshintConfig = _.merge({}, {
     emitErrors: true,
     failOnHint: true,
-  }, opts.jshintConfig);
+  }, jshintEnvConfig, jshintOpts.options);
 
   var preloaders = [
+    {
+      test: /\.js$/,
+      exclude: [
+        /node_modules/,
+        /bower_components/,
+        /libraries/
+      ],
+      loader: 'inject-filename-loader?' + opts.injectFileNameParams
+    },
     {
       test: /\.js$/,
       exclude: [
@@ -37,15 +48,6 @@ module.exports = function(opts) {
    * -- compile es6
    */
   var loaders = [
-    {
-      test: /\.js$/,
-      exclude: [
-        /node_modules/,
-        /bower_components/,
-        /libraries/
-      ],
-      loader: injectFilenamePath + '?' + opts.injectFileNameParams
-    },
     { test: /\.hbs$/, loader: 'handlebars-loader?helperDirs[]=' + clientHelpersPath },
     {test: /\.js?$/, exclude: ['bower_components', 'node_modules'], loader: 'babel-loader'}
   ];
@@ -58,6 +60,11 @@ module.exports = function(opts) {
   var plugins = [
     new webpack.ResolverPlugin(new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])),
     new webpack.NoErrorsPlugin(),
+    new CommonsChunkPlugin({
+      name: 'vendor',
+      filename: 'commons.js',
+      minChunks: 0
+    }),
     new trPlugin()
   ];
 
@@ -77,10 +84,9 @@ module.exports = function(opts) {
       output: {
         comments: false
       },
-      //compress: {
-        //conditionals: false,
-        //warnings: false,
-      //},
+      compress: {
+        warnings: false
+      },
       sourceMap: false
     }),
     new webpack.optimize.DedupePlugin(),
@@ -99,7 +105,8 @@ module.exports = function(opts) {
 
   var webpackConfig = {
     node: {
-      __filename: true
+      __filename: true,
+      fs: 'empty'
     },
     jshint: jshintConfig,
     entry: opts.entry,
@@ -120,10 +127,6 @@ module.exports = function(opts) {
         'website-guts/assets/js/libraries'
       ]
     },
-    //resolveLoader: {
-      //modulesDirectories: ['loaders', 'node_modules'],
-      //extensions: ['', '.loader.js', '.js']
-    //},
     module: {
       preLoaders: preloaders,
       loaders: loaders

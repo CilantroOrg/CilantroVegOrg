@@ -1,3 +1,9 @@
+var path = require('path');
+
+function getRoot(file) {
+  return path.join(process.cwd(), file);
+}
+
 module.exports = {
   cssSourceMap: {
     src: '<%= config.temp %>/css/styles.css.map',
@@ -46,6 +52,12 @@ module.exports = {
         dest: '<%= config.dist %>/assets/js/om/libraries/',
         expand: true
       }
+    ]
+  },
+  seo: {
+    files: [
+      {src: [getRoot('robots.txt')], dest: '<%= config.dist %>/robots.txt'},
+      {src: [getRoot('sitemap.xml')], dest: '<%= config.dist %>/sitemap.xml'}
     ]
   },
   omUITest: {
