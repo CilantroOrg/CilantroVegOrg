@@ -224,7 +224,7 @@ body.jobs-layout {
     }
 
     .testimonials {
-      background: #fff;
+      background: $white;
       padding: 60px 0;
       display: block;
 
@@ -246,7 +246,7 @@ body.jobs-layout {
     }
 
     .benefits,
-    .communities { padding: 40px 10% 0 10%; }
+    .communities { padding: 40px 10% 0; }
 
     .communities {
       text-align: center;
@@ -258,7 +258,7 @@ body.jobs-layout {
 
     #job-list-cont {
       width: 90%;
-      margin: 0 auto 60px auto;
+      margin: 0 auto 60px;
       a {
         span:first-child { float: left; }
         span:last-child { float: right; }
