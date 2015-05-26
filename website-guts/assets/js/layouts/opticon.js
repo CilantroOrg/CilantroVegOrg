@@ -1,6 +1,14 @@
 var urlParams = window.optly.mrkt.utils.deparam(window.location.search);
 
+// Append query params onto all anchor tags
+// so we can more accurately track ticket purchases
 if (!$.isEmptyObject(urlParams)) {
-  var replacementHref = window.optly.mrkt.utils.param('https://opticon2015.eventbrite.com/?ref=elink', urlParams);
-  $('.register-link').attr('href', replacementHref);
+  $('a').each(function(ind, item) {
+    var $item = $(item);
+    if ($item.css('display') !== 'none') {
+      var prevHref = $item.attr('href');
+      var replacementHref = window.optly.mrkt.utils.param(prevHref, urlParams);
+      $item.attr('href', replacementHref);
+    }
+  });
 }
