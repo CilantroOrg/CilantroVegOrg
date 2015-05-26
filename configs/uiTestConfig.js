@@ -14,7 +14,8 @@ module.exports = function(options){
   return {
     basePath: function(opts) {
       var queryString = createQueryString(opts.queryParams);
-      var testPath = 'http://localhost:9000' + '/dist' + opts.path + '?uiTest=true';
+      console.log('CONFIG', opts);
+      var testPath = 'http://localhost:9000' + '/dist' + opts.path || '' + '?uiTest=true';
       console.log('Testing: ', testPath + queryString);
       return  testPath + queryString;
     },

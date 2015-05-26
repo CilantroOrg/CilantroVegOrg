@@ -4,7 +4,7 @@ module.exports = {
     timeout: 40000
   },
   assemble: {
-    src: ['grunt/assemble/test/**/*-spec.js', '!grunt/assemble/test/**/streams*.js']
+    src: ['grunt/assemble/test/**/*-spec.js']
   },
   'pricing': {
     src: ['test/{pricing,features-and-plans}/*-spec.js']
