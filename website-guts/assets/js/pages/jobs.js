@@ -23,11 +23,54 @@ window.optly.mrkt.jobsPage.testimonials = function() {
 };
 
 $('#view-all-jobs').click(function() {
-    $('html, body').animate({scrollTop: $('#jobs-list').offset().top}, 700);
-    return false;
+  $('html, body').animate({scrollTop: $('#jobs-list').offset().top}, 700);
+  return false;
 });
 
 window.optly.mrkt.jobsPage.testimonials();
+
+/*
+* Jobs and Department titles are hidden or
+* shown based on the filter criteria.
+*/
+function showOrHideJobs(filterText, $jobLocation, $closestDepartmentTitle, $departmentTitles) {
+  if (!filterText.includes($jobLocation.text())) {
+    if (filterText === 'All Locations') {
+      $closestDepartmentTitle.show();
+      $departmentTitles.show();
+    } else {
+      $closestDepartmentTitle.hide();
+      $departmentTitles.each(function() {
+        var hideTitle = $(this).next().children().filter(function() {
+          return this.style.display !== 'none';
+        }).length === 0;
+        if (hideTitle) {
+          $(this).hide();
+        }
+      });
+    }
+  } else { // filter text matches target text
+    $closestDepartmentTitle.show();
+    $jobLocation.closest('ul').prev().show(); //Show the department title
+  }
+}
+
+/*
+* Click event on jobs dropdown filter
+*/
+function registerJobsFilterClick() {
+  $('.js-location-filter').on('click', function() {
+    var filterText = $(this).text();
+    var $departmentTitles = $('.department-title');
+    $('.js-filter-holder').text(filterText);
+    $('.job-location').each(function() {
+      var $jobLocation = $(this);
+      var $closestDepartmentTitle = $jobLocation.closest('li');
+
+      showOrHideJobs(filterText, $jobLocation, $closestDepartmentTitle, $departmentTitles);
+    });
+  });
+}
 
 function getGreenhouseData(data) {
   var locations = [];
@@ -46,43 +89,17 @@ function getGreenhouseData(data) {
     });
     $.unique(locations);
 
+    // Add locations as dropdown options
     $.each(locations, function(index, location) {
       $('#js-locations').append('<li class="filter-item js-location-filter">' + location + '</li>');
     });
     $('#job-list-cont').append( jobList(data) );
 
-    $('.js-location-filter').on('click', function() {
-      var filterText = $(this).text();
-      $('.js-filter-holder').text(filterText);
-      var $departmentTitles = $('.department-title');
-      $('.job-location').each(function() {
-        var $jobLocation = $(this);
-        var $closestDepartmentTitle = $jobLocation.closest('li');
-
-        if (!filterText.includes($jobLocation.text())) {
-          if (filterText === 'All Locations') {
-            $closestDepartmentTitle.show();
-            $departmentTitles.show();
-          } else {
-            $closestDepartmentTitle.hide();
-            $departmentTitles.each(function() {
-              var hideTitle = $(this).next().children().filter(function() {
-                                return this.style.display !== 'none';
-                              }).length === 0;
-              if (hideTitle) {
-                $(this).hide();
-              }
-            });
-          }
-        } else { // filter text matches target text
-          $closestDepartmentTitle.show();
-          $jobLocation.closest('ul').prev().show(); //Show the department title
-        }
-      });
-    });
+    registerJobsFilterClick();
   }
 }
-//Top filter dropdown
+
+// Jobs location filter dropdown
 var $dropdownElems = $('.js-dropdown');
 $dropdownElems.click(function() {
   var $this = $(this);
