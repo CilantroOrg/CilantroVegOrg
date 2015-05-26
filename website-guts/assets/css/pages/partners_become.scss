@@ -12,7 +12,6 @@
     font-family: $body-font-family;
     font-weight: 300;
     text-align: center;
-    font-size: 24px;
     padding: 0 20px;
     font-size: 36px;
     color: $page-header-color;
@@ -43,7 +42,7 @@
     font-family: $body-font-family;
     font-weight: 600;
     font-size: 22px;
-    color: #FFFFFF;
+    color: $white;
     letter-spacing: 1px;
     line-height: 26px;
 
@@ -70,7 +69,7 @@
       font-weight: 300;
       margin-bottom: 5px;
       font-size: 54px;
-      color: #FFFFFF;
+      color: $white;
       letter-spacing: 1px;
       line-height: 65px;
     }
@@ -79,7 +78,7 @@
       font-family: $body-font-family;
       font-weight: 400;
       font-size: 22px;
-      color: #FFFFFF;
+      color: $white;
       letter-spacing: 1px;
       line-height: 32px;
       margin: 0;
@@ -284,7 +283,8 @@
   }
 
 
-  #target-label, #reason-label {
+  #target-label,
+  #reason-label {
     margin-top: 10px;
   }
 
