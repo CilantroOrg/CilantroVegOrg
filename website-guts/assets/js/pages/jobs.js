@@ -74,6 +74,10 @@ function registerJobsFilterClick() {
   });
 }
 
+/*
+* Removes all duplicates from an array.
+* Ex: arr = arr.filter(onlyUnique);
+*/
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
