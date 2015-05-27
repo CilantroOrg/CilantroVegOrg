@@ -27,6 +27,9 @@ body.opticon-homepage {
     line-height: 26px;
     margin-bottom: 0;
   }
+  .opties-container {
+
+  }
   .optimizely-host {
     font-size: 0.8125em;
     color: $almost-black-text-color;
@@ -120,6 +123,14 @@ body.opticon-homepage {
       padding-top: 42px;
       width: 15%;
       margin: 0 20px;
+    }
+    .opties-container {
+      padding: 0 23%;
+    }
+    .opties-title {
+      color: white;
+      text-align: center;
+      background-color: $opticon-brand-blue;
     }
     .princess-cruises {
       background-size: cover;
