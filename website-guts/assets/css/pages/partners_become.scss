@@ -50,6 +50,16 @@
     }
   }
 
+  p.blurb {
+    font-family: $body-font-family;
+    font-weight: 300;
+    font-size: 18px;
+    color: $page-header-color;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+  }
+
+
   #landing-hero {
     position: relative;
     padding: 95px 0;
@@ -90,14 +100,7 @@
 
   }
 
-  p.blurb {
-    font-family: $body-font-family;
-    font-weight: 300;
-    font-size: 18px;
-    color: $page-header-color;
-    letter-spacing: 0.5px;
-    line-height: 28px;
-  }
+
 
   #landing-intro {
     .blurb,
@@ -105,6 +108,12 @@
       font-size: 18px;
     }
 
+    .description-text {
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+    }
 
     .description-title {
       font-family: $body-font-family;
@@ -120,11 +129,14 @@
   .left-paragraph,
   .right-paragraph {
     padding: 4% 0;
+    .panel-header {
+      margin: 30px 0  20px;
+    }
     .description-title {
       min-height: 86px;
     }
     .description-text {
-      min-height: 153px;
+      margin-bottom: 40px;
     }
   }
 
@@ -355,8 +367,28 @@ h3.description-title {
 @media only screen and (min-width: $tablet-min-width) {
   body.partners-become {
 
+    .description-text {
+      text-align: left;
+    }
+
     .panel-header {
       font-size: 36px;
+    }
+
+    #landing-intro {
+      .panel-header {
+        color: $page-header-color;
+        text-align: left;
+        padding: 0;
+      }
+
+      .left-paragraph,
+      .right-paragraph {
+        .description-text {
+          margin-bottom: 0;
+          min-height: 170px;
+        }
+      }
     }
 
     //simple float based two column layout
@@ -462,8 +494,26 @@ h3.description-title {
 
 }
 
+@media only screen and (min-width: $tablet-min-width) and (max-width: 925px) {
+  #landing-intro {
+    .primary-cta {
+      padding: 15px 30px;
+    }
+  }
+}
+
 @media only screen and (min-width: $desktop-min-width) {
   body.partners-become {
+
+
+    #landing-intro {
+      .left-paragraph,
+      .right-paragraph {
+        .description-text {
+          min-height: 140px;
+        }
+      }
+    }
 
     .track-container {
       padding: 115px 10px 30px;
