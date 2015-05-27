@@ -24,6 +24,7 @@ new Oform({
   if (status === 200 && responseObj.url) {
     window.location = responseObj.url;
   } else if (responseObj.succeeded === false && responseObj.error) {
+    signinSSODialogHelperInst.processingRemove({callee: 'error'});
     $('#js-sso-error').text(responseObj.error);
   }
 }).on('done', function(){
