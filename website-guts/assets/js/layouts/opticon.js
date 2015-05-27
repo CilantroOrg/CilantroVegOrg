@@ -5,7 +5,7 @@ var urlParams = window.optly.mrkt.utils.deparam(window.location.search);
 if (!$.isEmptyObject(urlParams)) {
   $('a').each(function(ind, item) {
     var $item = $(item);
-    if ($item.css('display') !== 'none') {
+    if ($item.is(':visible')) {
       var prevHref = $item.attr('href');
       var replacementHref = window.optly.mrkt.utils.param(prevHref, urlParams);
       $item.attr('href', replacementHref);
