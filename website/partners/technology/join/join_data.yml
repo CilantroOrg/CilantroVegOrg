@@ -2,7 +2,7 @@ intro:
   TR_headline: "Become a Technology Partner"
   TR_subhead: "Grow your business on the Optimizely Platform"
   TR_button_text: "Apply Now"
-  TR_blurb: "Optimizely is the # 1 experience optimization platform in the world, enabling thousands of companies to deliver delightful, optimized experiences to their visitors every day. Optimizely’s Technology Partner Program enables your company to easily integrate with Optimizely, so your customers can turn data into action quickly  and seamlessly."
+  TR_blurb: "Optimizely is the #1 experience optimization platform in the world, enabling thousands of companies to deliver delightful, optimized experiences to their visitors every day. Optimizely’s Technology Partner Program enables your company to easily integrate with Optimizely, so your customers can turn data into action quickly  and seamlessly."
 why:
   TR_header: "Why Partner with Optimizely?"
   TR_reasons:
@@ -16,7 +16,7 @@ why:
       image: "partners-become/icon-magnifying.svg"
     -
       TR_title: "Develop Customized Integrations"
-      TR_blurb: "Optimizely’s open, flexible APIs allow you to create integrations customized to your needs."
+      TR_blurb: "Optimizely’s <a href=\"http://developers.optimizely.com\">open, flexible APIs</a> allow you to create integrations customized to your needs."
       image: "partners-become/icon-browsers.svg"
     -
       TR_title: "Seamless Integration Experience "
@@ -48,5 +48,5 @@ hear:
   video_url: "//play.vidyard.com/Bf0qpT872TFpgGnJUqm0kA.html?v=3.1"
 join:
   TR_title: "Join the Optimizely Technology Partner Program"
-  TR_blurb:  "To learn more about the requirements and benefits of our partner program <a href=\"/doc.pdf\">click here</a>. To see a list of technology partners we work with today, check out our partner directory."
+  TR_blurb:  "To learn more about the requirements and benefits of our partner program <a href=\"/doc.pdf\">click here</a>. To see a list of technology partners we work with today, check out our <a href=\"/partners/technology\">partner directory</a>."
   button_text: "Apply Now"
