@@ -38,6 +38,10 @@ footer {
     a {
         color: $footer-link-color;
         text-decoration: none;
+
+        &:visited {
+          color: $footer-link-color;
+        }
     }
     a:hover {text-decoration: underline;}
     .separater {display: none;}
@@ -50,7 +54,7 @@ footer {
             filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
             opacity: 0.8;
             background-repeat: no-repeat;
-            color: #accff2;
+            color: $footer-link-color;
             display: inline-block;
             height: 0;
             margin-right: 6px;

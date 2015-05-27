@@ -60,7 +60,7 @@
     "l10n-tr": "git+ssh://git@github.com/optimizely/l10n-tr.git#4c4175a2c18c4340c4786edb884228c72ccdd14c",
     "l10n-tr-plugin": "git+ssh://git@github.com/optimizely/l10n-tr-plugin.git#63e9dfbd0bb0ecf90bb65ad3392ab346abe7b729",
     "layout-stack": "^0.1.1",
-    "lego": "git+ssh://git@github.com:optimizely/lego.git#core-shuffle",
+    "lego": "git+ssh://git@github.com:optimizely/lego.git",
     "load-grunt-config": "0.16.0",
     "loader-utils": "^0.2.7",
     "lodash": "^3.2.0",
