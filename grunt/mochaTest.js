@@ -1,3 +1,6 @@
+var path = require('path');
+var globby = require('globby');
+
 var uiTest = {
   pricing: {
     src: ['test/pricing/*-spec.js']
@@ -40,6 +43,14 @@ module.exports = function(grunt, options) {
     return list;
   }, []);
 
+  var getAssembleSpecs = function() {
+    if(opts) {
+      return globby.sync(path.join(process.cwd(), 'grunt/assemble/test', opts + '*spec.js'));
+    } else {
+      return ['grunt/assemble/test/*-spec.js'];
+    }
+  };
+
   return {
     options: {
       reporter: 'spec',
@@ -49,7 +60,7 @@ module.exports = function(grunt, options) {
       src: src
     },
     assemble: {
-      src: ['grunt/assemble/test/*-spec.js']
+      src: getAssembleSpecs()
     },
   };
 };
