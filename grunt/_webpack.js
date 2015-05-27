@@ -7,6 +7,9 @@ module.exports = {
     footer: '<%= grunt.config.get("concat_footer") %>',
     root: '<%= grunt.config.get("dist") %>',
     publicPath: '/assets/js/',
+    //add scripts that will be shared between global bundle and page/layout bundles here
+    //such as Handlebars, Vue, etc
+    commonVendorScripts: ['handlebars'],
     stats: {
       colors: true,
       modules: true,
