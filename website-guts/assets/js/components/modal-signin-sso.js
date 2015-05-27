@@ -18,12 +18,15 @@ new Oform({
       Marketo: false
     }
   });
-}).on('load', function(){
-  //http://localhost:9000/sp_initiated_signin you should mock this enpoint in
-  //grunt/connect because it is returning 404
-  // console.log(e);
-  window.alert('load');
-  signinSSODialogHelperInst.load.bind(signinSSODialogHelperInst);
+}).on('load', function(result){
+  var responseObj = result.XHR ? JSON.parse(result.XHR.response) : {};
+  var status = result.XHR ? result.XHR.status : null;
+
+  if (status === 200 && responseObj.url) {
+    window.location = responseObj.url;
+  } else if (responseObj.succeeded === false && responseObj.error) {
+    $('#js-sso-error').text(responseObj.error);
+  }
 }).on('done', function(){
   //this always fires which sucks
   window.alert('done');
