@@ -7,7 +7,6 @@ new Oform({
   signinSSODialogHelperInst.processingAdd();
   return true;
 }).on('error', function(){
-  window.alert('error');
   signinSSODialogHelperInst.processingRemove({callee: 'error'});
   signinSSODialogHelperInst.showOptionsError({error: 'UNEXPECTED'});
   window.analytics.track('signin sso xhr error', {
@@ -28,9 +27,6 @@ new Oform({
     $('#js-sso-error').text(responseObj.error);
   }
 }).on('done', function(){
-  //this always fires which sucks
-  window.alert('done');
-
   signinSSODialogHelperInst.processingRemove({callee: 'done'});
   if (document.body.classList.contains('oform-error')) {
     signinSSODialogHelperInst.showOptionsError();
