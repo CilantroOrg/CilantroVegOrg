@@ -21,7 +21,7 @@ TR_faq_navigation:
 -
  TR_text: "Blog"
  url: "https://blog.optimizely.com"
- de_url: "https://blog.optimizely.de"
+ swap_id: "faq-subnav-blog"
 ---
 <div id="main">
     <div id="page-header">
@@ -30,13 +30,7 @@ TR_faq_navigation:
                 <h1>{{this.visible_title}}</h1>
                 <ul class="sub-header-nav">
                     {{#each faq_navigation}}
-                    {{#if @last}}
-                      <li>
-                        <a href="{{#isLang 'de_DE'}}{{../de_url}}{{/isLang}}{{#isntLang 'de_DE'}}{{../url}}{{/isntLang}}">{{text}}</a>
-                      </li>
-                      {{else}}
-                      <li><a href="{{#isUrl url}}{{getLinkPath}}{{/isUrl}}{{url}}">{{text}}</a></li>
-                    {{/if}}
+                    <li{{#if swap_id}} class="SL_swap" id="{{swap_id}}"{{/if}}><a href="{{#isUrl url}}{{../../linkPath}}{{/isUrl}}{{url}}">{{text}}</a></li>
                     {{/each}}
                 </ul>
             </div><!---->

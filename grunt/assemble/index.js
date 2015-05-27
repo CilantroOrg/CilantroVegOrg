@@ -151,8 +151,8 @@ module.exports = function (grunt) {
     // to the assemble cache. (`assemble.get('resources').foo`)
     assemble.onLoad(/resources-list/, collectionMiddleware('resources'));
 
-    assemble.onLoad(/partners\/solutions/, collectionMiddleware('solutions'));
-    assemble.onLoad(/partners\/technology/, collectionMiddleware('integrations'));
+    assemble.onLoad(/partners\/solutions(?!join)/, collectionMiddleware('solutions'));
+    assemble.onLoad(/partners\/technology(?!join)/, collectionMiddleware('integrations'));
 
     //change the layout name reference to that created in the ppc layout loader
     var ppcRe = new RegExp(path.join(options.websiteRoot, ppcKey));
