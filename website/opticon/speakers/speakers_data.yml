@@ -98,6 +98,11 @@ guest_speakers:
       company: "Optimizely"
       blurb: "Joe is an Optimizely Sales Engineer and recent Boston College graduate. As a Sales Engineer, he helps technical and non-technical customers alike understand how Optimizely works and how it would fit into their technology stack. Before joining Optimizely, Joe was slinging pizzas on a food truck (Del Popolo) and hacked his way through two apps as an independent Android developer (Call Your Mother, Tidbyt.) He’s also spent some time designing logos, which his mother thinks look “very nice.” Joe enjoys hitting dingers with his baseball team (triples are okay, too), free soloing the Half Dome in Yosemite, and swearing that next year really is the Mets' year."
     -
+      name: "Michael Chang"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/michael-chang.png"
+      company: "About.com"
+      blurb: "Michael Chang is the Director of Business Intelligence at About.com where his team helps drive business analytics, forecasting, design optimizations and audience acquisition/development. Prior to joining About.com, he worked for 8 years in various analytics, marketing and research functions with StubHub/eBay, Adobe Systems and Ask.com. Michael has worked in the SF Bay Area, London and New York City. Michael is currently pursuing a Masters in Predictive Analytics with Northwestern University and holds a Bachelors of Science in Marketing from San Jose State University."
+    -
       name: "Kathy Chao"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/kathy_chao.png"
       company: "BabyCenter (Johnson & Johnson)"
@@ -123,7 +128,7 @@ guest_speakers:
       company: "Atlassian"
       blurb: "Cameron Deatsch is the Head of Growth at Atlassian. The Growth team combines engineers, data scientists, online and field marketers focused on running campaigns and experiments across Atlassian's funnel. Prior to Atlassian, Cameron held positions in demand generation, sales enablement, and product marketing at both Jive Software and BEA Systems. Cameron holds an M.B.A. from the University of Montana and a B.S. in Electrical Engineering from UC Davis."
     -
-      name: "Baxter Denny"
+      name: "Baxter Denney"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/t-baxter.png"
       company: "New Relic"
       blurb: "Baxter is a Marketing data nerd. He currently manages the DemandGen, Marketing Ops and Customer Lifecycle teams at New Relic. Prior to that he ran Inbound Marketing and Ops at Couchbase, and had similar roles at Citrix and CEB. When he's not geeking out about funnel metrics he \"enjoys\" endurance sports and watching the Washington Redskins lose games."
@@ -243,6 +248,11 @@ guest_speakers:
       company: "CBS Interactive"
       blurb: "Dan Kamas is an experienced multimedia professional and a proud member of the CBS Interactive team. In addition to current product work, Dan has a varied background as a producer, consultant, and award-winning composer."
     -
+      name: "Khattaab Khan"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/khattaab_khan.png"
+      company: "Optimizely"
+      blurb: "Khattaab is a Strategy Consultant at Optimizely. He has worked with over 150 enterprise customers across all industries on engagements focused on web and app testing. He has extensive experience providing strategic support with test design, targeting, results analysis and CRO program management. Khattaab guides customers through test ideation, interpretation and iteration to help scale testing programs that unlock the value of customer data."
+    -
       name: "Dave King"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/dave-king.png"
       company: "Tilt"
@@ -268,15 +278,25 @@ guest_speakers:
       #company: "Google"
       #blurb: ""
     -
+      name: "Aaron Landman"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/aaron_landman.png"
+      company: "Optimizely"
+      blurb: "Aaron heads up Optimizely's Media and Publishing business unit.  Under his stewardship, the team has made inroads into every major media conglomerate and has become one of Optimizely's top revenue drivers.  Aaron has worked directly with the biggest names in media, from IAC to Disney to Conde Nast, and everyone in between.  Before Optimizely, Aaron worked at Google, which he joined through their acquisition of Wildfire Interactive, a social media marketing firm.  Aaron holds a B.A. in Religious Studies with a focus on Islamic Philosophy and Arabic, from Occidental College."
+    -
+      name: "Ryan Lillis"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/ryan-lillis.png"
+      company: "Optimizely"
+      blurb: "As a web conversion specialist, Ryan Lilis helps Optimizely clients get the most out of the A/B, multivariate testing and targeting campaigns they run through Optimizely. Ryan has worked in the digital marketing space since 2006 with a focus on project management, product wireframing, conversion rate optimization (CRO) and data analysis. In his client-facing roles, he has worked with companies ranging from the tiny startup to Fortune 100 companies."
+    -
       name: "Jason Lin"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/jason-lin.png"
-      company: "upWork"
+      company: "Upwork"
       blurb: "Jason is the Senior Director of Web Marketing at Elance-oDesk (now upWork), an online workplace for the world where clients can find, hire, and work on projects with freelance professionals. At upWork, Jason is responsible for optimizing the site experience for customer growth. Prior to upWork, Jason held leadership roles at Anker as its head of marketing, at eBay leading retail promotions in emerging markets, and at Walmart.com managing seasonal marketing campaigns. He has co-founded multiple start-ups, including Hitchsters.com and InitialView.com. Jason has an M.B.A. from the University of Michigan Ross School of Business, and his B.A. from UCLA."
-    #-
-      #name: "Abby Lokshin"
-      #image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/abby-lokshin.png"
-      #company: "Rue La La"
-      #blurb: ""
+    -
+      name: "Abby Lokshin"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/abby-lokshin.png"
+      company: "Rue La La"
+      blurb: "Abby Lokshin is a mobile product manager at Rue La La, a leader in the digital private-sale space with over 14 Million Members. Abby joined Rue La La in June of 2014, and is responsible for managing the development of the e-retailer’s mobile app features, with a focus on Member acquisition and revenue optimization across iOS and Android. Prior to joining Rue La La, Abby worked in product management and marketing at TripAdvisor. Abby graduated from Northeastern University with a BS in Business Administration, specializing in Marketing and Finance."
     -
       name: "Keith Lovgren"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/keith_lovgren.png"
@@ -287,11 +307,11 @@ guest_speakers:
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/jenny_culture-from-withinbw_170x170-circle.png"
       company: "Optimizely"
       blurb: "Jenny Lykken is a Learning & Development Manager at Optimizely, where she is building the learning & development function within the Customer Success team. Jenny’s mission is to instill a growth mindset in the team by delivering learning experiences that build trust & empathy, high-performing teams, leadership at all levels, and a learning organization. Before joining Optimizely, Jenny was on the Learning & Organizational Development team at Twitter. Prior to that, she spent 6 years in People Development at Google, where she was the global program manager for Google’s “sustaining high performance” learning & development curriculum. Jenny is also a certified yoga instructor (RYT-200). She is originally from North Dakota and holds a Bachelor's Degree in Psychology with honors from Harvard University."
-    #-
-      #name: "Shaunak Mali"
-      #image: ""
-      #company: "Optimizely"
-      #blurb: "Shaunak Mali is a Solutions Architect at Optimizely where he works with Enterprise Clients in the Media vertica. Prior to Optimizely he worked at Box as part of the Customer Success Team to help developers build on top of the Box API. He holds a Masters Degree in Computer Science from University of Southern California, Los Angeles."
+    -
+      name: "Shaunak Mali"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/shaunak.png"
+      company: "Optimizely"
+      blurb: "Shaunak Mali is a Solutions Architect at Optimizely where he works with Enterprise Clients in the Media vertica. Prior to Optimizely he worked at Box as part of the Customer Success Team to help developers build on top of the Box API. He holds a Masters Degree in Computer Science from University of Southern California, Los Angeles."
     -
       name: "David Marks"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/david_marks.png"
@@ -333,6 +353,11 @@ guest_speakers:
       company: "Optimizely"
       blurb: "Jon is a Product Manager at Optimizely, the world's #1 Experience Optimization platform. He's been proud to launch new features like the Optimizely Developer Platform and Audience targeting, and he can't wait to share his latest project at Opticon. Before joining Optimizely, Jon rans hundreds of A/B tests himself as the Product Manager for Microsoft's Bing Image Search."
     -
+      name: "Robin Pam"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/robin-pam.png"
+      company: "Optimizely"
+      blurb: "Robin is on the Product Marketing team at Optimizely, where she leads marketing for new product initiatives, including Optimizely Stats Engine. Prior to joining Optimizely, Robin ran A/B tests as an Optimizely customer at Practice Fusion, a leading provider of electronic health records, and worked in politics in Washington, DC."
+    -
       name: "Junan Pang"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/junan-pang.png"
       company: "Optimizely"
@@ -357,11 +382,16 @@ guest_speakers:
       #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/john-provinebw_170x170-circle.png"
       #company: "Optimizely"
       #blurb: ""
-    #-
-      #name: "Abel Ramos"
-      #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/dan-circle-headshot.png"
-      #company: "Princess Cruises"
-      #blurb: ""
+    -
+      name: "Abel Ramos"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/abel-ramos.png"
+      company: "Princess Cruises"
+      blurb: "Abel Ramos serves as the Ecommerce Product Manager for Princess Cruises, the 3rd largest cruise line in the world. In this role, he is responsible for leading the Princess team responsible to executing the marketing and revenue management strategies for the shopping and booking experience on princess.com. From website design, UX research, data analysis and new feature launches, Abel is responsible for steering the team to focus on growing revenue conversion through the use of A/B testing and optimization practices across all global markets."
+    -
+      name: "Esben Rasmussen"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/esben.png"
+      company: "eBay Classifieds Group"
+      blurb: "Esben Rasmussen is an iOS developer working full time with A/B testing for two eBay Classifieds apps in Denmark."
     #-
       #name: "Peter Reinhardt"
       #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/dan-circle-headshot.png"
@@ -477,3 +507,8 @@ guest_speakers:
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/talia-wolf.png"
       company: "Conversioner"
       blurb: "Talia Wolf is the Founder and CEO of Conversioner. She helps businesses build and execute their conversion optimization strategies using emotional targeting, consumer psychology, and behavioral data to generate more revenue, leads, engagement, and sales. "
+    -
+      name: "Roxy Young"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/roxy-young.png"
+      company: "Hipmunk"
+      blurb: "Roxy Young joined Hipmunk in September 2014 to lead Marketing. Prior to joining Hipmunk, she was VP of Marketing at Rewarder, a mobile marketplace enabling people to solve semi-professional needs (auto, tech, home repair) by connecting them to relevant experts in exchange for a monetary reward. She was also the Director of Marketing at Zynga from 2009-2013 where she established the online marketing team to grow and engage the player base across the entire portfolio of Zynga games. Prior to that, Roxy held a variety of marketing roles at Netflix, Sephora and the Gap."
