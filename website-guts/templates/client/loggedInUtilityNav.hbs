@@ -1,18 +1,18 @@
 <li class="first">
-<a href="{{apiDomain}}/projects/{{account_id}}/experiments">Home</a>
+<a href="{{apiDomain}}/projects/{{account_id}}/experiments">{{tr 'Home'}}</a>
 </li>
 <li>
-  <a href="https://help.optimizely.com/hc/en-us">Support</a>
+  <a href="https://help.optimizely.com/hc/en-us">{{tr 'Support'}}</a>
 </li>
 <li id="my-account-menu" class="{{#if admin}}admin{{/if}}">
   <a id="desktop-email-nav" class="dropdown-arrow customer-email" data-dropdown="account" href="#">{{email.desktop}}</a>
   <a id="mobile-email-nav" class="customer-email" href="{{apiDomain}}/account">{{email.mobile}}</a>
   <ul id="account-dropdown" class="dropdown-menu-top" data-show-dropdown="account">
       <li class="hide-in-mobile">
-        <a href="{{apiDomain}}/account">Account Settings</a>
+        <a href="{{apiDomain}}/account">{{tr 'Account Settings'}}</a>
       </li>
       <li class="hide-in-mobile">
-        <a href="{{apiDomain}}/accountsettings">App Settings</a>
+        <a href="{{apiDomain}}/accountsettings">{{tr 'App Settings'}}</a>
       </li>
       <li>
         <a data-logout>Log Out</a>

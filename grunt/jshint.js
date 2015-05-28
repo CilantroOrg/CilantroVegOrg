@@ -7,6 +7,7 @@ module.exports = {
     esnext: true,
     eqeqeq: true,
     indent: 4,
+    unused: 'vars',
     latedef: true,
     noempty: true,
     nonbsp: true,
@@ -16,13 +17,13 @@ module.exports = {
   test: {
     options: {
       browser: true,
-      unused: true,
       node: true,
       globals: {
         mocha: false,
         it: false,
         console: false,
         describe: false,
+        before: false,
         beforeEach: false,
         waits: false,
         waitsFor: false,
@@ -32,6 +33,7 @@ module.exports = {
     files: {
       src: [
         'test/**/*.js',
+        //'grunt/assemble/test/**/*-spec.js',
         'configs/uiTestConfig.js'
       ]
     }
@@ -39,7 +41,6 @@ module.exports = {
   clientProd: {
     options: {
       browser: true,
-      unused: true,
       globals: {
         jQuery: false,
         $: false,
@@ -83,13 +84,27 @@ module.exports = {
   server: {
     options: {
       node: true,
-      debug: true
+      debug: true,
+      expr: true,
+      globals: {
+        mocha: false,
+        it: false,
+        console: false,
+        describe: false,
+        beforeEach: false,
+        before: false,
+        waits: false,
+        waitsFor: false,
+        runs: false
+      }
     },
     files: {
       src: [
         '<%= config.guts %>/helpers/*.js',
         'grunt/**/*.js',
-        'Gruntfile.js'
+        'Gruntfile.js',
+        '!grunt/assemble/test/fixture/**/*.js',
+        '!grunt/assemble/test/config/**/*.js'
       ]
     }
   }
