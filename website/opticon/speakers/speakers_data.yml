@@ -243,6 +243,11 @@ guest_speakers:
       company: "CBS Interactive"
       blurb: "Dan Kamas is an experienced multimedia professional and a proud member of the CBS Interactive team. In addition to current product work, Dan has a varied background as a producer, consultant, and award-winning composer."
     -
+      name: "Khattaab Khan"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/khattaab_khan.png"
+      company: "Optimizely"
+      blurb: "Khattaab is a Strategy Consultant at Optimizely. He has worked with over 150 enterprise customers across all industries on engagements focused on web and app testing. He has extensive experience providing strategic support with test design, targeting, results analysis and CRO program management. Khattaab guides customers through test ideation, interpretation and iteration to help scale testing programs that unlock the value of customer data."
+    -
       name: "Dave King"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/dave-king.png"
       company: "Tilt"
@@ -272,11 +277,11 @@ guest_speakers:
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/jason-lin.png"
       company: "upWork"
       blurb: "Jason is the Senior Director of Web Marketing at Elance-oDesk (now upWork), an online workplace for the world where clients can find, hire, and work on projects with freelance professionals. At upWork, Jason is responsible for optimizing the site experience for customer growth. Prior to upWork, Jason held leadership roles at Anker as its head of marketing, at eBay leading retail promotions in emerging markets, and at Walmart.com managing seasonal marketing campaigns. He has co-founded multiple start-ups, including Hitchsters.com and InitialView.com. Jason has an M.B.A. from the University of Michigan Ross School of Business, and his B.A. from UCLA."
-    #-
-      #name: "Abby Lokshin"
-      #image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/abby-lokshin.png"
-      #company: "Rue La La"
-      #blurb: ""
+    -
+      name: "Abby Lokshin"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/abby-lokshin.png"
+      company: "Rue La La"
+      blurb: "Abby Lokshin is a mobile product manager at Rue La La, a leader in the digital private-sale space with over 14 Million Members. Abby joined Rue La La in June of 2014, and is responsible for managing the development of the e-retailer’s mobile app features, with a focus on Member acquisition and revenue optimization across iOS and Android. Prior to joining Rue La La, Abby worked in product management and marketing at TripAdvisor. Abby graduated from Northeastern University with a BS in Business Administration, specializing in Marketing and Finance."
     -
       name: "Keith Lovgren"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/keith_lovgren.png"
@@ -357,11 +362,11 @@ guest_speakers:
       #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/john-provinebw_170x170-circle.png"
       #company: "Optimizely"
       #blurb: ""
-    #-
-      #name: "Abel Ramos"
-      #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/dan-circle-headshot.png"
-      #company: "Princess Cruises"
-      #blurb: ""
+    -
+      name: "Abel Ramos"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/abel-ramos.png"
+      company: "Princess Cruises"
+      blurb: "Abel Ramos serves as the Ecommerce Product Manager for Princess Cruises, the 3rd largest cruise line in the world. In this role, he is responsible for leading the Princess team responsible to executing the marketing and revenue management strategies for the shopping and booking experience on princess.com. From website design, UX research, data analysis and new feature launches, Abel is responsible for steering the team to focus on growing revenue conversion through the use of A/B testing and optimization practices across all global markets."
     #-
       #name: "Peter Reinhardt"
       #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/dan-circle-headshot.png"
