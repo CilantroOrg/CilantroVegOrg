@@ -32,34 +32,35 @@ body.jobs-layout {
         display: none;
 
         h4 {
-            color: $brand-navy-blue;
-            font-size: 48px;
-            margin: 0;
-            font-family: $sentinel-medium-font-family;
-            font-weight: 500;
+          color: $brand-navy-blue;
+          font-size: 2.750em;
+          font-weight: 500;
+          margin: 0;
         }
 
         img {
-            -moz-border-radius: 3px;
-            -webkit-border-radius: 3px;
-            border-radius: 3px;
-            height: 60px;
-            margin-right: 15px;
-            width: 60px;
-            float: left;
+          border-radius: 3px;
+          float: left;
+          height: 50px;
+          margin-right: 15px;
+          width: 50px;
         }
 
         .hide {
             display: none;
         }
 
-        .name,
-        .employee-title {
-            margin: 0;
+        .name {
+          font-size: 1.125em;
+          margin: 4px 0 -3px;
         }
 
         .employee-title {
-            text-transform: uppercase;
+          color: $light-text-color;
+          font-weight: 500;
+          letter-spacing: 1px;
+          margin: 0;
+          text-transform: uppercase;
         }
     }
 
@@ -225,12 +226,12 @@ body.jobs-layout {
 
     .testimonials {
       background: $white;
-      padding: 60px 0;
       display: block;
+      padding: 100px 0;
 
       li {
         float: left;
-        width: 25%;
+        width: 20%;
         list-style: none;
       }
 
