@@ -21,11 +21,15 @@ new Oform({
   var responseObj = result.XHR ? JSON.parse(result.XHR.response) : {};
   var status = result.XHR ? result.XHR.status : null;
 
+  $('#js-sso-error').text('');
+
   if (status === 200 && responseObj.url) {
     window.location = responseObj.url;
   } else if (responseObj.succeeded === false && responseObj.error) {
     signinSSODialogHelperInst.processingRemove({callee: 'error'});
     $('#js-sso-error').text(responseObj.error);
+  } else {
+    signinSSODialogHelperInst.processingRemove({callee: 'done'});
   }
 }).on('done', function(){
   signinSSODialogHelperInst.processingRemove({callee: 'done'});
