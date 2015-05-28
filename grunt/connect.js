@@ -42,6 +42,8 @@ module.exports = function(grunt, options) {
             function(req, res, next){
               var emailRegEx = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                 code;
+              var readPath;
+
               if(req.method === 'POST'){
 
                 if(req.url === '/pricing/change_plan'){
@@ -91,8 +93,6 @@ module.exports = function(grunt, options) {
                       res.end( grunt.file.read('website-guts/endpoint-mocks/accountExists.json') );
                     }
                 } else if(req.url === '/account/signin') {
-                  var readPath;
-
                   if(emailRegEx.test(req.body.email) && checkComplexPassword(req.body.password)) {
                     readPath = 'website-guts/endpoint-mocks/accountInfo.json';
                     code = 200;
