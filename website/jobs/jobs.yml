@@ -48,24 +48,29 @@ benefits:
 
 TR_employee_testimonials:
 -
-    name: "David"
-    TR_title: "Sales"
-    image: "https://optimizely-marketer-assets.s3.amazonaws.com/jobs/images/david.jpg"
-    TR_quote: "Working at Optimizely is everything you could ask for and more—the work, the product, the culture, and the leadership."
--
-    name: "Sophie"
-    TR_title: "Sales"
-    image: "https://optimizely-marketer-assets.s3.amazonaws.com/jobs/images/sophie.jpg"
-    TR_quote: "We are given the opportunity to take ownership of projects, making us all architects of the fast growing company."
--
-    name: "Jeff"
-    TR_title: "Design"
-    image: "https://optimizely-marketer-assets.s3.amazonaws.com/jobs/images/jeffz.jpg"
-    TR_quote: "I am constantly learning and growing, and I am excited to solve the challenges we face creating the best A/B testing platform in the world."
--
-    name: "Luke"
+    name: "Adrian"
     TR_title: "Success"
-    image: "https://optimizely-marketer-assets.s3.amazonaws.com/jobs/images/luke.jpg"
-    TR_quote: "Every day, my fellow Optimizely coworkers inspire me to become better at my job, and in general, better at life."
+    image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/jobs/headshots/adrian.jpg"
+    TR_quote: "&#8220;Each day I'm excited to go into work to be around amazingly smart people, and to be in an environment where you know you can make an impact.&#8221;"
+-
+    name: "Julia"
+    TR_title: "Recruiting"
+    image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/jobs/headshots/julia.jpg"
+    TR_quote: "&#8220;The level of transparency is unlike anywhere else and we are all empowered to take ownership of our role or task at hand regardless of scope.&#8221;"
+-
+    name: "Nick"
+    TR_title: "Sales"
+    image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/jobs/headshots/nick.jpg"
+    TR_quote: "&#8220;Optimizely is a place where you can bring your whole self to work. Not having to pretend to be someone other than myself means the world to me. Meow!&#8221;"
+-
+    name: "Kelly"
+    TR_title: "Design"
+    image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/jobs/headshots/kelly.jpg"
+    TR_quote: "&#8220;Within my first three weeks at Optimizely I designed and implemented a significant part of our sign up flow. There was a fantastic amount of trust from my first day.&#8221;"
+-
+    name: "Suneet"
+    TR_title: "Product"
+    image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/jobs/headshots/suneet.jpg"
+    TR_quote: "&#8220;As a previous entrepreneur, I never thought having a &#8216;job&#8217; could be this great. Every week I face different challenges and I get to tackle them with awesome people.&#8221;"
 
 TR_job_openings_header: "All Job Openings"
