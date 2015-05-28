@@ -106,19 +106,6 @@ module.exports = function(grunt, options) {
                     res.end(grunt.file.read(readPath));
                   }, 2000);
 
-                } else if(req.url === '/sp_initiated_signin') {
-                  if(emailRegEx.test(req.body.email)) {
-                    readPath = 'website-guts/endpoint-mocks/ssoValid.json';
-                    code = 200;
-                  } else {
-                    readPath = 'website-guts/endpoint-mocks/ssoInvalid.json';
-                    code = 400;
-                  }
-                  res.writeHead(code, {'Content-Type': 'application/json'});
-                  setTimeout(function() {
-                    res.end(grunt.file.read(readPath));
-                  }, 2000);
-
                 } else if(req.url === '/recover/request') {
                   var respObj;
 
