@@ -77,6 +77,10 @@ days:
                 name: "Jon Noronha"
                 job_title: "Product Manager"
                 company: "Optimizely"
+              -
+                name: "Robin Pam"
+                job_title: "Sr. Product Marketing Manager"
+                company: "Optimizely"
           -
             title: "Scaling Your Testing Program for Maximum Impact"
             time: "10:25 – 11:10"
@@ -186,7 +190,7 @@ days:
             time: "1:30 - 2:15"
             location: "Alcatraz"
             description: "Optimizely is not just an A/B Testing tool; customers are using Optimizely in creative ways outside the scope of typical testing. From advanced solutions and third-party integrations to behavioral targeting and personalization, learn how some of the most advanced, technical users are utilizing Optimizely in ways our founders would have never even dreamed of. First, we'll have a panel discussion moderated by Sr. Solutions Architect Brad Taylor, followed by a Q&A session with some of the best and brightest minds pushing Optimizely to boldly go where no testing platform has gone before."
-            companies: "Optimizely"
+            companies: "Trulia, Optimizely"
             track: "platform"
             roles: "marketer productmanager developer"
             speakers:
@@ -211,7 +215,7 @@ days:
             time: "1:30 - 2:15"
             location: "Golden Gate"
             description: "A successful optimization program doesn't just appear out of thin air. It takes bold ideas, a nimble approach, a talented team, and an overwhelming desire to experiment and learn. At the core of all of this is your company's internal culture. Join leaders from Pinterest and Eventbrite to learn how to develop a growth mindset that extends well beyond the web and mobile. You'll walk away with actionable ideas to strengthen your people, talent, and culture in a data-driven way."
-            companies: "Pinterest, Eventbrite"
+            companies: "Pinterest, Eventbrite, Thumbtack"
             track: "culture"
             roles: "marketer productmanager executive"
             speakers:
@@ -223,6 +227,10 @@ days:
                 name: "Durand Duin"
                 job_title: "Director of Learning"
                 company: "Eventbrite"
+              -
+                name: "Jodie Auster"
+                job_title: "Director of Customer Operations"
+                company: "Thumbtack"
               -
                 name: "Moderated by: Jenny Lykken"
                 job_title: "Learning and Development Manager"
@@ -552,7 +560,7 @@ days:
             time: "10:20 – 11:05"
             location: "Golden Gate"
             description: "Looking through the executive lens, we will discuss the 21st century marketing landscape, and how marketing leaders evaluate their tool stack and team. What are the most important pieces to have in places? Which teams are indispensable and what data needs to be collected? How does experience optimization fit into your digital marketing landscape, and what does the future hold?"
-            companies: "99Designs, Demandbase, Optimizely"
+            companies: "99Designs, Demandbase, Hipmunk, Optimizely"
             track: "strategy"
             roles: "executive"
             speakers:
@@ -564,6 +572,10 @@ days:
                 name: "Peter Isaacson"
                 job_title: "CMO"
                 company: "Demandbase"
+              -
+                name: "Roxy Young"
+                job_title: "VP Marketing"
+                company: "Hipmunk"
               -
                 name: "Jessie Becker"
                 job_title: "CMO"
@@ -658,6 +670,14 @@ days:
                 name: "Moderated by: Travis Bryant"
                 job_title: "VP of Sales"
                 company: "Optimizely"
+          -
+            title: "Optimizely Product Feedback Roundtable Discussions"
+            time: "11:25 - 12:10"
+            location: "Expo Hall"
+            description: "<p>Connect with the product team that is building Optimizely! During these intimate roundtable discussions you can give feedback, push for feature requests and hear what is on the teams roadmap. We will encourage candid conversations and giving real insights into our teams vision for Optimizely. Reserve a seat for your topic of choice! Here are the discussion table topics:</p><ul><li>APIs and Integrations: Discussing the roadmap for Optimizely's technology integrations - John Provine, Senior Product Manager, Optimizely</li><li>Mobile: Optimizely's roadmap for mobile apps, and customer stories for getting started with mobile optimization - Suneet Shah, Senior Product Manager, Optimizely</li><li>Personalization: The roadmap for targeting, segmentation, and personalization in Optimizely - Jon Noronha, Product Manager, Optimizely</li><li>Results: Statistics, analytics and what results features you'd love to see - Fergal, Product Manager for the Predictive Analytics team</li><li>Web A/B Testing: Diving into our current web A/B testing product - Byron Jones, Product Manager and Erika Palmer, Product Manager, Optimizely</li></ul><p>Reserve your spot for a table <a href='https://docs.google.com/forms/d/1BjlWwV4QwsQZfnCWdYlzHtvpNUeIdXK9cmKbLwnYceo/viewform'>here</a>.</p>"
+            companies: ""
+            track: "action"
+            roles: "productmanager developer marketer"
       -
         start_time: "12:10"
         title: "Lunch and Networking"
@@ -682,7 +702,7 @@ days:
             time: "1:25 - 2:10"
             location: "Bay Bridge"
             description: "US adults spend more time consuming media on digital channels than any other medium. Even further, last year marked the first time consumers spent more time consuming media on mobile devices than on the desktop. The media landscape is shifting rapidly, and companies are increasingly looking to optimization to stay ahead. Join optimization leaders at some of the top online media companies as they describe their strategies and tactics for increasing engagement."
-            companies: "BabyCenter (Johnson & Johnson), StumbleUpon"
+            companies: "BabyCenter (Johnson & Johnson), StumbleUpon, About.com"
             track: "action"
             roles: "marketer productmanager executive"
             speakers:
@@ -698,6 +718,10 @@ days:
                 name: "Michael Chang"
                 job_title: "Director of Business Intelligence"
                 company: "About.com"
+              -
+                name: "Moderated by: Aaron Landman"
+                job_title: "Head of Enterprise Media Sales"
+                company: "Optimizely"
           -
             title: "Best Practices in Programmatic Ad Buying and Conversion Funnel Optimization"
             time: "1:25 - 2:10"
@@ -735,7 +759,7 @@ days:
                 job_title: "VP of Demand Generation"
                 company: "Marketo"
               -
-                name: "T. Baxter Denny"
+                name: "Baxter Denny"
                 job_title: "VP Online Marketing and Operations"
                 company: "New Relic"
               -
