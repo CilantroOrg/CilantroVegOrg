@@ -272,11 +272,11 @@ guest_speakers:
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/valerie.png"
       company: "American Medical Association"
       blurb: "Valerie (Lambert) Kroll established the digital analytics practice at the American Medical Association in April 2013. Even though this was her first role in the digital analytics space, she relied on her previous experience as a market researcher, her technical aptitude, and appetite for new challenges to successfully deploy a large-scale custom implementation. More recently, Valerie launched an enterprise-wide optimization program aiming to challenge the status quo and push content providers to think about better and “riskier” ways to reach their target audiences. She has always been passionate about marketing analytics and quantifying user behavior to inform business strategy. As the Digital Analytics Manager, her team works with clients across the organization to bring data and insights to the decision-making table. Valerie was a finalist for the Digital Analytics Association “Rising Star” award in 2014."
-    #-
-      #name: "Michelle Levesque"
-      #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/michelle_levesque.png"
-      #company: "Google"
-      #blurb: ""
+    -
+      name: "Michelle Levesque"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/michelle_levesque.png"
+      company: "Google"
+      blurb: "Michelle Levesque is a software engineering manager at Google where she leads an infrastructure team that indexes and serves personal data while keeping it private and secure. She was previously tech lead of the Ads UI team that ran hundreds of experiments on the google.com search results page. A lot of her job these days is \"messy\", dealing with people, relationships, and feelings, but she still falls back to quantifying, measuring and experimenting whenever she can."
     -
       name: "Aaron Landman"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/aaron_landman.png"
