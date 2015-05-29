@@ -234,11 +234,14 @@ body.opticon {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
-        padding-top: 125px;
+        padding-top: 170px;
         margin-bottom: 10px;
       }
     }
-    &__right { text-align: center; }
+    &__right {
+      text-align: center;
+      font-size: 1.1em;
+    }
     &__close-icon {
       position: absolute;
       top: 10px;
@@ -274,7 +277,8 @@ body.opticon {
       }
       &__left {
         width: 40%;
-        padding: 10px 15px;
+        padding-top: 10px;
+        padding-right: 30px;
         text-align: center;
       }
     }
