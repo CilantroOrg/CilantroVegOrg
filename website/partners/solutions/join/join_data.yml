@@ -28,12 +28,12 @@ benefits:
       TR_blurb: "Training, certification, and early access to new product features to develop your Optimizely expertise."
       class: "comarketing"
     -
-      image: "partners-become/illustration2.svg"
+      image: "partners-become/illustration3.svg"
       TR_title: "Co-Marketing to Amplify Your Brand"
       TR_blurb: "Get access to a set of proven marketing resources to help you hit the ground running."
       class: "training"
     -
-      image: "partners-become/illustration3.svg"
+      image: "partners-become/illustration2.svg"
       TR_title: "Collaborative Co-Selling Approach"
       TR_blurb: "Work directly with the Optimizely sales team to help you prospect, qualify and close more business."
       class: "coselling"
@@ -44,5 +44,5 @@ hear:
   video_url: "//play.vidyard.com/Bf0qpT872TFpgGnJUqm0kA.html?v=3.1"
 join:
   TR_title: "Join the Optimizely Solutions Partner Program"
-  TR_blurb: "To learn more about the requirements and benefits of our partner program <a href=\"/doc.pdf\">click here</a>. To see a list of technology partners we work with today, check out our <a href=\"/partners/solutions\">partner directory</a>."
+  TR_blurb: "To learn more about the requirements and benefits of our partner program <a href=\"/doc.pdf\">click here</a>."
   button_text: "Apply now"

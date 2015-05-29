@@ -31,12 +31,12 @@ benefits:
       TR_blurb: "Build an amazing integration with expert support from Optimizely’s technical team, a fully featured sandbox and access to Optimizely’s partner community."
       class: "support"
     -
-      image: "partners-become/illustration2.svg"
+      image: "partners-become/illustration3.svg"
       TR_title: "Co-Marketing to Amplify Your Brand"
       TR_blurb: "Participate in proven go-to-market activities, get access to co-marketing resources and benefit from contextual in-product promotions."
       class: "amplify"
     -
-      image: "partners-become/illustration3.svg"
+      image: "partners-become/illustration2.svg"
       TR_title: "Collaborative Co-Selling Approach"
       TR_blurb: "Get access to a dedicated partner manager, develop joint sales collateral and connect with Optimizely Account Executives."
       class: "grow"
@@ -48,5 +48,5 @@ hear:
   video_url: "//play.vidyard.com/Bf0qpT872TFpgGnJUqm0kA.html?v=3.1"
 join:
   TR_title: "Join the Optimizely Technology Partner Program"
-  TR_blurb:  "To learn more about the requirements and benefits of our partner program <a href=\"/doc.pdf\">click here</a>. To see a list of technology partners we work with today, check out our <a href=\"/partners/technology\">partner directory</a>."
+  TR_blurb:  "To learn more about the requirements and benefits of our partner program <a href=\"/doc.pdf\">click here</a>. To see a list of technology partners we work with today, <a href=\"/partners/technology\">check out our partner directory</a>."
   button_text: "Apply Now"
