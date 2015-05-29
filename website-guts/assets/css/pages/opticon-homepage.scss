@@ -29,11 +29,11 @@ body.opticon-homepage {
   }
   .opties-container.container {
     margin-top: 15px;
-    padding: 0px 20px;
+    padding: 0 20px;
   }
   .opties-details.description-text {
     text-align: center;
-    padding: 0px 25px;   
+    padding: 0 25px;   
   }
   .opties-title {
     font-size: 1.875em;
@@ -142,21 +142,21 @@ body.opticon-homepage {
     .opties-details.description-text {
       background-color: $white;
       text-align: center;
-      border: 2px solid #0081BA;
-      margin-top: 0px;
+      border: 2px solid $opticon-brand-blue;
+      margin-top: 0;
       padding: 12px 25px 35px;   
     }
     .opties-title {
       text-align: center;
       background-color: $opticon-brand-blue;
       padding: 0.85em;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       font-size: 18px;
-      color: #FFFFFF;
+      color: $white;
       letter-spacing: 0.33px;
       line-height: 28px;
-      background: #0081BA;
-      border: 2px solid #0081BA;
+      background: $opticon-brand-blue;
+      border: 2px solid $opticon-brand-blue;
     }
     .princess-cruises {
       background-size: cover;
@@ -167,7 +167,6 @@ body.opticon-homepage {
     .confetti-container .confetti-left { display: none; }
   }
 }
-
 
 @media only screen and (min-width: $desktop-min-width) {
   body.opticon-homepage {
