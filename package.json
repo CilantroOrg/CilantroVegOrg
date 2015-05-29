@@ -52,13 +52,13 @@
     "grunt-modernizr": "0.6.0",
     "grunt-sass": "1.0.0",
     "grunt-text-replace": "0.3.12",
-    "grunt-userevvd": "git+ssh://git@github.com/dtothefp/grunt-userevvd.git#dfoxpowell/add-css-target",
+    "grunt-userevvd": "git+ssh://git@github.com/optimizely/grunt-userevvd.git#dfoxpowell/add-css-target",
     "gulp-extname": "0.2.0",
     "gulp-util": "^3.0.4",
     "handlebars": "3.0.3",
     "handlebars-loader": "1.0.0",
     "imports-loader": "0.6.3",
-    "inject-filename-loader": "git+ssh://git@github.com:optimizely/inject-filename-loader.git#588a292080d26c5d38be8602f97e983ee8fd9a3a",
+    "inject-filename-loader": "git+ssh://git@github.com/optimizely/inject-filename-loader.git#588a292080d26c5d38be8602f97e983ee8fd9a3a",
     "jshint-loader": "0.8.1",
     "kind-of": "^1.1.0",
     "l10n-tools": "git+ssh://git@github.com/optimizely/l10n-tools.git#84237337ee50fc8e3e1d3b5205784c4e39996c17",
@@ -93,8 +93,8 @@
     "grunt-open": "0.2.3",
     "grunt-prompt": "1.3.0",
     "mocha": "2.2.4",
-    "nightmare": "git+ssh://git@github.com/dtothefp/nightmare.git",
-    "phantomjs": "git+ssh://git@github.com/dtothefp/phantomjs.git"
+    "nightmare": "git+ssh://git@github.com/optimizely/nightmare.git",
+    "phantomjs": "git+ssh://git@github.com/optimizely/phantomjs.git"
   },
   "licenses": [
     {
