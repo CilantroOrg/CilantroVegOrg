@@ -30,6 +30,7 @@ module.exports = function(grunt, options) {
   return {
     options: {
       port: 9000,
+      livereload: 35729,
       // change this to '0.0.0.0' to access the server from outside
       hostname: 'localhost',
       middleware: function(connect, options, middlewares){
@@ -175,7 +176,6 @@ module.exports = function(grunt, options) {
     },
     livereload: {
       options: {
-        livereload: 35729,
         open: {
           target: 'http://localhost:9000/dist',
           base: '.'

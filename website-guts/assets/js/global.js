@@ -1,5 +1,5 @@
 require('script!history.js/scripts/bundled/html4+html5/jquery.history');
-require('script!oform/dist/oForm.min');
+require('script!oForm/dist/oForm.min');
 
 /**
  * These function calls bootstrap all of the global files, essentially requiring them in
