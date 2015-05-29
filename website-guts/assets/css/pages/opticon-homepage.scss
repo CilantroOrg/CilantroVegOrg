@@ -27,8 +27,19 @@ body.opticon-homepage {
     line-height: 26px;
     margin-bottom: 0;
   }
-  .opties-container {
-
+  .opties-container.container {
+    margin-top: 15px;
+    padding: 0px 20px;
+  }
+  .opties-details.description-text {
+    text-align: center;
+    padding: 0px 25px;   
+  }
+  .opties-title {
+    font-size: 1.875em;
+    color: $opticon-brand-blue;
+    letter-spacing: 0.57px;
+    line-height: 41px;
   }
   .optimizely-host {
     font-size: 0.8125em;
