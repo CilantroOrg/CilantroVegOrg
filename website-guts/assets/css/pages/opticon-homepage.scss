@@ -137,21 +137,20 @@ body.opticon-homepage {
     }
     .opties-container.container {
       margin-top: 35px;
-      padding: 0% 220px;
+      padding: 0 220px;
     }
     .opties-details.description-text {
       background-color: $white;
       text-align: center;
       border: 2px solid $opticon-brand-blue;
       margin-top: 0;
-      padding: 12px 25px 35px;   
+      padding: 12px 20px;   
     }
     .opties-title {
       text-align: center;
-      background-color: $opticon-brand-blue;
       padding: 0.85em;
       margin-bottom: 0;
-      font-size: 18px;
+      font-size: 1.125em;
       color: $white;
       letter-spacing: 0.33px;
       line-height: 28px;
