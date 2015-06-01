@@ -86,14 +86,10 @@ days:
             time: "10:25 – 11:10"
             location: "Bay Bridge Room"
             description: "If you’re running A/B tests consistently, you’re already on the right track. But how can you take the next step and turn your testing efforts into a well-oiled growth engine that scales? Moz, charity: water, and The Next Web have all achieved tremendous success within their optimization programs and have figured out how to effectively run hundreds of experiments a year. Learn how these companies increased the impact of their testing programs by leveraging tools and processes that scale."
-            companies: "charity: water, The Next Web, Moz"
+            companies: "The Next Web, Moz"
             track: "strategy"
             roles: "marketer developer productmanager executive"
             speakers:
-              -
-                name: "Deepa Subramaniam"
-                job_title: "Director of Product"
-                company: "charity: water"
               -
                 name: "Martijn Scheijbeler"
                 job_title: "Lead Growth, SEO & Analytics"
@@ -479,10 +475,6 @@ days:
                 name: "Matthew Vandewouwer"
                 job_title: "Marketing Manager"
                 company: "j2 Global Communications"
-              -
-                name: "Matty Wishnow"
-                job_title: "Founder & CEO"
-                company: "Clearhead"
               -
                 name: "Steve Petersen"
                 job_title: "Senior Website Marketing Coordinator"
