@@ -35,6 +35,12 @@ sponsor_levels:
     class: "silver"
     sponsor_list:
       -
+        display_url: "www.analyticspros.com"
+        image_link: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/sponsors/a_pros.png"
+        site_link: "https://www.analyticspros.com/"
+        description: "Data isn’t just numbers, it’s the story of us. The more we understand it, the more we understand each other. Careful analysis, applied wisdom and knowledge inform actions that improve lives and solve human problems. Analytics Pros narrows the distance between our clients and their customers through measuring and optimizing digital experiences for many of the world's leading brands and apps, including Starbucks, Yelp, GoPro, Princess Cruises, F5 Networks, Wacom, Vans and many more. <a href='https://www.analyticspros.com'>www.analyticspros.com</a> "
+        class: "silver"
+      -
         display_url: "www.blueacorn.com"
         image_link: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/sponsors/blue_acorn_logo.png"
         site_link: "http://www.blueacorn.com/"
@@ -99,10 +105,16 @@ sponsor_levels:
         description: "ClickTale®, the enterprise leader in Digital Customer Experience, enables businesses to maximize revenues by optimizing the way people experience the Web and Mobile. ClickTale’s comprehensive solution features the industry’s most innovative heatmap technology, playback of individual-user browsing sessions and Customer Experience Consultants dedicated to your success. ClickTale effortlessly integrates with web analytics, testing tools and more."
         class: "bronze"
       -
+        display_url: "www.demandbase.com"
+        image_link: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/sponsors/demandbase_logo.png"
+        site_link: "https://www.demandbase.com"
+        description: "Demandbase is the first targeting and personalization platform for B2B, enabling businesses to identify, engage and convert their highest value target customers. Learn more at <a href='http://www.demandbase.com'>www.demandbase.com</a>."
+        class: "bronze"
+      -
         display_url: "www.dialogtech.com"
         image_link: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/sponsors/dialogtech_transition_logo.png"
         site_link: "http://www.dialogtech.com/"
-        description: " DialogTech, formerly known as Ifbyphone, is the market leader in call analytics and automation. DialogTech provides marketing, sales, and support professionals with a single platform that enables transparency and control over every conversation, so companies can optimize lead generation, acquire new business faster, and increase customer loyalty."
+        description: "DialogTech, formerly known as Ifbyphone, is the market leader in call analytics and automation. DialogTech provides marketing, sales, and support professionals with a single platform that enables transparency and control over every conversation, so companies can optimize lead generation, acquire new business faster, and increase customer loyalty."
         class: "bronze"
       -
         display_url: "www.getlytics.com"
