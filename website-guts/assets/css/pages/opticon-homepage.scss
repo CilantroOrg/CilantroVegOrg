@@ -27,6 +27,20 @@ body.opticon-homepage {
     line-height: 26px;
     margin-bottom: 0;
   }
+  .opties-container.container {
+    margin-top: 15px;
+    padding: 0 20px;
+  }
+  .opties-details.description-text {
+    text-align: center;
+    padding: 0 25px;   
+  }
+  .opties-title {
+    font-size: 1.875em;
+    color: $opticon-brand-blue;
+    letter-spacing: 0.57px;
+    line-height: 41px;
+  }
   .optimizely-host {
     font-size: 0.8125em;
     color: $almost-black-text-color;
@@ -121,15 +135,37 @@ body.opticon-homepage {
       width: 15%;
       margin: 0 20px;
     }
+    .opties-container.container {
+      margin-top: 35px;
+      padding: 0 220px;
+    }
+    .opties-details.description-text {
+      background-color: $white;
+      text-align: center;
+      border: 2px solid $opticon-brand-blue;
+      margin-top: 0;
+      padding: 12px 20px;   
+    }
+    .opties-title {
+      text-align: center;
+      padding: 0.85em;
+      margin-bottom: 0;
+      font-size: 1.125em;
+      color: $white;
+      letter-spacing: 0.33px;
+      line-height: 28px;
+      background: $opticon-brand-blue;
+      border: 2px solid $opticon-brand-blue;
+    }
     .princess-cruises {
       background-size: cover;
       background-position: center;
     }
     .page-title { font-size: 3em; }
-    .confetti-container .confetti-right { display: none; }
+    .confetti-container .confetti-right,
+    .confetti-container .confetti-left { display: none; }
   }
 }
-
 
 @media only screen and (min-width: $desktop-min-width) {
   body.opticon-homepage {
@@ -137,7 +173,8 @@ body.opticon-homepage {
       padding: 5% 0;
     }
     .track-container { padding: 115px 10px 30px; }
-    .confetti-container .confetti-right {
+    .confetti-container .confetti-right,
+    .confetti-container .confetti-left {
       display: block;
     }
   }

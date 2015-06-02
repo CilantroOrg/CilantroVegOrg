@@ -166,25 +166,16 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('ui-test', function(which) {
-    var mochaTest = 'mochaTest',
-        tasks = [
-          'config:dev',
-          'jshint:test'
-        ];
+    var tasks = [
+      'config:dev',
+      'jshint:test',
+    ];
 
-    if(which){
-      if(which !== 'om'){
-        mochaTest += ':' + which;
-        tasks.push(mochaTest);
-      } else if(which === 'om'){
-        tasks.push('om-test');
-      }
-    } else {
+    if(!grunt.option('target')) {
       tasks.push('om-test');
-      tasks.push(mochaTest);
     }
 
-    grunt.task.run(tasks);
+    grunt.task.run(tasks.concat(['mochaTest:ui']));
   });
 
   grunt.registerTask('test', [

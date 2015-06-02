@@ -1,0 +1,42 @@
+---
+layout: wrapper
+layout_script: seo.js
+layout_body_class:
+- seo-layout
+layout_header: "Start using Optimizely to test your website today!"
+---
+<div id="main">
+  <div id="page-header">
+    <div class="container">
+      <h1>{{{this.visible_title}}}</h1>
+      {{#if this.sub_head}}<p>{{this.sub_head}}</p>{{/if}}
+    </div><!--/.container-->
+  </div><!--/#page-header-->
+  <div id="page-header-gradient"></div>
+  <div id="page-content">
+    <div class="container">
+      <div class="row">
+        <div class="columns ten offset-one">
+          <div class="ugc">
+            {{#omarkdown path=linkPath}}{% body %}{{/omarkdown}}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="columns twelve">
+          <div class="shadow-cta">
+            <h4>{{this.layout_header}}</h4>
+          </div>
+        </div>
+      <div class="columns six offset-three">
+        <div class="landing-page-form">
+          {{#if this.form_header}}
+          <h4 class="seo-form-heading">{{page.form_header}}</h4>
+          {{/if}}
+          <p class="seo-form-subheader">{{{page.form_text}}}</p>
+          {{> seo_form}}
+        </div>
+      </div>
+    </div><!--/.container-->
+  </div><!--/#content-->
+</div><!--/#main-->

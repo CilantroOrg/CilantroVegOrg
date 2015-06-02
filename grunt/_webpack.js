@@ -1,5 +1,3 @@
-var path = require('path');
-
 module.exports = {
   options: {
     environment: '<%= grunt.config.get("environment") %>',
