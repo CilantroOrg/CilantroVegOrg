@@ -48,8 +48,8 @@ customer_logos:
     url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile/2.png"
     name: "Rhapsody"
   -
-    url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile/3.png"
-    name: "Pose"
+    url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/running-app-logo.png"
+    name: "RunKeeper"
   -
     url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile/4.png"
     name: "CheapOair"
