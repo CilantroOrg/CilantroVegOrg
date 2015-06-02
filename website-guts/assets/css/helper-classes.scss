@@ -352,7 +352,7 @@ body .small-note, body p.small-note {
 			line-height: 1.4;
 			margin: 0 auto;
 			margin-bottom: 1em;
-			font-family: "Gotham A","Gotham B",Helvetica,Arial,sans-serif;
+			font-family: $body-font-family;
 		}
 		article {
 			float: left;
