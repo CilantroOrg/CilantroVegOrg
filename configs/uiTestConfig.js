@@ -27,7 +27,6 @@ module.exports = function(options){
           cachedPath = 'http://localhost:9000' + '/dist' + opts.path + '?uiTest=true';
         }
       }
-      console.log('Testing: ', cachedPath + queryString);
       return  cachedPath + queryString;
     },
     firstName: 'David',

@@ -5,13 +5,13 @@ TR_seo_title: Opt Out
 body_class:
 - opt-out-page
 page_script: opt-out.js
+HTML_page_content: true
 ---
 
 <div class="columns ten offset-one">
     <h4 class="padding-top">What is Optimizely?</h4>
 
-    <p>{{tr 'Optimizely, Inc. offers a range of website analytics services for A/B and'}}
-    <a href="{{linkPath}}/resources/multivariate-test-vs-ab-test">{{tr 'multivariate testing'}}</a> {{tr 'purposes.  Optimizely partners implement Optimizely as a way to better understand how their website is used'}}.</p>
+    <p>Optimizely, Inc. offers a range of website analytics services for A/B and <a href="{{linkPath}}/resources/multivariate-test-vs-ab-test">multivariate testing</a> purposes.  Optimizely partners implement Optimizely as a way to better understand how their website is used.</p>
 
     <h4 class="padding-top">Use of Cookies</h4>
 
@@ -33,9 +33,9 @@ page_script: opt-out.js
             <div id="opt-out-generator">
                 <h5><strong>Auto-generate an opt out URL</strong></h5>
                 <p>1. Enter the URL of the webpage:</p>
-                <input type="text" value="http://www.example.com/" id="opt-out-input">
+                <input type="text" value="http://www.example.com/" id="opt-out-input" l10n-skip>
                 <p>2. Click the following link:</p>
-                <strong><a id="opt-out-anchor" href="http://www.example.com/?optimizely_opt_out=true" target="_blank">http://www.example.com/?optimizely_opt_out=true</a></strong>
+                <strong><a id="opt-out-anchor" l10n-skip href="http://www.example.com/?optimizely_opt_out=true" target="_blank">http://www.example.com/?optimizely_opt_out=true</a></strong>
             </div>
         </div>
     </div>

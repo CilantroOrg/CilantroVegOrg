@@ -32,6 +32,6 @@ module.exports = {
       '<%= config.dist %>/**/*.html',
       '!<%= config.dist %>/partners/**/*.html',
       '<%= config.dist %>/assets/**/*.{css,js}'
-    ]
+    ].concat(exclude)
   }
 };

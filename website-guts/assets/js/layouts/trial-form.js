@@ -1,4 +1,14 @@
 require('core-js/es5');// jshint ignore:line
+var tr = require('../utils/client-tr');
+
+var errorMessages = {
+  UNKNOWN: tr('An unknown error occurred.'),
+  SERVER_MESSAGES: {
+    'Account already exists.': tr('Account already exists.'),
+    'Please enter a real email address.': tr('Please enter a real email address.')
+  }
+};
+
 w.optly.mrkt.inlineFormLabels();
 
 if(!w.optly.mrkt.isMobile()){
@@ -92,7 +102,7 @@ w.optly.mrkt.trialForm = new Oform({
 })
 .on('validationerror', w.optly.mrkt.Oform.validationError)
 .on('error', function(){
-  $('#seo-form .error-message').text('An unknown error occured.');
+  $('#seo-form .error-message').text(errorMessages.UNKNOWN);
   $('body').addClass('oform-error').removeClass('oform-processing');
 })
 .on('load', function(returnData){
@@ -172,7 +182,7 @@ w.optly.mrkt.trialForm = new Oform({
 
     } else {
       w.analytics.track(w.optly.mrkt.utils.trimTrailingSlash(w.location.pathname), {
-        category: 'api error',
+        category: 'api rror',
         label: 'status not 200: ' + returnData.XHR.status
       }, {
         integrations: {
@@ -181,7 +191,7 @@ w.optly.mrkt.trialForm = new Oform({
       });
       if(parsedResp.error && typeof parsedResp.error === 'string'){
         //update error message, apply error class to body
-        $('#seo-form .error-message').text(parsedResp.error);
+        $('#seo-form .error-message').text(errorMessages.SERVER_MESSAGES[parsedResp.error] || errorMessages.UNKNOWN);
         $('body').addClass('oform-error').removeClass('oform-processing');
         w.analytics.track(w.optly.mrkt.utils.trimTrailingSlash(w.location.pathname), {
           category: 'api error',
@@ -192,12 +202,12 @@ w.optly.mrkt.trialForm = new Oform({
           }
         });
       } else {
-        $('#seo-form .error-message').text('An unknown error occured.');
+        $('#seo-form .error-message').text(errorMessages.UNKNOWN);
         $('body').addClass('oform-error').removeClass('oform-processing');
       }
     }
   } else {
-    $('#seo-form .error-message').text('An unknown error occured.');
+    $('#seo-form .error-message').text(errorMessages.UNKNOWN);
     $('body').addClass('oform-error').removeClass('oform-processing');
   }
 })

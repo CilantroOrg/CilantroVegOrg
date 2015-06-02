@@ -3,7 +3,7 @@ var jobList = require('jobList');
 
 window.optly.mrkt.jobsPage.testimonials = function() {
     var lastIndex = 0;
-    var $quotes = $('h4.quotes q');
+    var $quotes = $('h4.quotes span');
     var $icons = $('.employee-icons li');
 
     $icons.on('click', function(e){

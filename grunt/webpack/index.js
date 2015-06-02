@@ -1,9 +1,7 @@
 var webpack = require('webpack');
-var WebpackDevServer = require('webpack-dev-server');
 var ProgressPlugin = require('webpack/lib/ProgressPlugin');
 var path = require('path');
 var _ = require('lodash');
-var gutil = require('gulp-util');
 var makeConfig = require('./make-webpack-config');
 
 module.exports = function (grunt) {
