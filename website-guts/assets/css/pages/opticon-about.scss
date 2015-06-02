@@ -36,8 +36,12 @@ body.opticon-about {
   .sold-out-svg {
     position: absolute;
     max-width: 250px;
-    top: -5px;
-    left: 55px;
+/*    top: -5px;
+    left: 55px;*/
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
   }
 
   .left-paragraph,
