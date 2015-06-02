@@ -30,6 +30,16 @@ body.opticon-about {
     }
   }
 
+  .sold-out {
+    position: relative;
+  }
+  .sold-out-svg {
+    position: absolute;
+    max-width: 250px;
+    top: -5px;
+    left: 55px;
+  }
+
   .left-paragraph,
   .right-paragraph {
     padding: 4%;
