@@ -15,7 +15,7 @@ why:
       TR_blurb: "Give your customers a fast and easy way to take action on their data so they can accelerate their workflow."
       image: "partners-become/icon-magnifying.svg"
     -
-      TR_title: "Develop Customized Integrations"
+      TR_title: "<a target=\"_blank\" href=\"http://developers.optimizely.com/\">Develop Customized Integrations</a>"
       TR_blurb: "Optimizely’s <a href=\"http://developers.optimizely.com\">open, flexible APIs</a> allow you to create integrations customized to your needs."
       image: "partners-become/icon-browsers.svg"
     -

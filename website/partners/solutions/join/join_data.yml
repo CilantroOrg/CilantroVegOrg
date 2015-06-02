@@ -8,13 +8,13 @@ why:
   TR_title: "Why Partner with Optimizely?"
   TR_reasons:
     -
-      TR_blurb: "Market-Leading Optimization Platform."
+      TR_blurb: "Market-Leading Optimization Platform"
       image: "partners-become/icon-trophy.svg"
     -
-      TR_blurb: "Enablement, Training and Support."
+      TR_blurb: "Enablement, Training and Support"
       image: "partners-become/icon-chat.svg"
     -
-      TR_blurb: "Open New Revenue Streams."
+      TR_blurb: "Open New Revenue Streams"
       image: "partners-become/icon-cash.svg"
     -
       TR_blurb: "Partner-Focused Business Model"
@@ -40,7 +40,7 @@ benefits:
 hear:
   show: true
   TR_title: "Hear from our Partners"
-  TR_blurb: "<p>Watch this testimonial from Clearhead on how partnering with Optimizely has transformed their business.</p>"
+  TR_blurb: "Watch this testimonial from Clearhead on how partnering with Optimizely has transformed their business."
   video_url: "//play.vidyard.com/Bf0qpT872TFpgGnJUqm0kA.html?v=3.1"
 join:
   TR_title: "Join the Optimizely Solutions Partner Program"

@@ -210,9 +210,9 @@
         text-align: left;
       }
 
-      .detail-text {
+      .detail-text, .detail-text a {
         font-family: $body-font-family;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 16px;
         color: $page-header-color;
         letter-spacing: 0.44px;
@@ -414,7 +414,7 @@ h3.description-title {
 
       .why-items {
         .detail-text {
-          text-align: left;
+          font-weight: 700;
         }
       }
     }
@@ -495,6 +495,13 @@ h3.description-title {
       p {
         text-align: left;
       }
+    }
+  }
+
+  #solutions-hear,
+  #technology-hear {
+    .right-paragraph .blurb {
+      margin-top: 0;
     }
   }
 
