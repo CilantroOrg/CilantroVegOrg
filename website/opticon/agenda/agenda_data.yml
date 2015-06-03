@@ -98,6 +98,10 @@ days:
                 name: "Andy Nelson"
                 job_title: "Director of Growth Marketing"
                 company: "Moz"
+              -
+                name: "Khattaab Khan"
+                job_title: "Strategic Consultant"
+                company: "Optimizely"
           -
             title: "Getting Started with the Optimizely Developer Platform"
             time: "10:25 – 11:10"
@@ -316,7 +320,7 @@ days:
             title: "Optimization Roundtable Discussions"
             time: "2:35 - 3:20"
             location: "Expo Hall"
-            description: "<p>Looking to connect with others that are in a similar industry, vertical or experiencing a similar challenge? The Optimization Roundtables are your chance to build connections with others that are trying to accomplish a similar goal. Join a roundtable on a topic of your choosing and participate in a discussion on best practices led by an industry expert.  Here are the discussion table topics:</p><ul><li>Google Analytics + Optimizely: Better Together - Caleb Whitmore, Founder & Principal Consultant, Analytics Pros</li><li>Ecommerce Personalization: Time to Get Real. - Matt Wishnow, CEO, Clearhead </li><li>From Analytics to Optimization - Ben Harris, CEO, Decibel Insight</li><li>Account-Based Marketing - Julian Terkaly, Director of Business Development, Demandbase</li><li>Consumer Listening: Tools and Tactics for Letting Your Customers Guide Your Testing Choices - Eric Hanser, Director of Strategy, Digital Operative</li><li>High Velocity Optimization - Arun Sivashankaran, Founder, FunnelEnvy</li><li>Making Experience Optimization a Team Sport - Michael Thomas, CMO, Noble Studios</li><li>Optimizing for Mobile Retention - Kent Schmit, Optimizely</li><li>Create Great Headlines Through Testing - Stefan Deeran, Director of Strategic Partnerships, Parse.ly</li><li>Creating a Testing Culture - Matthew Zaute, Director of Analytics, Rise Interactive</li><li>High Impact Testing: Top Strategies to Get Big Results - Mike Hay, Director of Marketing, ROI DNA</li><li>Optimizing your Growth/Marketing Stack - Peter Reinhardt, CEO, Segment</li><li>Intelligent Solver (TM): A new way to personalize - Bill Bruno, CEO, Stratigent</li><li>The Best A/B Test Ideas You Haven't Thought Of - Phil Sharp, Director of Marketing, UserTesting</li></ul><p><a href='https://docs.google.com/a/optimizely.com/forms/d/1GPIbfLk6GOxwpfJywu0S1DB8pWpLVzFbPxCuakKym6Q/viewform'>Reserve your spot for a table here</a>.</p>"
+            description: "<p>Looking to connect with others that are in a similar industry, vertical or experiencing a similar challenge? The Optimization Roundtables are your chance to build connections with others that are trying to accomplish a similar goal. Join a roundtable on a topic of your choosing and participate in a discussion on best practices led by an industry expert.  Here are the discussion table topics:</p><ul><li>Google Analytics + Optimizely: Better Together - Caleb Whitmore, Founder & Principal Consultant, Analytics Pros</li><li>Ecommerce Personalization: Time to Get Real. - Matt Wishnow, CEO, Clearhead </li><li>From Analytics to Optimization - Ben Harris, CEO, Decibel Insight</li><li>Account-Based Marketing - Julian Terkaly, Director of Business Development, Demandbase</li><li>Consumer Listening: Tools and Tactics for Letting Your Customers Guide Your Testing Choices - Eric Hanser, Director of Strategy, Digital Operative</li><li>High Velocity Optimization - Arun Sivashankaran, Founder, FunnelEnvy</li><li>Making Experience Optimization a Team Sport - Michael Thomas, CMO, Noble Studios</li><li>Optimizing for Mobile Retention - Kent Shimek, Optimizely</li><li>Create Great Headlines Through Testing - Stefan Deeran, Director of Strategic Partnerships, Parse.ly</li><li>Creating a Testing Culture - Matthew Zaute, Director of Analytics, Rise Interactive</li><li>High Impact Testing: Top Strategies to Get Big Results - Mike Hay, Director of Marketing, ROI DNA</li><li>Optimizing your Growth/Marketing Stack - Peter Reinhardt, CEO, Segment</li><li>Intelligent Solver (TM): A new way to personalize - Bill Bruno, CEO, Stratigent</li><li>The Best A/B Test Ideas You Haven't Thought Of - Phil Sharp, Director of Marketing, UserTesting</li></ul><p><a href='https://docs.google.com/a/optimizely.com/forms/d/1GPIbfLk6GOxwpfJywu0S1DB8pWpLVzFbPxCuakKym6Q/viewform'>Reserve your spot for a table here</a>.</p>"
             track: "strategy"
             roles: "marketer productmanager developer executive"
       -
@@ -350,11 +354,15 @@ days:
                 name: "Kyle Humphries"
                 job_title: "Product Manager"
                 company: "Everyday Health"
+              -
+                name: "Moderated by: Pam Ongchin"
+                job_title: "Mobile Solutions Architect Lead"
+                company: "Optimizely"
           -
             title: "Collaborating to Scale: How to Spread Optimization Across Your Org and Keep Things from Getting Messy"
             time: "3:40 - 4:25"
             location: "Bay Bridge Room"
-            description: "Learn how to build a testing program that scales with your business – it's all about collaboraiotn and communication. In this session, you'll learn how to build a unified optimization front across multiple geographies, teams, and functions, and how to collaborate on testing projects when multiple owners are involved, for instance, web and mobile teams."
+            description: "Learn how to build a testing program that scales with your business – it's all about collaboration and communication. In this session, you'll learn how to build a unified optimization front across multiple geographies, teams, and functions, and how to collaborate on testing projects when multiple owners are involved, for instance, web and mobile teams."
             companies: "Atlassian, Rue La La"
             track: "culture"
             roles: "marketer developer executive productmanager"
@@ -458,7 +466,7 @@ days:
             title: "Website Redesign Strategies"
             time: "4:45 - 5:30"
             location: "Golden Gate Room"
-            description: "Are you redesigning your website in the next year? Many industry experts agree that it’s best to develop a website iteratively, using A/B testing and optimization, but some websites are so rusty that only a major overhaul seems to be the solution. It can be daunting to navigate the critical process of a redesugn: rising costs, missed deadlines, and plummeting conversion rates instead of anticipated lifts. Learn from the experts on how to use customer interviews, closed-loop sales feedback, web analytics, and A/B testing to determine the optimal mix of content, navigation, and calls-to-action for your site. Get tips on how to drive results in spite of tight timelines, limited resources, CMS restrictions, and small datasets."
+            description: "Are you redesigning your website in the next year? Many industry experts agree that it’s best to develop a website iteratively, using A/B testing and optimization, but some websites are so rusty that only a major overhaul seems to be the solution. It can be daunting to navigate the critical process of a redesign: rising costs, missed deadlines, and plummeting conversion rates instead of anticipated lifts. Learn from the experts on how to use customer interviews, closed-loop sales feedback, web analytics, and A/B testing to determine the optimal mix of content, navigation, and calls-to-action for your site. Get tips on how to drive results in spite of tight timelines, limited resources, CMS restrictions, and small datasets."
             companies: "Apperian, j2 Global Communications, Western Governors University"
             track: "action"
             roles: "marketer productmanager"
@@ -524,7 +532,7 @@ days:
                 company: "Citrix"
               -
                 name: "Stacy Hill"
-                job_title: "Analytics Coordinator"
+                job_title: "Analytics Manager"
                 company: "Access Intelligence"
               -
                 name: "Moderated by: Clarissa Bukhan"
@@ -551,7 +559,7 @@ days:
             title: "The 21st Century Marketing Stack & Team"
             time: "10:20 – 11:05"
             location: "Golden Gate Room"
-            description: "Looking through the executive lens, we will discuss the 21st century marketing landscape, and how marketing leaders evaluate their tool stack and team. What are the most important pieces to have in places? Which teams are indispensable and what data needs to be collected? How does experience optimization fit into your digital marketing landscape, and what does the future hold?"
+            description: "Looking through the executive lens, we will discuss the 21st century marketing landscape, and how marketing leaders evaluate their tool stack and team. What are the most important pieces to have in place? Which teams are indispensable and what data needs to be collected? How does experience optimization fit into your digital marketing landscape, and what does the future hold?"
             companies: "99Designs, Demandbase, Hipmunk, Optimizely"
             track: "strategy"
             roles: "executive"
@@ -666,7 +674,7 @@ days:
             title: "Optimizely Product Feedback Roundtable Discussions"
             time: "11:25 - 12:10"
             location: "Expo Hall"
-            description: "<p>Connect with the product team that is building Optimizely! During these intimate roundtable discussions you can give feedback, push for feature requests and hear what is on the teams roadmap. We will encourage candid conversations and giving real insights into our teams vision for Optimizely. Reserve a seat for your topic of choice! Here are the discussion table topics:</p><ul><li>APIs and Integrations: Discussing the roadmap for Optimizely's technology integrations - John Provine, Senior Product Manager, Optimizely</li><li>Mobile: Optimizely's roadmap for mobile apps, and customer stories for getting started with mobile optimization - Suneet Shah, Senior Product Manager, Optimizely</li><li>Personalization: The roadmap for targeting, segmentation, and personalization in Optimizely - Jon Noronha, Product Manager, Optimizely</li><li>Results: Statistics, analytics and what results features you'd love to see - Fergal, Product Manager for the Predictive Analytics team</li><li>Web A/B Testing: Diving into our current web A/B testing product - Byron Jones, Product Manager and Erika Palmer, Product Manager, Optimizely</li></ul><p><a href='https://docs.google.com/forms/d/1BjlWwV4QwsQZfnCWdYlzHtvpNUeIdXK9cmKbLwnYceo/viewform'>Reserve your spot for a table here</a>.</p>"
+            description: "<p>Connect with the product team that is building Optimizely! During these intimate roundtable discussions you can give feedback, push for feature requests and hear what is on the team's roadmap. We will encourage candid conversations and giving real insights into our teams vision for Optimizely. Reserve a seat for your topic of choice! Here are the discussion table topics:</p><ul><li>APIs and Integrations: Discussing the roadmap for Optimizely's technology integrations - John Provine, Senior Product Manager, Optimizely</li><li>Mobile: Optimizely's roadmap for mobile apps, and customer stories for getting started with mobile optimization - Suneet Shah, Senior Product Manager, Optimizely</li><li>Personalization: The roadmap for targeting, segmentation, and personalization in Optimizely - Jon Noronha, Product Manager, Optimizely</li><li>Results: Statistics, analytics and what results features you'd love to see - Fergal, Product Manager for the Predictive Analytics team</li><li>Web A/B Testing: Diving into our current web A/B testing product - Byron Jones, Product Manager and Erika Palmer, Product Manager, Optimizely</li></ul><p><a href='https://docs.google.com/forms/d/1BjlWwV4QwsQZfnCWdYlzHtvpNUeIdXK9cmKbLwnYceo/viewform'>Reserve your spot for a table here</a>.</p>"
             companies: ""
             track: "action"
             roles: "productmanager developer marketer"
