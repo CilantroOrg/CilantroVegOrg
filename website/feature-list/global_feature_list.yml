@@ -159,10 +159,11 @@ TR_tables:
         starter_bool: false
         enterprise_bool: true
       -
-        TR_title: "User List"
+        TR_title: "User Lists"
         boolean: true
         starter_bool: false
         enterprise_bool: true
+        TR_tooltip: "Target optimized experiences to a list of users you have uploaded to Optimizely"
   -
     TR_title: "Integrate Data Across Your Platforms"
     TR_desc: "Seamlessly integrate Optimizely with the best-in-class
