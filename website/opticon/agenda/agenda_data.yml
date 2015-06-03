@@ -354,6 +354,10 @@ days:
                 name: "Kyle Humphries"
                 job_title: "Product Manager"
                 company: "Everyday Health"
+              -
+                name: "Moderated by: Pam Ongchin"
+                job_title: "Mobile Solutions Architect Lead"
+                company: "Optimizely"
           -
             title: "Collaborating to Scale: How to Spread Optimization Across Your Org and Keep Things from Getting Messy"
             time: "3:40 - 4:25"

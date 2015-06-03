@@ -353,6 +353,11 @@ guest_speakers:
       company: "Optimizely"
       blurb: "Jon is a Product Manager at Optimizely, the world's #1 Experience Optimization platform. He's been proud to launch new features like the Optimizely Developer Platform and Audience targeting, and he can't wait to share his latest project at Opticon. Before joining Optimizely, Jon rans hundreds of A/B tests himself as the Product Manager for Microsoft's Bing Image Search."
     -
+      name: "Pam Ongchin"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/pam-ongchin.png"
+      company: "Optimizely"
+      blurb: "Pam leads the Mobile Solutions Architect Team at Optimizely, providing technical expertise to help enterprise clients fully leverage the Optimizely platform and optimize their apps in powerful ways.  She joined Optimizely in 2013 and has since guided dozens of clients to success with their testing programs.  Before joining Optimizely, she was a hardware design engineer at Broadcom and a business development manager at Intel."
+    -
       name: "Robin Pam"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/robin-pam.png"
       company: "Optimizely"
