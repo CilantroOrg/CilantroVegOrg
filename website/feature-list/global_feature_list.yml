@@ -158,6 +158,11 @@ TR_tables:
         boolean: true
         starter_bool: false
         enterprise_bool: true
+      -
+        TR_title: "User List"
+        boolean: true
+        starter_bool: false
+        enterprise_bool: true
   -
     TR_title: "Integrate Data Across Your Platforms"
     TR_desc: "Seamlessly integrate Optimizely with the best-in-class
