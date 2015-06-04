@@ -90,6 +90,10 @@ var updatePlanInfo = function(){
       } else {
         //user is signed in, but no plan
         //sign the user up for the starter plan
+
+        //prevents user from creating multiple accounts
+        $('#feature-list-get-started-now').off('click');
+        console.log('Kicking off changePlan util function.');
         document.body.classList.add('processing-free-light');
         w.optly.mrkt.changePlanHelper.changePlan({
           plan: 'free_light',
