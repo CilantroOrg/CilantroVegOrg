@@ -5,7 +5,8 @@ module.exports = function(grunt){
   return {
     options: {
       includePaths: [
-        path.join(process.cwd(), 'node_modules/css-smart-grid/sass')
+        path.join(process.cwd(), 'node_modules/css-smart-grid/sass'),
+        require('lego').includePath
       ],
       functions: {
         'image-url($filename)': function(filename) {

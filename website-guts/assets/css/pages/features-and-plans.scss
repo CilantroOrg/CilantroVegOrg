@@ -197,15 +197,14 @@ body.features-and-plans {
   .enterprise-section {
     background-image: radial-gradient(48% 112%, #005275 46%, $brand-navy-blue 100%);
     border: 1px solid #F0F0F0;
-    * {
-      text-align: center;
-    }
+    * { text-align: center; }
     h2 {
       font-size: 36px;
       color: $light-blue;
       margin-bottom: 0;
       margin-top: 40px;
     }
+    .button-container { margin: 20px 0; }
     p {
       font-size: 18px;
       color: white;
