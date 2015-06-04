@@ -252,7 +252,7 @@ days:
             speakers:
               -
                 name: "Lauren Ford"
-                job_title: "Senior Quantative Analyst"
+                job_title: "Senior Quantitative Analyst"
                 company: "Trulia"
               -
                 name: "Claire Wissler"
@@ -501,12 +501,18 @@ days:
         start_time: "9:00"
         events:
           -
-            title: "Optie Awards Presentation"
+            title: "The Future of Technology, Optimization, and the “We Economy”"
             time: "9:00 - 10:00"
             location: "Golden Gate Room"
-            description: ""
-            track: "strategy platform action culture"
+            description: "This keynote address will dive into the transformational power of new “digital ecosystems”, exploring major trends in technology, data, and connectivity poised to completely transform the experiences we deliver to customers each and every day.  Find out how today’s most successful businesses use “digital ecosystems” to shift their thinking from “me” to “we”, and learn how you can too. Because, as Mary puts it: It’s not just about you, or me, or anyone else in particular. It’s about all of us – the “We Economy”."
+            companies: "Accenture"
+            track: "strategy"
             roles: "marketer developer productmanager executive"
+            speakers:
+              -
+                name: "Mary Hamilton"
+                job_title: "Managing Director, Digital Experiences R&D Lead"
+                company: "Accenture"
       -
         start_time: "10:00"
         title: "Break in Exhibit Hall"
@@ -770,7 +776,7 @@ days:
             title: "Hypothesize, Analyze, Optimize: Using Hidden Insights to Perfect your Experiment Process"
             time: "2:30 - 3:15"
             location: "Golden Gate Room"
-            description: "Testing is an iterative process, oftentimes with confusing or inconclusive results. However, every experiment has something to teach you, and all too often, critical information is left unnoticed! Learn how to look for insights hidden behind the the numbers and maximize the utility of every experiment you run."
+            description: "Testing is an iterative process, oftentimes with confusing or inconclusive results. However, every experiment has something to teach you, and all too often, critical information is left unnoticed! Learn how to look for insights hidden behind the numbers and maximize the utility of every experiment you run."
             companies: "Rue La La, Princess Cruises"
             track: "strategy"
             roles: "marketer productmanager"
