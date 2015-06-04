@@ -93,8 +93,7 @@ var updatePlanInfo = function(){
 
         //prevents user from creating multiple accounts
         // $('#feature-list-get-started-now').off('click');
-        $('#feature-list-get-started-now').append('<p>testing!</p>');
-        // console.log('Kicking off changePlan util function.');
+        $('#feature-list-get-started-now').append('<br><br><a class="starter-cta" id="feature-list-get-started-now">Get Started Now</a>');
         document.body.classList.add('processing-free-light');
         w.optly.mrkt.changePlanHelper.changePlan({
           plan: 'free_light',
