@@ -561,6 +561,14 @@ days:
                 name: "Eddie Hartman"
                 job_title: "Co-Founder & Chief Product Officer"
                 company: "LegalZoom"
+              -
+                name: "Ethan Kalm"
+                job_title: "Product Manager"
+                company: "One Kings Lane"
+              -
+                name: "Moderated by: Wyatt Jenkins"
+                job_title: "VP of Product"
+                company: "Optimizely"
           -
             title: "The 21st Century Marketing Stack & Team"
             time: "10:20 – 11:05"
