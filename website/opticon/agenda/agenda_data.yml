@@ -590,7 +590,7 @@ days:
             title: "Statistics in 40 minutes"
             time: "10:20 – 11:05"
             location: "Alcatraz Room"
-            description: "While our mission is to make A/B Testing safe and approachable regardless of your level of experience, you can always get better results by having a few core statistics principles in your tool shed. In this session we’ll dust off your statistical workbench by reviewing false positives, p-values, and the framework of statistical hypothesis testing, and then add to it the concepts of sequential testing and false discovery rates, all within the context of A/B Testing."
+            description: "While our mission is to make A/B Testing safe and approachable regardless of your level of experience, you can always get better results by developing your statistics fundamentals and keeping them sharp. In this session we’ll limber up by reviewing false positives, p-values, and the framework of statistical hypothesis testing, and then dive into sequential testing and false discovery rates, all within the context of A/B Testing."
             companies: "Optimizely"
             track: "action"
             roles: "executive marketer"
