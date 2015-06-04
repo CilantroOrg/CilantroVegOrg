@@ -17,14 +17,10 @@ var contactSalesHelpers = {
       url: '/event/contact-sales/success'
     });
 
-    var continueTo = w.optly.mrkt.utils.getURLParameter('continue_to');
-    if (continueTo) {
-      w.location = w.apiDomain + continueTo;
-    } else {
-      w.setTimeout(function() {
-        w.optly.mrkt.modal.open({ modalType: 'contact-sales-thank-you' });
-      }, 1000);
-    }
+    w.setTimeout(function() {
+      w.optly.mrkt.modal.open({ modalType: 'contact-sales-thank-you' });
+    }, 1000);
+
   }
 };
 

@@ -119,7 +119,6 @@ var createAccountHelper = {
         requestPayload: returnData.requestPayload
       });
 
-
       this.redirectHelper({
         redirectPath: w.apiDomain + '/welcome',
         bodyClass: 'signed-in'
