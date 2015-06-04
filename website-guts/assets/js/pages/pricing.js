@@ -200,6 +200,7 @@ $('#downgrade-plan-form').submit(function(e) {
 
 //check for url parameter to make the contact sales modal open on page load.
 var modal = w.optly.mrkt.utils.getURLParameter('modal');
-if (modal === 'contact-sales') {
-  w.optly.mrkt.modal.open({ modalType: modal, track: false });
+var source = w.optly.mrkt.utils.getURLParameter('source');
+if (modal === 'contact-sales' || source === 'mobile_editor') {
+  w.optly.mrkt.modal.open({ modalType: 'contact-sales', track: false });
 }

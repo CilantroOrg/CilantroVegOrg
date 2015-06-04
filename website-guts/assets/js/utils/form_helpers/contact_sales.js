@@ -2,10 +2,7 @@ window.optly.mrkt.form = window.optly.mrkt.form || {};
 
 var contactSalesHelpers = {
   success: function(returnData) {
-
     d.body.classList.add('contact-sales-success');
-
-    //var anonymousVisitorIdentifier = window.optly.mrkt.utils.randomString();
 
     w.optly.mrkt.Oform.trackLead({
       requestPayload: returnData.requestPayload
@@ -20,12 +17,14 @@ var contactSalesHelpers = {
       url: '/event/contact-sales/success'
     });
 
-    w.setTimeout(function() {
-
-      w.optly.mrkt.modal.open({ modalType: 'contact-sales-thank-you' });
-
-    }, 1000);
-
+    var continueTo = w.optly.mrkt.utils.getURLParameter('continue_to');
+    if (continueTo) {
+      //redirect goes here
+    } else {
+      w.setTimeout(function() {
+        w.optly.mrkt.modal.open({ modalType: 'contact-sales-thank-you' });
+      }, 1000);
+    }
   }
 };
 
