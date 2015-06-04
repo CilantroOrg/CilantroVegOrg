@@ -29,7 +29,10 @@ body {
   min-height: 100%;
 }
 
-img {max-width: 100%;}
+img {
+  display: inline;
+  max-width: 100%;
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -328,7 +331,7 @@ ul {
     textarea {
       &:focus,
       &:active {
-        outline: 3px solid #5B9DD9; 
+        outline: 3px solid #5b9dd9;
         outline-style: auto;
         outline-width: 4.54545450210571px; 
       }
