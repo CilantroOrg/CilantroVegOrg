@@ -19,7 +19,7 @@ var contactSalesHelpers = {
 
     var continueTo = w.optly.mrkt.utils.getURLParameter('continue_to');
     if (continueTo) {
-      //redirect goes here
+      w.location = w.apiDomain + continueTo;
     } else {
       w.setTimeout(function() {
         w.optly.mrkt.modal.open({ modalType: 'contact-sales-thank-you' });
