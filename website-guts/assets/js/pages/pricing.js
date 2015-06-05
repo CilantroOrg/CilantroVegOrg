@@ -91,7 +91,7 @@ var updatePlanInfo = function(){
         //user is signed in, but no plan
         //sign the user up for the starter plan
 
-        //prevents user from creating multiple accounts while waiting for ajax call to return
+        //prevents user from creating multiple accounts while waiting for ajax call to return:
         $('#feature-list-get-started-now').off('click');
         document.body.classList.add('processing-free-light');
         w.optly.mrkt.changePlanHelper.changePlan({
