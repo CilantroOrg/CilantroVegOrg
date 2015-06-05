@@ -9,54 +9,47 @@ footer {
     #footer-nav-cont {
         @extend .clearfix;
         margin-top: 25px;
-        .left-nav {
-            width: 100%;
-        }
-        .right-nav {
-            width: 100%;
-        }
+        .left-nav { width: 100%; }
+        .right-nav { width: 100%; }
     }
-    .footer-wrapper {
-        overflow: hidden;
-    }
+    .footer-wrapper { overflow: hidden; }
     text-align: center;
     padding: 30px 0;
     background: $brand-blue;
-    color: #fff;
+    color: $white;
     h4 {
-        font-size: 1.3em;
+      font-size: 1.3em;
     }
     ul {
-        padding: 0;
-        margin: 0;
+      padding: 0;
+      margin: 0;
     }
     li {
-        text-align: center;
-        list-style-type: none;
-        margin-bottom: 20px;
+      text-align: center;
+      list-style-type: none;
+      margin-bottom: 20px;
     }
     a {
-        color: $light-blue;
-        text-decoration: none;
+      color: $light-blue;
+      text-decoration: none;
+      &:visited { color: $light-blue; }
     }
     a:hover {text-decoration: underline;}
     .separater {display: none;}
     .social-links {
-        li {
-            display: inline-block;
-        }
+        li { display: inline-block; }
         a {
-            background-size: contain;
-            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-            opacity: 0.8;
-            background-repeat: no-repeat;
-            color: $light-blue;
-            display: inline-block;
-            height: 0;
-            margin-right: 6px;
-            overflow: hidden;
-            padding-top: 25px;
-            width: 25px;
+          background-size: contain;
+          filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+          opacity: 0.8;
+          background-repeat: no-repeat;
+          color: $light-blue;
+          display: inline-block;
+          height: 0;
+          margin-right: 6px;
+          overflow: hidden;
+          padding-top: 25px;
+          width: 25px;
         }
     }
     .twitter {

@@ -21,6 +21,7 @@
         <script src="//cdn.optimizely.com/js/{{environmentVariables.optimizelyProjectID}}.js"></script>
         <script type="text/javascript">
           window.apiDomain = '{{apiDomain}}';
+          window.linkPath = '{{linkPath}}';
           !function(){var analytics=window.analytics=window.analytics||[];if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.0";
           analytics.load('{{environmentVariables.segmentProjectID}}');
           analytics.page()
@@ -57,6 +58,8 @@
         {{/each}}
         {{/if}}
         <link rel="stylesheet" type="text/css" href="{{assetsDir}}/css/om/styles.css">
+        <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7838232/684744/css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7838232/736966/css/fonts.css">
         {{#if this.head_script ~}}<script src="{{this.head_script}}"></script>{{/if}}
         {{#if environmentVariables.production}}
         <script id="bizible-settings" type="text/javascript" src="//cdn.bizible.com/_biz-a.js" async data-attach-secure-forms="true"></script>
@@ -104,7 +107,7 @@
                                                 <li><a href="{{linkPath}}/pricing">Plans and Pricing</a></li>
                                                 <li><a href="{{linkPath}}/benefits/">Benefits</a></li>
                                                 <li><a href="{{linkPath}}/mobile/">iOS</a></li>
-                                                <li><a href="{{linkPath}}/partners/">Optimizely for Agencies</a></li>
+                                                <li><a href="{{linkPath}}/partners/solutions">Optimizely for Agencies</a></li>
                                                 <li><a href="http://developers.optimizely.com">Optimizely for Developers</a></li>
                                                 <li><a href="{{linkPath}}/ecommerce/">Optimizely for E-commerce</a></li>
                                                 <li><a href="{{linkPath}}/enterprises/">Optimizely for Enterprises</a></li>

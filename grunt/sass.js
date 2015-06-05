@@ -1,12 +1,12 @@
 var path = require('path');
-var fs = require('fs');
 var sass = require('grunt-sass/node_modules/node-sass');
 
 module.exports = function(grunt){
   return {
     options: {
       includePaths: [
-        path.join(process.cwd(), 'node_modules/css-smart-grid/sass')
+        path.join(process.cwd(), 'node_modules/css-smart-grid/sass'),
+        require('lego').includePath
       ],
       functions: {
         'image-url($filename)': function(filename) {

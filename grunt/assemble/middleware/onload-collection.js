@@ -1,14 +1,8 @@
-var extend = require('extend-shallow');
 var _ = require('lodash');
 var path = require('path');
-var removeTranslationKeys = require('../utils/remove-translation-keys.js');
 
 module.exports = function(assemble) {
-  function filterTags(arr) {
-    return arr.filter(function(tag) {
-      return !!tag;
-    });
-  }
+  var removeTranslationKeys = require('../utils/remove-translation-keys.js')(assemble);
   //sets a key on the assemble instance equal to the collection name
   //this object contains keys of the dirname using dirnameKey rename key function
   //and then the collection is accessed in the template using the collection
@@ -35,6 +29,26 @@ module.exports = function(assemble) {
       var key = path.join(dirname, basename);
       if(col[key]) {
         return next();
+      }
+      /**
+       * add a data_region attribute that will not be translated to work in dropdown menu
+       */
+      if(file.data.TR_locations) {
+        file.data.TR_locations.forEach(function(locationObj) {
+          var regionData = locationObj.location.TR_region;
+          if(_.isString(regionData)) {
+            locationObj.location.data_region = regionData.toLowerCase();
+          }
+        });
+      }
+      if(_.isArray(file.data.TR_tags)) {
+        file.data.data_tags = file.data.TR_tags.reduce(function(arr, tag) {
+          if(_.isString(tag)) {
+            arr.push(tag.toLowerCase());
+          }
+
+          return arr;
+        }, []);
       }
       col[key] = _.merge({}, col[key], file.data);
       removeTranslationKeys(col[key]);

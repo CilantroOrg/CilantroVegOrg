@@ -48,8 +48,8 @@ customer_logos:
     url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile/2.png"
     name: "Rhapsody"
   -
-    url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile/3.png"
-    name: "Pose"
+    url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/running-app-logo.png"
+    name: "RunKeeper"
   -
     url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile/4.png"
     name: "CheapOair"
@@ -91,7 +91,7 @@ testing_ideas:
     icon_dynamic: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/dynamic/input.gif"
     TR_title: "Inputs and Interactions"
     TR_text: "Every chance for a user to interact with your app is a chance for you to optimize. Test different types of forms and inputs."
-    article_link: "#"
+    article_link: "//help.optimizely.com/hc/en-us/articles/205043058"
   -
     icon_static: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/static/re-engage-static.gif"
     icon_dynamic: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/dynamic/re-engage-2.gif"
@@ -101,9 +101,9 @@ testing_ideas:
   -
     icon_static: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/static/rollout-static.gif"
     icon_dynamic: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/dynamic/rollout-2.gif"
-    TR_title: "Phase Rollouts"
+    TR_title: "Phased Rollouts"
     TR_text: "Mobile split testing and multivariate testing give you an easy way to test new features and quickly remove the ones that don’t work."
-    article_link: "#"
+    article_link: "//help.optimizely.com/hc/en-us/articles/206101447"
 form_panel:
   bg_img: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/bottom-img-comp.jpg"
   TR_title: "Start optimizing"

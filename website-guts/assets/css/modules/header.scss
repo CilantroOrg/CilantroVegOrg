@@ -1,35 +1,31 @@
 header {
-    background: $brand-navy-blue;
-    .utility-nav {
-      margin: 0;
-      li {
-        text-align: right;
-        & > a {
-          display: inline-block;
-          &:hover {text-decoration: none;}
-        }
-        ul {
-          padding-left: 0;
+  background: $brand-navy-blue;
+  .utility-nav {
+    margin: 0;
+    li {
+      text-align: right;
+      .utility-nav--item {
+        display: inline-block;
+        color: $white;
+        &:hover {
+          text-decoration: none;
+          color: $white;
+          background: $brand-blue-hover;
         }
       }
+      ul { padding-left: 0; }
     }
+  }
 }
 .nav {
-    padding: 0;
-    li {
-        list-style-type: none;
-    }
-    p, a {
-        color: #fff;
-    }
-    a {
-        text-decoration: none;
-    }
+  padding: 0;
+  li { list-style-type: none; }
+  p,
+  a { color: $white; }
+  a { text-decoration: none; }
 }
 @media only screen and (max-width: 59.99em) {
-    body {
-        background: $brand-navy-blue;
-    }
+    body { background: $brand-navy-blue; }
     header {
         position: relative;
         .container {
@@ -93,14 +89,14 @@ header {
       padding: 10px 0;
     }
     #nav-menu {
-        color: #fff;
+        color: $white;
         font-size: .8em;
         line-height: .9em;
         font-weight: 100;
         text-transform: uppercase;
         padding: 9px 5px;
         text-align: center;
-        border: 1px solid #fff;
+        border: 1px solid $white;
         border-radius: 3px;
     }
     #main-nav > li {
@@ -165,7 +161,7 @@ header {
         width: 31px;
     }
     #user-icon-path {
-        fill: #fff;
+        fill: $white;
     }
     #utility-nav-cont:before {
         content: "";
