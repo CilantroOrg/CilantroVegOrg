@@ -825,14 +825,14 @@ days:
             time: "3:35 - 4:20"
             location: "Coit Tower Room"
             description: "Do your digital experiences convey your unique value proposition? What about creating customer delight with humor and wit? Learn how to cut through the noise and create meaningful audience connections that drive conversions."
-            companies: "FunnyBiz, Elevated"
+            companies: "FunnyBizz, Elevated"
             track: "strategy"
             roles: "marketer productmanager"
             speakers:
               -
                 name: "Rachman Blake"
                 job_title: "Co-Founder"
-                company: "FunnyBiz"
+                company: "FunnyBizz"
               -
                 name: "Keith Lovgren"
                 job_title: "Director of Conversion Rate Optimization"
