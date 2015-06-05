@@ -183,7 +183,7 @@ days:
                 company: "Optimizely"
               -
                 name: "Adam Avramescu"
-                job_title: "Customer Education Manager"
+                job_title: "Head of Customer Education"
                 company: "Optimizely"
           -
             title: "Pushing the Boundaries of Optimizely"
@@ -352,7 +352,7 @@ days:
                 company: "Pinterest"
               -
                 name: "Kyle Humphries"
-                job_title: "Product Manager"
+                job_title: "Senior Product Manager"
                 company: "Everyday Health"
               -
                 name: "Moderated by: Pam Ongchin"
@@ -418,7 +418,7 @@ days:
             speakers:
               -
                 name: "Michelle Levesque"
-                job_title: "Staff Software Engineer"
+                job_title: "Senior Staff Software Engineer"
                 company: "Google"
               -
                 name: "Moderated by: Chrix Finne"
@@ -583,8 +583,8 @@ days:
                 job_title: "CMO"
                 company: "99Designs"
               -
-                name: "Peter Isaacson"
-                job_title: "CMO"
+                name: "Philip Hollrah"
+                job_title: "VP, Product Marketing"
                 company: "Demandbase"
               -
                 name: "Roxy Young"
@@ -848,7 +848,7 @@ days:
           -
             title: "UX That Doesn’t Make You Think: Removing Friction and Cognitive Overhead"
             time: "3:35 - 4:20"
-            location: "Bay Bridge Room"
+            location: "Golden Gate Room"
             description: "When words like ‘intuitive’ and ‘convenient’ mean different things to different people and both are often a far cry from ‘effective’, how do you think about the user experience? How do you develop test hypotheses in a way that sets you up to beat the 20% industry-average win rate? Join for an in-depth look at methods and case studies that will help you get inside consumers’ heads to win the optimization game."
             companies: "Volusion, Optimizely"
             track: "strategy"
@@ -865,20 +865,12 @@ days:
           -
             title: "The Art and Science of Persuasion: Creating Change with your Results"
             time: "3:35 - 4:20"
-            location: "Golden Gate Room"
+            location: "Bay Bridge Room"
             description: "Optimizely’s results page is full of data to help you make decisions about your business. Even with all of this information, it’s not always straightforward to call a winner among the mixed messages you might get. This session will break down the results page and give you strategies for evaluating your test results to identify actionable data and create an iterative testing process."
-            companies: "CBS Interactive, Optimizely"
+            companies: "Optimizely"
             track: "action"
             roles: "marketer productmanager"
             speakers:
-              -
-                name: "Daniel Kamas"
-                job_title: "Product Manager"
-                company: "CBS Interactive"
-              -
-                name: "Kelly Fang"
-                job_title: "Associate Product Manager"
-                company: "CBS Interactive"
               -
                 name: "Khattaab Khan"
                 job_title: "Strategic Consultant"
