@@ -143,11 +143,6 @@ guest_speakers:
       company: "Apperian"
       blurb: "Tiffany Early is the Director of Digital Branding at Apperian, an early stage enterprise tech company based in Boston. She is responsible for the company's digital strategy and growth, building brand awareness, and driving new business. She's also a digital marketing Expert in Residence at General Assembly New York. Prior to Apperian, Tiffany worked at iProspect London as a Search Director for global clients and got her start in search marketing at iProspect San Francisco. As a digital nomad, she's lived in San Francisco, London, Paris, Amsterdam, and New York."
     -
-      name: "Kelly Fang"
-      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/kelly_fang.png"
-      company: "CBS Interactive"
-      blurb: "Kelly Fang is the product lead for ZDNet.com. Her UX optimization and A/B testing experience began when she was an intern at CBSi and has been addicted ever since. Kelly is a champion napper, and a serial dabbler in all things tech and design."
-    -
       name: "Chrix Finne"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/chrix-finne.png"
       company: "Optimizely"
@@ -202,21 +197,31 @@ guest_speakers:
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/stacy-hillcropped.png"
       company: "Access Intelligence"
       blurb: "As part of the Digital Services team at Access Intelligence, Ms. Hill manages the implementation of Optimizely campaigns for over 20 brands in the Access Intelligence portfolio. She helped create a scalable testing strategy to allow all Optimizely campaigns to be managed centrally within the company before gradually training brand teams to become more self-sufficient."
+    #-
+      #name: "Philip Hollrah"
+      #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/philip-hollrah.png"
+      #company: "Demandbase"
+      #blurb: ""
     -
       name: "Kyle Humphries"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/kyle-humphries.png"
       company: "Everyday Health"
       blurb: "Kyle currently runs a portfolio of mobile apps at Everyday Health, Inc. His background in digital product management is focused on developing high-performance teams within a growing company. He specializes in mobile product strategy and design, business models, and partnerships which deliver the best products to engage a target audience."
     -
-      name: "Peter Isaacson"
-      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/peter-isaacson.png"
-      company: "Demandbase"
-      blurb: "Peter Isaacson is a proven business leader with over 25 years of marketing experience in job responsibilities ranging from branding and advertising to corporate communications and product marketing. This includes deep experience in both B2C and B2B marketing and managing large teams across international markets. As Chief Marketing Officer for Demandbase, Peter is responsible for overall marketing strategy and execution, including product, corporate, and field marketing. Prior to joining Demandbase, Peter was CMO at Castlight Health, helping to scale the company and build the marketing team prior to their successful IPO. Peter has also held leadership positions at Microstrategy and Adobe, where he led various functions, including brand marketing, WW field marketing, and the WW Education vertical business. Peter got his start in advertising, working at agencies in New York on accounts ranging from Procter & Gamble to Compaq computers."
-    -
       name: "Alex Ivashchenko"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/alex-ivashchenko.png"
       company: "Trulia"
       blurb: "Alex Ivashchenko works on everything Javascript at Trulia for the last 3+ years, making mWeb awesome as part of awesome team for the last one and half years. Before that Alex was creating interfaces for Yahoo internal services and bringing photoshop files into life in small design agencies in Canada."
+    -
+      name: "Wyatt Jenkins"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/wyatt-jenkins.png"
+      company: "Optimizely"
+      blurb: "Recently joining Optimizely as VP Product, Wyatt has spent the last 15 years building products with expertise in optimization from multiple e-commerce businesses. After seeing the power of A/B testing, experimentation and personalization firsthand, he jumped at the opportunity to work on the world's best optimization platform. Previously, he was VP Product at Shutterstock where he managed product development from a single team to a successful IPO with 25+ teams across Mobile, Search & Discovery, E-commerce optimization and Localization. Prior to that, he was an original member of electronic music startup Beatport.com where he learned the ropes building a technology marketplace. Early in his career, he was a professional DJ from 1993 - 2006."
+    #-
+      #name: "Ethan Kalm"
+      #image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/ethan-kalm.png"
+      #company: "One Kings Lane"
+      #blurb: ""
     -
       name: "Rohan Karunakaran"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/rohan-karunakaran.png"
@@ -227,11 +232,6 @@ guest_speakers:
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/brian-kelley.png"
       company: "KISSmetrics"
       blurb: "Brain Kelly is the CEO of KISSmetrics. He began his career at Teradata, analyzing customer data for retail and financial institutions. Then he built analytics tools at Intrepid and PeopleSoft. Later, he was the CEO of Quantivo, one of the first large-scale cloud-based analytics platforms. Immediately prior to KISSmetrics, he was the CMO of InsideView, a CRM Intelligence provider. He's passionate about making analytics insights accessible in order to help businesses succeed."
-    -
-      name: "Daniel Kamas"
-      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/dan_kamas.png"
-      company: "CBS Interactive"
-      blurb: "Dan Kamas is an experienced multimedia professional and a proud member of the CBS Interactive team. In addition to current product work, Dan has a varied background as a producer, consultant, and award-winning composer."
     -
       name: "Khattaab Khan"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/khattaab_khan.png"
