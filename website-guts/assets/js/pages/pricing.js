@@ -94,13 +94,20 @@ var updatePlanInfo = function(){
         //prevents user from creating multiple accounts while waiting for ajax call to return:
         $('#feature-list-get-started-now').off('click');
         document.body.classList.add('processing-free-light');
+        var redirectPath = w.apiDomain + '/welcome';
+        if (w.optly.mrkt.utils.getURLParameter('source') === 'mobile_editor') {
+          var continueTo = w.optly.mrkt.utils.getURLParameter('continue_to');
+          if (continueTo) {
+            redirectPath = w.apiDomain + continueTo;
+          }
+        }
         w.optly.mrkt.changePlanHelper.changePlan({
           plan: 'free_light',
           callback: function(){
               //show confirmation
               //w.optly.mrkt.modal.open({ modalType: 'pricing-plan-signup-thank-you' });
               if(!automatedTest){
-                w.location = w.apiDomain + '/welcome';
+                w.location = redirectPath;
               }
           },
           load: w.optly.mrkt.changePlanHelper.load
