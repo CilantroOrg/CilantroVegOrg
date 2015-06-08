@@ -148,20 +148,16 @@ var createAccountHelper = {
       w.optly.mrkt.changePlanHelper.changePlan({
         plan: 'free_light',
         callback: function(){
-          var source = w.optly.mrkt.utils.getURLParameter('source');
-          if (source === 'mobile_editor') {
-            var continueTo = w.optly.mrkt.utils.getURLParameter('continue_to');
-            if (continueTo) {
-              w.location = w.apiDomain + continueTo;
-            }
-          } else {
+            //show confirmation
+            //w.optly.mrkt.modal.open({ modalType: 'pricing-plan-signup-thank-you' });
             w.location = w.apiDomain + '/welcome';
-          }
         },
         load: w.optly.mrkt.changePlanHelper.load
       });
+
     }
   }
+
 };
 
 window.optly.mrkt.form.createAccount = function(argumentsObj) {
