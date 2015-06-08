@@ -2,10 +2,7 @@ window.optly.mrkt.form = window.optly.mrkt.form || {};
 
 var contactSalesHelpers = {
   success: function(returnData) {
-
     d.body.classList.add('contact-sales-success');
-
-    //var anonymousVisitorIdentifier = window.optly.mrkt.utils.randomString();
 
     w.optly.mrkt.Oform.trackLead({
       requestPayload: returnData.requestPayload
@@ -21,9 +18,7 @@ var contactSalesHelpers = {
     });
 
     w.setTimeout(function() {
-
       w.optly.mrkt.modal.open({ modalType: 'contact-sales-thank-you' });
-
     }, 1000);
 
   }
