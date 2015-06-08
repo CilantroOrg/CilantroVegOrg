@@ -1,0 +1,35 @@
+---
+layout: wrapper
+TR_visible_title: Solutions
+body_class:
+- solutions
+no_container: true
+page_header: false
+page_script: solutions.js
+TR_seo_title: Solutions
+TR_og_title: "Solutions"
+TR_og_description: "Get started optimizing instantly, or build a custom plan for your business."
+---
+
+<!--             -->
+<!--Title Section-->
+<!--             -->
+{{#with page_data.title_section}}
+<section>
+  <div class="title-section container">
+    <h5 class="title-copy">{{title}}</h5>
+    <h1 class="title-copy">{{sub_title}}</h1>
+  </div>
+</section>
+{{/with}}
+
+<!--                -->
+<!--Products Section-->
+<!--                -->
+{{#with page_data.products-section}}
+<section class="produts-section">
+  {{#each products}}
+
+  {{/each}}
+</section>
+{{/with}}

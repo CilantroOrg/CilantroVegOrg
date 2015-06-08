@@ -1,0 +1,15 @@
+body.solutions {
+  section {
+    background: $white;
+  }
+}
+
+@media only screen and (min-width: $tablet-min-width) {
+  body.solutions {
+  }
+}
+
+@media only screen and (min-width: $desktop-min-width) {
+  body.solutions {
+  }
+}
