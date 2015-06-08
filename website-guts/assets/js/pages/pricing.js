@@ -91,9 +91,8 @@ var updatePlanInfo = function(){
         //user is signed in, but no plan
         //sign the user up for the starter plan
 
-        //prevents user from creating multiple accounts while waiting for ajax call to return:
-        $('#feature-list-get-started-now').off('click');
-        document.body.classList.add('processing-free-light');
+        //prevents user from creating multiple accounts while waiting for ajax call to return, greys out button:
+        $('#feature-list-get-started-now').off('click').addClass('disabled');
         w.optly.mrkt.changePlanHelper.changePlan({
           plan: 'free_light',
           callback: function(){

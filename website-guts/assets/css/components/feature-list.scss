@@ -142,6 +142,10 @@
     @extend .pricing-button;
     padding: 12px 15px;
   }
+  .starter-cta.disabled{
+    opacity: 0.4;
+    cursor: default;
+  }
 }
 
 @media only screen and (min-width: $tablet-min-width) {
