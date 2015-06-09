@@ -15,21 +15,37 @@ TR_og_description: "Get started optimizing instantly, or build a custom plan for
 <!--Title Section-->
 <!--             -->
 {{#with page_data.title_section}}
-<section>
+<section class="hero">
   <div class="title-section container">
-    <h5 class="title-copy">{{title}}</h5>
-    <h1 class="title-copy">{{sub_title}}</h1>
+    <h5 class="title title--header">{{title}}</h5>
+    <h1 class="title title--subheader">{{sub_title}}</h1>
   </div>
 </section>
 {{/with}}
 
+
 <!--                -->
 <!--Products Section-->
 <!--                -->
-{{#with page_data.products-section}}
-<section class="produts-section">
-  {{#each products}}
+{{#with page_data.products_section}}
+<section class="products-section">
+  <div class="product-tab-container container">
+    {{#each products}}
+    <div class="product-tab">
+      <h6 class="product-tab--title">{{this.tab_title}}</h6>
+    </div>
+    {{/each}}
+  </div>
+</section>
+{{/with}}
 
-  {{/each}}
+
+<!--           -->
+<!--CTA Section-->
+<!--           -->
+{{#with page_data.cta_section}}
+<section class="cta-section">
+  <h1>{{title}}</h1>
+  <p>{{subtitle}}</p>
 </section>
 {{/with}}

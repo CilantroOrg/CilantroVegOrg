@@ -1,6 +1,23 @@
 body.solutions {
-  section {
-    background: $white;
+  .hero {
+    background: $brand-navy-blue;
+    text-align: center;
+    padding: 115px 0;
+  }
+  .title {
+    color: $white;
+    text-align: center;
+    &--header {
+    }
+  }
+  .product-tab-container {
+    display: flex;
+  }
+  .product-tab {
+    flex: 1;
+    &--title {
+      text-align: center;
+    }
   }
 }
 

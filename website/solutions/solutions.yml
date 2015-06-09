@@ -1,6 +1,6 @@
 title_section:
   TR_title: "Experience Optimization Platform"
-  TR_sub_title: "Optimizely’s Experience Optimization Platform empowers you to turn your data into action.  Discover and deliver the best experience for each customer across desktop, mobile web, and mobile apps - quickly and easily."
+  TR_sub_title: "Discover and deliver the best experiences across desktop, mobile web, and mobile apps"
 
 products_section:
   products:
@@ -9,18 +9,24 @@ products_section:
       content_title: "Testing you'll actually use"
       blurb: "Optimizely Testing is the most adopted A/B testing platform in the world, optimizing billions of experiences every month for customers across diverse industries including media, retail, travel, and technology. Easy-to-use and robust A/B, multivariate, and multi-page testing gives you everything you need to improve engagement and increase revenue across desktop, mobile web, and mobile apps."
     -
-      tab_title: "Testing"
+      tab_title: "Personalization"
       content_title: "Testing you'll actually use"
       blurb: "Optimizely Testing is the most adopted A/B testing platform in the world, optimizing billions of experiences every month for customers across diverse industries including media, retail, travel, and technology. Easy-to-use and robust A/B, multivariate, and multi-page testing gives you everything you need to improve engagement and increase revenue across desktop, mobile web, and mobile apps."
     -
-      tab_title: "Testing"
+      tab_title: "Targeting"
       content_title: "Testing you'll actually use"
       blurb: "Optimizely Testing is the most adopted A/B testing platform in the world, optimizing billions of experiences every month for customers across diverse industries including media, retail, travel, and technology. Easy-to-use and robust A/B, multivariate, and multi-page testing gives you everything you need to improve engagement and increase revenue across desktop, mobile web, and mobile apps."
     -
-      tab_title: "Testing"
+      tab_title: "Analytics"
       content_title: "Testing you'll actually use"
       blurb: "Optimizely Testing is the most adopted A/B testing platform in the world, optimizing billions of experiences every month for customers across diverse industries including media, retail, travel, and technology. Easy-to-use and robust A/B, multivariate, and multi-page testing gives you everything you need to improve engagement and increase revenue across desktop, mobile web, and mobile apps."
     -
-      tab_title: "Testing"
+      tab_title: "Platform"
       content_title: "Testing you'll actually use"
       blurb: "Optimizely Testing is the most adopted A/B testing platform in the world, optimizing billions of experiences every month for customers across diverse industries including media, retail, travel, and technology. Easy-to-use and robust A/B, multivariate, and multi-page testing gives you everything you need to improve engagement and increase revenue across desktop, mobile web, and mobile apps."
+
+cta_section:
+  title: "Ready to jump in?"
+  subtitle: "Optimizely Testing is the most adopted A/B testing platform in the world"
+  button_cta: "Plans and pricing"
+
