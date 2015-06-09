@@ -8,7 +8,7 @@ page_header: false
 page_script: solutions.js
 TR_seo_title: Solutions
 TR_og_title: "Solutions"
-TR_og_description: "Get started optimizing instantly, or build a custom plan for your business."
+TR_og_description: "Discover and deliver the best experience for each customer across desktop, mobile web, and mobile apps."
 ---
 
 <!--             -->
@@ -17,8 +17,8 @@ TR_og_description: "Get started optimizing instantly, or build a custom plan for
 {{#with page_data.title_section}}
 <section class="hero">
   <div class="title-section container">
-    <h5 class="title title--header">{{title}}</h5>
-    <h1 class="title title--subheader">{{sub_title}}</h1>
+    <h1 class="title title--header">{{title}}</h1>
+    <h6 class="title title--subheader">{{sub_title}}</h6>
   </div>
 </section>
 {{/with}}
@@ -38,7 +38,7 @@ TR_og_description: "Get started optimizing instantly, or build a custom plan for
   </div>
   {{#each products}}
   <div class="container">
-    <p>{{{this.blurb}}}</p>
+    <div>{{{this.blurb}}}</div>
   </div>
   {{/each}}
 </section>
