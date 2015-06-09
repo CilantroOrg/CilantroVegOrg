@@ -36,16 +36,10 @@ TR_og_description: "Get started optimizing instantly, or build a custom plan for
     </div>
     {{/each}}
   </div>
-</section>
-{{/with}}
-
-
-<!--           -->
-<!--CTA Section-->
-<!--           -->
-{{#with page_data.cta_section}}
-<section class="cta-section">
-  <h1>{{title}}</h1>
-  <p>{{subtitle}}</p>
+  {{#each products}}
+  <div class="container">
+    <p>{{{this.blurb}}}</p>
+  </div>
+  {{/each}}
 </section>
 {{/with}}
