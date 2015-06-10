@@ -78,3 +78,10 @@ $('#get-started input:not([type="hidden"]), #signup-form input:not([type="hidden
     }
   }, 1000);
 });
+
+//TODO(peng-wen): Temporarily allowing signing up developer accounts here.
+//Move this to developers site once fixing the HTTPS issue
+var modal = w.optly.mrkt.utils.getURLParameter('modal');
+if (modal === 'devsignup') {
+  w.optly.mrkt.modal.open({ modalType: modal, track: false });
+}
