@@ -31,7 +31,7 @@ TR_og_description: "Discover and deliver the best experience for each customer a
 <section class="products-section">
   <div class="product-tab-container container">
     {{#each products}}
-    <div class="product-tab">
+    <div class="product-tab js-product-tab {{#toLowerCase this.tab_title}}{{/toLowerCase}}">
       <h6 class="product-tab--title product-tab--title--active">{{this.tab_title}}</h6>
     </div>
     {{/each}}
