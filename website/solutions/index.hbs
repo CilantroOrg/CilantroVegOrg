@@ -32,13 +32,18 @@ TR_og_description: "Discover and deliver the best experience for each customer a
   <div class="product-tab-container container">
     {{#each products}}
     <div class="product-tab">
-      <h6 class="product-tab--title">{{this.tab_title}}</h6>
+      <h6 class="product-tab--title product-tab--title--active">{{this.tab_title}}</h6>
     </div>
     {{/each}}
   </div>
   {{#each products}}
-  <div class="container">
-    <div>{{{this.blurb}}}</div>
+  <div class="product-showcase container flex-cont">
+    {{! [Stew] This is h6 because of missed translation deadline }}
+    <div class="product-showcase__container">
+      <h6 class="title--blurb">{{this.tab_title}}</h6>
+      <div class="explanation">{{{this.blurb}}}</div>
+    </div>
+    <div class="product-img"></div>
   </div>
   {{/each}}
 </section>

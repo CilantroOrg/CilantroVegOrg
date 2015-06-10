@@ -4,23 +4,69 @@ body.solutions {
     text-align: center;
     padding: 115px 0;
   }
+  .flex-cont {
+    display: flex;
+  }
   .title {
-    color: $white;
     text-align: center;
+    color: $white;
     &--header {
+      font-size: 3em;
+    }
+    &--subheader {
+      font-size: .925em;
+      color: rgba(255,255,255,0.70);
+    }
+    &--blurb {
+      font-size: 30px;
+      color: #454B50;
+      line-height: 40px;
     }
   }
   .product-tab-container {
     display: flex;
+    margin-bottom: 50px;
   }
   .product-tab {
     flex: 1;
+    border-bottom: 1px solid #979797;
     &--title {
       text-align: center;
+      font-size: .875em;
+      font-weight: 600;
+      color: rgba(69,75,80,0.55);
+      letter-spacing: 1.39px;
+      background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/solutions-icon-placeholder.png');
+      background-repeat: no-repeat;
+      background-position: top center;
+      padding-top: 30px;
+    }
+    &--active {
+      border-bottom: 2px solid #00415D;
+      .product-tab--title { color: $brand-navy-blue; }
     }
   }
   .products-section {
     background: $white;
+    padding-bottom: 75px;
+  }
+  .product-showcase {
+    margin-top: 50px;
+    &__container {
+      width: 50%;
+    }
+  }
+  .explanation {
+    p, li {
+      font-size: 1.125em;
+      color: #696F72;
+      line-height: 30px;
+    }
+  }
+  .product-img {
+    background: url('https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/solutions-product-placeholder.png');
+    width: 50%;
+    padding-top: 300px;
   }
 }
 
