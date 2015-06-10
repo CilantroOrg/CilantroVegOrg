@@ -214,7 +214,7 @@ days:
             title: "How to Build a Culture of Optimization from Within"
             time: "1:30 - 2:15"
             location: "Golden Gate Room"
-            description: "A successful optimization program doesn't just appear out of thin air. It takes bold ideas, a nimble approach, a talented team, and an overwhelming desire to experiment and learn. At the core of all of this is your company's internal culture. Join leaders from Pinterest and Eventbrite to learn how to develop a growth mindset that extends well beyond the web and mobile. You'll walk away with actionable ideas to strengthen your people, talent, and culture in a data-driven way."
+            description: "A successful optimization program doesn't just appear out of thin air. It takes bold ideas, a nimble approach, a talented team, and an overwhelming desire to experiment and learn. At the core of all of this is your company's internal culture. Join leaders from Thumbtack, Pinterest and Eventbrite to learn how to develop a growth mindset that extends well beyond the web and mobile. You'll walk away with actionable ideas to strengthen your people, talent, and culture in a data-driven way."
             companies: "Pinterest, Eventbrite, Thumbtack"
             track: "culture"
             roles: "marketer productmanager executive"
@@ -380,10 +380,22 @@ days:
             time: "3:40 - 4:25"
             location: "Alcatraz Room"
             description: "Optimizely offers several tools for developers to extend and integrate with Optimizely in new ways. In this session, an Optimizely product manager will give an overview of the Optimizely Developer Platform and explain how you can use APIs to transform your testing workflow. We’ll also have several guest speakers present powerful integrations they’ve built to help their business. The session will conclude with an open Q&A for anyone who’d like to learn more about the capabilities of the platform."
-            companies: "Optimizely"
+            companies: "FunnelEnvy, Experiment Engine, Lytics, Optimizely"
             track: "platform"
             roles: "developer"
             speakers:
+              -
+                name: "Arun Sivashankaran"
+                job_title: "Founder & Chief Optimizer"
+                company: "FunnelEnvy"
+              -
+                name: "Claire Vo"
+                job_title: "Founder & CEO"
+                company: "Experiment Engine"
+              -
+                name: "Michael Brondello"
+                job_title: "Partner Marketing"
+                company: "Lytics"
               -
                 name: "John Provine"
                 job_title: "Sr. Product Manager"
@@ -453,7 +465,7 @@ days:
             title: "Getting Started with Optimizely for iOS and Android"
             time: "4:45 - 5:30"
             location: "Alcatraz Room"
-            description: "Learn how to integrate Optimizely into your native iOS and Android apps. We'll create an experiment around optimizing and testing an onboarding flow in a mobile app.  Learn how to use the visual editor, as well as advanced testing features for developers. Take home best practices for setting up your mobile experiments."
+            description: "Learn how to use Optimizely in your native iOS and Android apps. We'll create an experiment around optimizing and testing an onboarding flow in a mobile app. Learn how to use the visual editor, as well as advanced testing features for developers. Take home best practices for setting up your mobile experiments."
             companies: "Optimizely"
             track: "platform"
             roles: "developer"
@@ -646,8 +658,8 @@ days:
             title: "Early Lessons in Personalization Strategy"
             time: "11:25 - 12:10"
             location: "Golden Gate Room"
-            description: "We'll take a look at lessons derived from early progress in personalization, informed by work already canonical in the email, ecommerce, and media industries. Learn how to translate your goals, personas, data, and ideas into a meaningful approach for delivering personalized experiences. See starter use cases relevant for your vertical, like symmetric messaging for B2B, promotional strategies for ecommerce, behavioral retargeting, contextual empathy, and mobile mindsets."
-            companies: "AdRoll, The Clymb"
+            description: "We'll take a look at lessons derived from early progress in personalization, informed by work being done at the cutting edge. Get practical advice, rooted in experience, how to evolve into a fully personalized program, to plan for complexity, and to avoid potential pitfalls. See how personalization is already being used for marketers and retailers alike, and leave confident in how you can get there."
+            companies: "AdRoll, The Clymb, Blue Apron"
             track: "strategy"
             roles: "marketer developer productmanager executive"
             speakers:
