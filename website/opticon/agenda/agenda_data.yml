@@ -68,7 +68,7 @@ days:
             title: "The Inside Scoop: Coming Soon from Optimizely"
             time: "10:25 – 11:10"
             location: "Golden Gate Room"
-            description: "We're making some big announcements about Optimizely's Experience Optimization platform at Opticon. In this session, you'll hear more details from our team about the exciting new products they're working on in 2015."
+            description: "We're making some big announcements about Optimizely's Experience Optimization platform at Opticon. In this session, you'll hear more details from our team about the exciting new products you’ll see in 2015."
             companies: "Optimizely"
             track: "action"
             roles: "marketer productmanager developer executive"
@@ -161,8 +161,8 @@ days:
                 job_title: "Group Director, Digital Development"
                 company: "Village Roadshow"
               -
-                name: "Ryan Garner"
-                job_title: "Co-Founder and Executive Vice President"
+                name: "Matty Wishnow"
+                job_title: "CEO "
                 company: "Clearhead"
           -
             title: "Optimization at Optimizely"
@@ -479,7 +479,7 @@ days:
             time: "4:45 - 5:30"
             location: "Golden Gate Room"
             description: "Are you redesigning your website in the next year? Many industry experts agree that it’s best to develop a website iteratively, using A/B testing and optimization, but some websites are so rusty that only a major overhaul seems to be the solution. It can be daunting to navigate the critical process of a redesign: rising costs, missed deadlines, and plummeting conversion rates instead of anticipated lifts. Learn from the experts on how to use customer interviews, closed-loop sales feedback, web analytics, and A/B testing to determine the optimal mix of content, navigation, and calls-to-action for your site. Get tips on how to drive results in spite of tight timelines, limited resources, CMS restrictions, and small datasets."
-            companies: "Apperian, j2 Global Communications, Western Governors University"
+            companies: "Apperian, Clearhead, j2 Global Communications, Western Governors University"
             track: "action"
             roles: "marketer productmanager"
             speakers:
@@ -513,10 +513,10 @@ days:
         start_time: "9:00"
         events:
           -
-            title: "The Future of Technology, Optimization, and the “We Economy”"
+            title: "Technology Trends, the “We Economy” and Optie Awards"
             time: "9:00 - 10:00"
             location: "Golden Gate Room"
-            description: "This keynote address will dive into the transformational power of new “digital ecosystems”, exploring major trends in technology, data, and connectivity poised to completely transform the experiences we deliver to customers each and every day.  Find out how today’s most successful businesses use “digital ecosystems” to shift their thinking from “me” to “we”, and learn how you can too. Because, as Mary puts it: It’s not just about you, or me, or anyone else in particular. It’s about all of us – the “We Economy”."
+            description: "<p>This keynote address will dive into the transformational power of new “digital ecosystems”, exploring major trends in technology, data, and connectivity poised to completely transform the experiences we deliver to customers each and every day.  Find out how today’s most successful businesses use “digital ecosystems” to shift their thinking from “me” to “we”, and learn how you can too. Because, as Mary puts it: It’s not just about you, or me, or anyone else in particular. It’s about all of us – the “We Economy”.</p><p>Also join us in celebrating our 2nd annual Optie Award winners! The Opties are comprised of nine categories that best highlight our customers’ cutting edge optimization programs.</p>"
             companies: "Accenture"
             track: "strategy"
             roles: "marketer developer productmanager executive"
