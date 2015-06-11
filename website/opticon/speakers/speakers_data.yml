@@ -428,6 +428,11 @@ guest_speakers:
       company: "Optimizely"
       blurb: "Brad Taylor has held many positions during his career in the technology industry. While working with over 100+ enterprise clients spanning 10 years, he has performed such roles as CEO, Co-founder, VP of Technology, Solutions Architect, and Product Manager. As Sr. Solutions Architect he plays a key role in creating solutions that push the Optimizely platform to new limits."
     -
+      name: "Markis Taylor"
+      image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/markis-taylor.png"
+      company: "Trulia"
+      blurb: "Markis Taylor loves the web. He's been in the web space for a very long time (like he remembers when IE3 came out).  He can't wait to see what's next as he thinks there is just so much untapped potential."
+    -
       name: "Alek Toumert"
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/toumert-alex.png"
       company: "American Medical Association"
