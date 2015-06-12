@@ -53,7 +53,7 @@ module.exports = function(grunt) {
     'uglify',
     'filerev',
     'userevvd',
-    'aws_s3:delete:production',
+    'aws_s3:productionClear',
     'aws_s3:production',
     'clean:postBuild',
     'fastly:production'
@@ -73,6 +73,7 @@ module.exports = function(grunt) {
     'autoprefixer',
     'copy',
     'uglify',
+    'aws_s3:stagingClear',
     'aws_s3:staging',
     'clean:postBuild',
     'fastly:staging'

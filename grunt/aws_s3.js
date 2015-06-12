@@ -9,6 +9,7 @@ module.exports = {
       options: {
         bucket: '<%= secret.s3_bucket %>'
       },
+      expand: true,
       src: '**',
       cwd: '<%= config.dist %>/',
       dest: '<%= grunt.option("branch") || gitinfo.local.branch.current.name %>/',
@@ -27,21 +28,18 @@ module.exports = {
       src: '**/*',
       cwd: '<%= config.dist %>/'
     },
-    'delete': {
-    	production: {
-    		options: {
+    productionClear: {
+    	options: {
     			bucket: '<%= secret.s3_bucket %>'
     		},
-    		action: 'delete',
-    		dest: '/'
- 	   },
-		staging: {
-			options:{
-				bucket: '<%= secret.s3_bucket %>'
-			},
-			action: 'delete',
-			dest: '<%= grunt.option("branch") || gitinfo.local.branch.current.name %>/',
-		}
-
-	}
+    	action: 'delete',
+    	dest: '/'
+ 	  },
+	stagingClear: {
+		options: {
+    			bucket: '<%= secret.s3_bucket %>'
+    		},
+		action: 'delete',
+		dest: '<%= grunt.option("branch") || gitinfo.local.branch.current.name %>/',
+	},
 };
