@@ -37,7 +37,7 @@ module.exports = function(grunt) {
   grunt.registerTask('om-test', [
     'open'
   ]);
-  grunt.loadNpmTasks('grunt-aws');
+  grunt.loadNpmTasks('grunt-aws-s3');
   grunt.registerTask('production-deploy', [
     'gitinfo',
     'config:production',
@@ -53,7 +53,8 @@ module.exports = function(grunt) {
     'uglify',
     'filerev',
     'userevvd',
-    's3:production',
+    'aws_s3:delete:production',
+    'aws_s3:production',
     'clean:postBuild',
     'fastly:production'
   ]);
@@ -72,7 +73,7 @@ module.exports = function(grunt) {
     'autoprefixer',
     'copy',
     'uglify',
-    's3:staging',
+    'aws_s3:staging',
     'clean:postBuild',
     'fastly:staging'
   ]);
@@ -90,7 +91,7 @@ module.exports = function(grunt) {
     'autoprefixer',
     'copy',
     'uglify',
-    's3:smartling',
+    'aws_s3:smartling',
     'clean:postBuild'
   ]);
 

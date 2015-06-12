@@ -1,6 +1,5 @@
 module.exports = {
-
-    options: {
+	options: {
       accessKeyId: '<%= secret.aws_key %>',
       secretAccessKey: '<%= secret.aws_secret %>',
       access: 'public-read',
@@ -27,5 +26,22 @@ module.exports = {
       },
       src: '**/*',
       cwd: '<%= config.dist %>/'
-    }
+    },
+    'delete': {
+    	production: {
+    		options: {
+    			bucket: '<%= secret.s3_bucket %>'
+    		},
+    		action: 'delete',
+    		dest: '/'
+ 	   },
+		staging: {
+			options:{
+				bucket: '<%= secret.s3_bucket %>'
+			},
+			action: 'delete',
+			dest: '<%= grunt.option("branch") || gitinfo.local.branch.current.name %>/',
+		}
+
+	}
 };
