@@ -37,14 +37,26 @@ body.solutions {
       font-weight: 600;
       color: rgba(69,75,80,0.55);
       letter-spacing: 1.39px;
-      background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/solutions-icon-placeholder.png');
       background-repeat: no-repeat;
       background-position: top center;
+      background-size: 30px;
       padding-top: 30px;
+      &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_g.svg'); }
+      &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_g.svg'); }
+      &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_g.svg'); }
+      &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_g.svg'); }
+      &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_g.svg'); }
     }
     &--active {
       border-bottom: 2px solid #00415D;
-      .product-tab--title { color: $brand-navy-blue; }
+      .product-tab--title {
+        color: $brand-navy-blue;
+        &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_b.svg'); }
+        &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_b.svg'); }
+        &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_b.svg'); }
+        &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_b.svg'); }
+        &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_b.svg'); }
+      }
     }
   }
   .products-section {
@@ -69,6 +81,7 @@ body.solutions {
     width: 50%;
     padding-top: 300px;
   }
+
 }
 
 @media only screen and (min-width: $tablet-min-width) {
