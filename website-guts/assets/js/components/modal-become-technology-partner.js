@@ -37,7 +37,6 @@ contactSalesForm.on('before', function(){
 }).on('success', function(returnData){
 
   //passes all data from the form into
-  console.log('I am in modal-become-tech-partner and about to pass returnData: ', returnData);
   solutionsPartnerHelperInst.success(returnData);
 
 }.bind(solutionsPartnerHelperInst))

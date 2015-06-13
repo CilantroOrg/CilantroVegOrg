@@ -27,7 +27,6 @@
       data += getLanguageKey();
     }
     XHR.withCredentials = true;
-    console.log('in Oform globals about to return \'data\' back to modal-become-tech-partner, data is: ', data);
     return data;
 
   };
@@ -67,7 +66,6 @@
   };
 
   w.optly.mrkt.Oform.trackLead = function(args) {
-    console.log('in Oform trackLead and these are the \'args\' being passed in: ', args);
     /*
 
       REPORTS NEW LEADS TO VARIOUS TRACKING PLATFORMS
@@ -238,9 +236,6 @@
 
     var anonymousVisitorIdentifier = window.optly.mrkt.utils.randomString();
 
-    console.log('about to call identify in oform globals and here is the reporting object: ', reportingObject);
-    // console.log('and this is the unique_user_id: ', response.unique_user_id);
-    // console.log('or this is the anonymousVisitorIdentifier: ', anonymousVisitorIdentifier);
     w.analytics.identify(response.unique_user_id || anonymousVisitorIdentifier, reportingObject, {
       integrations: {
         Marketo: true
@@ -320,7 +315,6 @@
     })
     .on('validationerror', w.optly.mrkt.Oform.validationError)
     .on('load', function(event){
-      console.log('I am in oForm initContactForm and about to hit \'load\' so that\'ll be dope');
       if(event.XHR.status === 200){
         //identify user
         $('body').addClass('oform-success');
