@@ -16,6 +16,7 @@ body.solutions {
     &--subheader {
       font-size: 1.125em;
       color: rgba(255,255,255,0.70);
+      margin: 50px 10px 0 10px;
     }
     &--blurb {
       font-size: 30px;
@@ -24,7 +25,6 @@ body.solutions {
     }
   }
   .product-tab-container {
-    display: flex;
     margin-bottom: 50px;
   }
   .product-tab {
@@ -32,15 +32,17 @@ body.solutions {
     border-bottom: 1px solid #979797;
     cursor: pointer;
     &--title {
-      text-align: center;
+      text-align: left;
       font-size: .875em;
       font-weight: 600;
       color: rgba(69,75,80,0.55);
       letter-spacing: 1.39px;
       background-repeat: no-repeat;
-      background-position: top center;
+      background-position: left;
       background-size: 30px;
-      padding-top: 30px;
+      padding: 13px 0 13px 60px;
+      margin-left: 36px;
+      text-transform: uppercase;
       &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_g.svg'); }
       &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_g.svg'); }
       &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_g.svg'); }
@@ -48,7 +50,7 @@ body.solutions {
       &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_g.svg'); }
     }
     &--active {
-      border-bottom: 2px solid #00415D;
+      border-bottom: 2px solid $brand-navy-blue;
       .product-tab--title {
         color: $brand-navy-blue;
         &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_b.svg'); }
@@ -86,6 +88,18 @@ body.solutions {
 
 @media only screen and (min-width: $tablet-min-width) {
   body.solutions {
+    .product-tab-container {
+      display: flex;
+    }
+    .product-tab--title {
+      padding: 35px 0 0 0;
+      margin-left: 0;
+      background-position: top center;
+      text-align: center;
+    }
+    .title--subheader {
+      margin: 0;
+    }
   }
 }
 
