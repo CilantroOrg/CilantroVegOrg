@@ -1,6 +1,8 @@
 //make this global in case someone needs to remove the Oform instance
+//THIS IS THE FORM WE NEED TO USE TO BUILD OUT THE TECH PARTNERS FORM
 w.optly.mrkt.activeModals = {};
 
+//I think we might want to change the formID here but doing so just here breaks the form
 var solutionsPartnerHelperInst = window.optly.mrkt.form.contactSales({formId: 'contact-sales-form'});
 
 w.optly.mrkt.activeModals.contactSales = new Oform({
@@ -34,9 +36,13 @@ contactSalesForm.on('before', function(){
 
 }).on('success', function(returnData){
 
+  //passes all data from the form into
+  console.log('I am in modal-become-tech-partner and about to pass returnData: ', returnData);
   solutionsPartnerHelperInst.success(returnData);
 
-}.bind(solutionsPartnerHelperInst)).on('done', function() {
+}.bind(solutionsPartnerHelperInst))
+
+.on('done', function() {
   if(document.body.classList.contains('oform-error')) {
     solutionsPartnerHelperInst.processingRemove({callee: 'done'});
     solutionsPartnerHelperInst.showOptionsError();

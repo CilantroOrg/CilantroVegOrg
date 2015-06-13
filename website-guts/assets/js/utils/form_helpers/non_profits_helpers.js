@@ -39,6 +39,7 @@ var orgForm = {
   },
 
   load: function(segmentObj) {
+    console.log('You are in load! this is the segmentObj: ', segmentObj);
     var button = this.formElm.querySelector('button');
 
     var anonymousVisitorIdentifier = window.optly.mrkt.utils.randomString();

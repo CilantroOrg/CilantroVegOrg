@@ -1,4 +1,4 @@
-//make this global in case someone needs to remove the Oform instance
+// //make this global in case someone needs to remove the Oform instance
 w.optly.mrkt.activeModals = {};
 
 var solutionsPartnerHelperInst = window.optly.mrkt.form.contactSales({formId: 'contact-sales-form'});

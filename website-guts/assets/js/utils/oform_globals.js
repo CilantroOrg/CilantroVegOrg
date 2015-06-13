@@ -27,7 +27,7 @@
       data += getLanguageKey();
     }
     XHR.withCredentials = true;
-
+    console.log('in Oform globals about to return \'data\' back to modal-become-tech-partner, data is: ', data);
     return data;
 
   };
@@ -67,7 +67,7 @@
   };
 
   w.optly.mrkt.Oform.trackLead = function(args) {
-
+    console.log('in Oform trackLead and these are the \'args\' being passed in: ', args);
     /*
 
       REPORTS NEW LEADS TO VARIOUS TRACKING PLATFORMS
@@ -111,21 +111,48 @@
       reportingObject.phone = response.phone_number;
     } else if(payload.phone_number){
       reportingObject.phone = payload.phone_number;
-    }
+    }   
     if(payload.company){
       reportingObject.company = payload.company;
     }
     if(payload.title){
       reportingObject.title = payload.title;
     }
+    if (payload.role){
+      reportingObject.role = payload.role;
+    }
     if(payload.website){
       reportingObject.website = payload.website;
+    }
+    if(payload.Tech_Partner_goal_for_partnership__c){
+      reportingObject.Tech_Partner_goal_for_partnership__c = payload.Tech_Partner_goal_for_partnership__c;
+    }
+    if(payload.Tech_Partner_Number_of_Customers__c){
+      reportingObject.Tech_Partner_Number_of_Customers__c = payload.Tech_Partner_Number_of_Customers__c;
+    }
+    if(payload.Tech_Partner_Want_to_Build_Integration){
+      reportingObject.Tech_Partner_Want_to_Build_Integration = payload.Tech_Partner_Want_to_Build_Integration;
+    }
+    if(payload.Retail_ecommerce_target__c){
+      reportingObject.Retail_ecommerce_target__c = 'true';
+    }
+    if(payload.Travel_target__c){
+      reportingObject.Travel_target__c = 'true';
     }
     if(payload.Web_Interest__c){
       reportingObject.Web_Interest__c = 'true';
     }
+    if(payload.Media_target__c){
+      reportingObject.Media_target__c = 'true';
+    }
     if(payload.Mobile_Web_Interest__c){
       reportingObject.Mobile_Web_Interest__c = 'true';
+    }
+    if(payload.B2B_Technology_target__c){
+      reportingObject.B2B_Technology_target__c = 'true';
+    }
+    if(payload.Other_target__c){
+      reportingObject.Other_target__c = 'true';
     }
     if(payload.iOS_Interest__c){
       reportingObject.iOS_Interest__c = 'true';
@@ -147,6 +174,9 @@
     }
     if(payload.Lead_Source_Subcategory__c){
       reportingObject.Lead_Source_Subcategory__c = payload.Lead_Source_Subcategory__c;
+    }
+    if(payload.Existing_customers_using_Optimizely__c){
+      reportingObject.Existing_customers_using_Optimizely__c = payload.Existing_customers_using_Optimizely__c;
     }
     //add source information
     //source is usually url query params from ads
@@ -208,6 +238,9 @@
 
     var anonymousVisitorIdentifier = window.optly.mrkt.utils.randomString();
 
+    console.log('about to call identify in oform globals and here is the reporting object: ', reportingObject);
+    // console.log('and this is the unique_user_id: ', response.unique_user_id);
+    // console.log('or this is the anonymousVisitorIdentifier: ', anonymousVisitorIdentifier);
     w.analytics.identify(response.unique_user_id || anonymousVisitorIdentifier, reportingObject, {
       integrations: {
         Marketo: true
@@ -287,6 +320,7 @@
     })
     .on('validationerror', w.optly.mrkt.Oform.validationError)
     .on('load', function(event){
+      console.log('I am in oForm initContactForm and about to hit \'load\' so that\'ll be dope');
       if(event.XHR.status === 200){
         //identify user
         $('body').addClass('oform-success');

@@ -27,6 +27,7 @@ window.optly.mrkt.form.HelperFactory = function(scopeObj) {
 
     this.inputs.push(this.formElm.querySelector('button[type="submit"]'));
 
+    // console.log('you are in helper factory and this is this.inputs: ', this.inputs);
     this.focusin();
   }
 
@@ -170,6 +171,7 @@ window.optly.mrkt.form.HelperFactory = function(scopeObj) {
     },
 
     parseResponse: function(e) {
+      console.log('you are in parse response in form_helper_factory');
       var resp,
         responseSuccess = true;
 

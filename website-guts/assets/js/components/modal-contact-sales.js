@@ -33,7 +33,8 @@ contactSalesForm.on('before', function(){
   w.optly.mrkt.Oform.validationError(element);
 
 }).on('success', function(returnData){
-
+  //the below never fires!
+  console.log('you are in modal-contact-sales and on success in that oform instance. this is returnData: ', returnData);
   contactSalesHelperInst.success(returnData);
 
 }.bind(contactSalesHelperInst)).on('done', function() {

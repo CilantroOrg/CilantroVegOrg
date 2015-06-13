@@ -6,7 +6,7 @@ var contactSalesHelpers = {
     d.body.classList.add('contact-sales-success');
 
     //var anonymousVisitorIdentifier = window.optly.mrkt.utils.randomString();
-
+    console.log('i am in contact sales helpers in BPT');
     w.optly.mrkt.Oform.trackLead({
       requestPayload: returnData.requestPayload
     });

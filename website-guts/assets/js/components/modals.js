@@ -31,6 +31,7 @@ if ( $modalElms ) {
 // FUNCTIONS
 
 function setHistoryId(historyData) {
+  console.log('i am setting a history id on the modal! passing in historyData: ', historyData);
   var stateData = {};
   if (historyData._id) {
     stateData._id = historyData._id + 1;
