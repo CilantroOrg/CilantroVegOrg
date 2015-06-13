@@ -1,0 +1,17 @@
+---
+layout: modal_wrapper
+wrapper_id: dev-signup-dialog
+data_modal_id: devsignup
+data_modal_name: dev-sign-up
+form_id: dev-signup-form
+TR_modal_title: "Create a developer account"
+TR_modal_sub_header: "Get a free account with full access to Optimizely's APIs and SDKs."
+form_method: POST
+form_action: /account/create
+TR_primary_button_text: Create account
+TR_negative_button_text: Cancel
+api_domain: true
+initial_form_source: Create Account - Developers
+inbound_form_lead_type: Create Account - Developers
+---
+              {{> (l10nPartial 'signup_form')}}

@@ -187,6 +187,15 @@ module.exports = function(grunt, options) {
          port: '9000',
          hostname: 'localhost'
       }
+    },
+    keepalive: {
+      options: {
+        open: {
+          target: 'http://localhost:9000',
+        },
+        base: 'dist',
+        keepalive: true
+      }
     }
   };
 };
