@@ -16,6 +16,7 @@
 javascript: (function(window, document, $) {
     var firstName,
         lastName,
+        role,
         phone,
         email,
         date,
@@ -24,22 +25,33 @@ javascript: (function(window, document, $) {
         title,
         company,
         pword;
-    firstName = 'kyle';
-    lastName = 'rush test';
-    phone = '7146860883';
+    firstName = 'Bradley';
+    lastName = 'Heinz test';
+    phone = '6309998082';
     pword = 'ks93+-93KLI';
+    role = 'software engineer';
     date = new Date();
     timestamp = date.getFullYear() + "" + date.getMonth() + "" + date.getDate() + "" + date.getHours() + "" + date.getMinutes() + "" + date.getSeconds();
     email = firstName + '+test' + timestamp + '@optimizely.com';
-    website = 'kylerush.net';
-    title = 'Head of Optimization';
+    website = 'bradleyheinz.com';
+    title = 'Marketing engineer';
     company = "Optimizely";
+    numOfCustomers = "5,000-9,999";
+    partnerReason = "building out a world-class optimization organization";
+    partnerBuyer = "Marketing";;
     //populate name fields
     $('[name="first_name"]').val(firstName);
+    $('[name="role"]').val(firstName);
     $('[name="last_name"]').val(lastName);
+    $('#Tech_Partner_Number_of_Customers__c').val(numOfCustomers);
+    $('[name="Tech_Partner_goal_for_partnership__c"]').val(partnerReason);
     $('[name="name"]').val(firstName + ' ' + lastName);
+    $('[name="Travel_target__c"]').prop('checked',true);
+    $('[name="Tech_Partner_Want_to_Build_Integration"]').prop('checked',true);
+    $('[name="Tech_Partner_Primary_Buyer__c"]').val(partnerBuyer);
     //populate company fields
     $('[name="company_name"]').val(company);
+    $('[name="company"]').val(company);
     //populate title fields
     $('[name="title"]').val(title);
     //populate email fields

@@ -1,0 +1,50 @@
+---
+layout: partners_become
+compact_header: false
+body_class:
+- partners-become
+page_script: partners-become.js
+footer_style: grey
+TR_seo_title: ""
+og_title: ""
+og_description: ""
+---
+<style>
+
+</style>
+
+<section id="landing-hero" class="panel hero">
+  {{#with page_data.intro}}
+    <h1>{{{headline}}}</h1>
+    <h2>{{{subhead}}}</h2>
+  {{/with}}
+</section>
+
+
+<div class="page-content paragraphs-container container landing">
+
+
+  <section id="landing-intro" class="panel">
+
+    {{#with page_data.intro}}
+      <p class="blurb">{{{blurb}}}</p>
+
+      <div class="flex-container">
+
+        <div class="left-paragraph">
+          <h2 class="panel-header">{{{technology.headline}}}</h2>
+          <p class="description-text">{{{technology.blurb}}}</p>
+          <a href="{{../linkPath}}/{{{technology.cta_link}}}" class="primary-cta">{{{technology.cta_text}}}</a>
+        </div>
+
+        <div class="right-paragraph">
+          <h2 class="panel-header">{{{solutions.headline}}}</h2>
+          <p class="description-text">{{{solutions.blurb}}}</p>
+          <a href="{{../linkPath}}/{{{solutions.cta_link}}}" class="primary-cta">{{{solutions.cta_text}}}</a>
+        </div>
+      </div>
+    {{/with}}
+
+  </section>
+
+</div>

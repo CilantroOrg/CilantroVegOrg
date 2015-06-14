@@ -57,7 +57,9 @@ $(function(){
   var orgFormHelperInst = window.optly.mrkt.form.orgForm({formId: 'org-form'});
 
   $(orgFormHelperInst.formElm).on('submit', function(e) {
+    //simple form which submits to: action="https://pages.optimizely.com/index.php/leadCapture/save2"
     e.preventDefault();
+    //This is the only instance of validateForm in our codebase
     this.validateForm();
   }.bind(orgFormHelperInst));
 

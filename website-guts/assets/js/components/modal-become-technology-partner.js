@@ -1,11 +1,13 @@
 //make this global in case someone needs to remove the Oform instance
+//THIS IS THE FORM WE NEED TO USE TO BUILD OUT THE TECH PARTNERS FORM
 w.optly.mrkt.activeModals = {};
 
-var contactSalesHelperInst = window.optly.mrkt.form.contactSales({formId: 'contact-sales-form'});
+//I think we might want to change the formID here but doing so just here breaks the form
+var solutionsPartnerHelperInst = window.optly.mrkt.form.contactSales({formId: 'contact-sales-form'});
 
 w.optly.mrkt.activeModals.contactSales = new Oform({
 
-  selector: 'form#contact-sales-form',
+  selector: 'form#become-partner-technology-form',
   middleware: w.optly.mrkt.Oform.defaultMiddleware
 
 });
@@ -23,8 +25,8 @@ contactSalesForm.on('before', function(){
     label: w.optly.mrkt.utils.trimTrailingSlash(w.location.pathname)
   });
 
-  contactSalesHelperInst.removeErrors();
-  contactSalesHelperInst.processingAdd();
+  solutionsPartnerHelperInst.removeErrors();
+  solutionsPartnerHelperInst.processingAdd();
 
   return true;
 
@@ -33,12 +35,15 @@ contactSalesForm.on('before', function(){
   w.optly.mrkt.Oform.validationError(element);
 
 }).on('success', function(returnData){
-  //the below never fires!
-  contactSalesHelperInst.success(returnData);
 
-}.bind(contactSalesHelperInst)).on('done', function() {
+  //passes all data from the form into
+  solutionsPartnerHelperInst.success(returnData);
+
+}.bind(solutionsPartnerHelperInst))
+
+.on('done', function() {
   if(document.body.classList.contains('oform-error')) {
-    contactSalesHelperInst.processingRemove({callee: 'done'});
-    contactSalesHelperInst.showOptionsError();
+    solutionsPartnerHelperInst.processingRemove({callee: 'done'});
+    solutionsPartnerHelperInst.showOptionsError();
   }
 });
