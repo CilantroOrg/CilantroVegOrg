@@ -11,12 +11,12 @@ body.solutions {
     &--header { font-size: 3em; }
     &--subheader {
       font-size: 1.125em;
-      color: rgba(255,255,255,0.70);
-      margin: 50px 10px 0 10px;
+      color: rgba(255, 255, 255, 0.70);
+      margin: 50px 10px 0;
     }
     &--blurb {
       font-size: 30px;
-      color: #454B50;
+      color: #454b50;
       line-height: 40px;
       text-align: left;
       margin-bottom: 25px;
@@ -31,7 +31,7 @@ body.solutions {
       text-align: left;
       font-size: .875em;
       font-weight: 600;
-      color: rgba(69,75,80,0.55);
+      color: rgba(69, 75, 80, 0.55);
       letter-spacing: 1.39px;
       background-repeat: no-repeat;
       background-position: left;
@@ -72,9 +72,10 @@ body.solutions {
     }
   }
   .explanation {
-    p, li {
+    p,
+    li {
       font-size: 1.125em;
-      color: #696F72;
+      color: #696f72;
       line-height: 30px;
     }
   }
@@ -94,7 +95,7 @@ body.solutions {
       padding-bottom: 10px;
     }
     .product-tab--title {
-      padding: 35px 0 0 0;
+      padding: 35px 0 0;
       margin-left: 0;
       background-position: top center;
       text-align: center;
