@@ -4,15 +4,11 @@ body.solutions {
     text-align: center;
     padding: 115px 0;
   }
-  .flex-cont {
-    display: flex;
-  }
+  .flex-cont { display: flex; }
   .title {
     text-align: center;
     color: $white;
-    &--header {
-      font-size: 3em;
-    }
+    &--header { font-size: 3em; }
     &--subheader {
       font-size: 1.125em;
       color: rgba(255,255,255,0.70);
@@ -22,11 +18,11 @@ body.solutions {
       font-size: 30px;
       color: #454B50;
       line-height: 40px;
+      text-align: left;
+      margin-bottom: 25px;
     }
   }
-  .product-tab-container {
-    margin-bottom: 50px;
-  }
+  .product-tab-container { margin-bottom: 50px; }
   .product-tab {
     flex: 1;
     border-bottom: 1px solid #979797;
@@ -67,8 +63,12 @@ body.solutions {
   }
   .product-showcase {
     margin-top: 100px;
-    &__container {
-      width: 50%;
+    flex-wrap: wrap;
+    &__text {
+      width: 100%;
+      order: 2;
+      text-align: left;
+      margin: 25px 0 30px 25px;
     }
   }
   .explanation {
@@ -79,17 +79,19 @@ body.solutions {
     }
   }
   .product-img {
-    background: url('https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/solutions-product-placeholder.png');
-    width: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
     padding-top: 300px;
+    order: 1;
   }
-
 }
 
 @media only screen and (min-width: $tablet-min-width) {
   body.solutions {
-    .product-tab-container {
-      display: flex;
+    .product-tab-container { display: flex; }
+    .product-tab {
+      margin-top: 25px;
+      padding-bottom: 10px;
     }
     .product-tab--title {
       padding: 35px 0 0 0;
@@ -97,13 +99,25 @@ body.solutions {
       background-position: top center;
       text-align: center;
     }
-    .title--subheader {
-      margin: 0;
+    .product-img {
+      width: 50%;
+      order: 0;
     }
+    .product-showcase { flex-wrap: nowrap; }
+    .product-showcase__text {
+      margin: 0;
+      width: 50%;
+      order: 0;
+    }
+    .title--subheader { margin: 0; }
   }
 }
 
 @media only screen and (min-width: $desktop-min-width) {
   body.solutions {
+    .product-tab {
+      margin-top: 0;
+      padding-bottom: 0;
+    }
   }
 }

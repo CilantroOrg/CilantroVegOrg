@@ -38,12 +38,12 @@ TR_og_description: "Discover and deliver the best experience for each customer a
   </div>
   {{#each products}}
   <div class="product-showcase container flex-cont js-product-showcase" id="{{#toLowerCase this.tab_title}}{{/toLowerCase}}-showcase">
-    <div class="product-showcase__container">
+    <div class="product-showcase__text">
       {{! [Stew] This is h6 because of missed translation deadline }}
       <h6 class="title--blurb">{{this.tab_title}}</h6>
       <div class="explanation">{{{this.blurb}}}</div>
     </div>
-    <div class="product-img"></div>
+    <div class="product-img" style="background-image: url('{{this.product_image}}')"></div>
   </div>
   {{/each}}
 </section>
