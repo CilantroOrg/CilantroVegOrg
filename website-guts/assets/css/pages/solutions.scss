@@ -31,7 +31,7 @@ body.solutions {
       text-align: left;
       font-size: .875em;
       font-weight: 600;
-      color: rgba(69, 75, 80, 0.55);
+      color: $faint-gray-border;
       letter-spacing: 1.39px;
       background-repeat: no-repeat;
       background-position: left;
@@ -40,7 +40,7 @@ body.solutions {
       margin-left: 36px;
       text-transform: uppercase;
       &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_g.svg'); }
-      &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_g.svg'); }
+      &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_b-width.svg'); }
       &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_g.svg'); }
       &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_g.svg'); }
       &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_g.svg'); }
