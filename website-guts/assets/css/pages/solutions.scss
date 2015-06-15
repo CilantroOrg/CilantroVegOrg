@@ -82,7 +82,7 @@ body.solutions {
   .product-img {
     background-repeat: no-repeat;
     width: 100%;
-    padding-top: 300px;
+    padding-top: 470px;
     order: 1;
   }
 }
@@ -103,6 +103,7 @@ body.solutions {
     .product-img {
       width: 50%;
       order: 0;
+      margin-left: 50px;
     }
     .product-showcase { flex-wrap: nowrap; }
     .product-showcase__text {
