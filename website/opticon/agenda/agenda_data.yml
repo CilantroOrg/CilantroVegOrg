@@ -68,7 +68,7 @@ days:
             title: "The Inside Scoop: Coming Soon from Optimizely"
             time: "10:25 – 11:10"
             location: "Golden Gate Room"
-            description: "We're making some big announcements about Optimizely's Experience Optimization platform at Opticon. In this session, you'll hear more details from our team about the exciting new products they're working on in 2015."
+            description: "We're making some big announcements about Optimizely's Experience Optimization platform at Opticon. In this session, you'll hear more details from our team about the exciting new products you’ll see in 2015."
             companies: "Optimizely"
             track: "action"
             roles: "marketer productmanager developer executive"
@@ -161,8 +161,8 @@ days:
                 job_title: "Group Director, Digital Development"
                 company: "Village Roadshow"
               -
-                name: "Ryan Garner"
-                job_title: "Co-Founder and Executive Vice President"
+                name: "Matty Wishnow"
+                job_title: "CEO "
                 company: "Clearhead"
           -
             title: "Optimization at Optimizely"
@@ -214,7 +214,7 @@ days:
             title: "How to Build a Culture of Optimization from Within"
             time: "1:30 - 2:15"
             location: "Golden Gate Room"
-            description: "A successful optimization program doesn't just appear out of thin air. It takes bold ideas, a nimble approach, a talented team, and an overwhelming desire to experiment and learn. At the core of all of this is your company's internal culture. Join leaders from Pinterest and Eventbrite to learn how to develop a growth mindset that extends well beyond the web and mobile. You'll walk away with actionable ideas to strengthen your people, talent, and culture in a data-driven way."
+            description: "A successful optimization program doesn't just appear out of thin air. It takes bold ideas, a nimble approach, a talented team, and an overwhelming desire to experiment and learn. At the core of all of this is your company's internal culture. Join leaders from Thumbtack, Pinterest and Eventbrite to learn how to develop a growth mindset that extends well beyond the web and mobile. You'll walk away with actionable ideas to strengthen your people, talent, and culture in a data-driven way."
             companies: "Pinterest, Eventbrite, Thumbtack"
             track: "culture"
             roles: "marketer productmanager executive"
@@ -380,10 +380,22 @@ days:
             time: "3:40 - 4:25"
             location: "Alcatraz Room"
             description: "Optimizely offers several tools for developers to extend and integrate with Optimizely in new ways. In this session, an Optimizely product manager will give an overview of the Optimizely Developer Platform and explain how you can use APIs to transform your testing workflow. We’ll also have several guest speakers present powerful integrations they’ve built to help their business. The session will conclude with an open Q&A for anyone who’d like to learn more about the capabilities of the platform."
-            companies: "Optimizely"
+            companies: "FunnelEnvy, Experiment Engine, Lytics, Optimizely"
             track: "platform"
             roles: "developer"
             speakers:
+              -
+                name: "Arun Sivashankaran"
+                job_title: "Founder & Chief Optimizer"
+                company: "FunnelEnvy"
+              -
+                name: "Claire Vo"
+                job_title: "Founder & CEO"
+                company: "Experiment Engine"
+              -
+                name: "Michael Brondello"
+                job_title: "Partner Marketing"
+                company: "Lytics"
               -
                 name: "John Provine"
                 job_title: "Sr. Product Manager"
@@ -453,7 +465,7 @@ days:
             title: "Getting Started with Optimizely for iOS and Android"
             time: "4:45 - 5:30"
             location: "Alcatraz Room"
-            description: "Learn how to integrate Optimizely into your native iOS and Android apps. We'll create an experiment around optimizing and testing an onboarding flow in a mobile app.  Learn how to use the visual editor, as well as advanced testing features for developers. Take home best practices for setting up your mobile experiments."
+            description: "Learn how to use Optimizely in your native iOS and Android apps. We'll create an experiment around optimizing and testing an onboarding flow in a mobile app. Learn how to use the visual editor, as well as advanced testing features for developers. Take home best practices for setting up your mobile experiments."
             companies: "Optimizely"
             track: "platform"
             roles: "developer"
@@ -467,7 +479,7 @@ days:
             time: "4:45 - 5:30"
             location: "Golden Gate Room"
             description: "Are you redesigning your website in the next year? Many industry experts agree that it’s best to develop a website iteratively, using A/B testing and optimization, but some websites are so rusty that only a major overhaul seems to be the solution. It can be daunting to navigate the critical process of a redesign: rising costs, missed deadlines, and plummeting conversion rates instead of anticipated lifts. Learn from the experts on how to use customer interviews, closed-loop sales feedback, web analytics, and A/B testing to determine the optimal mix of content, navigation, and calls-to-action for your site. Get tips on how to drive results in spite of tight timelines, limited resources, CMS restrictions, and small datasets."
-            companies: "Apperian, j2 Global Communications, Western Governors University"
+            companies: "Apperian, Clearhead, j2 Global Communications, Western Governors University"
             track: "action"
             roles: "marketer productmanager"
             speakers:
@@ -501,10 +513,10 @@ days:
         start_time: "9:00"
         events:
           -
-            title: "The Future of Technology, Optimization, and the “We Economy”"
+            title: "Technology Trends, the “We Economy” and Optie Awards"
             time: "9:00 - 10:00"
             location: "Golden Gate Room"
-            description: "This keynote address will dive into the transformational power of new “digital ecosystems”, exploring major trends in technology, data, and connectivity poised to completely transform the experiences we deliver to customers each and every day.  Find out how today’s most successful businesses use “digital ecosystems” to shift their thinking from “me” to “we”, and learn how you can too. Because, as Mary puts it: It’s not just about you, or me, or anyone else in particular. It’s about all of us – the “We Economy”."
+            description: "<p>This keynote address will dive into the transformational power of new “digital ecosystems”, exploring major trends in technology, data, and connectivity poised to completely transform the experiences we deliver to customers each and every day.  Find out how today’s most successful businesses use “digital ecosystems” to shift their thinking from “me” to “we”, and learn how you can too. Because, as Mary puts it: It’s not just about you, or me, or anyone else in particular. It’s about all of us – the “We Economy”.</p><p>Also join us in celebrating our 2nd annual Optie Award winners! The Opties are comprised of nine categories that best highlight our customers’ cutting edge optimization programs.</p>"
             companies: "Accenture"
             track: "strategy"
             roles: "marketer developer productmanager executive"
@@ -646,8 +658,8 @@ days:
             title: "Early Lessons in Personalization Strategy"
             time: "11:25 - 12:10"
             location: "Golden Gate Room"
-            description: "We'll take a look at lessons derived from early progress in personalization, informed by work already canonical in the email, ecommerce, and media industries. Learn how to translate your goals, personas, data, and ideas into a meaningful approach for delivering personalized experiences. See starter use cases relevant for your vertical, like symmetric messaging for B2B, promotional strategies for ecommerce, behavioral retargeting, contextual empathy, and mobile mindsets."
-            companies: "AdRoll, The Clymb"
+            description: "We'll take a look at lessons derived from early progress in personalization, informed by work being done at the cutting edge. Get practical advice, rooted in experience, how to evolve into a fully personalized program, to plan for complexity, and to avoid potential pitfalls. See how personalization is already being used for marketers and retailers alike, and leave confident in how you can get there."
+            companies: "AdRoll, The Clymb, Blue Apron"
             track: "strategy"
             roles: "marketer developer productmanager executive"
             speakers:
@@ -863,12 +875,12 @@ days:
                 job_title: "Strategic Consultant"
                 company: "Optimizely"
           -
-            title: "The Art and Science of Persuasion: Creating Change with your Results"
+            title: "Reading Between the Lines: Leverage Advanced Features to Get the Most Out of your Results Page"
             time: "3:35 - 4:20"
             location: "Bay Bridge Room"
-            description: "Optimizely’s results page is full of data to help you make decisions about your business. Even with all of this information, it’s not always straightforward to call a winner among the mixed messages you might get. This session will break down the results page and give you strategies for evaluating your test results to identify actionable data and create an iterative testing process."
+            description: "If your idea of results analysis is peaking at your results page in hopeful search for green boxes, check out this session for a discussion about how to leverage Annotations, Custom Views, and the Difference Interval calculation to more effectively document your findings foster an agile and iterative testing program."
             companies: "Optimizely"
-            track: "action"
+            track: "strategy"
             roles: "marketer productmanager"
             speakers:
               -
