@@ -37,11 +37,12 @@ benefits:
       TR_title: "Collaborative Sales Enablement Approach"
       TR_blurb: "Work directly with the Optimizely sales team to help you prospect, qualify and close more business."
       class: "coselling"
-hear:
-  show: true
-  TR_title: "Hear from our Partners"
-  TR_blurb: "Watch this testimonial from Clearhead on how partnering with Optimizely has transformed their business."
-  video_url: "//play.vidyard.com/Bf0qpT872TFpgGnJUqm0kA.html?v=3.1"
+# Bradley: removing until videos are finalized
+# hear:
+#   show: true
+#   TR_title: "Hear from our Partners"
+#   TR_blurb: "Watch this testimonial from Clearhead on how partnering with Optimizely has transformed their business."
+#   video_url: "//play.vidyard.com/Bf0qpT872TFpgGnJUqm0kA.html?v=3.1"
 join:
   TR_title: "Join the Optimizely Solutions Partner Program"
   TR_blurb: "To learn more about the requirements and benefits of our partner program <a href='http://pages.optimizely.com/rs/361-GER-922/images/Optimizely%20Solutions%20Partners.pdf'>click here</a>."
