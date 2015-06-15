@@ -47,7 +47,7 @@ javascript: (function(window, document, $) {
     existingClients = "CNN, Doctors Without Borders, Hillary Clinton";
     //populate name fields
     $('[name="first_name"]').val(firstName);
-    $('[name="role"]').val(firstName);
+    $('[name="role"]').val(role);
     $('[name="last_name"]').val(lastName);
     $('[name="Tech_Partner_goal_for_partnership__c"]').val(partnerReason);
     $('[name="name"]').val(firstName + ' ' + lastName);
