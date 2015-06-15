@@ -38,16 +38,21 @@ javascript: (function(window, document, $) {
     company = "Optimizely";
     numOfCustomers = "5,000-9,999";
     partnerReason = "building out a world-class optimization organization";
-    partnerBuyer = "Marketing";;
+    partnerBuyer = "Marketing";
+    address = "631 Howard St., Suite 100";
+    city = "San Francisco";
+    state = "CA";
+    zip = "94105";
+    country = "USA";
+    existingClients = "CNN, Doctors Without Borders, Hillary Clinton";
     //populate name fields
     $('[name="first_name"]').val(firstName);
-    $('[name="role"]').val(firstName);
+    $('[name="role"]').val(role);
     $('[name="last_name"]').val(lastName);
-    $('#Tech_Partner_Number_of_Customers__c').val(numOfCustomers);
     $('[name="Tech_Partner_goal_for_partnership__c"]').val(partnerReason);
     $('[name="name"]').val(firstName + ' ' + lastName);
     $('[name="Travel_target__c"]').prop('checked',true);
-    $('[name="Tech_Partner_Want_to_Build_Integration"]').prop('checked',true);
+    $('[name="Tech_Partner_Want_to_Build_Integration"]').filter('[value=yes]').prop('checked',true);
     $('[name="Tech_Partner_Primary_Buyer__c"]').val(partnerBuyer);
     //populate company fields
     $('[name="company_name"]').val(company);
@@ -56,7 +61,18 @@ javascript: (function(window, document, $) {
     $('[name="title"]').val(title);
     //populate email fields
     $('[name="email_address"]').val(email);
+    $('#Tech_Partner_Number_of_Customers__c').val(numOfCustomers);
     $('[name="email"]').val(email);
+    $('[name="address"]').val(address);
+    $('[name="city"]').val(city);
+    $('[name="state"]').val(state);
+    $('[name="zip"]').val(zip);
+    $('[name="country"]').val(country);
+    $('[name="Existing_customers_using_Optimizely__c"]').val(existingClients);
+    $('[name="has_immediate_project__c"]').filter('[value=yes]').prop('checked', true);
+
+
+
     //populate phone fields
     $('[name="phone_number"]').val(phone);
     //populate website/url fields

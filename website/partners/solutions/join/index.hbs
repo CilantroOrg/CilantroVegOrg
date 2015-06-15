@@ -40,7 +40,7 @@ og_description: ""
 
         {{#each reasons}}
           <div class="track-container">
-            <div class="image" style="background-image: url({{../../assetsDir}}/img/{{image}});"></div>
+            <div class="image" style="background-image: url({{image}});"></div>
             <p class="detail-text ">{{{this.blurb}}}</p>
           </div>
         {{/each}}
@@ -59,7 +59,7 @@ og_description: ""
       <div class="split-cols clearfix">
 
         <div>
-          <img src="{{../../assetsDir}}/img/{{image}}">
+          <img src="{{image}}">
         </div>
 
         <div>
@@ -79,7 +79,7 @@ og_description: ""
   </div>
   {{/with}}
 </section>
-
+{{!-- Bradley: removing until videos are finalized
 {{#if page_data.hear.show }}
 <section id="solutions-hear" class="panel">
 
@@ -101,7 +101,7 @@ og_description: ""
   </div>
   {{/with}}
 </section>
-{{/if}}
+{{/if}} --}}
 
 <section class="become-a-partner panel">
   {{#with page_data.join}}

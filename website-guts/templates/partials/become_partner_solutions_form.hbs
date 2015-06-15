@@ -11,49 +11,49 @@
                 <li>
                   <label id="role-label">
                       <span>{{tr 'Role'}}:</span>
-                      <span class="title-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="title-related error-hide error-right">{{tr 'Required'}}</span> --}}
                       <input type="text" name="role" required>
                   </label>
                 </li>
                 <li class="form-row">
                   <label id="email-address-label">
                       <span>{{tr 'Email address'}}:</span>
-                      <span class="email_address-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="email_address-related error-hide error-right">{{tr 'Required'}}</span> --}}
                       <input type="email" name="email" required>
                   </label>
                 </li>
                 <li class="form-row">
                   <label id="company-name-label">
                       <span>{{tr 'Company name'}}:</span>
-                      <span class="company_name-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="company_name-related error-hide error-right">{{tr 'Required'}}</span> --}}
                       <input type="text" name="company" required>
                   </label>
                 </li>
                 <li class="form-row">
                   <label id="website-label">
                       <span>{{tr 'Company website'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
                       <input type="text" name="website" required>
                   </label>
                 </li>
                 <li class="form-row">
                   <label id="address-label">
                       <span>{{tr 'Address'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
                       <input type="text" name="address" required>
                   </label>
                 </li>
                 <li class="form-row">
                   <label id="city-label">
                       <span>{{tr 'City'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
                       <input type="text" name="city" required>
                   </label>
                 </li>
                 <li class="form-row">
                   <label id="state-label">
                       <span>{{tr 'State'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
                   </label>
                   <select id="state" name="state" tabindex="1">
                     <option value="AK">AK</option>
@@ -107,19 +107,20 @@
                     <option value="WI">WI</option>
                     <option value="WV">WV</option>
                     <option value="WY">WY</option>
+                    <option value="Not applicable">Not applicable</option>
                   </select>
                 </li>
                 <li class="form-row">
                   <label id="zip-label">
                       <span>{{tr 'Zip code'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="text" name="zip" required>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
+                      <input type="text" name="zip">
                   </label>
                 </li>
                 <li class="form-row">
                   <label id="country-label">
                       <span>{{tr 'Country'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
                       <input type="text" name="country" required>
                   </label>
                 </li>
@@ -128,7 +129,7 @@
                 <li class="form-row">
                   <label id="company-type-label">
                       <span>{{tr 'Company type'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
                   </label>
                   <select id="company_type" name="company_type" tabindex="1">
                     <option value="">{{tr 'Select an option...'}}</option>
@@ -145,14 +146,14 @@
                 <li class="form-row">
                   <label id="reason-label">
                       <span>{{tr 'Why are you interested in partnering with Optimizely?'}}</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="text" name="Tech_Partner_goal_for_partnership__c" required>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
+                      <input type="text" name="Tech_Partner_goal_for_partnership__c">
                   </label>
                 </li>
                 <li class="form-row">
                   <label id="target-label">
                       <span>{{tr 'Do you have a client with an immediate need for Optimizely?'}}</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
                   </label>
                   <div class="radio_buttons">
                     <div>
@@ -169,21 +170,17 @@
                 <li class="form-row">
                   <label id="existing-customers-label">
                       <span>{{tr 'List any existing clients you have who are using Optimizely'}}:</span>
-                      <span class="website-related error-hide error-right">{{tr 'Required'}}</span>
-                      <input type="text" name="Existing_customers_using_Optimizely__c" required>
+                      {{!-- <span class="website-related error-hide error-right">{{tr 'Required'}}</span> --}}
+                      <input type="text" name="Existing_customers_using_Optimizely__c">
                   </label>
                 </li>
 
 
-                <input type="hidden" name="Inbound Lead Form Type" value="Solutions Partner Request" >
-                <input type="hidden" name="Initial Form Source" value="Solutions Partner Request" >
-                <input type="hidden" name="Lead Source" value="Website">
-                <input type="hidden" name="Lead Source Category" value="Contact Request" >
-                <input type="hidden" name="Lead Source Subcategory" value="Solutions Partner Request">
-
-
-
-                <input type="hidden" value="Apply Now" name="Inbound_Lead_Form_Type__c">
+                <input type="hidden" name="Initial_Form_Source__c"      value="Solutions Partner Request" >
+                <input type="hidden" name="Inbound_Lead_Form_Type__c"   value="Solutions Partner Request" >
+                <input type="hidden" name="leadSource"                  value="Website">
+                <input type="hidden" name="Lead_Source_Category__c"     value="Contact Request" >
+                <input type="hidden" name="Lead_Source_Subcategory__c"  value="Solutions Partner Request">
 
 
               </ul>

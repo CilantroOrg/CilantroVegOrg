@@ -9,39 +9,40 @@ why:
   TR_reasons:
     -
       TR_blurb: "Market-Leading Optimization Platform"
-      image: "partners-become/icon-trophy.svg"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/partners-become/icon-trophy.svg"
     -
       TR_blurb: "Enablement, Training and Support"
-      image: "partners-become/icon-chat.svg"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/partners-become/icon-chat.svg"
     -
       TR_blurb: "Open New Revenue Streams"
-      image: "partners-become/icon-cash.svg"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/partners-become/icon-cash.svg"
     -
       TR_blurb: "Partner-Focused Business Model"
-      image: "partners-become/icon-handshake.svg"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/partners-become/icon-handshake.svg"
 benefits:
   TR_title: "Solutions Partner Program Benefits"
   TR_items:
     -
-      image: "partners-become/illustration1.svg"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/partners-become/illustration1.svg"
       TR_title: "Comprehensive Product Training & Enablement"
       TR_blurb: "Training, certification, and early access to new product features to develop your Optimizely expertise."
       class: "comarketing"
     -
-      image: "partners-become/illustration3.svg"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/partners-become/illustration3.svg"
       TR_title: "Co-Marketing to Amplify Your Brand"
       TR_blurb: "Get access to a set of proven marketing resources to help you hit the ground running."
       class: "training"
     -
-      image: "partners-become/illustration2.svg"
+      image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/partners-become/illustration2.svg"
       TR_title: "Collaborative Sales Enablement Approach"
       TR_blurb: "Work directly with the Optimizely sales team to help you prospect, qualify and close more business."
       class: "coselling"
-hear:
-  show: true
-  TR_title: "Hear from our Partners"
-  TR_blurb: "Watch this testimonial from Clearhead on how partnering with Optimizely has transformed their business."
-  video_url: "//play.vidyard.com/Bf0qpT872TFpgGnJUqm0kA.html?v=3.1"
+# Bradley: removing until videos are finalized 
+# hear:
+#   show: true
+#   TR_title: "Hear from our Partners"
+#   TR_blurb: "Watch this testimonial from Clearhead on how partnering with Optimizely has transformed their business."
+#   video_url: "//play.vidyard.com/Bf0qpT872TFpgGnJUqm0kA.html?v=3.1"
 join:
   TR_title: "Join the Optimizely Solutions Partner Program"
   TR_blurb: "To learn more about the requirements and benefits of our partner program <a href='http://pages.optimizely.com/rs/361-GER-922/images/Optimizely%20Solutions%20Partners.pdf'>click here</a>."
