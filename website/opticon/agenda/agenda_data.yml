@@ -229,7 +229,7 @@ days:
                 company: "Eventbrite"
               -
                 name: "Jodie Auster"
-                job_title: "Director of Customer Operations"
+                job_title: "Head of Talent Acquisition"
                 company: "Thumbtack"
               -
                 name: "Moderated by: Jenny Lykken"
@@ -532,31 +532,6 @@ days:
         start_time: "10:20"
         events:
           -
-            title: "Personalization Using Optimizely Audience Integrations"
-            time: "10:20 – 11:05"
-            location: "Bay Bridge Room"
-            description: "This session will highlight how Optimizely's Audience integrations allow you to deliver personalized experiences to your visitors. We'll hear from a panel of Optimizely customers about how they've used Optimizely’s integrations with first and third-party data platforms, such as BlueKai, Demandbase, and Lytics, to create custom audiences for targeted testing and personalization."
-            companies: "Microsoft Store, Citrix, Access Intelligence"
-            track: "platform"
-            roles: "marketer productmanager developer executive"
-            speakers:
-              -
-                name: "Trevin Chow"
-                job_title: "Director of Product Management"
-                company: "Microsoft Store"
-              -
-                name: "Ravi Venkatesan"
-                job_title: "Conversion Analyst"
-                company: "Citrix"
-              -
-                name: "Stacy Hill"
-                job_title: "Analytics Manager"
-                company: "Access Intelligence"
-              -
-                name: "Moderated by: Clarissa Bukhan"
-                job_title: "Technology Partner Manager"
-                company: "Optimizely"
-          -
             title: "Moving the Needle in Your E-Commerce Funnel"
             time: "10:20 – 11:05"
             location: "Coit Tower Room"
@@ -622,6 +597,31 @@ days:
               -
                 name: "Pete Koomen"
                 job_title: "Co-Founder & CTO"
+                company: "Optimizely"
+          -
+            title: "Optimizing for Engagement in Media"
+            time: "10:20 – 11:05"
+            location: "Bay Bridge Room"
+            description: "US adults spend more time consuming media on digital channels than any other medium. Even further, last year marked the first time consumers spent more time consuming media on mobile devices than on the desktop. The media landscape is shifting rapidly, and companies are increasingly looking to optimization to stay ahead. Join optimization leaders at some of the top online media companies as they describe their strategies and tactics for increasing engagement."
+            companies: "BabyCenter (Johnson & Johnson), StumbleUpon, About.com"
+            track: "action"
+            roles: "marketer productmanager executive"
+            speakers:
+              -
+                name: "Kathy Chao"
+                job_title: "Director of Global Marketing"
+                company: "BabyCenter (Johnson & Johnson)"
+              -
+                name: "David Marks"
+                job_title: "VP of Product"
+                company: "StumbleUpon"
+              -
+                name: "Michael Chang"
+                job_title: "Director of Business Intelligence"
+                company: "About.com"
+              -
+                name: "Moderated by: Aaron Landman"
+                job_title: "Head of Enterprise Media Sales"
                 company: "Optimizely"
       -
         start_time: "11:05"
@@ -724,31 +724,6 @@ days:
                 job_title: "CEO and Co-Founder"
                 company: "Engagio"
           -
-            title: "Optimizing for Engagement in Media"
-            time: "1:25 - 2:10"
-            location: "Bay Bridge Room"
-            description: "US adults spend more time consuming media on digital channels than any other medium. Even further, last year marked the first time consumers spent more time consuming media on mobile devices than on the desktop. The media landscape is shifting rapidly, and companies are increasingly looking to optimization to stay ahead. Join optimization leaders at some of the top online media companies as they describe their strategies and tactics for increasing engagement."
-            companies: "BabyCenter (Johnson & Johnson), StumbleUpon, About.com"
-            track: "action"
-            roles: "marketer productmanager executive"
-            speakers:
-              -
-                name: "Kathy Chao"
-                job_title: "Director of Global Marketing"
-                company: "BabyCenter (Johnson & Johnson)"
-              -
-                name: "David Marks"
-                job_title: "VP of Product"
-                company: "StumbleUpon"
-              -
-                name: "Michael Chang"
-                job_title: "Director of Business Intelligence"
-                company: "About.com"
-              -
-                name: "Moderated by: Aaron Landman"
-                job_title: "Head of Enterprise Media Sales"
-                company: "Optimizely"
-          -
             title: "Best Practices in Programmatic Ad Buying and Conversion Funnel Optimization"
             time: "1:25 - 2:10"
             location: "Golden Gate Room"
@@ -761,6 +736,31 @@ days:
                 name: "Patrick McGrath"
                 job_title: "Product Manager of Ad Technology"
                 company: "Netflix"
+          -
+            title: "Personalization Using Optimizely Audience Integrations"
+            time: "1:25 - 2:10"
+            location: "Bay Bridge Room"
+            description: "This session will highlight how Optimizely's Audience integrations allow you to deliver personalized experiences to your visitors. We'll hear from a panel of Optimizely customers about how they've used Optimizely’s integrations with first and third-party data platforms, such as BlueKai, Demandbase, and Lytics, to create custom audiences for targeted testing and personalization."
+            companies: "Microsoft Store, Citrix, Access Intelligence"
+            track: "platform"
+            roles: "marketer productmanager developer executive"
+            speakers:
+              -
+                name: "Trevin Chow"
+                job_title: "Director of Product Management"
+                company: "Microsoft Store"
+              -
+                name: "Ravi Venkatesan"
+                job_title: "Conversion Analyst"
+                company: "Citrix"
+              -
+                name: "Stacy Hill"
+                job_title: "Analytics Manager"
+                company: "Access Intelligence"
+              -
+                name: "Moderated by: Clarissa Bukhan"
+                job_title: "Technology Partner Manager"
+                company: "Optimizely"
       -
         start_time: "2:10"
         title: "Break in Exhibit Hall"

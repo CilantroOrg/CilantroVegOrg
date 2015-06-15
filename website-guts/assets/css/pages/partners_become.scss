@@ -1,0 +1,536 @@
+// /partners/become and child pages
+
+.partners-become { //body
+
+  font-family: $body-font-family; //proxima
+
+  .panel {
+    padding: 60px 0;
+  }
+
+  .panel-header {
+    font-family: $body-font-family;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 36px;
+    color: $page-header-color;
+    letter-spacing: 1px;
+    line-height: 43px;
+  }
+
+  background-color: $page-content-color;
+
+  .flex-container {
+    display: block; // Only for mobile
+    flex-wrap: wrap;
+  }
+
+  .faq-container {
+    padding: 10px;
+  }
+
+  .primary-cta {
+    // maintain a button max-height 40px
+    border-radius: 4px;
+    background: $brand-blue;
+    border: 1px solid $page-header-color;
+    padding: 20px 60px;
+    font-family: $body-font-family;
+    font-weight: 600;
+    font-size: 22px;
+    color: $white;
+    letter-spacing: 1px;
+    line-height: 26px;
+
+    &:hover {
+      text-decoration: none;
+      background: $brand-blue;
+      color: $white;
+    }
+  }
+
+  p.blurb {
+    font-family: $body-font-family;
+    font-weight: 300;
+    font-size: 18px;
+    color: $page-header-color;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+  }
+
+
+  #landing-hero {
+    position: relative;
+    padding: 95px 0;
+    background-color: $page-header-color;
+    color: $page-content-color;
+
+    h1,
+    h2 {
+      text-align: center;
+    }
+
+    h1 {
+      font-family: $body-font-family;
+      font-weight: 300;
+      margin-bottom: 5px;
+      font-size: 54px;
+      color: $white;
+      letter-spacing: 1px;
+      line-height: 65px;
+    }
+
+    h2 {
+      font-family: $body-font-family;
+      font-weight: 400;
+      font-size: 22px;
+      color: $white;
+      letter-spacing: 1px;
+      line-height: 32px;
+      margin: 0;
+
+    }
+
+    .primary-cta {
+      position: absolute;
+      bottom: -30px;
+      left: calc(50% - 112px);
+    }
+
+  }
+
+
+
+  #landing-intro {
+    .blurb,
+    .description-text {
+      font-size: 18px;
+    }
+
+    .description-text {
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+    }
+
+    .description-title {
+      font-family: $body-font-family;
+      font-weight: 400;
+      font-size: 24px;
+      color: $page-header-color;
+      letter-spacing: 0.5px;
+      line-height: 29px;
+    }
+
+  }
+
+  .left-paragraph,
+  .right-paragraph {
+    padding: 4% 0;
+    .panel-header {
+      margin: 30px 0  20px;
+    }
+    .description-title {
+      min-height: 86px;
+    }
+    .description-text {
+      margin-bottom: 40px;
+    }
+  }
+
+  #technology-why,
+  #solutions-why,
+  #technology-hear,
+  .panel.become-a-partner {
+    background-color: $white;
+  }
+
+  #technology-hear+.panel.become-a-partner {
+    background-color: $partners-become-gray;
+  }
+
+  #technology-why,
+  #solutions-why {
+    .blurb {
+      padding: 10px 20px 0;
+      margin-bottom: 40px;
+      letter-spacing: 0.5px;
+      line-height: 28px;
+    }
+  }
+
+  .why-items {
+
+    .panel-header {
+      margin: 10px 0 60px;
+    }
+
+    .image { //background image inside gray circle
+      width: 150px;
+      // height: 62px;
+      background-repeat: no-repeat;
+      margin: 0 auto 30px;
+      background-color: $partners-become-gray;
+      background-position: 42% 50%;
+      border-radius: 50%;
+      background-size: 67%;
+      padding: 70px;
+
+      //individual icon adjusts
+      &[style*='trophy.svg'] {
+        background-position: 54% 50%;
+      }
+    }
+
+    .trophy {
+      background-image: image-url('/partners-become/icon-trophy.svg');
+    }
+
+    .magnifying {
+      background-image: image-url('/partners-become/icon-magnifying.svg');
+    }
+    .browsers {
+      background-image: image-url('/partners-become/icon-browsers.svg');
+    }
+    .mouseclick {
+      background-image: image-url('/partners-become/icon-mouseclick.svg');
+    }
+
+    .track-container {
+      padding: 0 20px 30px;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-position: top center;
+
+      .item-title {
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+      }
+
+      .detail-text,
+      .detail-text a {
+        font-family: $body-font-family;
+        font-weight: 700;
+        font-size: 16px;
+        color: $page-header-color;
+        letter-spacing: 0.44px;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+  }
+
+  .bg-img {
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  .vidyard_iframe {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+  }
+
+  .become-a-partner {
+
+    .panel-header {
+      margin-bottom: 40px;
+    }
+
+    .primary-cta {
+      display: table;
+      margin: 0 auto;
+
+    }
+
+    .blurb {
+      // margin-top: 50px;
+      margin: 50px auto 0;
+      text-align: center;
+      max-width: 450px;
+      font-size: 16px;
+    }
+  }
+}
+
+
+.become-partner-fields {
+
+  #name-label {
+
+    .lname-label {
+      position: relative;
+      left: 41%;
+    }
+
+    input {
+      display: block;
+      float: left;
+      width: 48%;
+
+      &[name="first_name"] {
+        clear: both;
+      }
+
+      &:last-child {
+        margin-left: 4%;
+      }
+    }
+  }
+
+  #target-label+.radio_buttons {
+    margin-top: 10px;
+    input {
+      width: auto;
+      margin: 0 10px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+    span {
+      vertical-align: text-bottom;
+      margin-right: 10px;
+      &::first-child {
+        margin-right: 10px;
+      }
+    }
+
+  }
+
+
+  #target-label,
+  #reason-label {
+    margin-top: 10px;
+  }
+
+}
+
+.benefits {
+
+  .panel-header {
+    margin: 0 0 20px;
+  }
+
+  .split-cols {
+    margin-bottom: 80px;
+
+    img {
+      max-width: 75%; //images not too big
+    }
+
+    >div {
+      padding: 20px 10px;
+    }
+
+    .description-title {
+      font-size: 24px;
+    }
+
+    .description-text {
+      font-size: 18px;
+    }
+  }
+}
+
+p.description-text {
+  font-family: $body-font-family;
+  font-weight: 300;
+  font-size: 18px;
+  color: $page-header-color;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
+
+h3.description-title {
+  font-family: $body-font-family;
+  font-weight: 400;
+  color: $page-header-color;
+}
+
+#technology-hear {
+
+  .panel-header {
+    margin-bottom: 70px;
+  }
+
+  .right-paragraph {
+    p {
+      text-align: left;
+      font-size: 16px;
+    }
+  }
+
+}
+
+@media only screen and (min-width: $tablet-min-width) {
+  body.partners-become {
+
+    .description-text {
+      text-align: left;
+    }
+
+    .panel-header {
+      font-size: 36px;
+    }
+
+    #landing-intro {
+      .panel-header {
+        color: $page-header-color;
+        text-align: left;
+        padding: 0;
+      }
+
+      .left-paragraph,
+      .right-paragraph {
+        .description-text {
+          margin-bottom: 0;
+          min-height: 170px;
+        }
+      }
+    }
+
+    //simple float based two column layout
+    .split-cols {
+      >div {
+        width: 48%;
+      }
+      >div:first-child {
+        float: left;
+      }
+
+      >div:last-child {
+        float: right;
+      }
+    }
+
+    #technology-why,
+    #solutions-why {
+      .blurb {
+        width: 62.5%;
+        margin: 0 auto 70px;
+      }
+
+      .why-items {
+        .detail-text {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .page-content.landing {
+      width: 62.5%;
+    }
+
+    .flex-container {
+      display: flex;
+    }
+
+    .left-paragraph,
+    .right-paragraph {
+      padding: 10px 30px 10px 0;
+      width: 50%;
+    }
+
+    .track-container {
+      width: 25%;
+      padding: 115px 10px 10px;
+    }
+
+    .vidyard_iframe {
+      min-height: 300px;
+    }
+
+    .benefits {
+
+      .panel-header {
+        margin-bottom: 80px;
+      }
+
+      .split-cols {
+
+        img {
+          max-width: 100%;
+          margin-top: 30px;
+
+          //specific graphic fixes
+          &[src*="illustration3.svg"] {
+             margin-top: -10px;
+          }
+
+        }
+
+        &:nth-child(odd) {
+          >div:first-child {
+            float: right;
+            padding-right: 30px;
+            padding-left: 30px;
+          }
+          >div:last-child {
+            float: left;
+            padding-right: 30px;
+            padding-left: 30px;
+          }
+        }
+
+        //in tablet and up, alternate the image and text
+        &:nth-child(even) {
+          >div:first-child {
+            float: left;
+            padding-left: 30px;
+
+          }
+          >div:last-child {
+            float: right;
+            padding-right: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  #solutions-hear {
+    .right-paragraph {
+      p {
+        text-align: left;
+      }
+    }
+  }
+
+  #solutions-hear,
+  #technology-hear {
+    .right-paragraph .blurb {
+      margin-top: 0;
+    }
+  }
+
+}
+
+@media only screen and (min-width: $tablet-min-width) and (max-width: 925px) {
+  #landing-intro {
+    .primary-cta {
+      padding: 15px 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: $desktop-min-width) {
+  body.partners-become {
+
+
+    #landing-intro {
+      .left-paragraph,
+      .right-paragraph {
+        .description-text {
+          min-height: 140px;
+        }
+      }
+    }
+
+    .track-container {
+      padding: 115px 10px 30px;
+    }
+  }
+}

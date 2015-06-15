@@ -1,0 +1,117 @@
+---
+layout: partners_become
+compact_header: false
+body_class:
+- partners-become
+modals:
+- become_partner_technology
+- become_partner_technology_thank_you
+page_script: partners_become.js
+footer_style: grey
+TR_seo_title: ""
+og_title: ""
+og_description: ""
+---
+<style>
+
+</style>
+
+
+<section id="landing-hero" class="panel hero">
+  {{#with page_data.intro}}
+    <h1>{{{headline}}}</h1>
+    <h2>{{{subhead}}}</h2>
+    <a href="#" class="primary-cta join-link technology-form" >{{{button_text}}}</a>
+  {{/with}}
+</section>
+
+
+<section id="technology-why" class="panel">
+
+  {{#with page_data.intro}}
+    <p class="blurb">{{{blurb}}}</p>
+  {{/with}}
+
+  {{#with page_data.why}}
+    <div class="why-items container">
+
+      <h2 class="panel-header">{{{header}}}</h2>
+
+      <div class="tracks-container flex-container">
+
+        {{#each reasons}}
+          <div class="track-container">
+            <div class="image" style="background-image: url({{../../assetsDir}}/img/{{image}});"></div>
+            <p class="detail-text ">{{{this.title}}}</p>
+          </div>
+        {{/each}}
+
+      </div>
+  {{/with}}
+</section>
+
+
+<section id="technology-benefits" class="panel">
+
+  {{#with page_data.benefits}}
+  <div class="benefits container">
+
+    <h2 class="panel-header">{{{title}}}</h2>
+
+    {{#each items}}
+      <div class="split-cols clearfix">
+
+        <div>
+          <img src="{{../../assetsDir}}/img/{{image}}">
+        </div>
+
+        <div>
+          <h3 class="description-title ">{{{this.title}}}</h3>
+          <p class="description-text ">{{{this.blurb}}}</p>
+        </div>
+
+      </div>
+    {{/each}}
+
+
+  </div>
+  {{/with}}
+
+</section>
+
+
+{{#if page_data.hear.show }}
+<section id="technology-hear" class="panel">
+
+  {{#with page_data.hear}}
+
+  <h2 class="panel-header">{{{title}}}</h2>
+
+  <div class="container">
+    <div class="flex-container">
+      <div class="left-paragraph">
+  	<iframe class="vidyard_iframe" src="{{video_url}}" width="640" height="360" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+ </div>
+
+      <div class="right-paragraph">
+        <p class="blurb">{{{blurb}}}</p>
+      </div>
+    </div>
+
+  </div>
+  {{/with}}
+</section>
+{{/if}}
+
+
+<section class="become-a-partner panel">
+  {{#with page_data.join}}
+    <div class="container ">
+      <h2 class="panel-header">{{{title}}}</h2>
+
+    <a href="#" class="primary-cta join-link technology-form">{{{button_text}}}</a>
+
+    <p class="blurb">{{{blurb}}}</p>
+    </div>
+  {{/with}}
+</section>
