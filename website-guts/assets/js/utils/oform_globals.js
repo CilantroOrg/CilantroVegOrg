@@ -87,7 +87,6 @@
     //start the reporting object with the required parameters
     reportingObject = {
       leadSource: 'Website',
-      Tech_Partner_Target_Customer__c: ''
     };
 
     //add only the values we have to the reporting object
@@ -134,20 +133,23 @@
     //   reportingObject.Tech_Partner_Want_to_Build_Integration__c = payload.Tech_Partner_Want_to_Build_Integration;
     // }
     //-- Concatting checkbox values to report to Marketo for Tech partners target industry
-    if(payload.Retail_ecommerce_target__c){
-      reportingObject.Tech_Partner_Target_Customer__c += ' Retail/E-commerce,';
-    }
-    if(payload.Travel_target__c){
-      reportingObject.Tech_Partner_Target_Customer__c += ' Travel,';
-    }
-    if(payload.Media_target__c){
-      reportingObject.Tech_Partner_Target_Customer__c += ' Media,';
-    }
-    if(payload.B2B_Technology_target__c){
-      reportingObject.Tech_Partner_Target_Customer__c += ' B2B/Technology,';
-    }
-    if(payload.Other_target__c){
-      reportingObject.Tech_Partner_Target_Customer__c += ' Other Vertical,';
+    if(payload.Retail_ecommerce_target__c || payload.Travel_target__c || payload.Media_target__c || payload.B2B_Technology_target__c || payload.Other_target__c){
+      reportingObject.Tech_Partner_Target_Customer__c = reportingObject.Tech_Partner_Target_Customer__c || '';
+      if(payload.Retail_ecommerce_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' Retail/E-commerce,';
+      }
+      if(payload.Travel_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' Travel,';
+      }
+      if(payload.Media_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' Media,';
+      }
+      if(payload.B2B_Technology_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' B2B/Technology,';
+      }
+      if(payload.Other_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' Other Vertical,';
+      }
     }
     //--
     if(payload.Tech_Partner_Primary_Buyer__c){
