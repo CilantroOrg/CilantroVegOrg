@@ -10,7 +10,7 @@ products_section:
       product_image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/product_illustrations/testing_final.svg"
     -
       tab_title: "Personalization"
-      blurb: "<p><a href='https://blog.optimizely.com/2015/06/17/introducing-optimizely-personalization'>Optimizely Personalization</a> reinvents an old idea, personalization, and makes it accessible for all. Deliver real-time personalized experiences on desktop and mobile with powerful capabilities including behavioral targeting and audience discovery. Visual tools let you rapidly deploy personalized content and quickly see a return on investment.</p>"
+      blurb: "<p><a href=''>Optimizely Personalization</a> reinvents an old idea, personalization, and makes it accessible for all. Deliver real-time personalized experiences on desktop and mobile with powerful capabilities including behavioral targeting and audience discovery. Visual tools let you rapidly deploy personalized content and quickly see a return on investment.</p>"
       product_image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/product_illustrations/personalization_final.svg"
     -
       tab_title: "Targeting"
