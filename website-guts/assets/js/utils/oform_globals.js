@@ -150,10 +150,10 @@
     }
     //--
     if(payload.Tech_Partner_Primary_Buyer__c){
-      reportingObject.Tech_Partner_Primary_Buyer__c += payload.Tech_Partner_Primary_Buyer__c;
+      reportingObject.Tech_Partner_Primary_Buyer__c = payload.Tech_Partner_Primary_Buyer__c;
     }
     if(payload.Tech_Partner_Percent_Shared_Customers__c){
-      reportingObject.Tech_Partner_Percent_Shared_Customers__c+= payload.Tech_Partner_Percent_Shared_Customers__c;
+      reportingObject.Tech_Partner_Percent_Shared_Customers__c = payload.Tech_Partner_Percent_Shared_Customers__c;
     }
     if(payload.Web_Interest__c){
       reportingObject.Web_Interest__c = 'true';
