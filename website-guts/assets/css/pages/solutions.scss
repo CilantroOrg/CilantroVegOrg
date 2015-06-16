@@ -39,21 +39,21 @@ body.solutions {
       padding: 13px 0 13px 60px;
       margin-left: 36px;
       text-transform: uppercase;
-      &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_g.svg'); }
-      &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_g_test.svg'); }
-      &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_g.svg'); }
-      &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_g.svg'); }
-      &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_g.svg'); }
+      &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_g_width.svg'); }
+      &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_g_width.svg'); }
+      &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_g_width.svg'); }
+      &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_g_width.svg'); }
+      &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_g_width.svg'); }
     }
     &--active {
       border-bottom: 2px solid $brand-navy-blue;
       .product-tab--title {
         color: $brand-navy-blue;
-        &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_b.svg'); }
-        &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_b.svg'); }
-        &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_b.svg'); }
-        &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_b.svg'); }
-        &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_b.svg'); }
+        &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_b_width.svg'); }
+        &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_b-width.svg'); }
+        &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_b_width.svg'); }
+        &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_b_width.svg'); }
+        &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_b_width.svg'); }
       }
     }
   }
