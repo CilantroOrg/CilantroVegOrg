@@ -86,7 +86,7 @@
 
     //start the reporting object with the required parameters
     reportingObject = {
-      leadSource: 'Website',
+      leadSource: 'Website'
     };
 
     //add only the values we have to the reporting object
