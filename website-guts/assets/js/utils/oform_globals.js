@@ -109,7 +109,7 @@
       reportingObject.phone = response.phone_number;
     } else if(payload.phone_number){
       reportingObject.phone = payload.phone_number;
-    }   
+    }
     if(payload.company){
       reportingObject.company = payload.company;
     }
@@ -128,29 +128,41 @@
     if(payload.Tech_Partner_Number_of_Customers__c){
       reportingObject.Tech_Partner_Number_of_Customers__c = payload.Tech_Partner_Number_of_Customers__c;
     }
-    if(payload.Tech_Partner_Want_to_Build_Integration){
-      reportingObject.Tech_Partner_Want_to_Build_Integration = payload.Tech_Partner_Want_to_Build_Integration;
+    //-- Waiting until we fix radio button integration in oform to activate this:
+    // if(payload.Tech_Partner_Want_to_Build_Integration){
+    //   reportingObject.Tech_Partner_Want_to_Build_Integration__c = payload.Tech_Partner_Want_to_Build_Integration;
+    // }
+    //-- Concatting checkbox values to report to Marketo for Tech partners target industry
+    if(payload.Retail_ecommerce_target__c || payload.Travel_target__c || payload.Media_target__c || payload.B2B_Technology_target__c || payload.Other_target__c){
+      reportingObject.Tech_Partner_Target_Customer__c = reportingObject.Tech_Partner_Target_Customer__c || '';
+      if(payload.Retail_ecommerce_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' Retail/E-commerce,';
+      }
+      if(payload.Travel_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' Travel,';
+      }
+      if(payload.Media_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' Media,';
+      }
+      if(payload.B2B_Technology_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' B2B/Technology,';
+      }
+      if(payload.Other_target__c){
+        reportingObject.Tech_Partner_Target_Customer__c += ' Other Vertical,';
+      }
     }
-    if(payload.Retail_ecommerce_target__c){
-      reportingObject.Retail_ecommerce_target__c = 'true';
+    //--
+    if(payload.Tech_Partner_Primary_Buyer__c){
+      reportingObject.Tech_Partner_Primary_Buyer__c = payload.Tech_Partner_Primary_Buyer__c;
     }
-    if(payload.Travel_target__c){
-      reportingObject.Travel_target__c = 'true';
+    if(payload.Tech_Partner_Percent_Shared_Customers__c){
+      reportingObject.Tech_Partner_Percent_Shared_Customers__c = payload.Tech_Partner_Percent_Shared_Customers__c;
     }
     if(payload.Web_Interest__c){
       reportingObject.Web_Interest__c = 'true';
     }
-    if(payload.Media_target__c){
-      reportingObject.Media_target__c = 'true';
-    }
     if(payload.Mobile_Web_Interest__c){
       reportingObject.Mobile_Web_Interest__c = 'true';
-    }
-    if(payload.B2B_Technology_target__c){
-      reportingObject.B2B_Technology_target__c = 'true';
-    }
-    if(payload.Other_target__c){
-      reportingObject.Other_target__c = 'true';
     }
     if(payload.iOS_Interest__c){
       reportingObject.iOS_Interest__c = 'true';
@@ -220,6 +232,33 @@
     }
     if(payload.Signup_Platform__c){
       reportingObject.Signup_Platform__c = payload.Signup_Platform__c;
+    }
+    if(payload.address){
+      reportingObject.address = payload.address;
+    }
+    if(payload.city){
+      reportingObject.city = payload.city;
+    }
+    if(payload.state){
+      reportingObject.state = payload.state;
+    }
+    if(payload.country){
+      reportingObject.country = payload.country;
+    }
+    if(payload.company_type){
+      reportingObject.Slns_Partner_Company_Type__c = payload.company_type;
+    }
+    if(payload.has_immediate_project__c){
+      reportingObject.has_immediate_project__c = payload.has_immediate_project__c;
+    }
+    if(payload.Existing_customers_using_Optimizely__c){
+      reportingObject.Existing_customers_using_Optimizely__c = payload.Existing_customers_using_Optimizely__c;
+    }
+    if(payload.parent_company){
+      reportingObject.Slns_Partner_Subsidiary_Parent_Company__c = payload.parent_company;
+    }
+    if(payload.zip){
+      reportingObject.postalCode = payload.zip;
     }
     if(window.optly.l10n && window.optly.l10n.locale) {
       reportingObject.Original_Locale__c = window.optly.l10n.locale;
