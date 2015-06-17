@@ -246,7 +246,7 @@
       reportingObject.Country = payload.country;
     }
     if(payload.Slns_Partner_goal_for_partnership__c){
-      reportingObject.Slns_Partner_goal_for_partnership__c = payload.Slns_Partner_goal_for_partnership__c;
+      reportingObject.Slns_Partner_Partnership_Goal__c = payload.Slns_Partner_goal_for_partnership__c;
     }
     if(payload.company_type){
       reportingObject.Slns_Partner_Company_Type__c = payload.company_type;
