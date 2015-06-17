@@ -240,10 +240,13 @@
       reportingObject.City = payload.city;
     }
     if(payload.state){
-      reportingObject.state = payload.state;
+      reportingObject.State = payload.state;
     }
     if(payload.country){
-      reportingObject.country = payload.country;
+      reportingObject.Country = payload.country;
+    }
+    if(payload.Slns_Partner_goal_for_partnership__c){
+      reportingObject.Slns_Partner_goal_for_partnership__c = payload.Slns_Partner_goal_for_partnership__c;
     }
     if(payload.company_type){
       reportingObject.Slns_Partner_Company_Type__c = payload.company_type;
@@ -258,7 +261,7 @@
       reportingObject.Slns_Partner_Subsidiary_Parent_Company__c = payload.parent_company;
     }
     if(payload.zip){
-      reportingObject.postalCode = payload.zip;
+      reportingObject.PostalCode = payload.zip;
     }
     if(window.optly.l10n && window.optly.l10n.locale) {
       reportingObject.Original_Locale__c = window.optly.l10n.locale;
