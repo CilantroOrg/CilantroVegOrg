@@ -1,0 +1,50 @@
+---
+layout: wrapper
+TR_visible_title: Solutions
+body_class:
+- solutions
+no_container: true
+page_header: false
+page_script: solutions.js
+TR_seo_title: Solutions
+TR_og_title: "Solutions"
+TR_og_description: "Discover and deliver the best experience for each customer across desktop, mobile web, and mobile apps."
+---
+
+<!--             -->
+<!--Title Section-->
+<!--             -->
+{{#with page_data.title_section}}
+<section class="hero">
+  <div class="title-section container">
+    <h1 class="title title--header">{{title}}</h1>
+    <h6 class="title title--subheader">{{sub_title}}</h6>
+  </div>
+</section>
+{{/with}}
+
+
+<!--                -->
+<!--Products Section-->
+<!--                -->
+{{#with page_data.products_section}}
+<section class="products-section">
+  <div class="product-tab-container container">
+    {{#each products}}
+    <div class="product-tab js-product-tab" id="{{#toLowerCase this.tab_title}}{{/toLowerCase}}-tab">
+      <h6 class="product-tab--title product-tab--title--{{#toLowerCase this.tab_title}}{{/toLowerCase}}">{{this.tab_title}}</h6>
+    </div>
+    {{/each}}
+  </div>
+  {{#each products}}
+  <div class="product-showcase container flex-cont js-product-showcase" id="{{#toLowerCase this.tab_title}}{{/toLowerCase}}-showcase">
+    <div class="product-showcase__text">
+      {{! [Stew] This is h6 because of missed translation deadline }}
+      <h6 class="title--blurb">{{this.tab_title}}</h6>
+      <div class="explanation">{{{this.blurb}}}</div>
+    </div>
+    <div class="product-img" style="background-image: url('{{this.product_image}}')"></div>
+  </div>
+  {{/each}}
+</section>
+{{/with}}

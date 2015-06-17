@@ -1,115 +1,36 @@
-var $dropdownElems = $('.dropdown-cont');
-var $filterElems = $('.filter-item');
-var $locationElems = $('.partner-location');
-var $locationElemsFirst = $('.partner-location:first-of-type');
-var $isoContainer;
+var $productTabs = $('.js-product-tab'),
+    $productShowcases = $('.js-product-showcase'),
+    urlProduct = w.location.hash;
 
-// FUNCTIONS
-window.optly.mrkt.filter = {
+// look at the hash to determine what tab to display
+if (!!urlProduct) {
+  var productTab = '#' + urlProduct.substring(1, urlProduct.length);
+  $(productTab + '-tab').addClass('product-tab--active');
+  $productShowcases.hide();
+  $(productTab + '-showcase').show();
+} else {
+  //otherwise open the first tab (testing)
+  $productShowcases.hide();
+  $('#testing-showcase').show();
+  $('#testing-tab').addClass('product-tab--active');
+}
 
-  binder: function() {
+$productTabs.on('click', function() {
+  var $this = $(this);
+  var tabTitle = $this.attr('id');
 
-    var self = this;
+  $productTabs.removeClass('product-tab--active');
+  $this.addClass('product-tab--active');
+  $productShowcases.hide();
+  tabTitle = tabTitle.substring(0, tabTitle.indexOf('-'));
+  $('#' +  tabTitle + '-showcase').show();
+});
 
-    $dropdownElems.on('click', function(e) {
-      e.preventDefault();
-      var $this = $(this);
-      $dropdownElems.not( $this ).removeClass( 'active' );
-      $this.mouseleave(function(){
-        $this.removeClass( 'active' );
-      });
-      $this.toggleClass( 'active' );
-
-      // $(window).not( $dropdownElems ).on('click', function() {
-      //   $dropdownElems.removeClass( 'active' );
-      // });
-    });
-
-    $filterElems.bind('click', function(e) {
-      e.stopPropagation();
-      var $this = $(this);
-      $this.parent().find('li').not( $this ).removeClass( 'active' );
-      $this.toggleClass( 'active' );
-      self.updateIsotope();
-      // if mobile, hide menu by removing parent active
-      if ($('body').hasClass('mobile')){
-        $this.closest('.dropdown-cont').removeClass( 'active' );
-      }
-      self.updateIsotope();
-      // update regions to show local address
-      if ($this.closest('.dropdown-cont').hasClass('dropdown-cont--region')) {
-        var region = $(this).data('filter');
-        $('.partner-location').each( function() {
-          if ($(this).data('region') === region){
-            $(this).addClass('active');
-          } else {
-            $(this).removeClass('active');
-          }
-        });
-      }
-    });
-
-    $('.filter--reset').on('click', function(e) {
-      e.preventDefault();
-      $filterElems.removeClass( 'active' );
-      $locationElems.removeClass( 'active' );
-      $locationElemsFirst.addClass( 'active' );
-      self.updateIsotope();
-    });
-
-  },
-
-  isotope: function() {
-
-    var heights = [];
-
-    $('.partner-grid-elm').each( function() {
-      heights.push( $(this).outerHeight() );
-    });
-
-    heights = heights.sort().reverse();
-
-    $('.partner-grid-elm').each( function() {
-      $(this).height( heights[0] );
-    });
-
-    $('.integrations-container').css('min-height', heights[0]);
-
-    $isoContainer = $('.partner-grid').isotope({
-      itemSelector: '.partner-grid-elm',
-      layoutMode: 'fitRows'
-    });
-  },
-
-  updateIsotope: function() {
-    var $activeItems = $filterElems.filter('.active');
-    var values = [];
-
-    $activeItems.each( function() {
-      var value = $(this).data( 'filter' ).trim();
-      values.push( '.' + value );
-    });
-
-    var filterValue = values.join('');
-    $isoContainer.isotope({ filter: filterValue });
-
-    // create a div#output to enable classname debugging
-    // var $output = $('#output');
-    // $output.text( filterValue );
-
-    if ( !$isoContainer.data('isotope').filteredItems.length ) {
-      $('.integrations-message').addClass('visible');
-    } else {
-      $('.integrations-message').removeClass('visible');
-    }
-
-  },
-
-  init: function() {
-    this.binder();
-    this.isotope();
-  }
-
-};
-
-window.optly.mrkt.filter.init();
+// If user selects nav dropdown, it changes the hash and needs to change the tabs
+$(window).on('hashchange', function() {
+  var productTab = '#' + w.location.hash.substring(1, w.location.hash.length);
+  $('.js-product-tab').removeClass('product-tab--active');
+  $(productTab + '-tab').addClass('product-tab--active');
+  $productShowcases.hide();
+  $(productTab + '-showcase').show();
+});

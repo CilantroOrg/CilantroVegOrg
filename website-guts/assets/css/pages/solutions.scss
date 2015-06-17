@@ -1,0 +1,126 @@
+body.solutions {
+  .hero {
+    background: $brand-navy-blue;
+    text-align: center;
+    padding: 115px 0;
+  }
+  .flex-cont { display: flex; }
+  .title {
+    text-align: center;
+    color: $white;
+    &--header { font-size: 3em; }
+    &--subheader {
+      font-size: 1.125em;
+      color: rgba(255, 255, 255, 0.70);
+      margin: 50px 10px 0;
+    }
+    &--blurb {
+      font-size: 30px;
+      color: #454b50;
+      line-height: 40px;
+      text-align: left;
+      margin-bottom: 25px;
+    }
+  }
+  .product-tab-container { margin-bottom: 50px; }
+  .product-tab {
+    flex: 1;
+    border-bottom: 1px solid #999b9e;
+    cursor: pointer;
+    &--title {
+      text-align: left;
+      font-size: .875em;
+      font-weight: 600;
+      color: #999b9e;
+      letter-spacing: 1.39px;
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 30px;
+      padding: 13px 0 13px 60px;
+      margin-left: 36px;
+      text-transform: uppercase;
+      &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_g_width.svg'); }
+      &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_g_width.svg'); }
+      &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_g_width.svg'); }
+      &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_g_width.svg'); }
+      &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_g_width.svg'); }
+    }
+    &--active {
+      border-bottom: 2px solid $brand-navy-blue;
+      .product-tab--title {
+        color: $brand-navy-blue;
+        &--testing { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/testing_b_width.svg'); }
+        &--analytics { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/analytics_b-width.svg'); }
+        &--platform { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/platform_b_width.svg'); }
+        &--personalization { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/personalization_b_width.svg'); }
+        &--targeting { background-image: url('//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/icons/targeting_b_width.svg'); }
+      }
+    }
+  }
+  .products-section {
+    background: $white;
+    padding-bottom: 75px;
+  }
+  .product-showcase {
+    margin-top: 100px;
+    flex-wrap: wrap;
+    &__text {
+      width: 100%;
+      order: 2;
+      text-align: left;
+      margin: 25px 0 30px 25px;
+    }
+  }
+  .explanation {
+    p,
+    li {
+      font-size: 1.125em;
+      color: #696f72;
+      line-height: 30px;
+    }
+  }
+  .product-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-top: 470px;
+    order: 1;
+  }
+}
+
+@media only screen and (min-width: $tablet-min-width) {
+  body.solutions {
+    .product-tab-container { display: flex; }
+    .product-tab {
+      margin-top: 25px;
+      padding-bottom: 10px;
+    }
+    .product-tab--title {
+      padding: 40px 0 0;
+      margin-left: 0;
+      background-position: top center;
+      text-align: center;
+    }
+    .product-img {
+      width: 50%;
+      order: 0;
+      margin-left: 50px;
+    }
+    .product-showcase { flex-wrap: nowrap; }
+    .product-showcase__text {
+      margin: 0;
+      width: 50%;
+      order: 0;
+    }
+    .title--subheader { margin: 0; }
+  }
+}
+
+@media only screen and (min-width: $desktop-min-width) {
+  body.solutions {
+    .product-tab {
+      margin-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
