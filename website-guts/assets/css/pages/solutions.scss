@@ -25,13 +25,13 @@ body.solutions {
   .product-tab-container { margin-bottom: 50px; }
   .product-tab {
     flex: 1;
-    border-bottom: 1px solid #979797;
+    border-bottom: 1px solid #999b9e;
     cursor: pointer;
     &--title {
       text-align: left;
       font-size: .875em;
       font-weight: 600;
-      color: $faint-gray-border;
+      color: #999b9e;
       letter-spacing: 1.39px;
       background-repeat: no-repeat;
       background-position: left;
