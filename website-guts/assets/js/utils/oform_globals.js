@@ -237,7 +237,7 @@
       reportingObject.address = payload.address;
     }
     if(payload.city){
-      reportingObject.city = payload.city;
+      reportingObject.City = payload.city;
     }
     if(payload.state){
       reportingObject.state = payload.state;
