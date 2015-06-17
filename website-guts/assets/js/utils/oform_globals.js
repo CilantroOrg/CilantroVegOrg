@@ -112,15 +112,19 @@
     }
     if(payload.company){
       reportingObject.company = payload.company;
+      reportingObject.Company = payload.company;
     }
     if(payload.title){
       reportingObject.title = payload.title;
+      reportingObject.Title = payload.title;
     }
     if (payload.role){
       reportingObject.role = payload.role;
+      reportingObject.Title = payload.role;
     }
     if(payload.website){
       reportingObject.website = payload.website;
+      reportingObject.Website = payload.website;
     }
     if(payload.Tech_Partner_goal_for_partnership__c){
       reportingObject.Tech_Partner_goal_for_partnership__c = payload.Tech_Partner_goal_for_partnership__c;
