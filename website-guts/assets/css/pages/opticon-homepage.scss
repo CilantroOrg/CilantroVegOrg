@@ -3,7 +3,7 @@ body.opticon-homepage {
     background-image: url('https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speaker_panel_hero.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 50px;
+    padding: 50px;
   }
   .page-title {
     font-size: 2.6em;
@@ -28,18 +28,21 @@ body.opticon-homepage {
     margin-bottom: 0;
   }
   .opties-container.container {
-    margin-top: 15px;
     padding: 0 20px;
   }
   .opties-details.description-text {
     text-align: center;
-    padding: 0 25px;   
+    line-height: 25px;
+    padding: 30px;
+
   }
   .opties-title {
     font-size: 1.875em;
     color: $opticon-brand-blue;
     letter-spacing: 0.57px;
     line-height: 41px;
+    padding: 0.5em;
+
   }
   .optimizely-host {
     font-size: 0.8125em;
@@ -48,7 +51,10 @@ body.opticon-homepage {
     line-height: 28px;
     margin: 0;
   }
-  .speakers-container { flex-wrap: wrap; }
+  .speakers-container {
+    flex-wrap: wrap;
+    }
+
   .speaker-container {
     padding: 200px 2% 0 2%;
     margin-top: 20px;
@@ -136,19 +142,18 @@ body.opticon-homepage {
       margin: 0 20px;
     }
     .opties-container.container {
-      margin-top: 35px;
-      padding: 0 220px;
+      margin-bottom: 60px;
+      padding: 0 168px;
     }
     .opties-details.description-text {
       background-color: $white;
       text-align: center;
       border: 2px solid $opticon-brand-blue;
       margin-top: 0;
-      padding: 12px 20px;   
+      padding: z30px;   
     }
     .opties-title {
       text-align: center;
-      padding: 0.85em;
       margin-bottom: 0;
       font-size: 1.125em;
       color: $white;

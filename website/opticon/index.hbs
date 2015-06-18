@@ -28,12 +28,12 @@ external_script:
       <span class="page-title first-title adelle-sans--bold">{{title_section.title1}}</span><br>
       <span class="page-title first-title adelle-sans--bold">{{title_section.title2}}</span>
     </div>
-    <h4 class="event-details adelle-sans">{{title_section.date}} | {{title_section.location}}</h4>
-    <p class="hero-subtitle adelle-sans">{{{title_section.sub_title}}}</p>
-    <p class="optimizely-host adelle-sans">{{{title_section.sponsor}}}</p>
-    <a class="anim-opticon-button opticon-button register-link" href="https://www.eventbrite.com/e/opticon-2015-tickets-14328636337">
-      <div class="cta-text adelle-sans">{{title_section.cta}}</div>
-      <div class="cta-arrow">→</div>
+    {{!-- <h4 class="event-details adelle-sans"> {{title_section.date}}</h4> --}}
+    {{!-- <p class="hero-subtitle adelle-sans">{{{title_section.sub_title}}}</p> --}}
+    {{!-- <p class="optimizely-host adelle-sans">{{{title_section.sponsor}}}</p> --}}
+    {{!-- <a class="anim-opticon-button opticon-button register-link" href="https://www.eventbrite.com/e/opticon-2015-tickets-14328636337"> --}}
+      {{!-- <div class="cta-text adelle-sans">{{title_section.cta}}</div>
+      <div class="cta-arrow">→</div> --}}
     </a>
   </div>
 </section>
@@ -41,6 +41,16 @@ external_script:
 <div class="confetti-container">
   <div class="confetti-right"></div>
 </div>
+
+<!--                   -->
+<!--Description Section-->
+<!--                   -->
+
+<section class="description container" l10n-skip>
+  <h3 class="description-title adelle-sans">{{description.title}}</h3>
+  <p class="description-text description-text--center adelle-sans">{{{description.blurb}}}</p>
+
+</section>
 
 <!--              -->
 <!--Opties Section-->
@@ -50,13 +60,6 @@ external_script:
   <p class="opties-details description-text adelle-sans">{{{opties.blurb}}}</p>
 </section>
 
-<!--                   -->
-<!--Description Section-->
-<!--                   -->
-<section class="description container" l10n-skip>
-  <h3 class="description-title adelle-sans">{{description.title}}</h3>
-  <p class="description-text description-text--center adelle-sans">{{description.blurb}}</p>
-</section>
 
 <!--                -->
 <!--Speakers Section-->
@@ -82,7 +85,7 @@ external_script:
 <!--              -->
 <!--Tracks Section-->
 <!--              -->
-<section class="tracks container" l10n-skip>
+{{!-- <section class="tracks container" l10n-skip>
   <h3 class="description-title adelle-sans">{{tracks.title}}</h3>
   <p class="description-text description-text--center adelle-sans">{{tracks.description}}</p>
   <div class="tracks-container flex-container">
@@ -98,7 +101,7 @@ external_script:
   </a>
   <p class="adelle-sans">{{tracks.2014_text}}<a href="{{../linkPath}}/opticon/opticon-2014">{{tracks.2014_link}} &raquo;</a></p>
 
-</section>
+</section> --}}
 
 {{/with}}
 
