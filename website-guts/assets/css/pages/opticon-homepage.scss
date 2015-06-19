@@ -42,7 +42,6 @@ body.opticon-homepage {
     letter-spacing: 0.57px;
     line-height: 41px;
     padding: 0.5em;
-
   }
   .optimizely-host {
     font-size: 0.8125em;
@@ -51,10 +50,7 @@ body.opticon-homepage {
     line-height: 28px;
     margin: 0;
   }
-  .speakers-container {
-    flex-wrap: wrap;
-    }
-
+  .speakers-container { flex-wrap: wrap; }
   .speaker-container {
     padding: 200px 2% 0 2%;
     margin-top: 20px;
@@ -76,13 +72,16 @@ body.opticon-homepage {
     letter-spacing: 0.56px;
     line-height: 28px;
   }
-  .logo-wall__company {
-    width: 65%;
-    padding-top: 50px;
-    background-repeat: no-repeat;
-    background-size: 151px;
-    background-position: center;
-    margin: 35px auto;
+  .logo-wall {
+    margin-bottom: 100px;
+    &__company {
+      width: 65%;
+      padding-top: 50px;
+      background-repeat: no-repeat;
+      background-size: 151px;
+      background-position: center;
+      margin: 35px auto;
+    }
   }
   .cbs { background-position: 50% -60px; }
   .trulia,
@@ -150,7 +149,7 @@ body.opticon-homepage {
       text-align: center;
       border: 2px solid $opticon-brand-blue;
       margin-top: 0;
-      padding: z30px;   
+      padding: 30px;   
     }
     .opties-title {
       text-align: center;
@@ -177,6 +176,7 @@ body.opticon-homepage {
     .description {
       padding: 5% 0;
     }
+    .title-section { padding: 115px; }
     .track-container { padding: 115px 10px 30px; }
     .confetti-container .confetti-right,
     .confetti-container .confetti-left {
