@@ -53,7 +53,8 @@ module.exports = function(grunt) {
     'uglify',
     'filerev',
     'userevvd',
-    's3:production',
+    'aws_s3:productionClear',
+    'aws_s3:production',
     'clean:postBuild',
     'fastly:production'
   ]);
@@ -72,7 +73,8 @@ module.exports = function(grunt) {
     'autoprefixer',
     'copy',
     'uglify',
-    's3:staging',
+    'aws_s3:stagingClear',
+    'aws_s3:staging',
     'clean:postBuild',
     'fastly:staging'
   ]);
