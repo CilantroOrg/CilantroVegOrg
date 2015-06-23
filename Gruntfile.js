@@ -92,7 +92,7 @@ module.exports = function(grunt) {
     'autoprefixer',
     'copy',
     'uglify',
-    's3:smartling',
+    'aws_s3:smartling',
     'clean:postBuild'
   ]);
 
