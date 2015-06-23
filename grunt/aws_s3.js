@@ -4,9 +4,6 @@ module.exports = {
     secretAccessKey: '<%= secret.aws_secret %>',
     uploadConcurrency: 50,
     progress: 'progressBar',
-    params: {
-      CacheControl: '0',
-    }
    },
    staging: {
      options: {
