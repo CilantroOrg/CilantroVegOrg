@@ -13,7 +13,7 @@ TR_faqs:
     TR_answer: "As a current customer, you are grandfathered into the original plan you selected. You can continue to use this plan, or select a new plan if you feel Starter or Enterprise better meets your needs. You can find more answers in this <a href='https://help.optimizely.com/hc/en-us/articles/200040055'>FAQ</a>."
   -
     TR_question: "Does Optimizely offer nonprofit pricing?"
-    TR_answer: "Yes. Visit <a href='https://www.optimizely.com/nonprofits'>Optimizely for non-profits</a> for more information."
+    TR_answer: "Yes. Visit <a href='/nonprofits'>Optimizely for non-profits</a> for more information."
   -
     TR_question: "I have more questions. Where can I find answers?"
     TR_answer: "Check out our <a href='https://help.optimizely.com'>Knowledge Base</a> for questions about how Optimizely works on your website or mobile app. If you have questions about an enterprise plan, please get in touch by calling or filling out a form. We’ll get back to you!"

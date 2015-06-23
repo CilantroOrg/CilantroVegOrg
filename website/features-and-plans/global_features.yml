@@ -116,9 +116,9 @@ enterprise_section:
   title: "Enterprise"
   subtitle: "Customized plans for your business."
   cta: "Talk to Us"
-  feature_cta: "Interested in seeing more? <a href='https://www.optimizely.com/feature-list'>See full feature list &raquo;</a>"
+  feature_cta: "Interested in seeing more? <a href='/feature-list'>See full feature list &raquo;</a>"
 
 starter_section:
   title: "Not ready for Enterprise?"
-  subtitle: "Get the <a href='https://www.optimizely.com/feature-list'>basics</a> with our free Starter Plan. No credit card required."
+  subtitle: "Get the <a href='/feature-list'>basics</a> with our free Starter Plan. No credit card required."
   cta: "Get Started"
