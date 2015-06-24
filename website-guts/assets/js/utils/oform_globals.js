@@ -132,10 +132,9 @@
     if(payload.Tech_Partner_Number_of_Customers__c){
       reportingObject.Tech_Partner_Number_of_Customers__c = payload.Tech_Partner_Number_of_Customers__c;
     }
-    //-- Waiting until we fix radio button integration in oform to activate this:
-    // if(payload.Tech_Partner_Want_to_Build_Integration){
-    //   reportingObject.Tech_Partner_Want_to_Build_Integration__c = payload.Tech_Partner_Want_to_Build_Integration;
-    // }
+    if(payload.Tech_Partner_Want_to_Build_Integration){
+      reportingObject.Tech_Partner_Want_to_Build_Integration__c = payload.Tech_Partner_Want_to_Build_Integration;
+    }
     //-- Concatting checkbox values to report to Marketo for Tech partners target industry
     if(payload.Retail_ecommerce_target__c || payload.Travel_target__c || payload.Media_target__c || payload.B2B_Technology_target__c || payload.Other_target__c){
       reportingObject.Tech_Partner_Target_Customer__c = reportingObject.Tech_Partner_Target_Customer__c || '';
