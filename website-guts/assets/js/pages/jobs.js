@@ -36,7 +36,7 @@ window.optly.mrkt.jobsPage.testimonials();
 * shown based on the filter criteria.
 */
 function showOrHideJobs(filterText, $jobLocation, $closestDepartmentTitle, $departmentTitles) {
-  if (filterText.indexOf($jobLocation.text()) === -1) {
+  if ($jobLocation.text().indexOf(filterText) === -1) {
     if (filterText === 'All Locations') {
       $closestDepartmentTitle.show();
       $departmentTitles.show();
@@ -75,38 +75,40 @@ function registerJobsFilterClick() {
 }
 
 /*
-* Removes all duplicates from an array.
-* Ex: arr = arr.filter(onlyUnique);
-*/
-function onlyUnique(value, index, self) {
-  return self.indexOf(value) === index;
+ * Go through all departments in an office
+ * to determine if there are jobs in that office
+ */
+function officeHasJobs(office) {
+  var jobPresent = false;
+  $.each(office.departments, function(i, department) {
+    if (department.jobs.length !== 0) {
+      jobPresent = true;
+    }
+  });
+  return jobPresent;
 }
 
-function getGreenhouseData(data) {
-  var locations = [];
+function getGreenhouseOfficeData(officeJSON) {
+  if(typeof officeJSON === 'object'){
+    $.each(officeJSON.offices, function(i, office) {
+      if (officeHasJobs(office)) {
+        $('#js-locations').append('<li class="filter-item js-location-filter">' + office.name + '</li>');
+      }
+    });
+    registerJobsFilterClick();
+  }
+}
 
-  if(typeof data === 'object'){
+function getGreenhouseDepartmentData(departmentJSON) {
+  if(typeof departmentJSON === 'object'){
 
-    $.each(data.departments, function(i, department) {
+    $.each(departmentJSON.departments, function(i, department) {
       if(department.jobs.length === 0){
-        delete data.departments[i];
-      } else {
-        // iterate over jobs to get all locations
-        $.each(department.jobs, function(j, job) {
-          locations.push(job.location.name);
-        });
+        delete departmentJSON.departments[i];
       }
     });
 
-    locations = locations.filter(onlyUnique);
-
-    // Add locations as dropdown options
-    $.each(locations, function(index, location) {
-      $('#js-locations').append('<li class="filter-item js-location-filter">' + location + '</li>');
-    });
-    $('#job-list-cont').append( jobList(data) );
-
-    registerJobsFilterClick();
+    $('#job-list-cont').append( jobList(departmentJSON) );
   }
 }
 
@@ -121,10 +123,21 @@ $dropdownElems.click(function() {
   });
 });
 
-var deferred = $.getJSON('https://api.greenhouse.io/v1/boards/optimizely7/embed/departments?callback=?');
-
-deferred.then(getGreenhouseData, function(err) {
+var deferredDepartments = $.getJSON('https://api.greenhouse.io/v1/boards/optimizely7/embed/departments?callback=?');
+deferredDepartments.then(getGreenhouseDepartmentData, function(err) {
     window.analytics.track('https://api.greenhouse.io/v1/boards/optimizely7/embed/departments?callback=?', {
+      category: 'api error',
+      label: err.responseText + ', Response Code: ' + err.status,
+    }, {
+      integrations: {
+        Marketo: false
+      }
+    });
+});
+
+var deferredOffices = $.getJSON('https://api.greenhouse.io/v1/boards/optimizely7/embed/offices?callback=?');
+deferredOffices.then(getGreenhouseOfficeData, function(err) {
+    window.analytics.track('https://api.greenhouse.io/v1/boards/optimizely7/embed/offices?callback=?', {
       category: 'api error',
       label: err.responseText + ', Response Code: ' + err.status,
     }, {
