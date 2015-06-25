@@ -132,22 +132,11 @@ body.non-profits-page {
     h1,
     h2,
     h3,
-    strong {
-      font-family: $body-font-family;
-    }
-    h3 {
-      font-weight: 100;
-    }
-    p {
-      line-height: 2;
-    }
-    i {
-      font-family: $sentinel-font-family;
-      font-weight: 500;
-    }
-    strong {
-      font-weight: 500;
-    }
+    strong { font-family: $body-font-family; }
+    h3 { font-weight: 100; }
+    p { line-height: 2; }
+    i,
+    strong { font-weight: 500; }
     img {
       display: inline-block;
       width: 100%;
