@@ -59,7 +59,7 @@ og_description: ""
     <h2 class="panel-header">{{{title}}}</h2>
 
     {{#each items}}
-      <div class="split-cols clearfix">
+      <div class="split-cols clearfix {{#if this.swap}}SL_swap{{/if}}" {{#if this.id}}id="{{this.id}}"{{/if}}>
 
         <div>
           <img src="{{image}}">

@@ -37,6 +37,8 @@ benefits:
       class: "amplify"
     -
       image: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/partners-become/illustration2.svg"
+      id: "JP_tech_join"
+      swap: true
       TR_title: "Collaborative Sales Enablement Approach"
       TR_blurb: "Get access to a dedicated partner manager, develop joint sales collateral and connect with Optimizely Account Executives."
       class: "grow"
