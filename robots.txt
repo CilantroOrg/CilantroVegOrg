@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /l/
+Disallow:
 
-sitemap: https://www.optimizely.com/sitemap.xml
+Sitemap: https://www.optimizely.com/sitemap.xml
