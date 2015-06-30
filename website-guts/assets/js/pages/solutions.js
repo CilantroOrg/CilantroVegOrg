@@ -18,6 +18,14 @@ if (!!urlProduct) {
 $productTabs.on('click', function() {
   var $this = $(this);
   var tabTitle = $this.attr('id');
+  w.analytics.track('solutions tab change', {
+    category: 'tab click',
+    label: tabTitle
+  }, {
+    integrations: {
+      Marketo: false
+    }
+  });
 
   $productTabs.removeClass('product-tab--active');
   $this.addClass('product-tab--active');
