@@ -78,6 +78,9 @@ body.trial-form-layout {
   }
 
   .seo-customers {
+    // Stew -- remove because image is broken and has SL_swap
+    // Can put back in once Karen returns
+    display: none;
     .row {
       margin: 60px 0;
     }
