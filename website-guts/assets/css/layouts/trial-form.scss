@@ -61,7 +61,7 @@ body.trial-form-layout {
 
   .social-numbers {
     background: image-url('ppc/free-trial-sprite-adjusted-2.png') no-repeat;
-    padding: 0 0 0 80px;
+    padding: 80px 0 0 0;
     width: 220px;
     p {
       margin: 0;
@@ -70,11 +70,11 @@ body.trial-form-layout {
   }
 
   .visitors-tested-cont {
-    background-position: 0 13px;
+    background-position: 73px 36px;
   }
 
   .experiments-run-cont {
-    background-position: -735px 13px;
+    background-position: -659px 31px;
   }
 
   .seo-customers {
@@ -123,6 +123,7 @@ body.trial-form-layout {
     #social-proof-cont {
       .social-numbers {
         width: 50%;
+        text-align: center;
       }
       margin: 0 auto 50px auto;
       .visitors-tested-cont {
