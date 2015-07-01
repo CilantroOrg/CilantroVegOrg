@@ -22,15 +22,13 @@ api_domain: true
                   <input type="password" name="password" required>
               </label>
 
-              <!-- This will be uncommented once SSO is live. -->
-              <!--
-              <p class="right">
-                <a href="http://app.optimizely.com/signin/sso">
-                  {{tr 'Use single sign-on'}}
-                </a>
-              </p>
-              -->
               <div class="terms">
+                  <label class="spaced right">
+                      <a href="http://app.optimizely.com/signin/sso">
+                         {{tr 'Use single sign-on'}}
+                      </a>
+                  </label>
+
                   <label class="spaced">
                       <input type="checkbox" name="persist" checked="checked">
                       <p>{{tr 'Keep me signed in'}}</p>
