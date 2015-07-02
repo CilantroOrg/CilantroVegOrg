@@ -1,11 +1,9 @@
 title_section:
   title1: "Thanks to the 1000+"
   title2: "Opticon attendees this year!"
-  date: "We hope you had an incredible time."
-  location: "Pier 27, San Francisco"
-  sub_title: "Stay tuned for session recordings."
   sponsor: "Powered by <a href='https://www.optimizely.com/'>Optimizely</a>"
-  cta: "Register Now"
+  cta-recap: "Watch our recap"
+  cta-vids: "See all sessions"
 
 description:
   title: "We hope you had an incredible time."
@@ -21,7 +19,7 @@ opties:
 speaker_section:
   title: "Thank you to the world-renowned experts and industry leaders"
   speaker_list:
-    -
+    - 
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/dan-circle-headshot.png"
       speaker_name: "Dan Siroker"
       company: "Optimizely"
