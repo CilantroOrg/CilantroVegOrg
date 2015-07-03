@@ -24,7 +24,6 @@ var xhrInitiationTime;
 //track focus on form fields
 $('#seo-form input:not([type="hidden"])').each(function(){
   $(this).one('focus', function(){
-    console.log('changing focus in the form field');
     //put all the information in the event because we'll want to use this as a goal in optimizely
     w.analytics.track($(this).closest('form').attr('id') + ' ' + $(this).attr('name') + ' focus',
     {
@@ -90,7 +89,6 @@ w.optly.mrkt.trialForm = new Oform({
   middleware: w.optly.mrkt.Oform.defaultMiddleware
 })
 .on('before', function(){
-  console.log('in oform on the before method');
   w.analytics.track('/free-trial/submit', {
     category: 'account',
     label: w.optly.mrkt.utils.trimTrailingSlash(w.location.pathname)
@@ -104,12 +102,10 @@ w.optly.mrkt.trialForm = new Oform({
 })
 .on('validationerror', w.optly.mrkt.Oform.validationError)
 .on('error', function(){
-  console.log('in oform error');
   $('#seo-form .error-message').text(errorMessages.UNKNOWN);
   $('body').addClass('oform-error').removeClass('oform-processing');
 })
 .on('load', function(returnData){
-  console.log('in oform on load');
   var xhrElapsedTime,
       parsedResp;
   xhrElapsedTime = new Date() - xhrInitiationTime;
@@ -134,7 +130,6 @@ w.optly.mrkt.trialForm = new Oform({
   });
   if(parsedResp){
     if(returnData.XHR.status === 200){
-      console.log('in w dot ga if parsedresp status is 200, about to call tracklead with parsedResp:', parsedResp);
       w.optly.mrkt.Oform.trackLead({
         response: parsedResp,
         requestPayload: returnData.requestPayload
@@ -217,7 +212,6 @@ w.optly.mrkt.trialForm = new Oform({
   }
 })
 .on('done', function(){
-  console.log('in oform on done');
   if($('body').hasClass('oform-error')){
     $('body').removeClass('oform-processing');
     //report that there were errors in the form
@@ -233,7 +227,6 @@ w.optly.mrkt.trialForm = new Oform({
 });
 
 var validateOnBlur = function(isValid, element){
-  console.log('caling validateOnBlur, here is isValid: ', isValid, 'here is element: ', element);
   if($(element).val()){
     w.optly.mrkt.trialForm.options.adjustClasses(element, isValid);
     var elementValue = $(element).val();
