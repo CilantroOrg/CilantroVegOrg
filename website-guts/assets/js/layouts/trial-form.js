@@ -257,9 +257,3 @@ $('#seo-form [name="url-input"]').blur(function(){
 $('#seo-form [name="email"]').blur(function(){
   validateOnBlur(w.optly.mrkt.trialForm.options.validate.email( $(this).val() ), this);
 });
-
-//prevent multiple form submissions:
-$('#seo-form').submit(function() {
-  $(this).find(':submit').attr( 'disabled', 'disabled' );
-});
-
