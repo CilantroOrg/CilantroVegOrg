@@ -31,14 +31,13 @@ body.contact-page {
     }
   }
   .addresses {
-    > p:nth-child(2) {
-      position: relative;
-      top: -5px;
+    > p {
+      line-height: 1.2em;
     }
     a {
       font-size: 0.8em;
       position: relative;
-      top: -7px;
+      top: 2px;
     }
   }
   @media only screen and (min-width: $tablet-min-width) {
