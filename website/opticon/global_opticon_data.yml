@@ -6,14 +6,11 @@ title_section:
 
 description:
   title: "We hope you had an incredible time."
-  blurb: "Check back for photos, videos and session slides coming soon! <br> We'd also love to hear your feedback by <a href='https://optimizely.getfeedback.com/r/kpnDXMRE'>filling out a survey</a> about your experience."
-  cta: "Learn More"
-  cta_2014: "Want to get a taste of what's in store? Check out our "
-  cta_2014_link_text: "Opticon 2014 recap"
+  blurb: "Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis."
 
-opties:
-  title: "Congratulations to our 2015 Optie Award Winners!"
-  blurb: "You can view all of the award categories and winners <a class='hero-link' href='https://blog.optimizely.com/2015/06/18/opties-2015-winners'>here</a>. A special thank you to our amazing finalists, partners and customers for sharing your achievements!"
+customer_quote:
+  quote: "“The sessions held gave a wealth of ideas about how to improve our structure and process around optimization... I can't wait to start applying everything I've learned.”"
+  attribution: "– Grant Wilkins, Northern Tool + Equipment"
 
 speaker_section:
   title: "Thank you to the world-renowned experts and industry leaders"

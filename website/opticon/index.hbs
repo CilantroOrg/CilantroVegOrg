@@ -49,19 +49,30 @@ external_script:
   <p class="description-text description-text--center adelle-sans">{{{description.blurb}}}</p>
 </section>
 
-<!--              -->
-<!--Opties Section-->
-<!--              -->
-<section class="container opties-container">
-  <h4 class="opties-title adelle-sans">{{opties.title}}</h4>
-  <p class="opties-details description-text adelle-sans">{{{opties.blurb}}}</p>
+
+
+
+
+
+
+
+
+
+<!--             -->
+<!--Quote Section-->
+<!--             -->
+<section class="blue-section">
+  <div class="quote-container">
+    <h3 class="adelle-sans--bold">{{customer_quote.quote}}</h3>
+    <p class="adelle-sans--bold">{{customer_quote.attribution}}</p>
+  </div>
 </section>
 
 
 <!--                -->
 <!--Speakers Section-->
 <!--                -->
-<section class="speakers container" l10n-skip>
+<section class="container" l10n-skip>
   <h3 class="description-title adelle-sans">{{speaker_section.title}}</h3>
   <div class="speakers-container flex-container">
     {{#each speaker_section.speaker_list}}
@@ -71,7 +82,7 @@ external_script:
     </div>
     {{/each}}
   </div>
-  <h5 class="speaker-companies-title adelle-sans">{{speaker_section.featuring}}</h5>
+  <h5 class="speaker-companies-title adelle-sans--bold">{{speaker_section.featuring}}</h5>
   <div class="logo-wall flex-container">
     {{#each speaker_section.company_list}}
     <div class="logo-wall__company {{this.class}}" style="background-image: url('{{this.image}}')"></div>

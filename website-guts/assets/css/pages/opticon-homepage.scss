@@ -28,21 +28,22 @@ body.opticon-homepage {
     line-height: 26px;
     margin-bottom: 0;
   }
-  .opties-container.container {
-    padding: 0 20px;
-  }
-  .opties-details.description-text {
-    text-align: center;
-    line-height: 25px;
-    padding: 30px;
-
-  }
-  .opties-title {
-    font-size: 1.875em;
-    color: $opticon-brand-blue;
-    letter-spacing: 0.57px;
-    line-height: 41px;
-    padding: 0.5em;
+  .quote-container {
+    color: $white;
+    padding: 0 3%;
+    h3 {
+      // color: $white;
+      font-size: 1.2em;
+      letter-spacing: 0.37px;
+      line-height: 32px;
+    }
+    p {
+      opacity: 0.8;
+      font-size: 0.9em;
+      letter-spacing: 0.43px;
+      line-height: 28px;
+      text-align: right;
+    }
   }
   .optimizely-host {
     font-size: 0.8125em;
@@ -63,7 +64,7 @@ body.opticon-homepage {
   .speaker-blurb { text-align: left; }
   .subtitle { text-align: center; }
   .description-title {
-    padding: 0 2%;
+    padding: 2% 2%;
     text-align: center;
   }
   .speaker-companies-title {
@@ -96,7 +97,7 @@ body.opticon-homepage {
     background-size: 136px;
     background-position: center;
   }
-  .description { padding: 5% 13%; }
+  .description { padding: 5%; }
   .description-text.description-text--center { text-align: center; }
   .tracks {
     padding: 100px 0 80px;
@@ -166,6 +167,25 @@ body.opticon-homepage {
       background-size: cover;
       background-position: center;
     }
+    .quote-container {
+      max-width: 940px;
+      margin: 0 auto;
+      color: $white;
+
+      h3 {
+        // color: $white;
+        font-size: 1.9em;
+        letter-spacing: 0.37px;
+        line-height: 44px;
+      }
+      p {
+        opacity: 0.8;
+        font-size: 0.9em;
+        letter-spacing: 0.43px;
+        line-height: 28px;
+        text-align: right;
+      }
+    }
     .page-title { font-size: 3em; }
     .confetti-container .confetti-right,
     .confetti-container .confetti-left { display: none; }
@@ -175,7 +195,7 @@ body.opticon-homepage {
 @media only screen and (min-width: $desktop-min-width) {
   body.opticon-homepage {
     .description {
-      padding: 5% 0;
+      padding: 55px 0;
     }
     .title-section { padding: 75px; }
     .track-container { padding: 115px 10px 30px; }
