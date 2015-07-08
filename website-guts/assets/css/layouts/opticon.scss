@@ -110,7 +110,7 @@ body.opticon {
   }
   .opticon-button {
     font-size: 1em;
-    color: $opticon-brand-blue;
+    // color: $opticon-brand-blue;
     background-color: #fff;
     letter-spacing: 0.38px;
     border: 2px solid $opticon-brand-blue;
@@ -133,13 +133,14 @@ body.opticon {
       padding: 10px 60px;
     }
     &--nav {
+      background-color: $white;
       margin: 0 75px;
       padding: 4px 25px;
       border-radius: 3px;
+      font-size: 0.87em;
       &--footer {
         color: $light-text-color;
         border: 1px solid $light-text-color;
-        font-size: 0.87em;
       }
       &--header {
         background: $opticon-brand-blue;
@@ -192,7 +193,7 @@ body.opticon {
     display: inline-block;
     margin-top: 40px;
   }
-  .blue-section {
+  .filled-section {
     padding: 30px 0;
     background: $opticon-brand-blue;
     border: 1px solid #DADADA;
