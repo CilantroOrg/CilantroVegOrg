@@ -1,9 +1,8 @@
 title_section:
-  title1: "Thanks to the 1000+"
-  title2: "Opticon attendees this year!"
-  sponsor: "Powered by <a href='https://www.optimizely.com/'>Optimizely</a>"
-  cta-recap: "Watch our recap"
-  cta-vids: "See all sessions"
+  title1: "Thanks to the 1000+ Opticon"
+  title2: "attendees this year!"
+  cta_recap: "Watch recap video"
+  sessions_link: "Missed a session? Browse all of our <a href='https://www.optimizely.com'>recorded sessions ></a>"
 
 description:
   title: "We hope you had an incredible time."
@@ -14,7 +13,7 @@ description:
 
 opties:
   title: "Congratulations to our 2015 Optie Award Winners!"
-  blurb: "You can view all of the award categories and winners <a href='https://blog.optimizely.com/2015/06/18/opties-2015-winners'>here</a>. A special thank you to our amazing finalists, partners and customers for sharing your achievements!"
+  blurb: "You can view all of the award categories and winners <a class='hero-link' href='https://blog.optimizely.com/2015/06/18/opties-2015-winners'>here</a>. A special thank you to our amazing finalists, partners and customers for sharing your achievements!"
 
 speaker_section:
   title: "Thank you to the world-renowned experts and industry leaders"

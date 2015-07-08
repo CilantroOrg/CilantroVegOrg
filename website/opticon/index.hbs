@@ -25,26 +25,18 @@ external_script:
 <section class="title-section" l10n-skip>
   <div class="copy-container container">
     <div>
-      <span class="page-title first-title adelle-sans--bold">{{title_section.title1}}</span><br>
-      <span class="page-title first-title adelle-sans--bold">{{title_section.title2}}</span>
-      <a class="anim-opticon-button opticon-button" href="http://www.optimizely.com">
-        <div class="cta-text adelle-sans">{{title_section.cta-recap}}</div>
-        <div class="cta-arrow">→</div>
-      </a>
-      <a class="anim-opticon-button opticon-button" href="http://www.optimizely.com">
-        <div class="cta-text adelle-sans">{{title_section.cta-vids}}</div>
-        <div class="cta-arrow">→</div>
-      </a>
+      <span class="page-title page-title__top adelle-sans--bold">{{title_section.title1}}</span><br>
+      <span class="page-title adelle-sans--bold">{{title_section.title2}}</span>
     </div>
-    {{!-- <h4 class="event-details adelle-sans"> {{title_section.date}}</h4> --}}
-    {{!-- <p class="hero-subtitle adelle-sans">{{{title_section.sub_title}}}</p> --}}
-    {{!-- <p class="optimizely-host adelle-sans">{{{title_section.sponsor}}}</p> --}}
-    {{!-- <a class="anim-opticon-button opticon-button register-link" href="https://www.eventbrite.com/e/opticon-2015-tickets-14328636337"> --}}
-      {{!-- <div class="cta-text adelle-sans">{{title_section.cta}}</div>
-      <div class="cta-arrow">→</div> --}}
-    </a>
   </div>
-</section>
+  <div class="recap-cta">
+    <a class="anim-opticon-button opticon-button opticon-button--header" href="https://www.optimizely.com">
+      <div class="cta-text adelle-sans">{{title_section.cta_recap}}</div>
+      <div class="cta-arrow">→</div>
+    </a>  
+  </div>
+  <p class="hero-text adelle-sans--bold">{{{title_section.sessions_link}}}<p>
+</section> 
 
 <div class="confetti-container">
   <div class="confetti-right"></div>

@@ -1,6 +1,6 @@
 body.opticon-homepage {
   .title-section {
-    background-image: url('https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speaker_panel_hero.png');
+    background-image: url('https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/post_opti_hero_img.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
@@ -8,10 +8,11 @@ body.opticon-homepage {
   .page-title {
     font-size: 2.6em;
     background: $opticon-brand-blue;
-    padding: 10px 20px 0;
+    padding: 0 20px 0;
     margin: 0;
-    letter-spacing: 1.83px;
-    line-height: 64px;
+    letter-spacing: 1.77px;
+    line-height: 58px;
+    &__top {padding-top: 10px}
   }
   .event-details {
     font-size: 1.125em;
@@ -130,7 +131,7 @@ body.opticon-homepage {
       padding: 115px 10px 10px 10px;
     }
     .copy-container {
-      text-align: right;
+      text-align: left;
       padding: 0 5%;
       h1,
       h4 { text-align: right; }
@@ -176,9 +177,13 @@ body.opticon-homepage {
     .description {
       padding: 5% 0;
     }
-    .title-section { padding: 115px; }
+    .title-section { padding: 75px; }
     .track-container { padding: 115px 10px 30px; }
     .confetti-container .confetti-right,
+    .recap-cta { 
+      text-align: center;
+      margin-top: 50px;
+    }
     .confetti-container .confetti-left {
       display: block;
     }
