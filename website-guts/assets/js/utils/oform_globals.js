@@ -32,7 +32,6 @@
   };
 
   w.optly.mrkt.Oform.validationError = function(element){
-    console.log('you are in validationError in oform globals!');
     w.optly.mrkt.formHadError = true;
 
     var elementValue = $(element).val();
