@@ -89,6 +89,11 @@ w.optly.mrkt.trialForm = new Oform({
   middleware: w.optly.mrkt.Oform.defaultMiddleware
 })
 .on('before', function(){
+  //disable form to prevent multiple form submissions. Note, form is re-enabled later if validation errors occur:
+  $('#seo-form').submit(function() {
+    $(this).find(':submit').attr( 'disabled', 'disabled' );
+  });
+  
   w.analytics.track('/free-trial/submit', {
     category: 'account',
     label: w.optly.mrkt.utils.trimTrailingSlash(w.location.pathname)
@@ -100,7 +105,12 @@ w.optly.mrkt.trialForm = new Oform({
   xhrInitiationTime = new Date();
   return w.optly.mrkt.Oform.before();
 })
-.on('validationerror', w.optly.mrkt.Oform.validationError)
+.on('validationerror', function(){
+  // if form has validation errors, re-enable form so user can submit once they fix errors:
+  $('#seo-form').submit(function() {
+    $(this).find(':submit').removeAttr('disabled');
+  });
+},  w.optly.mrkt.Oform.validationError)
 .on('error', function(){
   $('#seo-form .error-message').text(errorMessages.UNKNOWN);
   $('body').addClass('oform-error').removeClass('oform-processing');
@@ -256,9 +266,4 @@ $('#seo-form [name="url-input"]').blur(function(){
 
 $('#seo-form [name="email"]').blur(function(){
   validateOnBlur(w.optly.mrkt.trialForm.options.validate.email( $(this).val() ), this);
-});
-
-//prevent multiple form submissions:
-$('#seo-form').submit(function() {
-  $(this).find(':submit').attr( 'disabled', 'disabled' );
 });
