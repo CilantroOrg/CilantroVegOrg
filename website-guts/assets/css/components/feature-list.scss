@@ -32,7 +32,7 @@
   }
   /*Table Sections*/
   .table ~ .table {
-    margin-top: 45px;
+    margin-top: 75px;
   }
   .table {
     .table-header {
@@ -121,20 +121,19 @@
   }
   /*CTA Section*/
   .cta {
-    margin: 30px;
+    margin-bottom: 150px;
     * { text-align: center; }
     h1 {
       font: 1.7em $body-font-family;
       color: #696F72;
       line-height: 29px;
-      margin: 5px 0 25px;
+      margin-bottom: 25px;
     }
     .starter {
       width: 50%;
       float: left;
     }
     .enterprise {
-      padding-left: 5%;
       width: 50%;
       float: right;
     }
@@ -191,7 +190,6 @@
 
 @media only screen and (min-width: $desktop-min-width) {
   #feature-list {
-    margin-bottom: 75px;
     .title-table-header {
       .starter {
         margin-left: 34.043%;

@@ -2,11 +2,11 @@ TR_current_plan_message: "Your current plan"
 TR_back: "Back to Feature Overview"
 
 starter_header:
-  TR_title: "Starter Plan"
-  TR_desc: "No credit card required."
+  TR_title: "Starter"
+  TR_desc: "All the basics.<br>No credit card required."
 
 enterprise_header:
-  TR_title: "Enterprise Plan"
+  TR_title: "Enterprise"
   TR_desc: "Customized For Your Business."
 
 TR_tables:
@@ -302,8 +302,8 @@ TR_tables:
 
 calls_to_action:
   starter:
-    TR_label: "Absolutely Free"
-    TR_button_text: "Test it out"
+    TR_label: "Free"
+    TR_button_text: "Get Started Now"
   enterprise:
-    TR_label: "Schedule Demo"
-    TR_button_text: "Schedule Demo"
+    TR_label: "Get Quote"
+    TR_button_text: "Talk to Us"
