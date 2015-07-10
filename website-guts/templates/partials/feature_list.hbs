@@ -18,6 +18,18 @@
   <!--Feature Tables-->
   <!--              -->
   {{#each tables}}
+  <div class="cta row">
+    <div class="starter columns four offset-four">
+      <h1 class="">{{../calls_to_action.starter.label}}</h1>
+      <p class="current-plan-message">{{../current_plan_message}}</p>
+      <a class="starter-cta">{{../calls_to_action.starter.button_text}}</a>
+    </div>
+    <div class="enterprise columns four">
+      <h1 class="">{{../calls_to_action.enterprise.label}}</h1>
+      <p class="current-plan-message">{{../current_plan_message}}</p>
+      <a class="enterprise-cta">{{../calls_to_action.enterprise.button_text}}</a>
+    </div>
+  </div>
   <div class="table">
     <div class="table-header row">
       <p class="table-title columns four">{{this.title}}</p>
