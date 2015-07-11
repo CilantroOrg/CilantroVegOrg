@@ -1,0 +1,36 @@
+---
+layout: opticon
+TR_seo_title: Opticon
+no_container: true
+no_header: true
+no_footer: true
+body_class:
+- opticon
+- opticon-sessions
+og_title: "Opticon Recorded Sessions 2015"
+og_description: "Check out all the recorded sessions from Opticon 2015"
+page_script: opticon-sessions.js
+external_script:
+- //use.typekit.net/ucj0cgp.js
+- //fast.wistia.com/assets/external/popover-v1.js
+---
+
+<div class="page-content container">
+  <h2 class="page-title common-page-title adelle-sans--bold">{{page_data.title}}</h2>
+
+  {{! Keynote Speakers Section }}
+  {{#with page_data.keynote_sessions}}
+  <section class="container">
+    <h4 class="sessions-section adelle-sans">{{this.title}}</h4>
+    <div class="flex-container">
+      {{#each video_list}}
+      <div class="keynote-container">
+        {{{this.wistia_url}}}
+        <p class="item-title adelle-sans--bold">{{this.title}}</p>
+        <p class="item-source adelle-sans">{{this.speakers}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+  {{/with}}
+</div>
