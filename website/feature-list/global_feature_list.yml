@@ -248,6 +248,11 @@ TR_tables:
         enterprise_bool: true
         TR_tooltip: "Schedule when experiments should start and stop in advance."
       -
+        TR_title: "Single Sign-On"
+        boolean: true
+        starter_bool: false
+        enterprise_bool: true
+      -
         TR_title: "Traffic Optimized"
         string: true
         TR_starter_text: "50,000 MUVs/MAUs"
