@@ -6,14 +6,54 @@ keynote_sessions:
     title: "CEO Dan Siroker's Keynote"
     speakers: "Dan Siroker"
     track: "Featured"
-    wistia_url: <a href="//fast.wistia.net/embed/iframe/iz1icfwrgn?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/e1c45ab2c24a4318a8ac8be4221ef0278d9a08b1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    wistia_url: <a href="//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/3fbd3c8b8dda2a65acb0dd90fe00ac4a15bd1b01.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
   -
-    title: "Fireside Chat with Dan Siroker and Marc Andreessen"
-    speakers: "Dan Siroker, Mark Andreessen"
-    track: "Featured"
-    wistia_url: <a href="//fast.wistia.net/embed/iframe/iz1icfwrgn?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/e1c45ab2c24a4318a8ac8be4221ef0278d9a08b1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
-  -
-    title: "Technology Trends, the “We Economy”"
+    title: "The Future of Technology, Optimization, and the “We Economy”"
     speakers: "Mary Hamilton"
     track: "Featured"
-    wistia_url: <a href="//fast.wistia.net/embed/iframe/iz1icfwrgn?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/e1c45ab2c24a4318a8ac8be4221ef0278d9a08b1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/dbb71bc81435485d4fa58d2850f15275a0145070.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+
+breakout_sessions:
+  tracks: 
+  -
+    title: "Culture Sessions"
+    video_list:
+    -
+      title: "Collaborating to Scale: How to Spread Optimization Across Your Org and Keep Things from Getting Messy"
+      track: "Featured"
+      speakers: "Mary Hamilton"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/dbb71bc81435485d4fa58d2850f15275a0145070.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Google's $xxM Ad Optimization Bet"
+      speakers: "Mary Hamilton"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/dbb71bc81435485d4fa58d2850f15275a0145070.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Collaborating to Scale: How to Spread Optimization Across Your Org and Keep Things from Getting Messy"
+      track: "Featured"
+      speakers: "Mary Hamilton"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/3fbd3c8b8dda2a65acb0dd90fe00ac4a15bd1b01.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Google's $xxM Ad Optimization Bet"
+      speakers: "Mary Hamilton"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/dbb71bc81435485d4fa58d2850f15275a0145070.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>      
+  -
+    title: "Strategy Sessions"
+    video_list:
+    -
+      title: "Collaborating to Scale: How to Spread Optimization Across Your Org and Keep Things from Getting Messy"
+      track: "Featured"
+      speakers: "Mary Hamilton"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/dbb71bc81435485d4fa58d2850f15275a0145070.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Google's $xxM Ad Optimization Bet"
+      speakers: "Mary Hamilton"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/dbb71bc81435485d4fa58d2850f15275a0145070.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Collaborating to Scale: How to Spread Optimization Across Your Org and Keep Things from Getting Messy"
+      track: "Featured"
+      speakers: "Mary Hamilton"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/3fbd3c8b8dda2a65acb0dd90fe00ac4a15bd1b01.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Google's $xxM Ad Optimization Bet"
+      speakers: "Mary Hamilton"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/dbb71bc81435485d4fa58d2850f15275a0145070.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>      

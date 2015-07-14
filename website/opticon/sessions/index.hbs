@@ -21,16 +21,41 @@ external_script:
   {{! Keynote Speakers Section }}
   {{#with page_data.keynote_sessions}}
   <section class="container">
-    <h4 class="sessions-section adelle-sans">{{this.title}}</h4>
-    <div class="flex-container">
+    <h2 class="sessions-section-title adelle-sans">{{this.title}}</h2>
+    <div class="flex-container sessions-container">
       {{#each video_list}}
-      <div class="keynote-container">
+      <div class="session-container__keynote">
         {{{this.wistia_url}}}
-        <p class="item-title adelle-sans--bold">{{this.title}}</p>
-        <p class="item-source adelle-sans">{{this.speakers}}</p>
+        <div class="session-details-container session-details-container__keynote">
+          <p class="session-title adelle-sans--bold">{{this.title}}</p>
+          <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+        </div>
       </div>
       {{/each}}
     </div>
   </section>
   {{/with}}
+
+  {{! Content Sessions }}
+  {{#with page_data.breakout_sessions}}
+  {{#each tracks}}
+  <section class="container">
+    <h2 class="sessions-section-title adelle-sans">{{this.title}}</h2>
+    <div class="flex-container sessions-container">
+      {{#each video_list}}
+      <div class="session-container session-container__breakout">
+        {{{this.wistia_url}}}
+        <div class="session-details-container session-details-container__breakout">
+          <p class="session-title adelle-sans--bold">{{this.title}}</p>
+          <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+  {{/each}}
+  {{/with}}
+
+
+
 </div>
