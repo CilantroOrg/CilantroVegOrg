@@ -1,22 +1,25 @@
 body.opticon-sessions {
+  .slides-link {
+    color: $opticon-brand-blue;
+    font-size: .8em;
+  }
   .sessions-container{
     border-top: 1px solid $opticon-brand-blue;   
     text-align: center;
     padding-top: 20px;
-
   }
   .session-container{
     background-repeat: no-repeat;
     background-position: top center;
   }
 
-  // .sessions-container { border-top: 1px solid $opticon-brand-blue; }
-
   .session-details-container {
+    max-width: 300px;
+    margin: 5px auto;
     text-align: center;
     color: $opticon-text-gray;
     letter-spacing: 0.5px;
-    max-width: 300px;
+    margin-bottom: 25px;
     .session-title { 
       font-size: 1.1em;
       margin-bottom: 0px;
@@ -25,6 +28,7 @@ body.opticon-sessions {
     .session-speaker {
       font-size: 0.9em;
       line-height: 22px;
+      margin-bottom: 0; 
     }
   }
   .sessions-section-title {
@@ -38,43 +42,26 @@ body.opticon-sessions {
 
 @media only screen and (min-width: $tablet-min-width) {
   body.opticon-sessions {
-    .flex-container { flex-wrap: wrap; }
+    .flex-container { 
+      flex-wrap: wrap; 
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: flex-start;
+      align-items: flex-start;
+    }
     .session-container {
       &__keynote {
-        width: 50%;  
+        width: 275px;
       }
       &__breakout {
-        width: 33%;
-        min-width: 230px;
-        padding: 0 5px 0;
+        width: 220px;
+        margin: 10px;
       }
-      // border-top: 1px solid $opticon-brand-blue; move to container and not to each video
     }
     .session-details-container {
       text-align: left;
       margin-top: 10px;
-      &__keynote {
-        max-width: 380px;
-        padding-left: 40px;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: $desktop-min-width) {
-  body.opticon-sessions {
-    .session-container{
-      &__breakout {
-        width: 25%;
-      }
-    }
-    .session-details-container {
-      &__breakout {
-        padding: 0 8px 0 0;
-      }
-      &__keynote {
-        padding-left: 80px;
-      }
     }
   }
 }

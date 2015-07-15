@@ -29,6 +29,9 @@ external_script:
         <div class="session-details-container session-details-container__keynote">
           <p class="session-title adelle-sans--bold">{{this.title}}</p>
           <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+          {{#if this.slides_url}}
+            <a class="adelle-sans slides-link" href="{{this.slides_url}}">View Slides</a>
+          {{/if}}  
         </div>
       </div>
       {{/each}}
@@ -38,22 +41,22 @@ external_script:
 
   {{! Content Sessions }}
   {{#with page_data.breakout_sessions}}
-  {{#each tracks}}
-  <section class="container">
-    <h2 class="sessions-section-title adelle-sans">{{this.title}}</h2>
-    <div class="flex-container sessions-container">
-      {{#each video_list}}
-      <div class="session-container session-container__breakout">
-        {{{this.wistia_url}}}
-        <div class="session-details-container session-details-container__breakout">
-          <p class="session-title adelle-sans--bold">{{this.title}}</p>
-          <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+    {{#each tracks}}
+    <section class="container">
+      <h2 class="sessions-section-title adelle-sans">{{this.title}}</h2>
+      <div class="flex-container sessions-container">
+        {{#each video_list}}
+        <div class="session-container session-container__breakout">
+          {{{this.wistia_url}}}
+          <div class="session-details-container session-details-container__breakout">
+            <p class="session-title adelle-sans--bold">{{this.title}}</p>
+            <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+          </div>
         </div>
+        {{/each}}
       </div>
-      {{/each}}
-    </div>
-  </section>
-  {{/each}}
+    </section>
+    {{/each}}
   {{/with}}
 
 
