@@ -55,8 +55,11 @@ body.opticon-sessions {
         width: 275px;
       }
       &__breakout {
-        width: 220px;
+        width: 200px;
         margin: 10px;
+        &__placeholder {
+          height: 0px;
+        }
       }
     }
     .session-details-container {

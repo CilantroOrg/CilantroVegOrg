@@ -31,7 +31,7 @@ external_script:
           <p class="session-title adelle-sans--bold">{{this.title}}</p>
           <p class="session-speaker adelle-sans">{{this.speakers}}</p>
           {{#if this.slides_url}}
-            <a class="adelle-sans slides-link" href="{{this.slides_url}}">View Slides</a>
+            <a class="adelle-sans slides-link" target="_blank" href="{{this.slides_url}}">View Slides</a>
           {{/if}}  
         </div>
       </div>
@@ -47,13 +47,21 @@ external_script:
       <h2 class="sessions-section-title adelle-sans">{{this.title}}</h2>
       <div class="flex-container sessions-container">
         {{#each video_list}}
-        <div class="session-container session-container__breakout">
-          {{{this.wistia_url}}}
-          <div class="session-details-container session-details-container__breakout">
-            <p class="session-title adelle-sans--bold">{{this.title}}</p>
-            <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+          {{#if this.is_placeholder}}
+          <div class="session-container session-container__breakout session-container__placeholder">
           </div>
-        </div>
+          {{else}}
+          <div class="session-container session-container__breakout">
+            {{{this.wistia_url}}}
+            <div class="session-details-container session-details-container__breakout">
+              <p class="session-title adelle-sans--bold">{{this.title}}</p>
+              <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+              {{#if this.slides_url}}
+                <a class="adelle-sans slides-link" target="_blank" href="{{this.slides_url}}">View Slides</a>
+              {{/if}}  
+            </div>
+          </div>
+          {{/if}}
         {{/each}}
       </div>
     </section>

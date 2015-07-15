@@ -5,16 +5,18 @@ keynote_sessions:
   -
     title: "CEO Dan Siroker's Keynote"
     speakers: "Dan Siroker"
-    wistia_url: <a href="//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/3fbd3c8b8dda2a65acb0dd90fe00ac4a15bd1b01.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    wistia_url: <a href="//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/be55b81db186b83574c23db7c893e12b5651cc80.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
   -
     title: "The Future of Technology, Optimization, and the “We Economy”"
     speakers: "Mary Hamilton"
-    wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/dbb71bc81435485d4fa58d2850f15275a0145070.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    slides_url: http://www.slideshare.net/optimizely/opticon-2015-technology-trends-and-the-we-economy
+    wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/790f98fe8da43a6e2b19ab47a119864aeba713e8.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
   -
     title: "2015 Optie Awards"
     speakers: "Greg Tate"
     wistia_url: <a href="//fast.wistia.net/embed/iframe/rd5d5lubvz?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/636777332097652a4d419c6fc088c80165312df4.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
 
+#placeholders ensure no matter how many items are added, they render as a grid
 breakout_sessions:
   tracks: 
   -
@@ -31,7 +33,8 @@ breakout_sessions:
     -
       title: "Website Redesign Strategies"
       speakers: "Tiffany Early, Matthew Vandewouwer, Ryan Garner, Steve Petersen"
-      wistia_url: <a href="//fast.wistia.net/embed/iframe/0o4tnbtt9i?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/3f0bb4ff0c748647c76d7e2ba8ff0c0bc34a67b8.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-website-redesign-strategies
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/0o4tnbtt9i?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/1eabc9040810921db955da080c4f23997d3692f5.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
     -
       title: "Blow Up Your Mobile App Metrics"
       speakers: "George McMullen, Raman Bhatia, Andrea Burbank, Pam Ongchin, Kyle Humphries"
@@ -44,6 +47,43 @@ breakout_sessions:
       title: "Building a SaaS Growth Engine"
       speakers: "Brian Kelly, Jessie Becker, Heidi Bullock, Baxter Denney"
       wistia_url: <a href="//fast.wistia.net/embed/iframe/rnrghs68qt?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/80280efbccc0930741cd304702f3d4b303f53b93.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      is_placeholder: "yes"
+    -
+      is_placeholder: "yes"
+    -
+      is_placeholder: "yes"
+
+  -
+    title: "Strategy Sessions"
+    video_list:
+    -
+      title: "Early Lessons in Personalization Strategy"
+      speakers: "Mike Norland, Tyler Bullen, Catherine Pao"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-early-lessons-in-personalization
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/fr7v01v204?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/39ad7c2b71cad4eb43d0b819dc6b1db8b3abfee1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "UX That Doesn’t Make You Think: Removing Friction and Cognitive Overhead"
+      speakers: "Merritt Aho, Ryan Lillis"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-role-of-design-and-ux-in-optimization
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/joh39qb0m8?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/8582c7cbea9a363e94a722271803fb1c63110ea7.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "The Membership Economy"
+      speakers: "Robbie Kellman Baxter"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-the-membership-economy
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/d037dk6fff?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/11924ee75f3afa4a5595673e8d081290b0f54d35.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "The 21st Century Marketing Stack & Team"
+      speakers: "Philip Hollrah, Roxy Young, Jessie Becker, Pamela Webber"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-21st-century-marketing-stack
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/i70fb9ld3k?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/89c1fad018bd240ad1bd4ab1023ca5764c632524.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      is_placeholder: "yes"
+    -
+      is_placeholder: "yes"
+    -
+      is_placeholder: "yes"
+
   -
     title: "Culture Sessions"
     video_list:
@@ -59,23 +99,9 @@ breakout_sessions:
       title: "How to Build a Culture of Optimization from Within"
       speakers: "Jodie Auster, Joel Constable, Durand Duin, Jenny Lykken"
       wistia_url: <a href="//fast.wistia.net/embed/iframe/sijgjgpd04?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/9e191b94477d12b48733f16bb3deecc86069f0dd.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
-
-  -
-    title: "Strategy Sessions"
-    video_list:
-    -
-      title: "Early Lessons in Personalization Strategy"
-      speakers: "Mike Norland, Tyler Bullen, Catherine Pao"
-      wistia_url: <a href="//fast.wistia.net/embed/iframe/fr7v01v204?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/39ad7c2b71cad4eb43d0b819dc6b1db8b3abfee1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
-    -
-      title: "UX That Doesn’t Make You Think: Removing Friction and Cognitive Overhead"
-      speakers: "Merritt Aho, Ryan Lillis"
-      wistia_url: <a href="//fast.wistia.net/embed/iframe/joh39qb0m8?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/8582c7cbea9a363e94a722271803fb1c63110ea7.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
-    -
-      title: "The Membership Economy"
-      speakers: "Robbie Kellman Baxter"
-      wistia_url: <a href="//fast.wistia.net/embed/iframe/d037dk6fff?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/11924ee75f3afa4a5595673e8d081290b0f54d35.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
-    -
-      title: "The 21st Century Marketing Stack & Team"
-      speakers: "Philip Hollrah, Roxy Young, Jessie Becker, Pamela Webber"
-      wistia_url: <a href="//fast.wistia.net/embed/iframe/i70fb9ld3k?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/89c1fad018bd240ad1bd4ab1023ca5764c632524.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    - 
+      is_placeholder: "yes"
+    - 
+      is_placeholder: "yes"
+    - 
+      is_placeholder: "yes"
