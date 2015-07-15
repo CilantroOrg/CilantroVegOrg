@@ -31,12 +31,11 @@ external_script:
     </div>
   </div>
   <div class="recap-cta">
-{{!--     <a href="//fast.wistia.net/embed/iframe/2tjc92ds7u?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640] opticon-button opticon-button--header">Watch vid</a> --}}
     <a class="opticon-button opticon-button--header wistia-popover[height=529,playerColor=7b796a,width=940]" href="//fast.wistia.net/embed/iframe/2tjc92ds7u?popover=true">
       <div class="cta-text adelle-sans">{{title_section.cta_recap}}</div>
     </a>  
   </div>
-  <p class="hero-text adelle-sans--bold">{{{title_section.sessions_link}}}<p>
+  <p class="hero-text adelle-sans--bold">{{title_section.sessions_link_description}}<a href="{{../linkPath}}/opticon/sessions">{{title_section.sessions_link_text}}</a><p>
 </section> 
 
 <div class="confetti-container">
@@ -46,7 +45,7 @@ external_script:
 <!--                   -->
 <!--Description Section-->
 <!--                   -->
-<section class="description container" l10n-skip>
+<section class="container" l10n-skip>
   <h3 class="description-title adelle-sans">{{description.title}}</h3>
   <p class="description-text description-text--center adelle-sans">{{{description.blurb}}}</p>
 </section>

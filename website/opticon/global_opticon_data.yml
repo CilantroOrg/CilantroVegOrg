@@ -2,7 +2,8 @@ title_section:
   title1: "Thanks to the 1000+ Opticon"
   title2: "attendees this year!"
   cta_recap: "Watch Recap Video"
-  sessions_link: "Missed a session? Browse all of our <a href='https://www.optimizely.com'>recorded sessions ></a>"
+  sessions_link_description: "Missed a session? Browse all of our "
+  sessions_link_text: "recorded sessions >"
 
 description:
   title: "It's All About the Experience"
@@ -13,7 +14,7 @@ customer_quote:
   attribution: "– Grant Wilkins, Northern Tool + Equipment"
 
 speaker_section:
-  title: "Thank you to our world-reknown speakers and industry leaders who participated."
+  title: "Thank you to the world-renowned speakers and industry leaders who joined us."
   speaker_list:
     - 
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/dan-circle-headshot.png"
@@ -47,7 +48,7 @@ speaker_section:
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/trevin-chow.png"
       speaker_name: "Trevin Chow"
       company: "Microsoft Store"
-  featuring: "Featuring speakers from:"
+  featuring: "With additional speakers from:"
   company_list:
     -
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/microsoft_gray.svg"
