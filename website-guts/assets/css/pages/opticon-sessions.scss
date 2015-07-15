@@ -3,12 +3,12 @@ body.opticon-sessions {
     color: $opticon-brand-blue;
     font-size: .8em;
   }
-  .sessions-container{
+  .sessions-container {
     border-top: 1px solid $opticon-brand-blue;   
     text-align: center;
     padding-top: 20px;
   }
-  .session-container{
+  .session-container {
     background-repeat: no-repeat;
     background-position: top center;
   }
@@ -22,7 +22,7 @@ body.opticon-sessions {
     margin-bottom: 25px;
     .session-title { 
       font-size: 1.1em;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       line-height: 28px;
     }
     .session-speaker {
@@ -45,7 +45,6 @@ body.opticon-sessions {
     .flex-container { 
       flex-wrap: wrap; 
       flex-direction: row;
-      flex-wrap: wrap;
       justify-content: space-around;
       align-content: flex-start;
       align-items: flex-start;
@@ -58,7 +57,7 @@ body.opticon-sessions {
         width: 200px;
         margin: 10px;
         &__placeholder {
-          height: 0px;
+          height: 0;
         }
       }
     }
