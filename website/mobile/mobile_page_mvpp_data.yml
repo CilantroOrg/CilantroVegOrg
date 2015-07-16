@@ -85,7 +85,7 @@ testing_ideas:
     icon_dynamic: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/dynamic/feature.gif"
     TR_title: "Feature Discovery"
     TR_text: "Should users search? Should they use your menu? You have the opportunity to optimize your users’ flow through your app."
-    article_link: "#"
+    article_link: "//help.optimizely.com/hc/en-us/articles/206778887"
   -
     icon_static: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/static/input-static.gif"
     icon_dynamic: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/dynamic/input.gif"
