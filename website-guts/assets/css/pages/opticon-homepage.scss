@@ -123,8 +123,8 @@ body.opticon-homepage {
   body.opticon-homepage {
     .hero-subtitle { padding-left: 50%; }
     .speaker-container { width: 25%; }
-    .description-title { padding: 25px 23% 0; }
-    .description-text.description-text--center { padding: 0 23%; }
+    .description-title { padding: 25px 200px 0; }
+    .description-text.description-text--center { padding: 0 200px 25px; }
     .track-container {
       width: 25%;
       padding: 115px 10px 10px 10px;
@@ -185,7 +185,7 @@ body.opticon-homepage {
      .page-title { 
        padding: 0 20px;
        font-size: 3em; 
-       max-width: 450px;
+       max-width: 400px;
        margin-left: 105px;
        &__top { padding-top: 10px; }
      }
@@ -199,7 +199,7 @@ body.opticon-homepage {
     .description {
       padding: 55px 0;
     }
-    .page-title { max-width: 720px; }
+    .page-title { max-width: 760px; }
     .title-section { padding: 75px; }
     .track-container { padding: 115px 10px 30px; }
     .confetti-container .confetti-right,
