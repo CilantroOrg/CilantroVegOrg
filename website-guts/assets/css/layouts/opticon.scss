@@ -44,7 +44,7 @@ body.opticon {
   }
   .description-title {
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 1em;
     color: $opticon-brand-blue;
     letter-spacing: 0.57px;
     line-height: 34px;
@@ -269,6 +269,7 @@ body.opticon {
     .confetti-left,
     .confetti-right { display: block; }
     .common-page-title { font-size: 3em; }
+    .description-title { font-size: 1.5em; }
     .flex-container { display: flex; }
     .description-text { text-align: left; }
     .detail-text { text-align: left; }
