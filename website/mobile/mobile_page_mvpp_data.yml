@@ -97,7 +97,7 @@ testing_ideas:
     icon_dynamic: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/dynamic/re-engage-2.gif"
     TR_title: "Re-engagement"
     TR_text: "Acquisition is tough. Re-acquisition is tougher. You can optimize the ways you re-engage your users to keep them active."
-    article_link: "https://help.optimizely.com/hc/en-us/articles/206608247"
+    article_link: "//help.optimizely.com/hc/en-us/articles/206608247"
   -
     icon_static: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/static/rollout-static.gif"
     icon_dynamic: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/mobile-mvpp/use-case/dynamic/rollout-2.gif"
