@@ -54,6 +54,18 @@ module.exports = {
       }
     ]
   },
+  scribe: {
+    files: [
+      {
+        src: [getRoot('node_modules/scribe/build/stories/*')],
+        dest: '<%= config.content %>/case-studies/',
+        rename: function(dest, src) {
+          return dest + '/' + src.substring(src.lastIndexOf('/') + 1, src.indexOf('.')) + '/index.hbs';
+        },
+        expand: true
+      },
+    ]
+  },
   seo: {
     files: [
       {src: [getRoot('robots.txt')], dest: '<%= config.dist %>/robots.txt'},
