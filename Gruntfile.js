@@ -1,5 +1,7 @@
 'use strict';
 
+var scribe = require('scribe');
+
 // # Globbing
 // for performance reasons we're only matching one level down:
 // '<%= config.src %>/templates/pages/{,*/}*.hbs'
@@ -7,7 +9,6 @@
 // '<%= config.src %>/templates/pages/**/*.hbs'
 
 module.exports = function(grunt) {
-
   require('time-grunt')(grunt);
   var dateVar = grunt.template.today('dddd, mmmm dS, yyyy, h:MM:ss TT');
 
@@ -202,6 +203,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'build'
   ]);
+  grunt.registerTask('scribe', scribe);
   grunt.loadNpmTasks('grunt-github-releaser');
   grunt.loadNpmTasks('grunt-git');
 
