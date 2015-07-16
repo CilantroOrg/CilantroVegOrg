@@ -22,6 +22,7 @@ external_script:
 <head>
   <script> 
     //turnstile, to allow single login with email:
+    //more info up on http://wistia.com/labs/turnstile-golden-ticket/
     wistiaEmbeds.onFind(function(video) {
       var email = Wistia.localStorage('golden-ticket');
       if (email) {
@@ -37,7 +38,7 @@ external_script:
       }
     });
 
-    //resume video at the same spot
+    //resume video at the same spot, see more at http://wistia.com/labs/resumable/
     wistiaEmbeds.onFind(function(video) {
       video.addPlugin('resumable', {
         src: '//fast.wistia.com/labs/resumable/plugin.js'
@@ -45,6 +46,7 @@ external_script:
     });
   </script>
 </head>
+
 <div class="page-content container">
   <h2 class="page-title common-page-title adelle-sans--bold">{{page_data.title}}</h2>
   <h3 class="description-title adelle-sans">{{page_data.coming_soon}}</h3>
@@ -97,7 +99,4 @@ external_script:
     </section>
     {{/each}}
   {{/with}}
-
-
-
 </div>

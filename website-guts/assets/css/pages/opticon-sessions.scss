@@ -12,14 +12,12 @@ body.opticon-sessions {
     background-repeat: no-repeat;
     background-position: top center;
   }
-
   .session-details-container {
     max-width: 300px;
-    margin: 5px auto;
+    margin: 5px auto 25px;
     text-align: center;
     color: $opticon-text-gray;
     letter-spacing: 0.5px;
-    margin-bottom: 25px;
     .session-title { 
       font-size: 1.1em;
       margin-bottom: 0;
@@ -50,15 +48,11 @@ body.opticon-sessions {
       align-items: flex-start;
     }
     .session-container {
-      &__keynote {
-        width: 275px;
-      }
+      &__keynote { width: 275px; }
       &__breakout {
         width: 200px;
         margin: 10px;
-        &__placeholder {
-          height: 0;
-        }
+        &__placeholder { height: 0; }
       }
     }
     .session-details-container {

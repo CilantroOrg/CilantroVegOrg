@@ -20,6 +20,18 @@ body.opticon-homepage {
     line-height: 44px;
     margin: 0 0 15px 0;
   }
+  .hero-text {
+    text-align: center;
+    font-size: 0.875em;
+    color: $white;
+    letter-spacing: 0.43px;
+    line-height: 28px;
+    & a {
+      font-family: $adelle-sans-font-family;
+      font-weight: 600; 
+      color: $opticon-hero-link; 
+    }
+  }
   .hero-subtitle {
     font-size: 1.125em;
     color: $opticon-text-gray;
@@ -182,13 +194,13 @@ body.opticon-homepage {
         text-align: right;
       }
     }
-     .page-title { 
-       padding: 0 20px;
-       font-size: 3em; 
-       max-width: 400px;
-       margin-left: 105px;
-       &__top { padding-top: 10px; }
-     }
+    .page-title { 
+      padding: 0 20px;
+      font-size: 3em; 
+      max-width: 400px;
+      margin-left: 105px;
+      &__top { padding-top: 10px; }
+    }
     .confetti-container .confetti-right,
     .confetti-container .confetti-left { display: none; }
   }
@@ -196,9 +208,7 @@ body.opticon-homepage {
 
 @media only screen and (min-width: $desktop-min-width) {
   body.opticon-homepage {
-    .description {
-      padding: 55px 0;
-    }
+    .description { padding: 55px 0; }
     .page-title { max-width: 760px; }
     .title-section { padding: 75px; }
     .track-container { padding: 115px 10px 30px; }

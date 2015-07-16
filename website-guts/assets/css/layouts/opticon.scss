@@ -70,19 +70,6 @@ body.opticon {
   .flex-container {
     display: block; // Only for mobile
   }
-  .hero-text {
-    text-align: center;
-    font-size: 0.875em;
-    color: $white;
-    letter-spacing: 0.43px;
-    line-height: 28px;
-    & a {
-      font-family: $adelle-sans-font-family;
-      font-weight: 600; 
-      color: $opticon-hero-link; 
-    }
-  }
-
   .item-title {
     font-size: 1em;
     color: $almost-black-text-color;
@@ -113,7 +100,6 @@ body.opticon {
   }
   .opticon-button {
     font-size: 1em;
-    // color: $opticon-brand-blue;
     background-color: #fff;
     letter-spacing: 0.38px;
     border: 2px solid $opticon-brand-blue;
@@ -201,9 +187,7 @@ body.opticon {
     background: $opticon-brand-blue;
     border: 1px solid #DADADA;
     text-align: center;
-    .register-section {
-      margin-top: 60px;
-    }
+    .register-section { margin-top: 60px; }
     .register-title {
       font-weight: 100;
       font-size: 2em;

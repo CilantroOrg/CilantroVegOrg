@@ -16,7 +16,7 @@ customer_quote:
 speaker_section:
   title: "Thank you to the world-renowned speakers and industry leaders who joined us."
   speaker_list:
-    - 
+    -
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/dan-circle-headshot.png"
       speaker_name: "Dan Siroker"
       company: "Optimizely"
