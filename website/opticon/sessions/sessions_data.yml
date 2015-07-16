@@ -1,0 +1,108 @@
+title: "Recorded Sessions"
+coming_soon: "Check back soon for more videos"
+keynote_sessions:
+  title: "Keynote Sessions"
+  video_list:
+  -
+    title: "CEO Dan Siroker's Keynote"
+    speakers: "Dan Siroker"
+    wistia_url: <a href="//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/be55b81db186b83574c23db7c893e12b5651cc80.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+  -
+    title: "The Future of Technology, Optimization, and the “We Economy”"
+    speakers: "Mary Hamilton"
+    slides_url: http://www.slideshare.net/optimizely/opticon-2015-technology-trends-and-the-we-economy
+    wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/790f98fe8da43a6e2b19ab47a119864aeba713e8.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+  -
+    title: "2015 Optie Awards"
+    speakers: "Greg Tate"
+    wistia_url: <a href="//fast.wistia.net/embed/iframe/rd5d5lubvz?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/636777332097652a4d419c6fc088c80165312df4.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+
+#placeholders ensure no matter how many items are added, they render as a grid
+breakout_sessions:
+  tracks: 
+  -
+    title: "Action Sessions"
+    video_list:
+    -
+      title: "The Inside Scoop: Personalization"
+      speakers: "Jon Noronha, Robin Pam"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/5q5n3r5onv?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/adc1f03da7c5751cf83ecdee3db1bc160c301e8b.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Travel, Testing & Personalization in the 21st Century"
+      speakers: "Katherine Reynolds, Pauline Marol, Travis Bryant"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/b992ikkat7?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/d76d12fe959d9185084116d77499ea72fa22300c.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Website Redesign Strategies"
+      speakers: "Tiffany Early, Matthew Vandewouwer, Ryan Garner, Steve Petersen"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-website-redesign-strategies
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/0o4tnbtt9i?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/1eabc9040810921db955da080c4f23997d3692f5.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Blow Up Your Mobile App Metrics"
+      speakers: "George McMullen, Raman Bhatia, Andrea Burbank, Pam Ongchin, Kyle Humphries"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/ki3ooj6t2g?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/9eeb2b27d60e74e1ea6a15d17d8170cce2b10087.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Optimizing for Engagement in Media"
+      speakers: "Kathy Chao, Aaron Landman, Michael Chang, David Marks"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/yo7g5xapte?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/07c7e6183ac22df861d71b3090da8117d1748bb6.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Building a SaaS Growth Engine"
+      speakers: "Brian Kelly, Jessie Becker, Heidi Bullock, Baxter Denney"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/rnrghs68qt?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/80280efbccc0930741cd304702f3d4b303f53b93.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      is_placeholder: "yes"
+    -
+      is_placeholder: "yes"
+    -
+      is_placeholder: "yes"
+
+  -
+    title: "Strategy Sessions"
+    video_list:
+    -
+      title: "Early Lessons in Personalization Strategy"
+      speakers: "Mike Norland, Tyler Bullen, Catherine Pao"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-early-lessons-in-personalization
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/fr7v01v204?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/39ad7c2b71cad4eb43d0b819dc6b1db8b3abfee1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "UX That Doesn’t Make You Think: Removing Friction and Cognitive Overhead"
+      speakers: "Merritt Aho, Ryan Lillis"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-role-of-design-and-ux-in-optimization
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/joh39qb0m8?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/8582c7cbea9a363e94a722271803fb1c63110ea7.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "The Membership Economy"
+      speakers: "Robbie Kellman Baxter"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-the-membership-economy
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/d037dk6fff?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/11924ee75f3afa4a5595673e8d081290b0f54d35.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "The 21st Century Marketing Stack & Team"
+      speakers: "Philip Hollrah, Roxy Young, Jessie Becker, Pamela Webber"
+      slides_url: http://www.slideshare.net/optimizely/opticon-2015-21st-century-marketing-stack
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/i70fb9ld3k?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/89c1fad018bd240ad1bd4ab1023ca5764c632524.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      is_placeholder: "yes"
+    -
+      is_placeholder: "yes"
+    -
+      is_placeholder: "yes"
+
+  -
+    title: "Culture Sessions"
+    video_list:
+    -
+      title: "Google's $xxxM Ad Optimization Bet"
+      speakers: "Michelle Levesque, Chrix Finne"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/b7g2z66dfo?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/e4ee29c90b543f45a4af1a2188f5bdb53ba572a1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "Structure and Scale: Establishing Your Optimization Dream Team"
+      speakers: "Lauren Ford, Junan Pang (Moderator), Claire Wissler, Chris Goward, Jeff Chin"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/n15a28h1nl?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/d2e6d0ea0697da65281b5b35e0c30ef0ee02c039.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    -
+      title: "How to Build a Culture of Optimization from Within"
+      speakers: "Jodie Auster, Joel Constable, Durand Duin, Jenny Lykken"
+      wistia_url: <a href="//fast.wistia.net/embed/iframe/sijgjgpd04?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/9e191b94477d12b48733f16bb3deecc86069f0dd.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    - 
+      is_placeholder: "yes"
+    - 
+      is_placeholder: "yes"
+    - 
+      is_placeholder: "yes"

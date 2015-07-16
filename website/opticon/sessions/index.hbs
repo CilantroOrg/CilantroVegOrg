@@ -1,0 +1,102 @@
+---
+layout: opticon
+TR_seo_title: Opticon
+no_container: true
+no_header: true
+no_footer: true
+body_class:
+- opticon
+- opticon-sessions
+og_title: "Opticon Recorded Sessions 2015"
+og_description: "Check out all the recorded sessions from Opticon 2015"
+page_script: opticon-sessions.js
+external_script:
+- //use.typekit.net/ucj0cgp.js
+#for embedding wistia videos in the page:
+- //fast.wistia.com/assets/external/popover-v1.js
+#for wistia to allow a single email capture aka turnstyle golden ticket:
+- //fast.wistia.com/static/embed_shepherd-v1.js
+#for wistia to resume videos where they left off:
+- //fast.wistia.com/assets/external/embed_shepherd-v1.js
+---
+<head>
+  <script> 
+    //turnstile, to allow single login with email:
+    //more info up on http://wistia.com/labs/turnstile-golden-ticket/
+    wistiaEmbeds.onFind(function(video) {
+      var email = Wistia.localStorage('golden-ticket');
+      if (email) {
+        video.setEmail(email);
+      }
+    });
+    wistiaEmbeds.bind('conversion', function(video, type, data) {
+      if (/^(pre|mid|post)-roll-email$/.test(type)) {
+        Wistia.localStorage('golden-ticket', data);
+        for (var i = 0; i < wistiaEmbeds.length; i++) {
+          wistiaEmbeds[i].setEmail(data);
+        }
+      }
+    });
+
+    //resume video at the same spot, see more at http://wistia.com/labs/resumable/
+    wistiaEmbeds.onFind(function(video) {
+      video.addPlugin('resumable', {
+        src: '//fast.wistia.com/labs/resumable/plugin.js'
+      });
+    });
+  </script>
+</head>
+
+<div class="page-content container">
+  <h2 class="page-title common-page-title adelle-sans--bold">{{page_data.title}}</h2>
+  <h3 class="description-title adelle-sans">{{page_data.coming_soon}}</h3>
+
+  {{! Keynote Speakers Section }}
+  {{#with page_data.keynote_sessions}}
+  <section class="container">
+    <h2 class="sessions-section-title adelle-sans">{{this.title}}</h2>
+    <div class="flex-container sessions-container">
+      {{#each video_list}}
+      <div class="session-container__keynote">
+        {{{this.wistia_url}}}
+        <div class="session-details-container session-details-container__keynote">
+          <p class="session-title adelle-sans--bold">{{this.title}}</p>
+          <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+          {{#if this.slides_url}}
+            <a class="adelle-sans slides-link" target="_blank" href="{{this.slides_url}}">View Slides</a>
+          {{/if}}  
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+  {{/with}}
+
+  {{! Content Sessions }}
+  {{#with page_data.breakout_sessions}}
+    {{#each tracks}}
+    <section class="container">
+      <h2 class="sessions-section-title adelle-sans">{{this.title}}</h2>
+      <div class="flex-container sessions-container">
+        {{#each video_list}}
+          {{#if this.is_placeholder}}
+          <div class="session-container session-container__breakout session-container__placeholder">
+          </div>
+          {{else}}
+          <div class="session-container session-container__breakout">
+            {{{this.wistia_url}}}
+            <div class="session-details-container session-details-container__breakout">
+              <p class="session-title adelle-sans--bold">{{this.title}}</p>
+              <p class="session-speaker adelle-sans">{{this.speakers}}</p>
+              {{#if this.slides_url}}
+                <a class="adelle-sans slides-link" target="_blank" href="{{this.slides_url}}">View Slides</a>
+              {{/if}}  
+            </div>
+          </div>
+          {{/if}}
+        {{/each}}
+      </div>
+    </section>
+    {{/each}}
+  {{/with}}
+</div>
