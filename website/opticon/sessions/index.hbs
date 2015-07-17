@@ -85,7 +85,9 @@ external_script:
           </div>
           {{else}}
           <div class="session-container session-container__breakout">
-            {{{this.wistia_url}}}
+            <a href="{{this.wistia_url}}" class="wistia-popover[height=703,playerColor=7b796a,width=1200]">
+              <img src="{{this.wistia_thumbnail}}" alt="{{this.title}}"></img>
+            </a>
             <div class="session-details-container session-details-container__breakout">
               <p class="session-title adelle-sans--bold">{{this.title}}</p>
               <p class="session-speaker adelle-sans">{{this.speakers}}</p>
