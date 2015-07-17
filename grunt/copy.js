@@ -63,7 +63,7 @@ module.exports = {
           return dest + '/' + src.substring(src.lastIndexOf('/') + 1, src.indexOf('.')) + '/index.hbs';
         },
         expand: true
-      },
+      }
     ]
   },
   seo: {
