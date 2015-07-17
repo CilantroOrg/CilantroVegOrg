@@ -10,10 +10,23 @@ body_class:
 description: "Coming June 17th & 18th, Opticon is the premier event for the optimization and testing community. Join us and take your optimization program to the next level!"
 og_title: "Opticon 2015"
 og_description: "Join us at Opticon and learn why experience optimization is a must for your business."
+page_script: opticon-homepage.js
 external_script:
 - //use.typekit.net/ucj0cgp.js
 - //fast.wistia.com/assets/external/popover-v1.js
 ---
+<head>
+  <script>
+  wistiaJQuery(document).ready( function() {
+    var url = window.location.href.toString();
+    if ( url.indexOf('video') != -1 )
+    {
+      console.log('in wistia if statement');
+      wistiaJQuery('#sizzlerVidLink').first().click();
+    }
+  });
+  </script>
+</head>
 
 {{#with global_opticon_data}}
 <div class="confetti-container">
@@ -31,7 +44,7 @@ external_script:
     </div>
   </div>
   <div class="recap-cta">
-    <a class="opticon-button opticon-button--header wistia-popover[height=529,playerColor=7b796a,width=940]" href="//fast.wistia.net/embed/iframe/2tjc92ds7u?popover=true">
+    <a id= "sizzlerVidLink" class="opticon-button opticon-button--header wistia-popover[height=529,playerColor=7b796a,width=940]" href="//fast.wistia.net/embed/iframe/2tjc92ds7u?popover=true">
       <div class="cta-text adelle-sans">{{title_section.cta_recap}}</div>
     </a>  
   </div>
