@@ -6,16 +6,16 @@ keynote_sessions:
   -
     title: "CEO Dan Siroker's Keynote"
     speakers: "Dan Siroker"
-    wistia_url: <a href="//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/be55b81db186b83574c23db7c893e12b5651cc80.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    wistia_url: "<a href="//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/be55b81db186b83574c23db7c893e12b5651cc80.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>"
   -
     title: "The Future of Technology, Optimization, and the “We Economy”"
     speakers: "Mary Hamilton"
     slides_url: http://www.slideshare.net/optimizely/opticon-2015-technology-trends-and-the-we-economy
-    wistia_url: <a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/790f98fe8da43a6e2b19ab47a119864aeba713e8.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    wistia_url: "<a href="//fast.wistia.net/embed/iframe/s0yu60meos?popover=true" class="wistia-popover[height=703,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/790f98fe8da43a6e2b19ab47a119864aeba713e8.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>"
   -
     title: "2015 Optie Awards"
     speakers: "Greg Tate"
-    wistia_url: <a href="//fast.wistia.net/embed/iframe/rd5d5lubvz?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/636777332097652a4d419c6fc088c80165312df4.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
+    wistia_url: "<a href="//fast.wistia.net/embed/iframe/rd5d5lubvz?popover=true" class="wistia-popover[height=675,playerColor=7b796a,width=1200]"><img src="https://embed-ssl.wistia.com/deliveries/636777332097652a4d419c6fc088c80165312df4.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>"
 
 #placeholders ensure no matter how many items are added, they render as a grid
 breakout_sessions:
