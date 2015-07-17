@@ -18,9 +18,8 @@ external_script:
   <script>
   wistiaJQuery(document).ready( function() {
     var url = window.location.href.toString();
-    if ( url.indexOf('#video') !== -1 )
-    {
-      wistiaJQuery('#sizzlerVidLink').first().click();
+    if ( url.indexOf('#video') !== -1 ) {
+      wistiaJQuery('#sizzlerVidLink').click();
     }
   });
   </script>
