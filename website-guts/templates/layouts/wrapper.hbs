@@ -83,6 +83,11 @@ layout_modals:
           <link rel="stylesheet" type="text/css" href="{{#hasAssetPath this}}{{../../assetsDir}}/{{/hasAssetPath}}{{this}}">
         {{/each}}
         {{/if}}
+        {{#if this.page_css}}
+        {{#each this.page_css}}
+        <link rel="stylesheet" type="text/css" href="{{assetsDir}}/css/{{this}}">
+        {{/each}}
+        {{/if}}
         <link rel="stylesheet" href="{{assetsDir}}/css/styles.css">
         {{#if this.head_script ~}}<script src="{{this.head_script}}"></script>{{/if}}
         {{#if environmentVariables.production}}

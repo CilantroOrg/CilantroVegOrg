@@ -74,7 +74,7 @@
     "optimizely-lego": "^0.0.1",
     "optimizely-marked": "0.0.4",
     "plasma": "^0.6.1",
-    "scribe": "git+ssh://git@github.com:optimizely/scribe.git#marketing-integration",
+    "scribe": "git+ssh://git@github.com:optimizely/scribe.git",
     "q": "1.1.2",
     "through2": "0.6.3",
     "time-grunt": "0.3.2",

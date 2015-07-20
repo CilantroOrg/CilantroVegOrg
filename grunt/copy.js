@@ -13,16 +13,6 @@ module.exports = {
     src: '<%= config.bowerDir %>/magnific-popup/dist/magnific-popup.css',
     dest: '<%= config.dist %>/assets/css/magnific-popup.css'
   },
-  fonts: {
-    files: [
-      {
-        cwd: '<%= config.guts %>/assets/fonts/',
-        src: '**',
-        dest: '<%= config.dist %>/assets/fonts/',
-        expand: true
-      }
-    ]
-  },
   libs: {
     files: [
       {
@@ -62,6 +52,11 @@ module.exports = {
         rename: function(dest, src) {
           return dest + '/' + src.substring(src.lastIndexOf('/') + 1, src.indexOf('.')) + '/index.hbs';
         },
+        expand: true
+      },
+      {
+        src: [getRoot('node_modules/scribe/build/assets/css/scribe.css')],
+        dest: '<%= config.dist %>/assets/css/scribe.css',
         expand: true
       }
     ]
