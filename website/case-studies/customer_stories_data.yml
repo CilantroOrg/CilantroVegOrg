@@ -83,6 +83,12 @@ TR_customer_stories:
   download_url: ""
   TR_button: "Learn More"
 -
+  TR_header: "49% Increase in Donations"
+  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/obama2012/obama2012-logo.png"
+  TR_body: "The Obama 2012 Campaign ran over 500 experiments over 20 months to drive online fundraising."
+  download_url: ""
+  TR_button: "Learn More"
+-
   TR_header: "Optimization as a Company KPI"
   logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/move-inc/move-inc-logo.png"
   TR_body: "Learn how Move, Inc. leverages Optimizely as part of an agile growth process to reach their revenue goals."
