@@ -56,8 +56,7 @@ module.exports = {
       },
       {
         src: [getRoot('node_modules/scribe/build/assets/css/scribe.css')],
-        dest: '<%= config.dist %>/assets/css/scribe.css',
-        expand: true
+        dest: '<%= config.dist %>/assets/css/scribe.css'
       }
     ]
   },

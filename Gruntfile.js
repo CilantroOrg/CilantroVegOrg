@@ -24,6 +24,7 @@ module.exports = function(grunt) {
         connect: 'grunt-contrib-connect',
         assemble: 'grunt/assemble/',
         webpack: 'grunt/webpack/',
+        scribe: 'scribe',
         mochaTest: 'grunt-mocha-test',
         open: 'grunt-open'
       }
@@ -38,6 +39,7 @@ module.exports = function(grunt) {
   grunt.registerTask('om-test', [
     'open'
   ]);
+  grunt.registerTask('scribe', scribe);
   grunt.loadNpmTasks('grunt-aws');
   grunt.registerTask('production-deploy', [
     'gitinfo',
@@ -45,7 +47,6 @@ module.exports = function(grunt) {
     'clean:preBuild',
     'jshint:server',
     'assemble',
-    'scribe',
     'modernizr',
     'concat',
     'webpack',
@@ -68,7 +69,6 @@ module.exports = function(grunt) {
     'clean:preBuild',
     'jshint:server',
     'assemble',
-    'scribe',
     'modernizr',
     'concat',
     'webpack',
@@ -105,7 +105,6 @@ module.exports = function(grunt) {
     'jshint:server',
     'clean:preBuild',
     'assemble',
-    'scribe',
     'modernizr',
     'concat',
     'webpack',
@@ -206,7 +205,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'build'
   ]);
-  grunt.registerTask('scribe', scribe);
   grunt.loadNpmTasks('grunt-github-releaser');
   grunt.loadNpmTasks('grunt-git');
 
