@@ -1,7 +1,5 @@
 'use strict';
 
-var scribe = require('scribe');
-
 // # Globbing
 // for performance reasons we're only matching one level down:
 // '<%= config.src %>/templates/pages/{,*/}*.hbs'
@@ -23,8 +21,8 @@ module.exports = function(grunt) {
         sass: 'grunt-sass',
         connect: 'grunt-contrib-connect',
         assemble: 'grunt/assemble/',
+        scribe: 'grunt/scribe',
         webpack: 'grunt/webpack/',
-        scribe: 'scribe',
         mochaTest: 'grunt-mocha-test',
         open: 'grunt-open'
       }
@@ -39,7 +37,6 @@ module.exports = function(grunt) {
   grunt.registerTask('om-test', [
     'open'
   ]);
-  grunt.registerTask('scribe', scribe);
   grunt.loadNpmTasks('grunt-aws');
   grunt.registerTask('production-deploy', [
     'gitinfo',
@@ -49,6 +46,7 @@ module.exports = function(grunt) {
     'assemble',
     'modernizr',
     'concat',
+    'scribe',
     'webpack',
     'sass:prod',
     'autoprefixer',
@@ -71,6 +69,7 @@ module.exports = function(grunt) {
     'assemble',
     'modernizr',
     'concat',
+    'scribe',
     'webpack',
     'sass:prod',
     'autoprefixer',
@@ -90,6 +89,7 @@ module.exports = function(grunt) {
     'assemble:smartling-staging-deploy',
     'modernizr',
     'concat',
+    'scribe',
     'webpack',
     'sass:prod',
     'autoprefixer',
@@ -107,6 +107,7 @@ module.exports = function(grunt) {
     'assemble',
     'modernizr',
     'concat',
+    'scribe',
     'webpack',
     'sass:dev',
     'replace',
