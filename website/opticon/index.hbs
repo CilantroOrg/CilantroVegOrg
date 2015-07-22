@@ -12,7 +12,18 @@ og_title: "Opticon 2015"
 og_description: "Join us at Opticon and learn why experience optimization is a must for your business."
 external_script:
 - //use.typekit.net/ucj0cgp.js
+- //fast.wistia.com/assets/external/popover-v1.js
 ---
+<head>
+  <script>
+  wistiaJQuery(document).ready( function() {
+    var url = window.location.href.toString();
+    if ( url.indexOf('#video') !== -1 ) {
+      wistiaJQuery('#sizzlerVidLink').click();
+    }
+  });
+  </script>
+</head>
 
 {{#with global_opticon_data}}
 <div class="confetti-container">
@@ -25,18 +36,17 @@ external_script:
 <section class="title-section" l10n-skip>
   <div class="copy-container container">
     <div>
-      <span class="page-title first-title adelle-sans--bold">{{title_section.title1}}</span><br>
-      <span class="page-title first-title adelle-sans--bold">{{title_section.title2}}</span>
+      <span class="page-title page-title__top adelle-sans--bold">{{title_section.title1}}</span><br>
+      <span class="page-title adelle-sans--bold">{{title_section.title2}}</span>
     </div>
-    {{!-- <h4 class="event-details adelle-sans"> {{title_section.date}}</h4> --}}
-    {{!-- <p class="hero-subtitle adelle-sans">{{{title_section.sub_title}}}</p> --}}
-    {{!-- <p class="optimizely-host adelle-sans">{{{title_section.sponsor}}}</p> --}}
-    {{!-- <a class="anim-opticon-button opticon-button register-link" href="https://www.eventbrite.com/e/opticon-2015-tickets-14328636337"> --}}
-      {{!-- <div class="cta-text adelle-sans">{{title_section.cta}}</div>
-      <div class="cta-arrow">→</div> --}}
-    </a>
   </div>
-</section>
+  <div class="recap-cta">
+    <a id= "sizzlerVidLink" class="opticon-button opticon-button--header wistia-popover[height=529,playerColor=7b796a,width=940]" href="//fast.wistia.net/embed/iframe/2tjc92ds7u?popover=true">
+      <div class="cta-text adelle-sans">{{title_section.cta_recap}}</div>
+    </a>  
+  </div>
+  <p class="hero-text adelle-sans--bold">{{title_section.sessions_link_description}}<a href="{{../linkPath}}/opticon/sessions">{{title_section.sessions_link_text}}</a><p>
+</section> 
 
 <div class="confetti-container">
   <div class="confetti-right"></div>
@@ -45,24 +55,26 @@ external_script:
 <!--                   -->
 <!--Description Section-->
 <!--                   -->
-<section class="description container" l10n-skip>
+<section class="container" l10n-skip>
   <h3 class="description-title adelle-sans">{{description.title}}</h3>
   <p class="description-text description-text--center adelle-sans">{{{description.blurb}}}</p>
 </section>
 
-<!--              -->
-<!--Opties Section-->
-<!--              -->
-<section class="container opties-container">
-  <h4 class="opties-title adelle-sans">{{opties.title}}</h4>
-  <p class="opties-details description-text adelle-sans">{{{opties.blurb}}}</p>
+<!--             -->
+<!--Quote Section-->
+<!--             -->
+<section class="filled-section">
+  <div class="quote-container">
+    <h3 class="adelle-sans--bold">{{customer_quote.quote}}</h3>
+    <p class="adelle-sans--bold">{{customer_quote.attribution}}</p>
+  </div>
 </section>
 
 
 <!--                -->
 <!--Speakers Section-->
 <!--                -->
-<section class="speakers container" l10n-skip>
+<section class="container" l10n-skip>
   <h3 class="description-title adelle-sans">{{speaker_section.title}}</h3>
   <div class="speakers-container flex-container">
     {{#each speaker_section.speaker_list}}
@@ -72,7 +84,7 @@ external_script:
     </div>
     {{/each}}
   </div>
-  <h5 class="speaker-companies-title adelle-sans">{{speaker_section.featuring}}</h5>
+  <h5 class="speaker-companies-title adelle-sans--bold">{{speaker_section.featuring}}</h5>
   <div class="logo-wall flex-container">
     {{#each speaker_section.company_list}}
     <div class="logo-wall__company {{this.class}}" style="background-image: url('{{this.image}}')"></div>

@@ -44,7 +44,6 @@ TR_tables:
         starter_bool: false
         enterprise_bool: true
         TR_tooltip: "Test and personalize experiences throughout your funnel."
-      -
   -
     TR_title: "Discover Visitor Insights"
     TR_desc: "Learn more about the visitors that connect with you on your websites and mobile apps."
@@ -247,6 +246,11 @@ TR_tables:
         starter_bool: false
         enterprise_bool: true
         TR_tooltip: "Schedule when experiments should start and stop in advance."
+      -
+        TR_title: "Single Sign-On"
+        boolean: true
+        starter_bool: false
+        enterprise_bool: true
       -
         TR_title: "Traffic Optimized"
         string: true

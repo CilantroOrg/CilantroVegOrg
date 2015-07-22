@@ -1,0 +1,63 @@
+body.opticon-sessions {
+  .slides-link {
+    color: $opticon-brand-blue;
+    font-size: .8em;
+  }
+  .sessions-container {
+    border-top: 1px solid $opticon-brand-blue;   
+    text-align: center;
+    padding-top: 20px;
+  }
+  .session-container {
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .session-details-container {
+    max-width: 300px;
+    margin: 5px auto 25px;
+    text-align: center;
+    color: $opticon-text-gray;
+    letter-spacing: 0.5px;
+    .session-title { 
+      font-size: 1.1em;
+      margin-bottom: 0;
+      line-height: 28px;
+    }
+    .session-speaker {
+      font-size: 0.9em;
+      line-height: 22px;
+      margin-bottom: 0; 
+    }
+  }
+  .sessions-section-title {
+    text-align: left;
+    color: $opticon-brand-blue;
+    letter-spacing: 0.46px;
+    line-height: 37px;
+    margin: 44px 0 0;
+  }
+} 
+
+@media only screen and (min-width: $tablet-min-width) {
+  body.opticon-sessions {
+    .flex-container { 
+      flex-wrap: wrap; 
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: flex-start;
+      align-items: flex-start;
+    }
+    .session-container {
+      &__keynote { width: 275px; }
+      &__breakout {
+        width: 200px;
+        margin: 10px;
+        &__placeholder { height: 0; }
+      }
+    }
+    .session-details-container {
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+}

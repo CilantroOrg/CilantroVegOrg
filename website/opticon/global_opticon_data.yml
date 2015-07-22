@@ -1,25 +1,20 @@
 title_section:
-  title1: "Thanks to the 1000+"
-  title2: "Opticon attendees this year!"
-  date: "We hope you had an incredible time."
-  location: "Pier 27, San Francisco"
-  sub_title: "Stay tuned for session recordings."
-  sponsor: "Powered by <a href='https://www.optimizely.com/'>Optimizely</a>"
-  cta: "Register Now"
+  title1: "Thanks to the 1000+ Opticon"
+  title2: "attendees this year!"
+  cta_recap: "Watch The Highlights"
+  sessions_link_description: "Missed a session? Browse all of our "
+  sessions_link_text: "recorded sessions >"
 
 description:
-  title: "We hope you had an incredible time."
-  blurb: "Check back for photos, videos and session slides coming soon! <br> We'd also love to hear your feedback by <a href='https://optimizely.getfeedback.com/r/kpnDXMRE'>filling out a survey</a> about your experience."
-  cta: "Learn More"
-  cta_2014: "Want to get a taste of what's in store? Check out our "
-  cta_2014_link_text: "Opticon 2014 recap"
+  title: "It's All About the Experience"
+  blurb: "Opticon is a gathering of growth professionals pioneering the optimal customer experience by exploring the intersection of creativity and data intelligence through optimization & personliazation. Opticon 2015 has come and gone, but we hope you can join us in 2016."
 
-opties:
-  title: "Congratulations to our 2015 Optie Award Winners!"
-  blurb: "You can view all of the award categories and winners <a href='https://blog.optimizely.com/2015/06/18/opties-2015-winners'>here</a>. A special thank you to our amazing finalists, partners and customers for sharing your achievements!"
+customer_quote:
+  quote: "“The sessions held gave a wealth of ideas about how to improve our structure and process around optimization... I can't wait to start applying everything I've learned.”"
+  attribution: "– Grant Wilkins, Northern Tool + Equipment"
 
 speaker_section:
-  title: "Thank you to the world-renowned experts and industry leaders"
+  title: "Thank you to the world-renowned speakers and industry leaders who joined us."
   speaker_list:
     -
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/dan-circle-headshot.png"
@@ -53,7 +48,7 @@ speaker_section:
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speakers/trevin-chow.png"
       speaker_name: "Trevin Chow"
       company: "Microsoft Store"
-  featuring: "Featuring speakers from:"
+  featuring: "With additional speakers from:"
   company_list:
     -
       image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/microsoft_gray.svg"

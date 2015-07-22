@@ -32,7 +32,6 @@
   };
 
   w.optly.mrkt.Oform.validationError = function(element){
-
     w.optly.mrkt.formHadError = true;
 
     var elementValue = $(element).val();
