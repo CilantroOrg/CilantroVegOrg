@@ -253,8 +253,8 @@
     if(payload.company_type){
       reportingObject.Slns_Partner_Company_Type__c = payload.company_type;
     }
-    if(payload.event_ops){
-      reportingObject.event_ops = payload.event_ops;
+    if(payload.Most_Recent_Events_OPS__c){
+      reportingObject.Most_Recent_Events_OPS__c = payload.Most_Recent_Events_OPS__c;
     }
     if(payload.has_immediate_project__c){
       reportingObject.has_immediate_project__c = payload.has_immediate_project__c;
