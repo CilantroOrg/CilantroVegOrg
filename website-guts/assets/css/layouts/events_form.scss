@@ -1,10 +1,10 @@
 body.marketing_events {
-  #inner-wrapper { background: #fff; }
+  #inner-wrapper { background: $white; }
   .header-wrapper { background: $light-blue-bg; }
-  .event-form { padding: 0 0 50px 0; }
+  .event-form { padding: 0 0 50px; }
   .page-title {
     text-align: center;
-    background: #fff;
+    background: $white;
     padding: 25px 0;
     margin: 0;
     color: $brand-blue;
