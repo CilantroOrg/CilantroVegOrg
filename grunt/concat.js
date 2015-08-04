@@ -37,7 +37,7 @@ var omBundlePaths = [
   'om/global.js'
 ];
 
-module.exports = function(grunt, options) (
+module.exports = function(grunt, options) {
   var lastTarget;
   var processBundleName = function (src, filepath) {
     var updatedSrc;

@@ -9,7 +9,7 @@ var createQueryString = function(params) {
   return queryString;
 };
 
-module.exports = function(options) (
+module.exports = function(options) {
   var cachedPath;
 
   return {

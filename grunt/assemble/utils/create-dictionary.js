@@ -108,7 +108,7 @@ module.exports = function (assemble) {
       smartypants: true
     });
 
-    return Object.keys(data).reduce(function(o, key) (
+    return Object.keys(data).reduce(function(o, key) {
       var split = splitKey(key);
       var prefix = split[0];
       var suffix = split[1];

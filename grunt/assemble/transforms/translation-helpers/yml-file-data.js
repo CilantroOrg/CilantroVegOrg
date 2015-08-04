@@ -2,7 +2,7 @@ var path = require('path');
 var _ = require('lodash');
 var Plasma = require('plasma');
 
-module.exports = function(assemble) (
+module.exports = function(assemble) {
   var pagesNamespace = assemble.get('data.pageContentNamespace');
   var testPath = assemble.get('data.testPath');
 

@@ -30,7 +30,7 @@ var uiTest = {
 
 module.exports = function(grunt, options) {
   var opts;
-  if (grunt.option('target')) (
+  if (grunt.option('target')) {
     opts = grunt.option('target');
   }
   var src = Object.keys(uiTest).reduce(function(list, name) {

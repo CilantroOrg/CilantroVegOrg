@@ -95,7 +95,7 @@ module.exports = function (grunt) {
       }, options.stats)));
       if (!options.keepalive) {
         done();
-        done = function() (};
+        done = function() {};
       }
     };
     if (env === 'dev') {

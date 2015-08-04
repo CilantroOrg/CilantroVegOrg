@@ -30,11 +30,11 @@ var config = function(grunt, options) {
           compress_js: true,
           drop_console: true,
           exclude_from_assemble: '**/fixture.hbs',
-          concat_banner: '(function($, w, d) ( \n\n' +
+          concat_banner: '(function($, w, d) { \n\n' +
             '  window.optly = window.optly || {}; \n\n' +
             '  window.optly.mrkt = window.optly.mrkt || {}; \n\n' +
             '  try { \n\n',
-          concat_footer: '  } catch(error) ( \n\n' +
+          concat_footer: '  } catch(error) { \n\n' +
             '    console.error(error, targetName);\n\n' +
             '    if (typeof error === "object") { try { error = JSON.stringify(error, ["message", "arguments", "type", "name"]); } catch (innerErr) { error = innerErr.message || "cannot parse error message"; } }; \n\n' +
             '    var path = window.location.pathname;\n\n' +
@@ -59,11 +59,11 @@ var config = function(grunt, options) {
           imageUrl: '/<%= grunt.option("branch") || gitinfo.local.branch.current.name %>/assets/img',
           compress_js: true,
           drop_console: false,
-          concat_banner: '(function($, w, d) ( \n\n' +
+          concat_banner: '(function($, w, d) { \n\n' +
             '  window.optly = window.optly || {}; \n\n' +
             '  window.optly.mrkt = window.optly.mrkt || {}; \n\n' +
             '  try { \n\n',
-          concat_footer: '  } catch(error) ( \n\n' +
+          concat_footer: '  } catch(error) { \n\n' +
             '    console.error(error, targetName);\n\n' +
             '    if (typeof error === "object") { try { error = JSON.stringify(error, ["message", "arguments", "type", "name"]); } catch (innerErr) { error = innerErr.message || "cannot parse error message"; } }; \n\n' +
             '    var path = window.location.pathname;\n\n' +
@@ -88,11 +88,11 @@ var config = function(grunt, options) {
           imageUrl: '/assets/img',
           compress_js: true,
           drop_console: false,
-          concat_banner: '(function($, w, d) ( \n\n' +
+          concat_banner: '(function($, w, d) { \n\n' +
             '  window.optly = window.optly || {}; \n\n' +
             '  window.optly.mrkt = window.optly.mrkt || {}; \n\n' +
             '  try { \n\n',
-          concat_footer: '  } catch(error) ( \n\n' +
+          concat_footer: '  } catch(error) { \n\n' +
             '  //report errors to GA \n\n' +
             '  window.console.log("js error: " + error);' +
             '  } \n' +
@@ -114,7 +114,7 @@ var config = function(grunt, options) {
           imageUrl: '/dist/assets/img',
           compress_js: false,
           drop_console: false,
-          concat_banner: '(function($, w, d) ( \n\n' +
+          concat_banner: '(function($, w, d) { \n\n' +
                          '  window.optly = window.optly || {}; \n\n' +
                          '  window.optly.mrkt = window.optly.mrkt || {}; \n\n',
           concat_footer: '})(jQuery, window, document);'
@@ -134,11 +134,11 @@ var config = function(grunt, options) {
           imageUrl: '/dist/assets/img',
           compress_js: true,
           drop_console: false,
-          concat_banner: '(function($, w, d) ( \n\n' +
+          concat_banner: '(function($, w, d) { \n\n' +
             '  window.optly = window.optly || {}; \n\n' +
             '  window.optly.mrkt = window.optly.mrkt || {}; \n\n' +
             '  try { \n\n',
-          concat_footer: '  } catch(error) ( \n\n' +
+          concat_footer: '  } catch(error) { \n\n' +
             '    console.error(error, targetName);\n\n' +
             '    if (typeof error === "object") { try { error = JSON.stringify(error, ["message", "arguments", "type", "name"]); } catch (innerErr) { error = innerErr.message || "cannot parse error message"; } }; \n\n' +
             '    var path = window.location.pathname;\n\n' +

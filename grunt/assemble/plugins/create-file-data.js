@@ -57,7 +57,7 @@ module.exports = function (assemble) {
     var promise = q();
     var curryTryCatch = require('../utils/curry-try-catch');
 
-    promise.then(function() (
+    promise.then(function() {
       var mergeLayoutData = curryTryCatch(require('./translation-utils/merge-layout-data')(assemble));
 
       mergeLayoutData(pageDataClone);

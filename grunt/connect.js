@@ -26,11 +26,11 @@ module.exports = function(grunt, options) {
       livereload: 35729,
       // change this to '0.0.0.0' to access the server from outside
       hostname: 'localhost',
-      middleware: function(connect, options, middlewares) (
+      middleware: function(connect, options, middlewares) {
         return [
           connect().use(bodyParser.urlencoded({extended: true})),
           connect.static(options.base[0]),
-          function(req, res, next) (
+          function(req, res, next) {
             var emailRegEx = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
             var respObj, code, readPath;
 
@@ -58,7 +58,7 @@ module.exports = function(grunt, options) {
                   respObj = grunt.file.read('website-guts/endpoint-mocks/free-trial-success.json');
                   code = 200;
                 }
-                setTimeout(function() (
+                setTimeout(function() {
                   res.writeHead(code, {'Content-Type': 'application/json'});
                   res.end(respObj);
                 }, 2000);
