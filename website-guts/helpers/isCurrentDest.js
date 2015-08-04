@@ -5,9 +5,9 @@ module.exports = function isCurrentDest (thisDest, compareDest, bool, options) {
   var destName = path.basename(thisDest.dirname);
 
   try{
-    if(compareDest[0] === '/') {
+    if (compareDest[0] === '/') {
       compareDest = compareDest.substr(1);
-    } else if(reURL.test(compareDest)) {
+    } else if (reURL.test(compareDest)) {
       compareDest = compareDest.split('//')[1];
       compareDest = compareDest.substring(0, compareDest.indexOf('.'));
     }
@@ -16,13 +16,13 @@ module.exports = function isCurrentDest (thisDest, compareDest, bool, options) {
   }
 
   if ( destName === compareDest ) {
-    if(bool) {
+    if (bool) {
       return options.fn(this);
     } else {
       return options.inverse(this);
     }
   } else {
-    if(bool) {
+    if (bool) {
       return options.inverse(this);
     } else {
       return options.fn(this);

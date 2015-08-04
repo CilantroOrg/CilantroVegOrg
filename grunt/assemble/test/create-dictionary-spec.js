@@ -118,7 +118,5 @@ describe('create dictionary from all translation keys', function() {
         expect( $('h1').text() ).to.equal('HTML page content');
       });
     });
-
   });
-
 });
