@@ -7,7 +7,7 @@ var path = require('path');
  *
  */
 module.exports = function(fp) {
-  var key = path.join( path.dirname(fp), path.basename(fp, path.extname(fp)) ).replace(process.cwd(), '');
+  var key = path.join(path.dirname(fp), path.basename(fp, path.extname(fp))).replace(process.cwd(), '');
   if (key[0] !== '/') {
     key = '/' + key;
   }

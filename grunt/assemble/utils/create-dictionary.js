@@ -67,7 +67,7 @@ module.exports = function (assemble) {
       } else {
         pageContent = fileObj.contents;
       }
-      val = ( prefix === 'MD' ) ? mdParser(pageContent) : pageContent;
+      val = (prefix === 'MD') ? mdParser(pageContent) : pageContent;
       delete fileObj.data[key];
 
       return val;
@@ -115,11 +115,11 @@ module.exports = function (assemble) {
       var val, recursed;
       var isPageContent = translatePageContent(key, split, fileData, marked);
 
-      if ( translationKeys.indexOf(prefix) !== -1 && isPageContent ) {
+      if (translationKeys.indexOf(prefix) !== -1 && isPageContent) {
         //key will get mutated to have an HTML prefix inside the translatePageContent function
         val = isPageContent;
         key = 'HTML_' + suffix;
-      } else if ( ( translationKeys.indexOf(prefix) !== -1 ) && ( data[key] !== 'object' || Array.isArray(data[key]) ) ) {
+      } else if ((translationKeys.indexOf(prefix) !== -1) && (data[key] !== 'object' || Array.isArray(data[key]))) {
         //if it's an array remember the key
         if (Array.isArray(data[key])) {
           val = processArray(data[key], prefix, createDictionary);
@@ -135,7 +135,7 @@ module.exports = function (assemble) {
         }
 
         //fucking null....are you kidding me!!!!
-      } else if ( _.isPlainObject(data[key]) ) {
+      } else if (_.isPlainObject(data[key])) {
         recursed = createDictionary(data[key]);
         //this is important, keeps keys with empty values from being added
         if (Object.keys(recursed).length > 0) {

@@ -15,7 +15,7 @@ module.exports = function isCurrentDest (thisDest, compareDest, bool, options) {
     console.log(thisDest, compareDest);
   }
 
-  if ( destName === compareDest ) {
+  if (destName === compareDest) {
     if (bool) {
       return options.fn(this);
     } else {

@@ -19,7 +19,7 @@ var makeBundlePaths = function makeBundlePaths(pathsArr) {
       exclude = true;
       jsPath = jsPath.substr(1);
     }
-    concatPath = path.join( (exclude ? '!' : '') + '<%= config.guts %>/assets/js/', jsPath);
+    concatPath = path.join((exclude ? '!' : '') + '<%= config.guts %>/assets/js/', jsPath);
     map.push(concatPath);
     return map;
   }, []);
