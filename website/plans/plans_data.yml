@@ -158,7 +158,7 @@ TR_tables:
         starter_bool: false
         enterprise_bool: true
       -
-        TR_title: "User Lists"
+        TR_title: "Uploaded Audiences"
         boolean: true
         starter_bool: false
         enterprise_bool: true
