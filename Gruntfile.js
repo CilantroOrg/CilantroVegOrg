@@ -10,8 +10,7 @@ module.exports = function(grunt) {
   require('time-grunt')(grunt);
   var dateVar = grunt.template.today('dddd, mmmm dS, yyyy, h:MM:ss TT');
 
-  //jit-grunt loads only the npm tasks required for the grunt task.
-  //makes livereload much faster.
+  // jit-grunt loads only the npm tasks required for the grunt task. (makes livereload much faster.)
   require('load-grunt-config')(grunt, {
     jitGrunt: {
       staticMappings: {
@@ -34,9 +33,7 @@ module.exports = function(grunt) {
     init: true
   });
 
-  grunt.registerTask('om-test', [
-    'open'
-  ]);
+  grunt.registerTask('om-test', ['open']);
   grunt.loadNpmTasks('grunt-aws');
   grunt.registerTask('production-deploy', [
     'gitinfo',
@@ -59,7 +56,6 @@ module.exports = function(grunt) {
     'clean:postBuild',
     'fastly:production'
   ]);
-
 
   grunt.registerTask('staging-deploy', [
     'gitinfo',
@@ -121,17 +117,15 @@ module.exports = function(grunt) {
   grunt.registerTask('server', function(which) {
     var cachedI;
     var assembleTask = serverTasks.filter(function(task, i) {
-      if(/assemble/.test(task)) {
+      if (/assemble/.test(task)) {
         cachedI = i;
         return true;
       }
     })[0];
-
-    if(which) {
+    if (which) {
       assembleTask += (':' + which);
       serverTasks[cachedI] = assembleTask;
     }
-
     grunt.task.run(serverTasks);
   });
 
@@ -176,11 +170,9 @@ module.exports = function(grunt) {
       'config:dev',
       'jshint:test',
     ];
-
-    if(!grunt.option('target')) {
+    if (!grunt.option('target')) {
       tasks.push('om-test');
     }
-
     grunt.task.run(tasks.concat(['mochaTest:ui']));
   });
 
@@ -203,9 +195,7 @@ module.exports = function(grunt) {
     'mochaTest',
   ]);
 
-  grunt.registerTask('default', [
-    'build'
-  ]);
+  grunt.registerTask('default', ['build']);
   grunt.loadNpmTasks('grunt-github-releaser');
   grunt.loadNpmTasks('grunt-git');
 
@@ -219,7 +209,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('release', 'makes a release to github', function() {
     // Use the forceon option for all tasks that need to continue executing in case of error
-
     // We need to replace the cloudfront URL on userrevvd when we make a marketing-website release
     // otherwise assets will point to S3 / Cloudfront
     var obj = grunt.config.getRaw('userevvd');
@@ -237,5 +226,4 @@ module.exports = function(grunt) {
     grunt.task.run(compress);
     grunt.task.run(git_release_tasks);
   });
-
 };
