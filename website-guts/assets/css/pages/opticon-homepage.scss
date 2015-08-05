@@ -1,17 +1,17 @@
 body.opticon-homepage {
   .title-section {
-    background-image: url('https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/speaker_panel_hero.png');
+    background-image: url('https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/opticon/post_opti_hero_img.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
   }
   .page-title {
-    font-size: 2.6em;
+    font-size: 2.2em;
     background: $opticon-brand-blue;
-    padding: 10px 20px 0;
     margin: 0;
-    letter-spacing: 1.83px;
-    line-height: 64px;
+    letter-spacing: 1.77px;
+    line-height: 48px;
+    &__top { padding-top: 10px; }
   }
   .event-details {
     font-size: 1.125em;
@@ -20,6 +20,18 @@ body.opticon-homepage {
     line-height: 44px;
     margin: 0 0 15px 0;
   }
+  .hero-text {
+    text-align: center;
+    font-size: 0.875em;
+    color: $white;
+    letter-spacing: 0.43px;
+    line-height: 28px;
+    & a {
+      font-family: $adelle-sans-font-family;
+      font-weight: 600; 
+      color: $opticon-hero-link; 
+    }
+  }
   .hero-subtitle {
     font-size: 1.125em;
     color: $opticon-text-gray;
@@ -27,21 +39,21 @@ body.opticon-homepage {
     line-height: 26px;
     margin-bottom: 0;
   }
-  .opties-container.container {
-    padding: 0 20px;
-  }
-  .opties-details.description-text {
-    text-align: center;
-    line-height: 25px;
-    padding: 30px;
-
-  }
-  .opties-title {
-    font-size: 1.875em;
-    color: $opticon-brand-blue;
-    letter-spacing: 0.57px;
-    line-height: 41px;
-    padding: 0.5em;
+  .quote-container {
+    color: $white;
+    padding: 0 3%;
+    h3 {
+      font-size: 1.2em;
+      letter-spacing: 0.37px;
+      line-height: 32px;
+    }
+    p {
+      opacity: 0.8;
+      font-size: 0.9em;
+      letter-spacing: 0.43px;
+      line-height: 28px;
+      text-align: center;
+    }
   }
   .optimizely-host {
     font-size: 0.8125em;
@@ -62,7 +74,7 @@ body.opticon-homepage {
   .speaker-blurb { text-align: left; }
   .subtitle { text-align: center; }
   .description-title {
-    padding: 0 2%;
+    padding: 2%;
     text-align: center;
   }
   .speaker-companies-title {
@@ -95,7 +107,7 @@ body.opticon-homepage {
     background-size: 136px;
     background-position: center;
   }
-  .description { padding: 5% 13%; }
+  .description { padding: 5%; }
   .description-text.description-text--center { text-align: center; }
   .tracks {
     padding: 100px 0 80px;
@@ -123,15 +135,14 @@ body.opticon-homepage {
   body.opticon-homepage {
     .hero-subtitle { padding-left: 50%; }
     .speaker-container { width: 25%; }
-    .description-title { padding: 0 23%; }
-    .description-text.description-text--center { padding: 0 23%; }
+    .description-title { padding: 25px 200px 0; }
+    .description-text.description-text--center { padding: 0 200px 25px; }
     .track-container {
       width: 25%;
       padding: 115px 10px 10px 10px;
     }
     .copy-container {
-      text-align: right;
-      padding: 0 5%;
+      text-align: left;
       h1,
       h4 { text-align: right; }
     }
@@ -165,7 +176,31 @@ body.opticon-homepage {
       background-size: cover;
       background-position: center;
     }
-    .page-title { font-size: 3em; }
+    .quote-container {
+      max-width: 940px;
+      margin: 0 auto;
+      color: $white;
+      h3 {
+        font-size: 1.9em;
+        letter-spacing: 0.37px;
+        line-height: 44px;
+        padding-right: 125px;
+      }
+      p {
+        opacity: 0.8;
+        font-size: 0.9em;
+        letter-spacing: 0.43px;
+        line-height: 28px;
+        text-align: right;
+      }
+    }
+    .page-title { 
+      padding: 0 20px;
+      font-size: 3em; 
+      max-width: 400px;
+      margin-left: 105px;
+      &__top { padding-top: 10px; }
+    }
     .confetti-container .confetti-right,
     .confetti-container .confetti-left { display: none; }
   }
@@ -173,13 +208,17 @@ body.opticon-homepage {
 
 @media only screen and (min-width: $desktop-min-width) {
   body.opticon-homepage {
-    .description {
-      padding: 5% 0;
-    }
-    .title-section { padding: 115px; }
+    .description { padding: 55px 0; }
+    .page-title { max-width: 760px; }
+    .title-section { padding: 75px; }
     .track-container { padding: 115px 10px 30px; }
     .confetti-container .confetti-right,
-    .confetti-container .confetti-left {
+    .recap-cta { 
+      text-align: center;
+      margin-top: 50px;
+    }
+    .confetti-container .confetti-left,
+    .confetti-container .confetti-right {
       display: block;
     }
   }
