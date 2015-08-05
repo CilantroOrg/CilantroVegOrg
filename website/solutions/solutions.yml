@@ -6,7 +6,7 @@ products_section:
   products:
     -
       tab_title: "Testing"
-      blurb: "<p>Optimizely Testing is the most adopted A/B testing platform in the world, optimizing billions of experiences every month for customers across diverse industries including media, retail, travel, and technology.</p><p>Easy-to-use and robust <a href='/ab-testing/'>A/B</a>, <a href='/resources/multivariate-testing/'>multivariate</a>, and multi-page testing gives you everything you need to improve engagement and increase revenue across desktop, mobile web, and <a href='/mobile/'>mobile apps</a>.</p>"
+      blurb: "<p>Optimizely Testing is the most adopted A/B testing solution in the world, optimizing billions of experiences every month for customers across diverse industries including media, retail, travel, and technology.</p><p>Easy-to-use and robust <a href='/ab-testing/'>A/B</a>, <a href='/resources/multivariate-testing/'>multivariate</a>, and multi-page testing gives you everything you need to improve engagement and increase revenue across desktop, mobile web, and <a href='/mobile/'>mobile apps</a>.</p>"
       product_image: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/solutions/product_illustrations/testing_final.svg"
     -
       tab_title: "Personalization"
