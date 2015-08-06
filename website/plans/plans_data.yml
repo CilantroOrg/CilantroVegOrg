@@ -165,8 +165,7 @@ TR_tables:
         TR_tooltip: "Target optimized experiences to a list of users you have uploaded to Optimizely"
   -
     TR_title: "Integrate Data Across Your Platforms"
-    TR_desc: "Seamlessly integrate Optimizely with the best-in-class
-      products you already use and take action on your data, no matter where it lives."
+    TR_desc: "Seamlessly integrate Optimizely with the best-in-class products you already use and take action on your data, no matter where it lives. <a href='https://help.optimizely.com/hc/en-us/articles/200040055#integrations' target='_blank'>Click here for a full list of supported integrations.</a>"
     TR_features:
       -
         TR_title: "Basic Analytics & Heatmapping Integrations"
