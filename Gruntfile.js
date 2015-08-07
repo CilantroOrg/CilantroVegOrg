@@ -144,9 +144,8 @@ module.exports = function(grunt) {
   grunt.registerTask('build-release', [
     'gitinfo',
     'config:release',
-    'jshint:clientDev',
-    'jshint:server',
     'clean:preBuild',
+    'jshint:server',
     'assemble',
     'modernizr',
     'concat',
@@ -207,7 +206,7 @@ module.exports = function(grunt) {
     // We need to replace the cloudfront URL on userrevvd when we make a marketing-website release
     // otherwise assets will point to S3 / Cloudfront
     var obj = grunt.config.getRaw('userevvd');
-    obj.html.options.formatNewPath = function(path) {
+    obj.options.formatNewPath = function(path) {
       return path.replace(/^dist/, '');
     };
     obj = { userevvd: obj };
