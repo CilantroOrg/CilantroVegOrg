@@ -309,5 +309,5 @@ calls_to_action:
     TR_label: "Absolutely Free"
     TR_button_text: "Test it out"
   enterprise:
-    TR_label: "Schedule Demo"
-    TR_button_text: "Schedule Demo"
+    TR_label: "Talks To Us"
+    TR_button_text: "Talk To Us"
