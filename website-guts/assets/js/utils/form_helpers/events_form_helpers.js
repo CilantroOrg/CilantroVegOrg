@@ -33,6 +33,7 @@ var eventsFormHelper = {
     }
 
     window.setTimeout(function() {
+      w.optly.mrkt.signOut('');
       document.location.reload();
     }, 8000);
   },
