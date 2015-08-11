@@ -12,6 +12,8 @@ $('.js-enterprise-plan-cta').on('click', function(e){
 });
 
 $('#explore-features').on('click', w.optly.mrkt.utils.smoothScroll);
+$('#signup-form input[name="Initial_Form_Source__c"]').val('Pricing Signup form');
+$('#signup-form input[name="Inbound_Lead_Form_Type__c"]').val('Pricing Signup form');
 
 //setup DOM for automated test
 var automatedTest = window.optly.mrkt.automatedTest();
@@ -47,8 +49,6 @@ var updatePlanInfo = function(){
   }
 
   $('.js-starter-plan-cta').on('click', function(e){
-    $('#signup-form input[name="Initial_Form_Source__c"]').val('Pricing Signup form');
-    $('#signup-form input[name="Inbound_Lead_Form_Type__c"]').val('Pricing Signup form');
     //user is signed in
     if(typeof w.optly.mrkt.user.acctData === 'object' && w.optly.mrkt.user.acctData.account_id) {
 
