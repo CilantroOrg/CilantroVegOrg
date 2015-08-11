@@ -41,7 +41,7 @@ describe('plans page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
   describe('enterprise user', function() {
     it('cannot downgrade', function(done) {
@@ -61,7 +61,7 @@ describe('plans page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
   describe('signed in user with no plan', function() {
     // Counterpart test to the 'enterprise user cannot downgrade' test
@@ -108,25 +108,18 @@ describe('plans page', function() {
           return document.body.getAttribute('class');
         }, function(result) {
             var changePlan = /change\-plan\-success/;
-            console.log('######');
-            console.log('######');
-            console.log('######');
-            console.log(result);
-            console.log('######');
-            console.log('######');
-            console.log('######');
             expect(changePlan.test(result)).to.equal(true);
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
   describe('anonymous visitor', function() {
     it('subscribes to starter plan', function(done) {
       new Nightmare({phantomPath: phantomPath})
         .viewport(1024, 1000)
         .goto(plansPath)
-        .click('#feature-list-get-started-now')
+        .click('.js-starter-plan-cta')
         .wait(300)
         .type('#signup-dialog input[name="email"]', config.email)
         .type('#signup-dialog input[name="password1"]', 'ks93+-93KLI')
@@ -210,14 +203,14 @@ describe('plans page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
   describe('visitor', function() {
     it('submits contact sales form from bottom button', function(done) {
       new Nightmare({phantomPath: phantomPath})
         .viewport(1024, 1000)
         .goto(plansPath)
-        .click('#feature-list-talk-to-us')
+        .click('.js-enterprise-plan-cta')
         .wait(300)
         .type('#contact-sales-form input[name="first_name"]', config.firstName)
         .type('#contact-sales-form input[name="last_name"]', config.lastName)
@@ -313,7 +306,7 @@ describe('plans page', function() {
       new Nightmare({phantomPath: phantomPath})
         .viewport(1024, 1000)
         .goto(plansPath)
-        .click('#talk-to-us')
+        .click('#contact-us-button')
         .wait(300)
         .type('#contact-sales-form input[name="first_name"]', config.firstName)
         .type('#contact-sales-form input[name="last_name"]', config.lastName)
@@ -405,6 +398,6 @@ describe('plans page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
 });
