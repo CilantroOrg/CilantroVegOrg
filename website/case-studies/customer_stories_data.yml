@@ -30,7 +30,7 @@ TR_customer_stories:
   TR_button: "Learn More"
 -
   TR_header: "133% More New Members"
-  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunk-club/trunk-club-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/trunkclub-desktop/trunk-club-logo.png"
   TR_body: "Trunk Club tested to optimize their onboarding process, with staggering results and business impact."
   story_url: "trunkclub-desktop"
   TR_button: "Learn More"
@@ -42,13 +42,13 @@ TR_customer_stories:
   TR_button: "Learn More"
 -
   TR_header: "More Student Sign-ups"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/code-dot-org-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/code-dot-org-logo.png"
   TR_body: "Code.org optimized its headlines and CTA messaging to significantly increase sign-ups for its Hour of Code campaign."
   story_url: "codeorg"
   TR_button: "Learn More"
 -
   TR_header: "140% Increase in Lead Quality"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/ironmountain-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/ironmountain-logo.png"
   TR_body: "Iron Mountain optimized its lead generation process to improve the quality of leads generated from its online sign-up form."
   story_url: "iron-mountain"
   TR_button: "Learn More"
@@ -60,19 +60,19 @@ TR_customer_stories:
   TR_button: "Learn More"
 -
   TR_header: "Improved Checkout Funnel"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/sony-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/sony-logo.png"
   TR_body: "Sony optimized banners ads and product pages to drive more customers through the checkout funnel to make a final purchase on its website."
   story_url: "sony"
   TR_button: "Learn More"
 -
   TR_header: "10% More Email Sign-ups"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/new-york-public-library/new-york-public-library-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/nypl/new-york-public-library-logo.png"
   TR_body: "New York Public Library optimized for member engagement, including promoting its email newsletter."
   story_url: "nypl"
   TR_button: "Learn More"
 -
   TR_header: "12% Increase in Sales"
-  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/clymb_logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/theclymb/clymb_logo.png"
   TR_body: "The Clymb and Lytics partnered to deliver personalized experiences to high-value customer segments."
   story_url: "theclymb"
   TR_button: "Learn More"
@@ -84,7 +84,7 @@ TR_customer_stories:
   TR_button: "Learn More"
 -
   TR_header: "49% Increase in Donations"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/obama2012/obama2012-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/obama2012/obama2012-logo.png"
   TR_body: "The Obama 2012 Campaign ran over 500 experiments over 20 months to drive online fundraising."
   story_url: "obama2012"
   TR_button: "Learn More"
@@ -96,21 +96,15 @@ TR_customer_stories:
   TR_button: "Learn More"
 -
   TR_header: "43% Lift in SimCity Pre-Orders"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/ea-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/ea-logo.png"
   TR_body: "To maximize revenue during a launch of SimCity, Electronic Arts tested a promotional offer on the game's pre-order page and in paid advertising."
   story_url: "electronic-arts"
   TR_button: "Learn More"
 -
   TR_header: "46% Increase in Subscriptions"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/guardian-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/guardian-logo.png"
   TR_body: "The Guardian tested the homepage, landing pages, and navigation menu on its dating site – Soulmates –to increase subscriptions."
   story_url: "theguardian"
-  TR_button: "Learn More"
--
-  TR_header: "Driving E-Commerce with Optimization"
-  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/bludot-logo.png"
-  TR_body: "Blu Dot and Clearhead partnered to optimize just about every aspect of the company’s retail business with resounding success."
-  story_url: "bludot"
   TR_button: "Learn More"
 -
   TR_header: "Doubled Mobile Activation"
@@ -126,19 +120,19 @@ TR_customer_stories:
   TR_button: "Learn More"
 -
   TR_header: "17% More Revenue Per Visitor"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartwool/smartwool-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/smartwool/smartwool-logo.png"
   TR_body: "Smart Wool optimized after a site redesign to generate more revenue from it's e-commerce website."
   story_url: "smartwool"
   TR_button: "Learn More"
 -
   TR_header: "69% Increase in Conversions"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/comscore-logo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/comscore-logo.png"
   TR_body: "ComScore tested the layout and design of customer testimonials on product pages to measure the impact on leads generated."
   story_url: "comscore"
   TR_button: "Learn More"
 -
   TR_header: "54% More Revenue Per Visitor"
-  logo_url: "https://d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsa-store/fsalogo.png"
+  logo_url: "//d1qmdf3vop2l07.cloudfront.net/optimizely-marketer-assets.cloudvent.net/raw/customer-stories/customer-stories-pages/fsastore/fsalogo.png"
   TR_body: "FSAstore optimized its e-commerce site to increase overall revenue per visitor."
   story_url: "fsastore"
   TR_button: "Learn More"
