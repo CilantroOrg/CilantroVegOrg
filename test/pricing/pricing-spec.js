@@ -2,8 +2,8 @@ var Nightmare = require('nightmare');
 //var path = require('path');
 var config = require('../config')({dirname: __dirname});
 var phantomPath = config.phantomPath;
-var pricingPath = config.basePath({
-  path: '/pricing/',
+var plansPath = config.basePath({
+  path: '/plans/',
   queryParams: {
     otm_source: 'google',
     otm_medium: 'cpc',
@@ -14,7 +14,7 @@ var pricingPath = config.basePath({
 });
 var expect = require('chai').expect;
 
-describe('pricing page', function() {
+describe('plans page', function() {
 
   describe('deprecated plan user', function() {
     it('downgrades to starter', function(done) {
@@ -25,7 +25,7 @@ describe('pricing page', function() {
             plan: 'bronze-oneyear'
           }
         }))
-        .click('#feature-list-get-started-now')
+        .click('.js-starter-plan-cta')
         .wait(300)
         .screenshot(config.screenshot({ imgName: 'downgrade-confirm' }))
         .click('#downgrade-plan-form button[type="submit"]')
@@ -41,7 +41,7 @@ describe('pricing page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
   describe('enterprise user', function() {
     it('cannot downgrade', function(done) {
@@ -61,12 +61,12 @@ describe('pricing page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
   describe('signed in user with no plan', function() {
     // Counterpart test to the 'enterprise user cannot downgrade' test
     // If the user has no plan, they should be able to sign up for either plan
-    it('expects the starter button to have id feature-list-get-started-now', function(done) {
+    it('expects the starter buttons to have class js-starter-plan-cta', function(done) {
       new Nightmare({phantomPath: phantomPath})
         .viewport(1024, 1000)
         .goto(config.basePath({
@@ -77,9 +77,9 @@ describe('pricing page', function() {
         .wait(300)
         .screenshot(config.screenshot({ imgName: 'enterprise-downgrade-option' }))
         .evaluate(function() {
-          return window.jQuery('#feature-list-get-started-now').attr('id');
+          return window.jQuery('.js-starter-plan-cta').length;
         }, function(result) {
-            expect(result).to.equal('feature-list-get-started-now');
+            expect(result).to.equal(7);
         })
         .run(done);
     });
@@ -92,9 +92,17 @@ describe('pricing page', function() {
             plan: ''
           }
         }))
-        .click('#feature-list-get-started-now')
-        .wait('body.change-plan-success')
+        .click('.js-starter-plan-cta')
         .wait(300)
+        .type('#signup-dialog input[name="email"]', config.email)
+        .type('#signup-dialog input[name="password1"]', 'ks93+-93KLI')
+        .type('#signup-dialog input[name="password2"]', 'ks93+-93KLI')
+        .click('#signup-dialog input[name="Web_Interest__c"]')
+        .click('#signup-dialog input[name="Mobile_Web_Interest__c"]')
+        .click('#signup-dialog input[name="iOS_Interest__c"]')
+        .click('#signup-dialog input[name="Android_Interest__c"]')
+        .click('#signup-dialog button[type="submit"]')
+        .wait('body.change-plan-success')
         .screenshot(config.screenshot({ imgName: 'pricing-no-plan-start-new-plan' }))
         .evaluate(function() {
           return document.body.getAttribute('class');
@@ -104,14 +112,14 @@ describe('pricing page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
   describe('anonymous visitor', function() {
     it('subscribes to starter plan', function(done) {
       new Nightmare({phantomPath: phantomPath})
         .viewport(1024, 1000)
-        .goto(pricingPath)
-        .click('#feature-list-get-started-now')
+        .goto(plansPath)
+        .click('.js-starter-plan-cta')
         .wait(300)
         .type('#signup-dialog input[name="email"]', config.email)
         .type('#signup-dialog input[name="password1"]', 'ks93+-93KLI')
@@ -195,14 +203,14 @@ describe('pricing page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
   describe('visitor', function() {
     it('submits contact sales form from bottom button', function(done) {
       new Nightmare({phantomPath: phantomPath})
         .viewport(1024, 1000)
-        .goto(pricingPath)
-        .click('#feature-list-talk-to-us')
+        .goto(plansPath)
+        .click('.js-enterprise-plan-cta')
         .wait(300)
         .type('#contact-sales-form input[name="first_name"]', config.firstName)
         .type('#contact-sales-form input[name="last_name"]', config.lastName)
@@ -297,8 +305,8 @@ describe('pricing page', function() {
     it('submits contact sales form from top button', function(done) {
       new Nightmare({phantomPath: phantomPath})
         .viewport(1024, 1000)
-        .goto(pricingPath)
-        .click('#talk-to-us')
+        .goto(plansPath)
+        .click('#contact-us-button')
         .wait(300)
         .type('#contact-sales-form input[name="first_name"]', config.firstName)
         .type('#contact-sales-form input[name="last_name"]', config.lastName)
@@ -390,6 +398,6 @@ describe('pricing page', function() {
         })
         .run(done);
     });
-  }); //end create account test
+  });
 
 });
