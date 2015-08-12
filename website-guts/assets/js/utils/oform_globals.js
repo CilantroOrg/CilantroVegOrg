@@ -185,11 +185,11 @@
       reportingObject.LeadSource_Category__c = payload.LeadSource_Category__c;
     }
     if(payload.Lead_Source_Category__c){
-      reportingObject.Lead_Scource_Category__c = payload.Lead_Source_Category__c;
+      reportingObject.Lead_Source_Category__c = payload.Lead_Source_Category__c;
     }
     //Bradley: underscore was forgotten in oform globals, this captures all possible form fields
     if(payload.LeadSource_Category__c){
-      reportingObject.Lead_Scource_Category__c = payload.LeadSource_Category__c;
+      reportingObject.Lead_Source_Category__c = payload.LeadSource_Category__c;
     }
     if(payload.Lead_Source_Subcategory__c){
       reportingObject.Lead_Source_Subcategory__c = payload.Lead_Source_Subcategory__c;
