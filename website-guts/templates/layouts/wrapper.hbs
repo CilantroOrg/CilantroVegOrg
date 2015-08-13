@@ -85,6 +85,11 @@ layout_modals:
           <link rel="stylesheet" type="text/css" href="{{#hasAssetPath this}}{{../../assetsDir}}/{{/hasAssetPath}}{{this}}">
         {{/each}}
         {{/if}}
+        {{#if this.page_css}}
+        {{#each this.page_css}}
+        <link rel="stylesheet" type="text/css" href="{{../../assetsDir}}/css/{{this}}">
+        {{/each}}
+        {{/if}}
         <link rel="stylesheet" href="{{assetsDir}}/css/styles.css">
         {{#if this.head_script ~}}<script src="{{this.head_script}}"></script>{{/if}}
         {{#if environmentVariables.production}}
@@ -194,7 +199,7 @@ layout_modals:
                             <div class="right-nav">
                                     <ul id="footer-nav" class="row">
                                         <li id="footer-nav-features" class="columns three">
-                                            <h4>{{{tr 'Product Features &amp; Benefits'}}}</h4>
+                                            <h4 class="footer-nav-header">{{{tr 'Product Features &amp; Benefits'}}}</h4>
                                             <ul>
                                                 <li><a href="{{linkPath}}/plans">{{tr 'Plans and Pricing'}}</a></li>
                                                 <li><a href="{{linkPath}}/benefits/">{{tr 'Benefits'}}</a></li>
@@ -209,14 +214,14 @@ layout_modals:
                                             </ul>
                                         </li>
                                         <li id="footer-nav-customers" class="columns two">
-                                            <h4>{{tr 'Customers'}}</h4>
+                                            <h4 class="footer-nav-header">{{tr 'Customers'}}</h4>
                                             <ul>
                                                 <li><a href="{{linkPath}}/customers/">{{tr 'Customer List'}}</a></li>
                                                 <li><a href="{{linkPath}}/case-studies/">{{tr 'Case Studies'}}</a></li>
                                             </ul>
                                         </li>
                                         <li id="footer-nav-resources" class="columns three">
-                                          <h4>{{tr 'Resources'}}</h4>
+                                          <h4 class="footer-nav-header">{{tr 'Resources'}}</h4>
                                           <ul>
                                             <li><a href="{{linkPath}}/ab-testing/">{{tr 'What is A/B Testing?'}}</a></li>
                                             <li><a href="{{linkPath}}/split-testing/">{{tr 'What is Split Testing?'}}</a></li>
@@ -237,7 +242,7 @@ layout_modals:
                                           </ul>
                                         </li>
                                         <li id="footer-nav-about" class="columns two">
-                                            <h4>{{tr 'About'}}</h4>
+                                            <h4 class="footer-nav-header">{{tr 'About'}}</h4>
                                             <ul>
                                                 <li><a href="{{linkPath}}/about/">{{tr 'About'}}</a></li>
                                                 <li><a href="{{linkPath}}/careers/">{{tr 'Careers'}}</a></li>
@@ -247,7 +252,7 @@ layout_modals:
                                             </ul>
                                         </li>
                                         <li id="footer-nav-other" class="columns two">
-                                            <h4>{{tr 'Other'}}</h4>
+                                            <h4 class="footer-nav-header">{{tr 'Other'}}</h4>
                                             <ul>
                                               <li><a href="{{linkPath}}/success/">{{tr 'Customer Success'}}</a></li>
                                               <li><a href="{{linkPath}}/demo/">{{tr 'Request a Demo'}}</a></li>
