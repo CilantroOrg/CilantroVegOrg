@@ -27,7 +27,9 @@ module.exports = {
         beforeEach: false,
         waits: false,
         waitsFor: false,
-        runs: false
+        runs: false,
+        wistiaEmbeds: true,
+        Wistia: true
       }
     },
     files: {
@@ -47,7 +49,9 @@ module.exports = {
         Oform: false,
         w: false,
         d: false,
-        Modernizr: true
+        Modernizr: true,
+        wistiaEmbeds: true,
+        Wistia: true
       }
     },
     files: {
@@ -70,7 +74,9 @@ module.exports = {
         Oform: false,
         w: false,
         d: false,
-        Modernizr: true
+        Modernizr: true,
+        wistiaEmbeds: true,
+        Wistia: true
       }
     },
     files: {
@@ -95,7 +101,9 @@ module.exports = {
         before: false,
         waits: false,
         waitsFor: false,
-        runs: false
+        runs: false,
+        wistiaEmbeds: true,
+        Wistia: true
       }
     },
     files: {
