@@ -29,7 +29,8 @@ module.exports = {
         waitsFor: false,
         runs: false,
         wistiaEmbeds: true,
-        Wistia: true
+        Wistia: true,
+        wistiaJQuery: true
       }
     },
     files: {
@@ -51,7 +52,8 @@ module.exports = {
         d: false,
         Modernizr: true,
         wistiaEmbeds: true,
-        Wistia: true
+        Wistia: true,
+        wistiaJQuery: true
       }
     },
     files: {
@@ -76,7 +78,8 @@ module.exports = {
         d: false,
         Modernizr: true,
         wistiaEmbeds: true,
-        Wistia: true
+        Wistia: true,
+        wistiaJQuery: true
       }
     },
     files: {
@@ -103,7 +106,8 @@ module.exports = {
         waitsFor: false,
         runs: false,
         wistiaEmbeds: true,
-        Wistia: true
+        Wistia: true,
+        wistiaJQuery: true
       }
     },
     files: {
