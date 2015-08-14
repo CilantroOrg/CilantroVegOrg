@@ -5,21 +5,18 @@ keynote_sessions:
   video_list:
   -
     title: "CEO Dan Siroker's Keynote"
-    speakers: "Dan Siroker"
-    video_id:
+    speakers: "Dan Siroker
     wistia_url: "//fast.wistia.net/embed/iframe/xcorh9bx2t?popover=true" 
     wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/be55b81db186b83574c23db7c893e12b5651cc80.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
   -
     title: "The Future of Technology, Optimization, and the “We Economy”"
-    speakers: "Mary Hamilton"
-    video_id:
+    speakers: "Mary Hamilton
     slides_url: "http://www.slideshare.net/optimizely/opticon-2015-technology-trends-and-the-we-economy"
     wistia_url: "//fast.wistia.net/embed/iframe/s0yu60meos?popover=true"
     wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/790f98fe8da43a6e2b19ab47a119864aeba713e8.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
   -
     title: "2015 Optie Awards"
-    speakers: "Greg Tate"
-    video_id:
+    speakers: "Greg Tate
     wistia_url: "//fast.wistia.net/embed/iframe/rd5d5lubvz?popover=true"
     wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/636777332097652a4d419c6fc088c80165312df4.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
 
@@ -32,64 +29,54 @@ breakout_sessions:
     -
       title: "Moving the Needle in your E-commerce Funnel"
       speakers: "Jesse Avshalomov, Ethan Kalm, Wyatt Jenkins, Eddie Hartman"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/do82ozrqdt?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/1c2991c5ee19f08ce07ec5dde5764dd93c57e452.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -  
       title: "Testing with Stats Engine: Why it’s Harder to Find Winners with Optimizely"
       speakers: "Leo Pekelis, Pete Koomen"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-testing-with-stats-engine"
       wistia_url: "//fast.wistia.net/embed/iframe/ocpui26ibo?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/d802368641c13e33e74cd1074578420949c3ef98.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "The Inside Scoop: Personalization"
       speakers: "Jon Noronha, Robin Pam"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/5q5n3r5onv?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/adc1f03da7c5751cf83ecdee3db1bc160c301e8b.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Statistics in 40 Minutes"
       speakers: "Pete Koomen, Leo Pekelis"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-stats-in-40-m-inutes"
       wistia_url: "//fast.wistia.net/embed/iframe/h1ovfkp6d3?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/732aeec8fabe7da769f1d6135b9f8bfa47f02aee.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Travel, Testing & Personalization in the 21st Century"
       speakers: "Katherine Reynolds, Pauline Marol, Travis Bryant"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/b992ikkat7?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/d76d12fe959d9185084116d77499ea72fa22300c.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Website Redesign Strategies"
       speakers: "Tiffany Early, Matthew Vandewouwer, Ryan Garner, Steve Petersen"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-website-redesign-strategies"
       wistia_url: "//fast.wistia.net/embed/iframe/0o4tnbtt9i?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/1eabc9040810921db955da080c4f23997d3692f5.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Blow Up Your Mobile App Metrics"
       speakers: "George McMullen, Raman Bhatia, Andrea Burbank, Pam Ongchin, Kyle Humphries"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/ki3ooj6t2g?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/9eeb2b27d60e74e1ea6a15d17d8170cce2b10087.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Optimizing for Engagement in Media"
       speakers: "Kathy Chao, Aaron Landman, Michael Chang, David Marks"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/yo7g5xapte?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/07c7e6183ac22df861d71b3090da8117d1748bb6.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Building a SaaS Growth Engine"
       speakers: "Brian Kelly, Jessie Becker, Heidi Bullock, Baxter Denney"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/rnrghs68qt?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/80280efbccc0930741cd304702f3d4b303f53b93.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Optimization at Optimizely"
       speakers: "Ash Alhashim, Amanda Swan, Adam Avramescu"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-optimization-at-optimizely"
       wistia_url: "//fast.wistia.net/embed/iframe/ogxtp9tuio?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/0a5f4f7e97a97d35f1b6fe5e2854d971267141df.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
@@ -106,91 +93,78 @@ breakout_sessions:
     -
       title: "Early Lessons in Personalization Strategy"
       speakers: "Mike Norland, Tyler Bullen, Catherine Pao"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-early-lessons-in-personalization"
       wistia_url: "//fast.wistia.net/embed/iframe/fr7v01v204?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/39ad7c2b71cad4eb43d0b819dc6b1db8b3abfee1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "UX That Doesn’t Make You Think: Removing Friction and Cognitive Overhead"
       speakers: "Merritt Aho, Ryan Lillis"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-role-of-design-and-ux-in-optimization"
       wistia_url: "//fast.wistia.net/embed/iframe/joh39qb0m8?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/8582c7cbea9a363e94a722271803fb1c63110ea7.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "The Membership Economy"
       speakers: "Robbie Kellman Baxter"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-the-membership-economy"
       wistia_url: "//fast.wistia.net/embed/iframe/d037dk6fff?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/11924ee75f3afa4a5595673e8d081290b0f54d35.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Scaling your Testing Program for Maximum Impact"
       speakers: "Khattaab Khan, Andy Nelson, Martijn Scheijbeler"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-scaling-your-testing-program-for-maximum-impact"
       wistia_url: "//fast.wistia.net/embed/iframe/ldtkmvtng5?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/cac98378d49d11c7b6af5728c740a3d783f15820.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Reading Between the Lines: Leverage Advanced Features to Get the Most out of your Results Page"
       speakers: "Daniel Kamas, Khattaab Khan, Kelly Fang"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-reading-between-the-lines-results-analysis"
       wistia_url: "//fast.wistia.net/embed/iframe/xdhsgvrsz8?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/5b98005298ad53c8b8a4772540a02f8abe7f28c6.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "The Power of Empathy in Driving Conversion"
       speakers: "Rachman Blake, Keith Lovgren, Talia Wolf, Cara Harshman"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-the-power-of-empathy-in-driving-conversion"
       wistia_url: "//fast.wistia.net/embed/iframe/do5ubhdv60?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/c854c0a947b046fc2b0c3e58a05f2536a5afb6fd.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Benchmark Your Optimization Program"
       speakers: "Shana Rusonis"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-benchmark-your-optimization-program-opticon"
       wistia_url: "//fast.wistia.net/embed/iframe/p6f7n4lcgu?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/ed2bd1ad0707bcc26bc18905257c8c08b8f0b20b.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Making it Stick: The 'X Factor' that Made Optimization Succeed"
       speakers: "Mike Wodtke, Jon Satterley, Matty Wishnow"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015makingitstick-1"
       wistia_url: "//fast.wistia.net/embed/iframe/loioyb3893?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/7a8059656f49ab24fe932f9556c9b7ff75849020.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Testing your Boundaries: Lessons Learned from Testing in International Markets"
       speakers: "Tim Ash, Jose Uzcategui, Kevin Flynn, Tania Shershin"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-testing-your-boundaries-international-markets"
       wistia_url: "//fast.wistia.net/embed/iframe/mkg4kejwhx?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/9192169e8070d7e5e69f6bf2db76a81b6dc34630.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Best Practices in Programmatic Ad Buying and Conversion Funnel Optimization"
       speakers: "Patrick McGrath"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-programmatic-ad-buying"
       wistia_url: "//fast.wistia.net/embed/iframe/gjsds0nhmi?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/2aed2eb544675025a3708746da82f97e3d9529d4.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Fishing with Spears: All about Account Based Marketing"
       speakers: "Jon Miller"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-fishing-with-spears-all-about-account-based-marketing"
       wistia_url: "//fast.wistia.net/embed/iframe/zk9xqpuqaf?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/8ce3bae7e4a34f56e51e0a22c10f5bb42e7b5068.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "10 Secrets to Build an Amazing Mobile Testing Roadmap"
       speakers: "Esben Rasmussen, Jeppe Dyrby"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-10-steps-for-mobile-roadmap"
       wistia_url: "//fast.wistia.net/embed/iframe/zqonpnm7c0?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/cf5b777a68581f58a1ed9bcbc92f44f2a2953e87.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "The 21st Century Marketing Stack and Team"
       speakers: "Philip Hollrah, Roxy Young, Jessie Becker, Pamela Webber"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-21st-century-marketing-stack"
       wistia_url: "//fast.wistia.net/embed/iframe/i70fb9ld3k?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/89c1fad018bd240ad1bd4ab1023ca5764c632524.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
@@ -207,49 +181,42 @@ breakout_sessions:
     -
       title: "Powerful Integrations with Optimizely"
       speakers: "John Provine, Arun Sivashankaran, Claire Vo, Michael Brondello"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-slides-powerful-integrations-with-optimizely-v2-1"
       wistia_url: "//fast.wistia.net/embed/iframe/3m2x5p2ujg?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/26ac31b811b9dd45d43e160753fb129bb085e270.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Experience Optimization in Modern Web Architecture"
       speakers: "Dave King, Case Van Arkel, Joe Casson, Justin Knoll, Jordan Garcia"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-experience-optimization-in-modern-web-architecture"
       wistia_url: "//fast.wistia.net/embed/iframe/sns68pujz5?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/08d2cf793e4c4daa55c52715666729056fd99671.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Hypothesize, Analyze, Optimize: Using Hidden Insights to Perfect your Experiment Process"
       speakers: "Abel Ramos, Abby Lokshin"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015hypothesize-analyze-optimize-using-hidden-insights-to-perfect-your-experiment-process"
       wistia_url: "//fast.wistia.net/embed/iframe/885qwjvegn?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/3290cc4339da2bd61e81044c40c8f8b4a648c73b.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Getting Started with the Optimizely Developer Platform"
       speakers: "Jon Gaulding, Josiah Gaskin"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-getting-started-with-the-optimizely-developer-platform"
       wistia_url: "//fast.wistia.net/embed/iframe/fgcww3jg45?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/278c7392ef62530dfab15e84d824b02b18c63706.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Getting Started with Optimizely for iOS and Android"
       speakers: "Suneet Shah"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/v3-getting-started-with-optimizely-for-mobile"
       wistia_url: "//fast.wistia.net/embed/iframe/0az8phxr5k?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/91b560b3ea05bcbc88e3d267c4bce57561f6204f.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Personalization Using Optimizely Audience Integrations"
       speakers: "Clarissa Bukhan, Ravi Venkatesan, Stacy Hill, Trevin Chow"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-personalization-using-optimizely-audience-integrations-50333862"
       wistia_url: "//fast.wistia.net/embed/iframe/1kr30v2yy7?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/88034443d789018d96b6dea2b9a0c763a5959f89.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Pushing the Boundaries of Optimizely"
       speakers: "Brad Taylor, Alex Ivashchenko, Markis Taylor, Shaunak Mali"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-pushing-the-boundaries-of-optimizely"
       wistia_url: "//fast.wistia.net/embed/iframe/3ye9thiqtt?popover=true"
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/d633ed1a55da7c60fc987469b9b96f59728ffd72.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
@@ -266,33 +233,28 @@ breakout_sessions:
     -
       title: "Collaborating to Scale: How to Spread Optimization Across Your Org and Keep Things from Getting Messy"
       speakers: "Cameron Deatsch, Katherine Shea"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-collaborating-toscale"
       wistia_url: "//fast.wistia.net/embed/iframe/zqmgg9fj6i?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/ec9c5c1a16c1f977c8ff46d6f5541af5eaaee738.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Google's $xxxM Ad Optimization Bet"
       speakers: "Michelle Levesque, Chrix Finne"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/b7g2z66dfo?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/e4ee29c90b543f45a4af1a2188f5bdb53ba572a1.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "Structure and Scale: Establishing Your Optimization Dream Team"
       speakers: "Lauren Ford, Junan Pang (Moderator), Claire Wissler, Chris Goward, Jeff Chin"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/n15a28h1nl?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/d2e6d0ea0697da65281b5b35e0c30ef0ee02c039.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "From Skeptic to Champion: How to Win Over Key Stakeholders and Other Non-Believers"
       speakers: "Alek Toumert, Rohan Karunakaran, Jason Lin, Benn Stancil"
-      video_id:
       slides_url: "http://www.slideshare.net/optimizely/opticon-2015-from-skeptic-to-champion"
       wistia_url: "//fast.wistia.net/embed/iframe/6ryvztj01d?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/f7321a6b0fdd6488af34552bea2a75e6a3daebb5.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -
       title: "How to Build a Culture of Optimization from Within"
       speakers: "Jodie Auster, Joel Constable, Durand Duin, Jenny Lykken"
-      video_id:
       wistia_url: "//fast.wistia.net/embed/iframe/sijgjgpd04?popover=true" 
       wistia_thumbnail: "https://embed-ssl.wistia.com/deliveries/9e191b94477d12b48733f16bb3deecc86069f0dd.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169"
     -

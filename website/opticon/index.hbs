@@ -14,17 +14,6 @@ external_script:
 - //use.typekit.net/ucj0cgp.js
 - //fast.wistia.com/assets/external/popover-v1.js
 ---
-<head>
-  <script>
-  wistiaJQuery(document).ready( function() {
-    var url = window.location.href.toString();
-    if ( url.indexOf('#video') !== -1 ) {
-      wistiaJQuery('#sizzlerVidLink').click();
-    }
-  });
-  </script>
-</head>
-
 {{#with global_opticon_data}}
 <div class="confetti-container">
   <div class="confetti-left"></div>
@@ -41,7 +30,7 @@ external_script:
     </div>
   </div>
   <div class="recap-cta">
-    <a id= "sizzlerVidLink" class="opticon-button opticon-button--header wistia-popover[height=529,playerColor=7b796a,width=940]" href="//fast.wistia.net/embed/iframe/2tjc92ds7u?popover=true">
+    <a id= "sizzlerVid" class="opticon-button opticon-button--header wistia-popover[height=529,playerColor=7b796a,width=940]" href="//fast.wistia.net/embed/iframe/2tjc92ds7u?popover=true">
       <div class="cta-text adelle-sans">{{title_section.cta_recap}}</div>
     </a>  
   </div>
