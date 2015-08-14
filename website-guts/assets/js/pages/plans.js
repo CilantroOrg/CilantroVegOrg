@@ -208,6 +208,10 @@ $('#downgrade-plan-form').submit(function(e) {
 
 //check for url parameter to make the contact sales modal open on page load.
 var modal = w.optly.mrkt.utils.getURLParameter('modal');
-if (modal === 'contact-sales') {
+if ( modal === 'contact-sales' ) {
   w.optly.mrkt.modal.open({ modalType: modal, track: false });
+}
+//check for test-it-out to open the signup modal, but only if the user does not already have an account)
+if ( modal === 'signup' && !w.optly.mrkt.user.acctData ){
+  w.optly.mrkt.modal.open({ modalType: 'signup', track: false }); 
 }
