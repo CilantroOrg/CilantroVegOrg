@@ -13,8 +13,7 @@ if (!$.isEmptyObject(urlParams)) {
   });
 }
 
-
-
+//create custom ID for any video on the page
 $(function(){
   //first get all videos on the page
   var videosList = $('.session-container').not('.session-container__placeholder');
@@ -35,13 +34,10 @@ $(function(){
   });
 });
 
-
 //script to play video on page load based on videoIndex
   wistiaJQuery(document).ready( function() {
     var videoIndex = window.optly.mrkt.utils.getURLParameter('videoIndex');
-    console.log('this is videoIndex: ', videoIndex);
     if ( videoIndex ) {
-      // console.log('video index is one');
       wistiaJQuery('#' + videoIndex).click();
     }
   });
